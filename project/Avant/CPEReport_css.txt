@@ -1,0 +1,18 @@
+###File created by Lattice CPE. Do not modify.###
+# This should be in top level constraint originating in instance gpll_i in IP gpll was kept as is.
+
+#set CLK_PERIOD [expr {double(round(1000000/$REFCLK_FREQ))/1000}] originating in instance gpll_i in IP constraint was kept as is.
+
+#create_clock -name {clki_i} -period $CLK_PERIOD [get_ports clki_i] originating in instance gpll_i in IP constraint was kept as is.
+
+# IO_TYPE constraint - Refclk originating in instance gpll_i in IP gpll was kept as is.
+
+# if {$PLL_REFCLK_FROM_PIN} { originating in instance gpll_i in IP gpll was kept as is.
+
+#   ldc_set_port -iobuf IO_TYPE=$IO_TYPE [get_ports clki_i] originating in instance gpll_i in IP gpll was kept as is.
+
+# } originating in instance gpll_i in IP gpll was kept as is.
+
+set_false_path -to [get_pins -hierarchical lscc_pll_inst/gen_ext_outclkdiv.u_pll/RESET] originating in instance gpll_i in IP constraint was updated to set_false_path -to [get_pins {gpll_i/lscc_pll_inst/gen_ext_outclkdiv.u_pll/RESET }] and kept.
+
+

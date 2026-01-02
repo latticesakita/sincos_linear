@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RadiantProject version="4.2" radiant="2025.2.0.3.0" title="sincos_linear" device="LAV-AT-E30ES-1CBG484C" performance_grade="1" family_int="ap6a00b" device_int="ap6a160bee" package_int="CBG484" operation_int="COM" speed_int="1" default_implementation="Avant">
+    <Options/>
+    <Implementation title="Avant" dir="Avant" description="Avant" synthesis="synplify" default_strategy="Strategy1">
+        <Options top="top_sin_linear"/>
+        <Source name="../source/mult18x18p48.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="../source/sincos_linear.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="../source/sin_linear.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="../source/tb_sin_linear.v" type="Verilog" type_short="Verilog" syn_sim="SimOnly">
+            <Options/>
+        </Source>
+        <Source name="../source/top_sin_linear.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="../source/rom_y36/rom_y36.ipx" type="IPX_Module" type_short="IPX">
+            <Options/>
+        </Source>
+        <Source name="../source/rom_dy18/rom_dy18.ipx" type="IPX_Module" type_short="IPX">
+            <Options/>
+        </Source>
+        <Source name="../source/gpll/gpll.ipx" type="IPX_Module" type_short="IPX">
+            <Options/>
+        </Source>
+        <Source name="../tb/tb.spf" type="Simulation Project File" type_short="SPF">
+            <Options/>
+        </Source>
+    </Implementation>
+    <Strategy name="Strategy1" file="sincos_linear1.sty"/>
+</RadiantProject>

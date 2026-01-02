@@ -1,0 +1,9 @@
+-ver "/usr/local/lscc/radiant/2025.2/ip/pmi/pmi_lav-at.v"
+-lib pmi -vhd "/usr/local/lscc/radiant/2025.2/ip/pmi/pmi_lav-at.vhd"
+-ver "/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v"
+-sdc "/home/kanmei/src/sincos_linear/source/gpll/constraints/gpll.ldc"
+-sdc "/home/kanmei/src/sincos_linear/source/gpll/constraints/constraint.sdc"
+-path "/home/kanmei/src/sincos_linear/source/gpll" "/home/kanmei/src/sincos_linear/project"
+-top gpll
+-a "LAV-AT"
+-t "LAV-AT-E30ES"

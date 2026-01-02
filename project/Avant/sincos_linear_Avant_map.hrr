@@ -1,0 +1,203 @@
+---------------------------------------------------
+Report for cell top_sin_linear
+   Instance path: top_sin_linear
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                   EBR	       6.00        100.0
+                                  LUT4	        219        100.0
+                               LUTGATE	        123        100.0
+                                LUTRAM	         96        100.0
+                                 IOREG	          2        100.0
+                                 IOBUF	         67        100.0
+                                PFUREG	         86        100.0
+                                MULT18	          1        100.0
+SUB MODULES
+                                  cell	      count    LUT4 Usage(%)
+                                  gpll	          1        11.4
+                     sincos_linear_32s	          1        28.8
+---------------------------------------------------
+Report for cell gpll
+   Instance path: top_sin_linear/gpll_i
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	         25        11.4
+                               LUTGATE	         25        20.3
+                                PFUREG	         18        20.9
+SUB MODULES
+                                  cell	      count    LUT4 Usage(%)
+         gpll_ipgen_lscc_pll_Z1_layer0	          1        11.4
+---------------------------------------------------
+Report for cell gpll_ipgen_lscc_pll_Z1_layer0
+   Instance path: top_sin_linear/gpll_i/lscc_pll_inst
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	         25        11.4
+                               LUTGATE	         25        20.3
+                                PFUREG	         18        20.9
+SUB MODULES
+                                  cell	      count    LUT4 Usage(%)
+gpll_ipgen_pll_init_bw_0s_1s_1277952_0_19_1s_None	          1        11.4
+---------------------------------------------------
+Report for cell gpll_ipgen_pll_init_bw_0s_1s_1277952_0_19_1s_None
+   Instance path: top_sin_linear/gpll_i/lscc_pll_inst/u_pll_init_bw
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	         25        11.4
+                               LUTGATE	         25        20.3
+                                PFUREG	         18        20.9
+SUB MODULES
+                                  cell	      count    LUT4 Usage(%)
+           gpll_ipgen_pll_sip_lmmi_mux	          1         4.6
+              gpll_ipgen_pll_syncreg_0	          1         0.5
+              gpll_ipgen_pll_syncreg_1	          1         0.5
+---------------------------------------------------
+Report for cell gpll_ipgen_pll_syncreg_1
+   Instance path: top_sin_linear/gpll_i/lscc_pll_inst/u_pll_init_bw/gen_bw_init.u_rst_n_sync
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	          1         0.5
+                               LUTGATE	          1         0.8
+                                PFUREG	          2         2.3
+---------------------------------------------------
+Report for cell gpll_ipgen_pll_syncreg_0
+   Instance path: top_sin_linear/gpll_i/lscc_pll_inst/u_pll_init_bw/gen_bw_init.u_lock_sync
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	          1         0.5
+                               LUTGATE	          1         0.8
+                                PFUREG	          2         2.3
+---------------------------------------------------
+Report for cell gpll_ipgen_pll_sip_lmmi_mux
+   Instance path: top_sin_linear/gpll_i/lscc_pll_inst/u_pll_init_bw/gen_bw_init.u_pll_lmmi_mux
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	         10         4.6
+                               LUTGATE	         10         8.1
+---------------------------------------------------
+Report for cell sincos_linear_32s
+   Instance path: top_sin_linear/dut
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                   EBR	       6.00        100.0
+                                  LUT4	         63        28.8
+                               LUTGATE	         63        51.2
+                                PFUREG	         57        66.3
+                                MULT18	          1        100.0
+SUB MODULES
+                                  cell	      count    LUT4 Usage(%)
+                            sin_linear	          1        28.8
+---------------------------------------------------
+Report for cell sin_linear
+   Instance path: top_sin_linear/dut/sin_linear_i
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                   EBR	       6.00        100.0
+                                  LUT4	         63        28.8
+                               LUTGATE	         63        51.2
+                                PFUREG	         57        66.3
+                                MULT18	          1        100.0
+SUB MODULES
+                                  cell	      count    LUT4 Usage(%)
+mult18x18p48_UNSIGNED_UNSIGNED_BYPASSED_REGISTERED_ONCE_BYPASSED_BYPASSED_REGISTERED_12_layer0	          1         0.0
+                              rom_dy18	          1         0.0
+                               rom_y36	          1         0.0
+---------------------------------------------------
+Report for cell rom_y36
+   Instance path: top_sin_linear/dut/sin_linear_i/rom_y0_i
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                   EBR	       4.00        66.7
+SUB MODULES
+                                  cell	      count    LUT4 Usage(%)
+      rom_y36_ipgen_lscc_rom_Z7_layer0	          1         0.0
+---------------------------------------------------
+Report for cell rom_y36_ipgen_lscc_rom_Z7_layer0
+   Instance path: top_sin_linear/dut/sin_linear_i/rom_y0_i/lscc_rom_inst
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                   EBR	       4.00        66.7
+SUB MODULES
+                                  cell	      count    LUT4 Usage(%)
+ rom_y36_ipgen_lscc_rom_inst_Z2_layer0	          1         0.0
+---------------------------------------------------
+Report for cell rom_y36_ipgen_lscc_rom_inst_Z2_layer0
+   Instance path: top_sin_linear/dut/sin_linear_i/rom_y0_i/lscc_rom_inst/u_rom
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                   EBR	       4.00        66.7
+SUB MODULES
+                                  cell	      count    LUT4 Usage(%)
+rom_y36_ipgen_lscc_rom_inst_core_Z3_layer0	          1         0.0
+rom_y36_ipgen_lscc_rom_inst_core_Z4_layer0	          1         0.0
+rom_y36_ipgen_lscc_rom_inst_core_Z5_layer0	          1         0.0
+rom_y36_ipgen_lscc_rom_inst_core_Z6_layer0	          1         0.0
+---------------------------------------------------
+Report for cell rom_y36_ipgen_lscc_rom_inst_core_Z5_layer0
+   Instance path: top_sin_linear/dut/sin_linear_i/rom_y0_i/lscc_rom_inst/u_rom/PRIM_MODE.xADDR[0].xDATA[2].mem_file.mem0
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                   EBR	       1.00        16.7
+---------------------------------------------------
+Report for cell rom_y36_ipgen_lscc_rom_inst_core_Z4_layer0
+   Instance path: top_sin_linear/dut/sin_linear_i/rom_y0_i/lscc_rom_inst/u_rom/PRIM_MODE.xADDR[0].xDATA[1].mem_file.mem0
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                   EBR	       1.00        16.7
+---------------------------------------------------
+Report for cell rom_y36_ipgen_lscc_rom_inst_core_Z3_layer0
+   Instance path: top_sin_linear/dut/sin_linear_i/rom_y0_i/lscc_rom_inst/u_rom/PRIM_MODE.xADDR[0].xDATA[0].mem_file.mem0
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                   EBR	       1.00        16.7
+---------------------------------------------------
+Report for cell rom_y36_ipgen_lscc_rom_inst_core_Z6_layer0
+   Instance path: top_sin_linear/dut/sin_linear_i/rom_y0_i/lscc_rom_inst/u_rom/PRIM_MODE.xADDR[0].xDATA[3].mem_file.mem0
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                   EBR	       1.00        16.7
+---------------------------------------------------
+Report for cell rom_dy18
+   Instance path: top_sin_linear/dut/sin_linear_i/rom_dy_i
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                   EBR	       2.00        33.3
+SUB MODULES
+                                  cell	      count    LUT4 Usage(%)
+    rom_dy18_ipgen_lscc_rom_Z11_layer0	          1         0.0
+---------------------------------------------------
+Report for cell rom_dy18_ipgen_lscc_rom_Z11_layer0
+   Instance path: top_sin_linear/dut/sin_linear_i/rom_dy_i/lscc_rom_inst
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                   EBR	       2.00        33.3
+SUB MODULES
+                                  cell	      count    LUT4 Usage(%)
+rom_dy18_ipgen_lscc_rom_inst_Z8_layer0	          1         0.0
+---------------------------------------------------
+Report for cell rom_dy18_ipgen_lscc_rom_inst_Z8_layer0
+   Instance path: top_sin_linear/dut/sin_linear_i/rom_dy_i/lscc_rom_inst/u_rom
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                   EBR	       2.00        33.3
+SUB MODULES
+                                  cell	      count    LUT4 Usage(%)
+rom_dy18_ipgen_lscc_rom_inst_core_Z10_layer0	          1         0.0
+rom_dy18_ipgen_lscc_rom_inst_core_Z9_layer0	          1         0.0
+---------------------------------------------------
+Report for cell rom_dy18_ipgen_lscc_rom_inst_core_Z10_layer0
+   Instance path: top_sin_linear/dut/sin_linear_i/rom_dy_i/lscc_rom_inst/u_rom/PRIM_MODE.xADDR[0].xDATA[1].mem_file.mem0
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                   EBR	       1.00        16.7
+---------------------------------------------------
+Report for cell rom_dy18_ipgen_lscc_rom_inst_core_Z9_layer0
+   Instance path: top_sin_linear/dut/sin_linear_i/rom_dy_i/lscc_rom_inst/u_rom/PRIM_MODE.xADDR[0].xDATA[0].mem_file.mem0
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                   EBR	       1.00        16.7
+---------------------------------------------------
+Report for cell mult18x18p48_UNSIGNED_UNSIGNED_BYPASSED_REGISTERED_ONCE_BYPASSED_BYPASSED_REGISTERED_12_layer0
+   Instance path: top_sin_linear/dut/sin_linear_i/mult18x18p48_i
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                MULT18	          1        100.0

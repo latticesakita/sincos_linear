@@ -1,0 +1,2 @@
+create_clock -name {clk50} -period 20 [get_ports clk50]
+set_clock_groups -group [get_clocks clk] -group [get_clocks clk50] -group [get_clocks gpll_i/lscc_pll_inst/clkout_testclk_o] -asynchronous

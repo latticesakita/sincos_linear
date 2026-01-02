@@ -1,0 +1,16 @@
+<?xml version="1.0" ?>
+<RadiantModule architecture="ap6a00b" date="2026 01 01 20:31:51" device="LN2-CT-20ES" device_int="ak6a160b" display_module="ROM" display_vendor="latticesemi.com" family="LAV-AT" gen_platform="Radiant" gen_platform_version="2025.2.0.48.0" generator="ipgen" library="module" module="rom" name="rom_dy18" operation="Commercial" package="ASG410" package_int="ASG410" partnumber="" source_format="Verilog" speed="1" speed_int="1" vendor="latticesemi.com" version="2.5.0">
+ <Package>
+  <File modified="2026 01 01 20:31:51" name="rtl/rom_dy18_bb.v" type="black_box_verilog"/>
+  <File modified="2026 01 01 20:31:51" name="rom_dy18.cfg" type="cfg"/>
+  <File modified="2026 01 01 20:31:51" name="misc/rom_dy18_tmpl.v" type="template_verilog"/>
+  <File modified="2026 01 01 20:31:51" name="misc/rom_dy18_tmpl.vhd" type="template_vhdl"/>
+  <File modified="2026 01 01 20:31:51" name="rtl/rom_dy18.v" type="top_level_verilog"/>
+  <File modified="2026 01 01 20:31:51" name="constraints/rom_dy18.ldc" type="timing_constraints"/>
+  <File modified="2026 01 01 20:31:51" name="testbench/dut_params.v" type="dependency_file"/>
+  <File modified="2026 01 01 20:31:51" name="testbench/dut_inst.v" type="dependency_file"/>
+  <File modified="2026 01 01 20:31:51" name="component.xml" type="IP-XACT_component"/>
+  <File modified="2026 01 01 20:31:51" name="design.xml" type="IP-XACT_design"/>
+  <File modified="2025 10 18 04:21:45" name="testbench/tb_top.v" type="testbench_verilog"/>
+ </Package>
+</RadiantModule>

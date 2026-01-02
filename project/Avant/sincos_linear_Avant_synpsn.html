@@ -1,0 +1,180 @@
+<HTML>
+<HEAD>
+<TITLE></TITLE>
+<link href="file:////usr/local/lscc/radiant/2025.2/data/theme/css/light/report.css" rel="stylesheet" type="text/css" media="screen"/>
+<link href="file:////usr/local/lscc/radiant/2025.2/data/theme/css/print/report.css" rel="stylesheet" type="text/css" media="print"/>
+<style type="text/css">
+#toc {
+  position: fixed;
+  right: 2px;
+  top: 2px;
+  padding: 2px 5px 2px 5px;
+  background-color:rgba(210,210,210,0.1);
+  border-style: solid;
+  border-color: rgba(192,192,192,0.8);
+  border-width:1px;
+}
+#toc_list {
+  display: none;
+  }
+</style>
+
+<script type="text/javascript">
+<!--
+function showTocList() {
+var a = document.getElementById("toc_list");
+a.style.display = "block";
+}
+
+function hideTocList() {
+var a = document.getElementById("toc_list");
+if (a)
+    a.style.display = "none";
+}
+
+//-->
+</script>
+
+</HEAD>
+
+<BODY>
+
+<DIV id="content" onclick="hideTocList()"><PRE>
+POSTSYN: Post Synthesis Process Radiant Software (64-bit) 2025.2.0.3.0
+Command Line: postsyn -a LAV-AT -p LAV-AT-E30ES -t CBG484 -sp 1 -oc Commercial -top -ipsdc ipsdclist.txt -w -o sincos_linear_Avant_syn.udb -ldc sincos_linear_Avant.ldc -gui -msgset /home/kanmei/src/sincos_linear/project/promote.xml sincos_linear_Avant.vm 
+   Architecture:     LAV-AT
+   Device:           LAV-AT-E30ES
+   Package:          CBG484
+   Performance:      1
+Reading input file 'sincos_linear_Avant.vm' ...
+Reading constraint file 'sincos_linear_Avant.ldc' ...
+Reading constraint file '/home/kanmei/src/sincos_linear/source/gpll/constraints/constraint.sdc' ...
+ 
+IP Constraint Propagation
+-------------------------
+ldc_set_attribute {USE_PRIMARY=FALSE} [get_nets lscc_pll_inst/lmmi_clk_w] originating in instance gpll_i was updated to ldc_set_attribute {USE_PRIMARY=FALSE} [get_nets {gpll_i/lscc_pll_inst/lmmi_clk_w }] and kept.
+##Original File: /home/kanmei/src/sincos_linear/source/gpll/constraints/constraint.sdc
+set_false_path -to [get_pins -hierarchical lscc_pll_inst/u_pll_init_bw/gen_bw_init.u_rst_n_sync/sync_reg*/CD] originating in instance gpll_i was updated to set_false_path -to [get_pins {gpll_i/lscc_pll_inst/u_pll_init_bw/gen_bw_init.u_rst_n_sync/sync_reg[1]/CD gpll_i/lscc_pll_inst/u_pll_init_bw/gen_bw_init.u_rst_n_sync/sync_reg_Z[0]/CD }] and kept.
+##Original File: /home/kanmei/src/sincos_linear/source/gpll/constraints/constraint.sdc
+set_false_path -to [get_pins -hierarchical lscc_pll_inst/u_pll_init_bw/gen_bw_init.u_lock_sync/sync_reg*/D] originating in instance gpll_i was updated to set_false_path -to [get_pins {gpll_i/lscc_pll_inst/u_pll_init_bw/gen_bw_init.u_lock_sync/sync_reg[1]/D gpll_i/lscc_pll_inst/u_pll_init_bw/gen_bw_init.u_lock_sync/sync_reg_Z[0]/D }] and kept.
+##Original File: /home/kanmei/src/sincos_linear/source/gpll/constraints/constraint.sdc
+set_false_path -from [get_pins lscc_pll_inst/u_pll_init_bw/gen_bw_init.en_usr_lmmi*/Q] originating in instance gpll_i was updated to set_false_path -from [get_pins {gpll_i/lscc_pll_inst/u_pll_init_bw/gen_bw_init.en_usr_lmmi/Q }] and kept.
+##Original File: /home/kanmei/src/sincos_linear/source/gpll/constraints/constraint.sdc
+set_max_delay -from [get_pins lscc_pll_inst/gen_ext_outclkdiv.u_pll.PLLC_MODE_inst/LMMIREADY] -to [get_pins lscc_pll_inst/u_pll_init_bw/gen_bw_init.dly_wait_cntr*/D] -datapath_only 6 originating in instance gpll_i was updated to set_max_delay -from [get_pins {gpll_i/lscc_pll_inst/gen_ext_outclkdiv.u_pll.PLLC_MODE_inst/LMMIR   ....   nst/u_pll_init_bw/gen_bw_init.dly_wait_cntr[0]/D }] -datapath_only 6 and kept.
+##Original File: /home/kanmei/src/sincos_linear/source/gpll/constraints/constraint.sdc
+set_max_delay -from [get_pins lscc_pll_inst/u_pll_init_bw/gen_bw_init.init_request*/Q] -to [get_pins lscc_pll_inst/gen_ext_outclkdiv.u_pll.PLLC_MODE_inst/LMMIREQUEST] -datapath_only 6 originating in instance gpll_i was updated to set_max_delay -from [get_pins {gpll_i/lscc_pll_inst/u_pll_init_bw/gen_bw_init.init_request/Q }]   ....   n_ext_outclkdiv.u_pll.PLLC_MODE_inst/LMMIREQUEST }] -datapath_only 6 and kept.
+##Original File: /home/kanmei/src/sincos_linear/source/gpll/constraints/constraint.sdc
+set_max_delay -from [get_pins lscc_pll_inst/u_pll_init_bw/gen_bw_init.init_request*/Q] -to [get_pins lscc_pll_inst/gen_ext_outclkdiv.u_pll.PLLC_MODE_inst/LMMIWRRDN] -datapath_only 6 originating in instance gpll_i was updated to set_max_delay -from [get_pins {gpll_i/lscc_pll_inst/u_pll_init_bw/gen_bw_init.init_request/Q }] -   ....   gen_ext_outclkdiv.u_pll.PLLC_MODE_inst/LMMIWRRDN }] -datapath_only 6 and kept.
+##Original File: /home/kanmei/src/sincos_linear/source/gpll/constraints/constraint.sdc
+set_max_delay -from [get_pins lscc_pll_inst/u_pll_init_bw/gen_bw_init.wdata*/Q] -to [get_pins lscc_pll_inst/gen_ext_outclkdiv.u_pll.PLLC_MODE_inst/LMMIWDATA*] -datapath_only 6 originating in instance gpll_i was updated to set_max_delay -from [get_pins {gpll_i/lscc_pll_inst/u_pll_init_bw/gen_bw_init.wdata[1]/Q gpll_i/lscc_pl   ....   en_ext_outclkdiv.u_pll.PLLC_MODE_inst/LMMIWDATA0 }] -datapath_only 6 and kept.
+##Original File: /home/kanmei/src/sincos_linear/source/gpll/constraints/constraint.sdc
+set_max_delay -from [get_pins lscc_pll_inst/u_pll_init_bw/gen_bw_init.en_usr_lmmi*/Q] -to [get_pins lscc_pll_inst/gen_ext_outclkdiv.u_pll.PLLC_MODE_inst/LMMIWDATA*] -datapath_only 6 originating in instance gpll_i was updated to set_max_delay -from [get_pins {gpll_i/lscc_pll_inst/u_pll_init_bw/gen_bw_init.en_usr_lmmi/Q }] -t   ....   en_ext_outclkdiv.u_pll.PLLC_MODE_inst/LMMIWDATA0 }] -datapath_only 6 and kept.
+##Original File: /home/kanmei/src/sincos_linear/source/gpll/constraints/constraint.sdc
+set_max_delay -from [get_pins lscc_pll_inst/u_pll_init_bw/gen_bw_init.en_usr_lmmi*/Q] -to [get_pins lscc_pll_inst/gen_ext_outclkdiv.u_pll.PLLC_MODE_inst/LMMIOFFSET*] -datapath_only 6 originating in instance gpll_i was updated to set_max_delay -from [get_pins {gpll_i/lscc_pll_inst/u_pll_init_bw/gen_bw_init.en_usr_lmmi/Q }] -   ....   n_ext_outclkdiv.u_pll.PLLC_MODE_inst/LMMIOFFSET0 }] -datapath_only 6 and kept.
+##Original File: /home/kanmei/src/sincos_linear/source/gpll/constraints/constraint.sdc
+set_max_delay -from [get_pins lscc_pll_inst/u_pll_init_bw/gen_bw_init.en_usr_lmmi*/Q] -to [get_pins lscc_pll_inst/gen_ext_outclkdiv.u_pll.PLLC_MODE_inst/LMMIWRRDN] -datapath_only 6 originating in instance gpll_i was updated to set_max_delay -from [get_pins {gpll_i/lscc_pll_inst/u_pll_init_bw/gen_bw_init.en_usr_lmmi/Q }] -to   ....   gen_ext_outclkdiv.u_pll.PLLC_MODE_inst/LMMIWRRDN }] -datapath_only 6 and kept.
+##Original File: /home/kanmei/src/sincos_linear/source/gpll/constraints/constraint.sdc
+set_max_delay -from [get_pins lscc_pll_inst/u_pll_init_bw/gen_bw_init.en_usr_lmmi*/Q] -to [get_pins lscc_pll_inst/gen_ext_outclkdiv.u_pll.PLLC_MODE_inst/LMMIREQUEST] -datapath_only 6 originating in instance gpll_i was updated to set_max_delay -from [get_pins {gpll_i/lscc_pll_inst/u_pll_init_bw/gen_bw_init.en_usr_lmmi/Q }] -   ....   n_ext_outclkdiv.u_pll.PLLC_MODE_inst/LMMIREQUEST }] -datapath_only 6 and kept.
+##Original File: /home/kanmei/src/sincos_linear/source/gpll/constraints/constraint.sdc
+ldc_set_attribute {USE_PRIMARY=FALSE} [get_nets lscc_pll_inst/clkout_testclk_o] originating in instance gpll_i was updated to ldc_set_attribute {USE_PRIMARY=FALSE} [get_nets {gpll_i/lscc_pll_inst/clkout_testclk_o }] and kept.
+##Original File: /home/kanmei/src/sincos_linear/source/gpll/constraints/constraint.sdc
+
+
+Removing unused logic ...
+INFO <35811145> - Instance gpll_i/lscc_pll_inst/u_pll_init_bw/gen_bw_init.u_pll_lmmi_mux/u_sw_lmmi_mux.ready_buf is optimized away.
+INFO <35811145> - Instance gpll_i/lscc_pll_inst/u_pll_init_bw/gen_bw_init.u_pll_lmmi_mux/u_sw_lmmi_mux.genblk1[3].rdata_buf is optimized away.
+INFO <35811145> - Instance gpll_i/lscc_pll_inst/u_pll_init_bw/gen_bw_init.u_pll_lmmi_mux/u_sw_lmmi_mux.genblk1[15].rdata_buf is optimized away.
+INFO <35811145> - Instance gpll_i/lscc_pll_inst/u_pll_init_bw/gen_bw_init.u_pll_lmmi_mux/u_sw_lmmi_mux.genblk1[10].rdata_buf is optimized away.
+INFO <35811145> - Instance gpll_i/lscc_pll_inst/u_pll_init_bw/gen_bw_init.u_pll_lmmi_mux/u_sw_lmmi_mux.genblk1[14].rdata_buf is optimized away.
+INFO <35811145> - Instance gpll_i/lscc_pll_inst/u_pll_init_bw/gen_bw_init.u_pll_lmmi_mux/u_sw_lmmi_mux.genblk1[13].rdata_buf is optimized away.
+INFO <35811145> - Instance gpll_i/lscc_pll_inst/u_pll_init_bw/gen_bw_init.u_pll_lmmi_mux/u_sw_lmmi_mux.genblk1[6].rdata_buf is optimized away.
+INFO <35811145> - Instance gpll_i/lscc_pll_inst/u_pll_init_bw/gen_bw_init.u_pll_lmmi_mux/u_sw_lmmi_mux.genblk1[12].rdata_buf is optimized away.
+INFO <35811145> - Instance gpll_i/lscc_pll_inst/u_pll_init_bw/gen_bw_init.u_pll_lmmi_mux/u_sw_lmmi_mux.genblk1[5].rdata_buf is optimized away.
+INFO <35811145> - Instance gpll_i/lscc_pll_inst/u_pll_init_bw/gen_bw_init.u_pll_lmmi_mux/u_sw_lmmi_mux.genblk1[11].rdata_buf is optimized away.
+INFO <35811148> - ... More instances are optimized away.
+INFO <35811146> - Signal gpll_i/lscc_pll_inst/u_pll_init_bw/gen_bw_init.u_pll_lmmi_mux/lmmi_rdata_o[15] undriven or does not drive anything - clipped
+INFO <35811146> - Signal gpll_i/lscc_pll_inst/u_pll_init_bw/gen_bw_init.u_pll_lmmi_mux/lmmi_rdata_o[14] undriven or does not drive anything - clipped
+INFO <35811146> - Signal gpll_i/lscc_pll_inst/u_pll_init_bw/gen_bw_init.u_pll_lmmi_mux/lmmi_rdata_o[13] undriven or does not drive anything - clipped
+INFO <35811146> - Signal gpll_i/lscc_pll_inst/u_pll_init_bw/gen_bw_init.u_pll_lmmi_mux/lmmi_rdata_o[12] undriven or does not drive anything - clipped
+INFO <35811146> - Signal gpll_i/lscc_pll_inst/u_pll_init_bw/gen_bw_init.u_pll_lmmi_mux/lmmi_rdata_o[11] undriven or does not drive anything - clipped
+INFO <35811146> - Signal gpll_i/lscc_pll_inst/u_pll_init_bw/gen_bw_init.u_pll_lmmi_mux/lmmi_rdata_o[10] undriven or does not drive anything - clipped
+INFO <35811146> - Signal gpll_i/lscc_pll_inst/u_pll_init_bw/gen_bw_init.u_pll_lmmi_mux/lmmi_rdata_o[9] undriven or does not drive anything - clipped
+INFO <35811146> - Signal gpll_i/lscc_pll_inst/u_pll_init_bw/gen_bw_init.u_pll_lmmi_mux/lmmi_rdata_o[8] undriven or does not drive anything - clipped
+INFO <35811146> - Signal gpll_i/lscc_pll_inst/u_pll_init_bw/gen_bw_init.u_pll_lmmi_mux/lmmi_rdata_o[7] undriven or does not drive anything - clipped
+INFO <35811146> - Signal gpll_i/lscc_pll_inst/u_pll_init_bw/gen_bw_init.u_pll_lmmi_mux/lmmi_rdata_o[6] undriven or does not drive anything - clipped
+INFO <35811149> - ... More signals are undriven or does not drive anything - clipped
+Starting design annotation....
+WARNING <70001949> - The object gpll_i/lscc_pll_inst/u_pll_init_bw/gen_bw_init.dly_wait_cntr_4[1]/D in the option "-to" of constraint set_max_delay -from [get_pins gpll_i/lscc_pll_inst/gen_ext_outclkdiv.u_pll.PLLC_MODE_inst/LMMIREADY] -to [get_pins {gpll_i/lscc_pll_inst/u_pll_init_bw/gen_bw_init.dly_wait_cntr_4[1]/D gpll_i/lscc_pll_inst/u_pll_init_bw/gen_bw_init.dly_wait_cntr_4[0]/D gpll_i/lscc_pll_inst/u_pll_init_bw/gen_bw_init.dly_wait_cntr[1]/D gpll_i/lscc_pll_inst/u_pll_init_bw/gen_bw_init.dly_wait_cntr[0]/D}] -datapath_only 6 is not valid.
+WARNING <70001949> - The object gpll_i/lscc_pll_inst/u_pll_init_bw/gen_bw_init.dly_wait_cntr_4[0]/D in the option "-to" of constraint set_max_delay -from [get_pins gpll_i/lscc_pll_inst/gen_ext_outclkdiv.u_pll.PLLC_MODE_inst/LMMIREADY] -to [get_pins {gpll_i/lscc_pll_inst/u_pll_init_bw/gen_bw_init.dly_wait_cntr_4[1]/D gpll_i/lscc_pll_inst/u_pll_init_bw/gen_bw_init.dly_wait_cntr_4[0]/D gpll_i/lscc_pll_inst/u_pll_init_bw/gen_bw_init.dly_wait_cntr[1]/D gpll_i/lscc_pll_inst/u_pll_init_bw/gen_bw_init.dly_wait_cntr[0]/D}] -datapath_only 6 is not valid.
+WARNING <70001944> - No source clock for
+	generated clock	create_generated_clock -name {gpll_i/lscc_pll_inst/clkout_testclk_o} -source [get_pins {gpll_i/lscc_pll_inst/gen_ext_outclkdiv.u_pll.PLLC_MODE_inst/CLKI}] -multiply_by 39 -divide_by 20 [get_pins {gpll_i/lscc_pll_inst/gen_ext_outclkdiv.u_pll.PLLC_MODE_inst/CLKRES }] .
+WARNING <70001944> - No source clock for
+	generated clock	create_generated_clock -name {clk} -source [get_pins {gpll_i/lscc_pll_inst/gen_ext_outclkdiv.u_pll.PLLC_MODE_inst/CLKI}] -multiply_by 6 [get_pins {gpll_i/lscc_pll_inst/gen_ext_outclkdiv.u_pll.PLLC_MODE_inst/CLKOP }] .
+ 
+Constraint Summary:
+   Total number of constraints: 15
+   Total number of constraints dropped: 0
+ 
+Writing output file 'sincos_linear_Avant_syn.udb'.
+POSTSYN finished successfully.
+Total CPU Time: 2 secs 
+Total REAL Time: 3 secs 
+Peak Memory Usage: 762 MB
+Checksum -- postsyn: c56b49a8f3acfd2cfc368c219e672531c686574b
+
+
+</PRE></DIV>
+
+<button id="back_to_top" class="radiant" onclick="scrollToTop()">&lt;</button>
+<script type="text/javascript">
+<!--
+var scrollStep = 0;
+function scrollToTop(){
+  var funScroll = function() {
+    var top = document.body.scrollTop;
+    if (top == 0) {
+      scrollStep = 0;
+      return;
+    }
+    if (scrollStep == 0)
+      scrollStep = top/20 + 1;
+    top -= scrollStep;
+    if (top < 0)
+      top = 0;
+    document.body.scrollTop = top;
+    requestAnimationFrame(funScroll);
+  };
+  funScroll();
+}
+
+window.addEventListener('scroll', function(e) {
+  var backToTop = document.getElementById('back_to_top')
+  if (document.body.scrollTop > 0) {
+    backToTop.style.display = 'block';
+  } else {	backToTop.style.display = 'none'  }});
+
+//-->
+</script>
+
+<style type="text/css">
+#back_to_top {
+  bottom:20px; right:20px;
+  width:30px; height:30px;
+  font-size: 20px;
+  padding: 2px 5px 2px 5px;
+  position:fixed;
+  background-color:rgba(210,210,210,0.1);
+  border-style: solid;
+  border-color: rgba(192,192,192,0.8);
+  border-width:1px;
+  display:none;
+  -webkit-transform: rotate(90deg);
+  -webkit-transform-origin:50% 50%;
+}
+#back_to_top:focus {
+  outline-width:0px;
+}
+</style>
+
+</BODY>
+

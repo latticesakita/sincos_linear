@@ -1,0 +1,317 @@
+#OPTIONS:"|-mixedhdl|-modhint|/home/kanmei/src/sincos_linear/project/Avant/synwork/_verilog_hintfile|-top|top_sin_linear|-layerid|0|-orig_srs|/home/kanmei/src/sincos_linear/project/Avant/synwork/sincos_linear_Avant_comp.srs|-prodtype|synplify_pro|-dspmac|-fixsmult|-infer_seqShift|-nram|-sdff_counter|-divnmod|-nostructver|-lattice|-I|/home/kanmei/src/sincos_linear/project|-I|/home/kanmei/src/sincos_linear/source/gpll|-I|/home/kanmei/src/sincos_linear/source/rom_dy18|-I|/home/kanmei/src/sincos_linear/source/rom_y36|-I|/home/kanmei/src/sincos_linear/project/Avant/|-I|/usr/local/lscc/radiant/2025.2/synpbase/lib|-v2001|-devicelib|/usr/local/lscc/radiant/2025.2/synpbase/lib/generic/lav-ate-es.v|-encrypt|-pro|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-D_MULTIPLE_FILE_COMPILATION_UNIT_|-lib|work|-lib|work|-fv2001|-lib|work|-fv2001|-lib|work|-fv2001|-lib|work|-fv2001|-lib|work|-fv2001|-lib|work|-fv2001|-lib|work|-fv2001"
+#CUR:"/usr/local/lscc/radiant/2025.2/synpbase/linux_a_64/c_ver":1759390447
+#CUR:"/home/kanmei/src/sincos_linear/project/Avant/synwork/_verilog_hintfile":1767308265
+#CUR:"/usr/local/lscc/radiant/2025.2/synpbase/lib/generic/lav-ate-es.v":1760759539
+#CUR:"/usr/local/lscc/radiant/2025.2/synpbase/lib/vlog/hypermods.v":1759390372
+#CUR:"/usr/local/lscc/radiant/2025.2/synpbase/lib/vlog/scemi_objects.v":1759390372
+#CUR:"/usr/local/lscc/radiant/2025.2/synpbase/lib/vlog/scemi_pipes.svh":1759390372
+#CUR:"/usr/local/lscc/radiant/2025.2/ip/pmi/pmi_lav-at.v":1760732507
+#CUR:"/usr/local/lscc/radiant/2025.2/ip/pmi/pmi_addsub.v":1760732507
+#CUR:"/usr/local/lscc/radiant/2025.2/ip/pmi/../common/adder_subtractor/rtl/lscc_add_sub.v":1760732502
+#CUR:"/usr/local/lscc/radiant/2025.2/ip/pmi/pmi_add.v":1760732507
+#CUR:"/usr/local/lscc/radiant/2025.2/ip/pmi/../common/adder/rtl/lscc_adder.v":1760732502
+#CUR:"/usr/local/lscc/radiant/2025.2/ip/pmi/pmi_complex_mult.v":1760732507
+#CUR:"/usr/local/lscc/radiant/2025.2/ip/pmi/../common/complex_mult/rtl/lscc_complex_mult.v":1760732502
+#CUR:"/usr/local/lscc/radiant/2025.2/ip/pmi/pmi_counter.v":1760732507
+#CUR:"/usr/local/lscc/radiant/2025.2/ip/pmi/../common/counter/rtl/lscc_cntr.v":1760732502
+#CUR:"/usr/local/lscc/radiant/2025.2/ip/pmi/pmi_distributed_dpram.v":1760732507
+#CUR:"/usr/local/lscc/radiant/2025.2/ip/pmi/../common/distributed_dpram/rtl/lscc_distributed_dpram.v":1760732502
+#CUR:"/usr/local/lscc/radiant/2025.2/ip/pmi/pmi_distributed_spram.v":1760732507
+#CUR:"/usr/local/lscc/radiant/2025.2/ip/pmi/../common/distributed_spram/rtl/lscc_distributed_spram.v":1760732502
+#CUR:"/usr/local/lscc/radiant/2025.2/ip/pmi/pmi_distributed_rom.v":1760732507
+#CUR:"/usr/local/lscc/radiant/2025.2/ip/pmi/../common/distributed_rom/rtl/lscc_distributed_rom.v":1760732502
+#CUR:"/usr/local/lscc/radiant/2025.2/ip/pmi/pmi_distributed_shift_reg.v":1760732507
+#CUR:"/usr/local/lscc/radiant/2025.2/ip/pmi/../common/ram_shift_reg/rtl/lscc_shift_register.v":1760732505
+#CUR:"/usr/local/lscc/radiant/2025.2/ip/pmi/pmi_fifo.v":1760732507
+#CUR:"/usr/local/lscc/radiant/2025.2/ip/pmi/../common/fifo/rtl/lscc_fifo.v":1760732502
+#CUR:"/usr/local/lscc/radiant/2025.2/ip/pmi/pmi_fifo_dc.v":1760732507
+#CUR:"/usr/local/lscc/radiant/2025.2/ip/pmi/../common/fifo_dc/rtl/lscc_fifo_dc.v":1760732503
+#CUR:"/usr/local/lscc/radiant/2025.2/ip/pmi/pmi_mac.v":1760732507
+#CUR:"/usr/local/lscc/radiant/2025.2/ip/pmi/../common/mult_accumulate/rtl/lscc_mult_accumulate.v":1760732504
+#CUR:"/usr/local/lscc/radiant/2025.2/ip/pmi/pmi_multaddsubsum.v":1760732507
+#CUR:"/usr/local/lscc/radiant/2025.2/ip/pmi/../common/mult_add_sub_sum/rtl/lscc_mult_add_sub_sum.v":1760732504
+#CUR:"/usr/local/lscc/radiant/2025.2/ip/pmi/pmi_multaddsub.v":1760732507
+#CUR:"/usr/local/lscc/radiant/2025.2/ip/pmi/../common/mult_add_sub/rtl/lscc_mult_add_sub.v":1760732504
+#CUR:"/usr/local/lscc/radiant/2025.2/ip/pmi/pmi_mult.v":1760732507
+#CUR:"/usr/local/lscc/radiant/2025.2/ip/pmi/../common/multiplier/rtl/lscc_multiplier.v":1760732504
+#CUR:"/usr/local/lscc/radiant/2025.2/ip/pmi/pmi_ram_dp.v":1760732507
+#CUR:"/usr/local/lscc/radiant/2025.2/ip/pmi/../common/ram_dp/rtl/lscc_ram_dp.v":1760732504
+#CUR:"/usr/local/lscc/radiant/2025.2/ip/pmi/../LFMXO4/ram_dp/rtl/lscc_lfmxo4_ram_dp.v":1760732500
+#CUR:"/usr/local/lscc/radiant/2025.2/ip/pmi/pmi_ram_dp_be.v":1760732507
+#CUR:"/usr/local/lscc/radiant/2025.2/ip/pmi/../common/ram_dp/rtl/lscc_ram_dp.v":1760732504
+#CUR:"/usr/local/lscc/radiant/2025.2/ip/pmi/../LFMXO4/ram_dp/rtl/lscc_lfmxo4_ram_dp.v":1760732500
+#CUR:"/usr/local/lscc/radiant/2025.2/ip/pmi/pmi_ram_dp_true.v":1760732507
+#CUR:"/usr/local/lscc/radiant/2025.2/ip/pmi/../common/ram_dp_true/rtl/lscc_ram_dp_true.v":1760732505
+#CUR:"/usr/local/lscc/radiant/2025.2/ip/pmi/../LFMXO4/ram_dp_true/rtl/lscc_lfmxo4_ram_dp_true.v":1760732500
+#CUR:"/usr/local/lscc/radiant/2025.2/ip/pmi/pmi_ram_dq.v":1760732507
+#CUR:"/usr/local/lscc/radiant/2025.2/ip/pmi/../common/ram_dq/rtl/lscc_ram_dq.v":1760732505
+#CUR:"/usr/local/lscc/radiant/2025.2/ip/pmi/../LFMXO4/ram_dq/rtl/lscc_lfmxo4_ram_dq.v":1760732500
+#CUR:"/usr/local/lscc/radiant/2025.2/ip/pmi/pmi_ram_dq_be.v":1760732507
+#CUR:"/usr/local/lscc/radiant/2025.2/ip/pmi/../common/ram_dq/rtl/lscc_ram_dq.v":1760732505
+#CUR:"/usr/local/lscc/radiant/2025.2/ip/pmi/../LFMXO4/ram_dq/rtl/lscc_lfmxo4_ram_dq.v":1760732500
+#CUR:"/usr/local/lscc/radiant/2025.2/ip/pmi/pmi_rom.v":1760732507
+#CUR:"/usr/local/lscc/radiant/2025.2/ip/pmi/../common/rom/rtl/lscc_rom.v":1760732505
+#CUR:"/usr/local/lscc/radiant/2025.2/ip/pmi/pmi_sub.v":1760732507
+#CUR:"/usr/local/lscc/radiant/2025.2/ip/pmi/../common/subtractor/rtl/lscc_subtractor.v":1760732505
+#CUR:"/home/kanmei/src/sincos_linear/source/mult18x18p48.v":1767307313
+#CUR:"/home/kanmei/src/sincos_linear/source/sincos_linear.v":1767307917
+#CUR:"/home/kanmei/src/sincos_linear/source/sin_linear.v":1767307313
+#CUR:"/home/kanmei/src/sincos_linear/source/top_sin_linear.v":1767307805
+#CUR:"/home/kanmei/src/sincos_linear/source/rom_y36/rtl/rom_y36.v":1767307313
+#CUR:"/home/kanmei/src/sincos_linear/source/rom_dy18/rtl/rom_dy18.v":1767307314
+#CUR:"/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v":1767308319
+0			"/usr/local/lscc/radiant/2025.2/ip/pmi/pmi_lav-at.v" verilog
+1		*	"/usr/local/lscc/radiant/2025.2/ip/pmi/pmi_addsub.v" verilog
+2		*	"/usr/local/lscc/radiant/2025.2/ip/pmi/../common/adder_subtractor/rtl/lscc_add_sub.v" verilog
+3		*	"/usr/local/lscc/radiant/2025.2/ip/pmi/pmi_add.v" verilog
+4		*	"/usr/local/lscc/radiant/2025.2/ip/pmi/../common/adder/rtl/lscc_adder.v" verilog
+5		*	"/usr/local/lscc/radiant/2025.2/ip/pmi/pmi_complex_mult.v" verilog
+6		*	"/usr/local/lscc/radiant/2025.2/ip/pmi/../common/complex_mult/rtl/lscc_complex_mult.v" verilog
+7		*	"/usr/local/lscc/radiant/2025.2/ip/pmi/pmi_counter.v" verilog
+8		*	"/usr/local/lscc/radiant/2025.2/ip/pmi/../common/counter/rtl/lscc_cntr.v" verilog
+9		*	"/usr/local/lscc/radiant/2025.2/ip/pmi/pmi_distributed_dpram.v" verilog
+10		*	"/usr/local/lscc/radiant/2025.2/ip/pmi/../common/distributed_dpram/rtl/lscc_distributed_dpram.v" verilog
+11		*	"/usr/local/lscc/radiant/2025.2/ip/pmi/pmi_distributed_spram.v" verilog
+12		*	"/usr/local/lscc/radiant/2025.2/ip/pmi/../common/distributed_spram/rtl/lscc_distributed_spram.v" verilog
+13		*	"/usr/local/lscc/radiant/2025.2/ip/pmi/pmi_distributed_rom.v" verilog
+14		*	"/usr/local/lscc/radiant/2025.2/ip/pmi/../common/distributed_rom/rtl/lscc_distributed_rom.v" verilog
+15		*	"/usr/local/lscc/radiant/2025.2/ip/pmi/pmi_distributed_shift_reg.v" verilog
+16		*	"/usr/local/lscc/radiant/2025.2/ip/pmi/../common/ram_shift_reg/rtl/lscc_shift_register.v" verilog
+17		*	"/usr/local/lscc/radiant/2025.2/ip/pmi/pmi_fifo.v" verilog
+18		*	"/usr/local/lscc/radiant/2025.2/ip/pmi/../common/fifo/rtl/lscc_fifo.v" verilog
+19		*	"/usr/local/lscc/radiant/2025.2/ip/pmi/pmi_fifo_dc.v" verilog
+20		*	"/usr/local/lscc/radiant/2025.2/ip/pmi/../common/fifo_dc/rtl/lscc_fifo_dc.v" verilog
+21		*	"/usr/local/lscc/radiant/2025.2/ip/pmi/pmi_mac.v" verilog
+22		*	"/usr/local/lscc/radiant/2025.2/ip/pmi/../common/mult_accumulate/rtl/lscc_mult_accumulate.v" verilog
+23		*	"/usr/local/lscc/radiant/2025.2/ip/pmi/pmi_multaddsubsum.v" verilog
+24		*	"/usr/local/lscc/radiant/2025.2/ip/pmi/../common/mult_add_sub_sum/rtl/lscc_mult_add_sub_sum.v" verilog
+25		*	"/usr/local/lscc/radiant/2025.2/ip/pmi/pmi_multaddsub.v" verilog
+26		*	"/usr/local/lscc/radiant/2025.2/ip/pmi/../common/mult_add_sub/rtl/lscc_mult_add_sub.v" verilog
+27		*	"/usr/local/lscc/radiant/2025.2/ip/pmi/pmi_mult.v" verilog
+28		*	"/usr/local/lscc/radiant/2025.2/ip/pmi/../common/multiplier/rtl/lscc_multiplier.v" verilog
+29		*	"/usr/local/lscc/radiant/2025.2/ip/pmi/pmi_ram_dp.v" verilog
+30		*	"/usr/local/lscc/radiant/2025.2/ip/pmi/../common/ram_dp/rtl/lscc_ram_dp.v" verilog
+31		*	"/usr/local/lscc/radiant/2025.2/ip/pmi/../LFMXO4/ram_dp/rtl/lscc_lfmxo4_ram_dp.v" verilog
+32		*	"/usr/local/lscc/radiant/2025.2/ip/pmi/pmi_ram_dp_be.v" verilog
+33		*	"/usr/local/lscc/radiant/2025.2/ip/pmi/pmi_ram_dp_true.v" verilog
+34		*	"/usr/local/lscc/radiant/2025.2/ip/pmi/../common/ram_dp_true/rtl/lscc_ram_dp_true.v" verilog
+35		*	"/usr/local/lscc/radiant/2025.2/ip/pmi/../LFMXO4/ram_dp_true/rtl/lscc_lfmxo4_ram_dp_true.v" verilog
+36		*	"/usr/local/lscc/radiant/2025.2/ip/pmi/pmi_ram_dq.v" verilog
+37		*	"/usr/local/lscc/radiant/2025.2/ip/pmi/../common/ram_dq/rtl/lscc_ram_dq.v" verilog
+38		*	"/usr/local/lscc/radiant/2025.2/ip/pmi/../LFMXO4/ram_dq/rtl/lscc_lfmxo4_ram_dq.v" verilog
+39		*	"/usr/local/lscc/radiant/2025.2/ip/pmi/pmi_ram_dq_be.v" verilog
+40		*	"/usr/local/lscc/radiant/2025.2/ip/pmi/pmi_rom.v" verilog
+41		*	"/usr/local/lscc/radiant/2025.2/ip/pmi/../common/rom/rtl/lscc_rom.v" verilog
+42		*	"/usr/local/lscc/radiant/2025.2/ip/pmi/pmi_sub.v" verilog
+43		*	"/usr/local/lscc/radiant/2025.2/ip/pmi/../common/subtractor/rtl/lscc_subtractor.v" verilog
+44			"/home/kanmei/src/sincos_linear/source/mult18x18p48.v" verilog
+45			"/home/kanmei/src/sincos_linear/source/sincos_linear.v" verilog
+46			"/home/kanmei/src/sincos_linear/source/sin_linear.v" verilog
+47			"/home/kanmei/src/sincos_linear/source/top_sin_linear.v" verilog
+48			"/home/kanmei/src/sincos_linear/source/rom_y36/rtl/rom_y36.v" verilog
+49			"/home/kanmei/src/sincos_linear/source/rom_dy18/rtl/rom_dy18.v" verilog
+50			"/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v" verilog
+#Dependency Lists(Uses List)
+0 43 42 41 40 39 38 37 36 35 34 33 32 31 30 29 28 27 26 25 24 23 22 21 20 19 18 17 16 15 14 13 12 11 10 9 8 7 6 5 4 3 2 1
+1 43 42 41 40 39 38 37 36 35 34 33 32 31 30 29 28 27 26 25 24 23 22 21 20 19 18 17 16 15 14 13 12 11 10 9 8 7 6 5 4 3 2 0
+2 43 42 41 40 39 38 37 36 35 34 33 32 31 30 29 28 27 26 25 24 23 22 21 20 19 18 17 16 15 14 13 12 11 10 9 8 7 6 5 4 3 1 0
+3 43 42 41 40 39 38 37 36 35 34 33 32 31 30 29 28 27 26 25 24 23 22 21 20 19 18 17 16 15 14 13 12 11 10 9 8 7 6 5 4 2 1 0
+4 0 43 42 41 40 39 38 37 36 35 34 33 32 31 30 29 28 27 26 25 24 23 22 21 20 19 18 17 16 15 14 13 12 11 10 9 8 7 6 5 3 2 1
+5 43 42 41 40 39 38 37 36 35 34 33 32 31 30 29 28 27 26 25 24 23 22 21 20 19 18 17 16 15 14 13 12 11 10 9 8 7 6 4 3 2 1 0
+6 43 42 41 40 39 38 37 36 35 34 33 32 31 30 29 28 27 26 25 24 23 22 21 20 19 18 17 16 15 14 13 12 11 10 9 8 7 5 4 3 2 1 0
+7 43 42 41 40 39 38 37 36 35 34 33 32 31 30 29 28 27 26 25 24 23 22 21 20 19 18 17 16 15 14 13 12 11 10 9 8 6 5 4 3 2 1 0
+8 43 42 41 40 39 38 37 36 35 34 33 32 31 30 29 28 27 26 25 24 23 22 21 20 19 18 17 16 15 14 13 12 11 10 9 7 6 5 4 3 2 1 0
+9 43 42 41 40 39 38 37 36 35 34 33 32 31 30 29 28 27 26 25 24 23 22 21 20 19 18 17 16 15 14 13 12 11 10 8 7 6 5 4 3 2 1 0
+10 43 42 41 40 39 38 37 36 35 34 33 32 31 30 29 28 27 26 25 24 23 22 21 20 19 18 17 16 15 14 13 12 11 9 8 7 6 5 4 3 2 1 0
+11 43 42 41 40 39 38 37 36 35 34 33 32 31 30 29 28 27 26 25 24 23 22 21 20 19 18 17 16 15 14 13 12 10 9 8 7 6 5 4 3 2 1 0
+12 43 42 41 40 39 38 37 36 35 34 33 32 31 30 29 28 27 26 25 24 23 22 21 20 19 18 17 16 15 14 13 11 10 9 8 7 6 5 4 3 2 1 0
+13 43 42 41 40 39 38 37 36 35 34 33 32 31 30 29 28 27 26 25 24 23 22 21 20 19 18 17 16 15 14 12 11 10 9 8 7 6 5 4 3 2 1 0
+14 43 42 41 40 39 38 37 36 35 34 33 32 31 30 29 28 27 26 25 24 23 22 21 20 19 18 17 16 15 13 12 11 10 9 8 7 6 5 4 3 2 1 0
+15 43 42 41 40 39 38 37 36 35 34 33 32 31 30 29 28 27 26 25 24 23 22 21 20 19 18 17 16 14 13 12 11 10 9 8 7 6 5 4 3 2 1 0
+16 43 42 41 40 39 38 37 36 35 34 33 32 31 30 29 28 27 26 25 24 23 22 21 20 19 18 17 15 14 13 12 11 10 9 8 7 6 5 4 3 2 1 0
+17 43 42 41 40 39 38 37 36 35 34 33 32 31 30 29 28 27 26 25 24 23 22 21 20 19 18 16 15 14 13 12 11 10 9 8 7 6 5 4 3 2 1 0
+18 43 42 41 40 39 38 37 36 35 34 33 32 31 30 29 28 27 26 25 24 23 22 21 20 19 17 16 15 14 13 12 11 10 9 8 7 6 5 4 3 2 1 0
+19 43 42 41 40 39 38 37 36 35 34 33 32 31 30 29 28 27 26 25 24 23 22 21 20 18 17 16 15 14 13 12 11 10 9 8 7 6 5 4 3 2 1 0
+20 43 42 41 40 39 38 37 36 35 34 33 32 31 30 29 28 27 26 25 24 23 22 21 19 18 17 16 15 14 13 12 11 10 9 8 7 6 5 4 3 2 1 0
+21 43 42 41 40 39 38 37 36 35 34 33 32 31 30 29 28 27 26 25 24 23 22 20 19 18 17 16 15 14 13 12 11 10 9 8 7 6 5 4 3 2 1 0
+22 43 42 41 40 39 38 37 36 35 34 33 32 31 30 29 28 27 26 25 24 23 21 20 19 18 17 16 15 14 13 12 11 10 9 8 7 6 5 4 3 2 1 0
+23 43 42 41 40 39 38 37 36 35 34 33 32 31 30 29 28 27 26 25 24 22 21 20 19 18 17 16 15 14 13 12 11 10 9 8 7 6 5 4 3 2 1 0
+24 43 42 41 40 39 38 37 36 35 34 33 32 31 30 29 28 27 26 25 23 22 21 20 19 18 17 16 15 14 13 12 11 10 9 8 7 6 5 4 3 2 1 0
+25 43 42 41 40 39 38 37 36 35 34 33 32 31 30 29 28 27 26 24 23 22 21 20 19 18 17 16 15 14 13 12 11 10 9 8 7 6 5 4 3 2 1 0
+26 0 43 42 41 40 39 38 37 36 35 34 33 32 31 30 29 28 27 25 24 23 22 21 20 19 18 17 16 15 14 13 12 11 10 9 8 7 6 5 4 3 2 1
+27 43 42 41 40 39 38 37 36 35 34 33 32 31 30 29 28 26 25 24 23 22 21 20 19 18 17 16 15 14 13 12 11 10 9 8 7 6 5 4 3 2 1 0
+28 0 43 42 41 40 39 38 37 36 35 34 33 32 31 30 29 27 26 25 24 23 22 21 20 19 18 17 16 15 14 13 12 11 10 9 8 7 6 5 4 3 2 1
+29 43 42 41 40 39 38 37 36 35 34 33 32 31 30 28 27 26 25 24 23 22 21 20 19 18 17 16 15 14 13 12 11 10 9 8 7 6 5 4 3 2 1 0
+30 43 42 41 40 39 38 37 36 35 34 33 30 32 31 29 28 27 26 25 24 23 22 21 20 19 18 17 16 15 14 13 12 11 10 9 8 7 6 5 4 3 2 1 0
+31 43 42 41 40 39 38 37 36 35 34 33 31 32 30 29 28 27 26 25 24 23 22 21 20 19 18 17 16 15 14 13 12 11 10 9 8 7 6 5 4 3 2 1 0
+32 43 42 41 40 39 38 37 36 35 34 33 31 30 29 28 27 26 25 24 23 22 21 20 19 18 17 16 15 14 13 12 11 10 9 8 7 6 5 4 3 2 1 0
+33 43 42 41 40 39 38 37 36 35 34 32 31 30 29 28 27 26 25 24 23 22 21 20 19 18 17 16 15 14 13 12 11 10 9 8 7 6 5 4 3 2 1 0
+34 43 42 41 40 39 38 37 36 35 33 32 31 30 29 28 27 26 25 24 23 22 21 20 19 18 17 16 15 14 13 12 11 10 9 8 7 6 5 4 3 2 1 0
+35 43 42 41 40 39 38 37 36 34 33 32 31 30 29 28 27 26 25 24 23 22 21 20 19 18 17 16 15 14 13 12 11 10 9 8 7 6 5 4 3 2 1 0
+36 43 42 41 40 39 38 37 35 34 33 32 31 30 29 28 27 26 25 24 23 22 21 20 19 18 17 16 15 14 13 12 11 10 9 8 7 6 5 4 3 2 1 0
+37 43 42 41 40 37 39 38 36 35 34 33 32 31 30 29 28 27 26 25 24 23 22 21 20 19 18 17 16 15 14 13 12 11 10 9 8 7 6 5 4 3 2 1 0
+38 43 42 41 40 38 39 37 36 35 34 33 32 31 30 29 28 27 26 25 24 23 22 21 20 19 18 17 16 15 14 13 12 11 10 9 8 7 6 5 4 3 2 1 0
+39 43 42 41 40 38 37 36 35 34 33 32 31 30 29 28 27 26 25 24 23 22 21 20 19 18 17 16 15 14 13 12 11 10 9 8 7 6 5 4 3 2 1 0
+40 43 42 41 39 38 37 36 35 34 33 32 31 30 29 28 27 26 25 24 23 22 21 20 19 18 17 16 15 14 13 12 11 10 9 8 7 6 5 4 3 2 1 0
+41 43 42 40 39 38 37 36 35 34 33 32 31 30 29 28 27 26 25 24 23 22 21 20 19 18 17 16 15 14 13 12 11 10 9 8 7 6 5 4 3 2 1 0
+42 43 41 40 39 38 37 36 35 34 33 32 31 30 29 28 27 26 25 24 23 22 21 20 19 18 17 16 15 14 13 12 11 10 9 8 7 6 5 4 3 2 1 0
+43 0 42 41 40 39 38 37 36 35 34 33 32 31 30 29 28 27 26 25 24 23 22 21 20 19 18 17 16 15 14 13 12 11 10 9 8 7 6 5 4 3 2 1
+44 -1
+45 46
+46 44 49 48
+47 45 50
+48 43 42 41 40 39 38 37 36 35 34 33 32 31 30 29 28 27 26 25 24 23 22 21 20 19 18 17 16 15 14 13 12 11 10 9 8 7 6 5 4 3 2 1 0
+49 43 42 41 40 39 38 37 36 35 34 33 32 31 30 29 28 27 26 25 24 23 22 21 20 19 18 17 16 15 14 13 12 11 10 9 8 7 6 5 4 3 2 1 0
+50 -1
+#Dependency Lists(Users Of)
+0 49 48 43 42 41 40 39 38 37 36 35 34 33 32 31 30 29 28 27 26 25 24 23 22 21 20 19 18 17 16 15 14 13 12 11 10 9 8 7 6 5 4 3 2 1
+1 49 48 43 42 41 40 39 38 37 36 35 34 33 32 31 30 29 28 27 26 25 24 23 22 21 20 19 18 17 16 15 14 13 12 11 10 9 8 7 6 5 4 3 2 0
+2 49 48 43 42 41 40 39 38 37 36 35 34 33 32 31 30 29 28 27 26 25 24 23 22 21 20 19 18 17 16 15 14 13 12 11 10 9 8 7 6 5 4 3 1 0
+3 49 48 43 42 41 40 39 38 37 36 35 34 33 32 31 30 29 28 27 26 25 24 23 22 21 20 19 18 17 16 15 14 13 12 11 10 9 8 7 6 5 4 2 1 0
+4 49 48 43 42 41 40 39 38 37 36 35 34 33 32 31 30 29 28 27 26 25 24 23 22 21 20 19 18 17 16 15 14 13 12 11 10 9 8 7 6 5 3 2 1 0
+5 49 48 43 42 41 40 39 38 37 36 35 34 33 32 31 30 29 28 27 26 25 24 23 22 21 20 19 18 17 16 15 14 13 12 11 10 9 8 7 6 4 3 2 1 0
+6 49 48 43 42 41 40 39 38 37 36 35 34 33 32 31 30 29 28 27 26 25 24 23 22 21 20 19 18 17 16 15 14 13 12 11 10 9 8 7 5 4 3 2 1 0
+7 49 48 43 42 41 40 39 38 37 36 35 34 33 32 31 30 29 28 27 26 25 24 23 22 21 20 19 18 17 16 15 14 13 12 11 10 9 8 6 5 4 3 2 1 0
+8 49 48 43 42 41 40 39 38 37 36 35 34 33 32 31 30 29 28 27 26 25 24 23 22 21 20 19 18 17 16 15 14 13 12 11 10 9 7 6 5 4 3 2 1 0
+9 49 48 43 42 41 40 39 38 37 36 35 34 33 32 31 30 29 28 27 26 25 24 23 22 21 20 19 18 17 16 15 14 13 12 11 10 8 7 6 5 4 3 2 1 0
+10 49 48 43 42 41 40 39 38 37 36 35 34 33 32 31 30 29 28 27 26 25 24 23 22 21 20 19 18 17 16 15 14 13 12 11 9 8 7 6 5 4 3 2 1 0
+11 49 48 43 42 41 40 39 38 37 36 35 34 33 32 31 30 29 28 27 26 25 24 23 22 21 20 19 18 17 16 15 14 13 12 10 9 8 7 6 5 4 3 2 1 0
+12 49 48 43 42 41 40 39 38 37 36 35 34 33 32 31 30 29 28 27 26 25 24 23 22 21 20 19 18 17 16 15 14 13 11 10 9 8 7 6 5 4 3 2 1 0
+13 49 48 43 42 41 40 39 38 37 36 35 34 33 32 31 30 29 28 27 26 25 24 23 22 21 20 19 18 17 16 15 14 12 11 10 9 8 7 6 5 4 3 2 1 0
+14 49 48 43 42 41 40 39 38 37 36 35 34 33 32 31 30 29 28 27 26 25 24 23 22 21 20 19 18 17 16 15 13 12 11 10 9 8 7 6 5 4 3 2 1 0
+15 49 48 43 42 41 40 39 38 37 36 35 34 33 32 31 30 29 28 27 26 25 24 23 22 21 20 19 18 17 16 14 13 12 11 10 9 8 7 6 5 4 3 2 1 0
+16 49 48 43 42 41 40 39 38 37 36 35 34 33 32 31 30 29 28 27 26 25 24 23 22 21 20 19 18 17 15 14 13 12 11 10 9 8 7 6 5 4 3 2 1 0
+17 49 48 43 42 41 40 39 38 37 36 35 34 33 32 31 30 29 28 27 26 25 24 23 22 21 20 19 18 16 15 14 13 12 11 10 9 8 7 6 5 4 3 2 1 0
+18 49 48 43 42 41 40 39 38 37 36 35 34 33 32 31 30 29 28 27 26 25 24 23 22 21 20 19 17 16 15 14 13 12 11 10 9 8 7 6 5 4 3 2 1 0
+19 49 48 43 42 41 40 39 38 37 36 35 34 33 32 31 30 29 28 27 26 25 24 23 22 21 20 18 17 16 15 14 13 12 11 10 9 8 7 6 5 4 3 2 1 0
+20 49 48 43 42 41 40 39 38 37 36 35 34 33 32 31 30 29 28 27 26 25 24 23 22 21 19 18 17 16 15 14 13 12 11 10 9 8 7 6 5 4 3 2 1 0
+21 49 48 43 42 41 40 39 38 37 36 35 34 33 32 31 30 29 28 27 26 25 24 23 22 20 19 18 17 16 15 14 13 12 11 10 9 8 7 6 5 4 3 2 1 0
+22 49 48 43 42 41 40 39 38 37 36 35 34 33 32 31 30 29 28 27 26 25 24 23 21 20 19 18 17 16 15 14 13 12 11 10 9 8 7 6 5 4 3 2 1 0
+23 49 48 43 42 41 40 39 38 37 36 35 34 33 32 31 30 29 28 27 26 25 24 22 21 20 19 18 17 16 15 14 13 12 11 10 9 8 7 6 5 4 3 2 1 0
+24 49 48 43 42 41 40 39 38 37 36 35 34 33 32 31 30 29 28 27 26 25 23 22 21 20 19 18 17 16 15 14 13 12 11 10 9 8 7 6 5 4 3 2 1 0
+25 49 48 43 42 41 40 39 38 37 36 35 34 33 32 31 30 29 28 27 26 24 23 22 21 20 19 18 17 16 15 14 13 12 11 10 9 8 7 6 5 4 3 2 1 0
+26 49 48 43 42 41 40 39 38 37 36 35 34 33 32 31 30 29 28 27 25 24 23 22 21 20 19 18 17 16 15 14 13 12 11 10 9 8 7 6 5 4 3 2 1 0
+27 49 48 43 42 41 40 39 38 37 36 35 34 33 32 31 30 29 28 26 25 24 23 22 21 20 19 18 17 16 15 14 13 12 11 10 9 8 7 6 5 4 3 2 1 0
+28 49 48 43 42 41 40 39 38 37 36 35 34 33 32 31 30 29 27 26 25 24 23 22 21 20 19 18 17 16 15 14 13 12 11 10 9 8 7 6 5 4 3 2 1 0
+29 49 48 43 42 41 40 39 38 37 36 35 34 33 32 31 30 28 27 26 25 24 23 22 21 20 19 18 17 16 15 14 13 12 11 10 9 8 7 6 5 4 3 2 1 0
+30 49 48 43 42 41 40 39 38 37 36 35 34 33 32 31 30 29 28 27 26 25 24 23 22 21 20 19 18 17 16 15 14 13 12 11 10 9 8 7 6 5 4 3 2 1 0
+31 49 48 43 42 41 40 39 38 37 36 35 34 33 32 31 30 29 28 27 26 25 24 23 22 21 20 19 18 17 16 15 14 13 12 11 10 9 8 7 6 5 4 3 2 1 0
+32 49 48 43 42 41 40 39 38 37 36 35 34 33 31 30 29 28 27 26 25 24 23 22 21 20 19 18 17 16 15 14 13 12 11 10 9 8 7 6 5 4 3 2 1 0
+33 49 48 43 42 41 40 39 38 37 36 35 34 32 31 30 29 28 27 26 25 24 23 22 21 20 19 18 17 16 15 14 13 12 11 10 9 8 7 6 5 4 3 2 1 0
+34 49 48 43 42 41 40 39 38 37 36 35 33 32 31 30 29 28 27 26 25 24 23 22 21 20 19 18 17 16 15 14 13 12 11 10 9 8 7 6 5 4 3 2 1 0
+35 49 48 43 42 41 40 39 38 37 36 34 33 32 31 30 29 28 27 26 25 24 23 22 21 20 19 18 17 16 15 14 13 12 11 10 9 8 7 6 5 4 3 2 1 0
+36 49 48 43 42 41 40 39 38 37 35 34 33 32 31 30 29 28 27 26 25 24 23 22 21 20 19 18 17 16 15 14 13 12 11 10 9 8 7 6 5 4 3 2 1 0
+37 49 48 43 42 41 40 39 38 37 36 35 34 33 32 31 30 29 28 27 26 25 24 23 22 21 20 19 18 17 16 15 14 13 12 11 10 9 8 7 6 5 4 3 2 1 0
+38 49 48 43 42 41 40 39 38 37 36 35 34 33 32 31 30 29 28 27 26 25 24 23 22 21 20 19 18 17 16 15 14 13 12 11 10 9 8 7 6 5 4 3 2 1 0
+39 49 48 43 42 41 40 38 37 36 35 34 33 32 31 30 29 28 27 26 25 24 23 22 21 20 19 18 17 16 15 14 13 12 11 10 9 8 7 6 5 4 3 2 1 0
+40 49 48 43 42 41 39 38 37 36 35 34 33 32 31 30 29 28 27 26 25 24 23 22 21 20 19 18 17 16 15 14 13 12 11 10 9 8 7 6 5 4 3 2 1 0
+41 49 48 43 42 40 39 38 37 36 35 34 33 32 31 30 29 28 27 26 25 24 23 22 21 20 19 18 17 16 15 14 13 12 11 10 9 8 7 6 5 4 3 2 1 0
+42 49 48 43 41 40 39 38 37 36 35 34 33 32 31 30 29 28 27 26 25 24 23 22 21 20 19 18 17 16 15 14 13 12 11 10 9 8 7 6 5 4 3 2 1 0
+43 49 48 42 41 40 39 38 37 36 35 34 33 32 31 30 29 28 27 26 25 24 23 22 21 20 19 18 17 16 15 14 13 12 11 10 9 8 7 6 5 4 3 2 1 0
+44 46
+45 47
+46 45
+47 -1
+48 46
+49 46
+50 47
+#Design Unit to File Association
+module work gpll_ipgen_pll_sip_lmmi_mux 50
+module work gpll_ipgen_pll_syncreg 50
+module work gpll_ipgen_pll_init_bw 50
+module work gpll_ipgen_apb2lmmi 50
+module work gpll_ipgen_lscc_pll 50
+module work rom_dy18_ipgen_lscc_rom_inst_core 49
+module work rom_dy18_ipgen_lscc_rom_inst 49
+module work rom_dy18_ipgen_lscc_rom 49
+module work rom_y36_ipgen_lscc_rom_inst_core 48
+module work rom_y36_ipgen_lscc_rom_inst 48
+module work rom_y36_ipgen_lscc_rom 48
+module work gpll 50
+module work top_sin_linear 47
+module work rom_dy18 49
+module work rom_y36 48
+module work sin_linear 46
+module work sincos_linear 45
+module work mult18x18p48 44
+module work pmi_sub 42
+module work pmi_rom 40
+module work lscc_rom_inst_core 41
+module work lscc_rom_inst 41
+module work lscc_rom 41
+module work pmi_ram_dq_be 39
+module work pmi_ram_dq 36
+module work lscc_lfmxo4_ram_dq_core 38
+module work lscc_lfmxo4_ram_dq_inst 38
+module work lscc_lfmxo4_write_through 38
+module work lscc_lfmxo4_ram_dq_main 38
+module work lscc_lfmxo4_ram_dq 38
+module work lscc_ram_dq_core 37
+module work lscc_ram_dq_inst 37
+module work lscc_ram_dq_main 37
+module work lscc_ram_dq 37
+module work pmi_ram_dp_true 33
+module work lscc_lfxo4_ram_dp_true_read_mux 35
+module work lscc_lfxo4_ram_dp_true_addr_pipe 35
+module work lscc_lfmxo4_ram_dp_true_core 35
+module work lscc_lfmxo4_ram_dp_true_inst 35
+module work lscc_lfmxo4_ram_dp_true_main 35
+module work lscc_lfmxo4_ram_dp_true 35
+module work lscc_ram_dp_true_core 34
+module work lscc_ram_dp_true_inst 34
+module work lscc_write_through 34
+module work lscc_ram_dp_true_main 34
+module work lscc_ram_dp_true 34
+module work pmi_ram_dp_be 32
+module work pmi_ram_dp 29
+module work lscc_lfmxo4_ram_dp_core 31
+module work lscc_lfmxo4_ram_dp_main 31
+module work lscc_lfmxo4_ram_dp 31
+module work lscc_ram_dp_core 30
+module work lscc_ram_dp_main 30
+module work lscc_ram_dp 30
+module work pmi_mult 27
+module work pmi_multaddsub 25
+module work pmi_multaddsubsum 23
+module work lscc_mult_add_sub_sum 24
+module work pmi_mac 21
+module work lscc_mult_accumulate 22
+module work pmi_fifo_dc 19
+module work lscc_fifo_mem_core 20
+module work lscc_fifo_mem_main 20
+module work lscc_fifo_soft_mem 20
+module work lscc_reset_async 20
+module work lscc_fifo_dc_hw_core 20
+module work lscc_soft_fifo_dc 20
+module work lscc_hard_fifo_dc 20
+module work lscc_fifo_dc_main 20
+module work lscc_fifo_dc_fwft_fabric 20
+module work lscc_fifo_dc 20
+module work pmi_fifo 17
+module work lscc_fifo_hw_core 18
+module work lscc_soft_fifo 18
+module work lscc_hard_fifo 18
+module work lscc_fifo_main 18
+module work lscc_fifo_fwft_fabric 18
+module work lscc_fifo 18
+module work pmi_distributed_shift_reg 15
+module work lscc_shift_register 16
+module work pmi_distributed_rom 13
+module work lscc_distributed_rom 14
+module work pmi_distributed_spram 11
+module work lscc_distributed_spram 12
+module work pmi_distributed_dpram 9
+module work lscc_distributed_dpram 10
+module work pmi_counter 7
+module work lscc_cntr 8
+module work pmi_complex_mult 5
+module work lscc_multiplier_dsp 6
+module work lscc_multiplier_lut 6
+module work lscc_multiplier 6
+module work lscc_mult_add_sub 6
+module work lscc_complex_mult 6
+module work pmi_add 3
+module work pmi_addsub 1
+module work lscc_subtractor 2
+module work lscc_adder 2
+module work lscc_add_sub 2

@@ -1,0 +1,44 @@
+Resource Usage Report
+Part: lav_at_e30escbg484c-1
+
+
+Register bits: 88 of 163200 (0%)
+I/O cells:       67
+
+Details:
+DPR16X4A:       8
+FD1P3BX:        2
+FD1P3DX:        80
+FD1P3IX:        4
+GSRA:           1
+IB:             34
+IFD1P3DX:       1
+INV:            6
+LUT4:           109
+MULTADDSUB18X18A: 1
+OB:             33
+OFD1P3DX:       1
+PLLC:           1
+PLL_LMMI_MUX:   1
+SP32K:          6
+SPR16X4A:       8
+VHI:            22
+VLO:            22
+
+Resource Usage inside macros:
+Registers: 0
+LUTs: 0
+EBRs: 0
+DSPs: 0
+Distributed RAMs: 0
+Carry Chains: 0
+Blackboxes: 0
+
+Mapping Summary:
+Total number of registers: 88 + 0 = 88 of 163200 (0.05%)
+Total number of LUTs: 109 + 0 = 109 
+Total number of EBRs: 6 + 0 = 6 of 400 (1.50%)
+Total number of DSPs: 1 + 0 = 1 of 700 (0.14%)
+Total number of Distributed RAMs: 16 + 0 = 16 
+Total number of Carry Chains: 0 + 0 = 0 
+Total number of BlackBoxes: 47 + 0 = 47 

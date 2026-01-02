@@ -1,0 +1,176 @@
+
+Copyright (C) 1994-2025 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: W-2025.03LR-SP1-Beta2
+Install: /usr/local/lscc/radiant/2025.2/synpbase
+OS: Ubuntu 22.04.5 LTS
+Hostname: P360
+max virtual memory: unlimited (bytes)
+max user processes: 513751
+max stack size: 8388608 (bytes)
+
+
+Implementation : Avant
+
+# Written on Fri Jan  2 07:59:39 2026
+
+##### DESIGN INFO #######################################################
+
+Top View:                "top_sin_linear"
+Constraint File(s):      "/usr/local/lscc/radiant/2025.2/scripts/tcl/flow/radiant_synplify_vars.tcl"
+                         "/home/kanmei/src/sincos_linear/project/Avant/sincos_linear_Avant_cpe.ldc"
+
+
+
+
+##### SUMMARY ############################################################
+
+Found 1 issues in 1 out of 2 constraints
+
+
+##### DETAILS ############################################################
+
+
+Clock Summary
+*************
+
+          Start                                                             Requested     Requested     Clock        Clock                     Clock
+Level     Clock                                                             Frequency     Period        Type         Group                     Load 
+----------------------------------------------------------------------------------------------------------------------------------------------------
+0 -       gpll_ipgen_lscc_pll_Z1_layer0|clkout_clkop_o_inferred_clock       200.0 MHz     5.000         inferred     Inferred_clkgroup_0_1     216  
+                                                                                                                                                    
+0 -       gpll_ipgen_lscc_pll_Z1_layer0|clkout_testclk_o_inferred_clock     200.0 MHz     5.000         inferred     Inferred_clkgroup_0_2     27   
+====================================================================================================================================================
+
+
+Clock Load Summary
+******************
+
+                                                                  Clock     Source                                                         Clock Pin                                                          Non-clock Pin     Non-clock Pin
+Clock                                                             Load      Pin                                                            Seq Example                                                        Seq Example       Comb Example 
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+gpll_ipgen_lscc_pll_Z1_layer0|clkout_clkop_o_inferred_clock       216       gpll_i.lscc_pll_inst.gen_ext_outclkdiv\.u_pll.CLKOP(PLLC)      G_1.C                                                              -                 -            
+                                                                                                                                                                                                                                             
+gpll_ipgen_lscc_pll_Z1_layer0|clkout_testclk_o_inferred_clock     27        gpll_i.lscc_pll_inst.gen_ext_outclkdiv\.u_pll.CLKRES(PLLC)     gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init\.pll_lock_reg.C     -                 -            
+=============================================================================================================================================================================================================================================
+
+
+
+Clock Relationships
+*******************
+
+Starting                                                          Ending                                                            |     rise to rise     |     fall to fall     |     rise to fall     |     fall to rise                     
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+System                                                            System                                                            |     5.000            |     No paths         |     No paths         |     No paths                         
+System                                                            gpll_ipgen_lscc_pll_Z1_layer0|clkout_clkop_o_inferred_clock       |     5.000            |     No paths         |     No paths         |     No paths                         
+System                                                            gpll_ipgen_lscc_pll_Z1_layer0|clkout_testclk_o_inferred_clock     |     5.000            |     No paths         |     No paths         |     No paths                         
+gpll_ipgen_lscc_pll_Z1_layer0|clkout_clkop_o_inferred_clock       System                                                            |     5.000            |     No paths         |     No paths         |     No paths                         
+gpll_ipgen_lscc_pll_Z1_layer0|clkout_clkop_o_inferred_clock       gpll_ipgen_lscc_pll_Z1_layer0|clkout_clkop_o_inferred_clock       |     5.000            |     No paths         |     No paths         |     No paths                         
+gpll_ipgen_lscc_pll_Z1_layer0|clkout_testclk_o_inferred_clock     System                                                            |     5.000            |     No paths         |     No paths         |     No paths                         
+gpll_ipgen_lscc_pll_Z1_layer0|clkout_testclk_o_inferred_clock     gpll_ipgen_lscc_pll_Z1_layer0|clkout_clkop_o_inferred_clock       |     Diff grp         |     No paths         |     No paths         |     No paths                         
+gpll_ipgen_lscc_pll_Z1_layer0|clkout_testclk_o_inferred_clock     gpll_ipgen_lscc_pll_Z1_layer0|clkout_testclk_o_inferred_clock     |     5.000            |     No paths         |     No paths         |     No paths                         
+===============================================================================================================================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+Unconstrained Start/End Points
+******************************
+
+p:clk50
+p:phase_i[0]
+p:phase_i[1]
+p:phase_i[2]
+p:phase_i[3]
+p:phase_i[4]
+p:phase_i[5]
+p:phase_i[6]
+p:phase_i[7]
+p:phase_i[8]
+p:phase_i[9]
+p:phase_i[10]
+p:phase_i[11]
+p:phase_i[12]
+p:phase_i[13]
+p:phase_i[14]
+p:phase_i[15]
+p:phase_i[16]
+p:phase_i[17]
+p:phase_i[18]
+p:phase_i[19]
+p:phase_i[20]
+p:phase_i[21]
+p:phase_i[22]
+p:phase_i[23]
+p:phase_i[24]
+p:phase_i[25]
+p:phase_i[26]
+p:phase_i[27]
+p:phase_i[28]
+p:phase_i[29]
+p:phase_i[30]
+p:phase_i[31]
+p:result_o[0]
+p:result_o[1]
+p:result_o[2]
+p:result_o[3]
+p:result_o[4]
+p:result_o[5]
+p:result_o[6]
+p:result_o[7]
+p:result_o[8]
+p:result_o[9]
+p:result_o[10]
+p:result_o[11]
+p:result_o[12]
+p:result_o[13]
+p:result_o[14]
+p:result_o[15]
+p:result_o[16]
+p:result_o[17]
+p:result_o[18]
+p:result_o[19]
+p:result_o[20]
+p:result_o[21]
+p:result_o[22]
+p:result_o[23]
+p:result_o[24]
+p:result_o[25]
+p:result_o[26]
+p:result_o[27]
+p:result_o[28]
+p:result_o[29]
+p:result_o[30]
+p:result_o[31]
+p:valid_i
+p:valid_o
+
+
+Inapplicable constraints
+************************
+
+(none)
+
+
+Applicable constraints with issues
+**********************************
+
+set_false_path -to [get_pins {gpll_i/lscc_pll_inst/gen_ext_outclkdiv\.u_pll/RESET}]
+	@W::"/home/kanmei/src/sincos_linear/project/Avant/sincos_linear_Avant_cpe.ldc":17:0:17:0|Timing constraint (to [get_pins {gpll_i/lscc_pll_inst/gen_ext_outclkdiv\.u_pll/RESET}]) (false path) was not applied to the design because none of the paths specified by the constraint exist in the design
+
+Constraints with matching wildcard expressions
+**********************************************
+
+(none)
+
+
+Library Report
+**************
+
+
+# End of Constraint Checker Report
+

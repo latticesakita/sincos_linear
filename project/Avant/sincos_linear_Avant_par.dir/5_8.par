@@ -1,0 +1,228 @@
+
+PAR: Place And Route Radiant Software (64-bit) 2025.2.0.3.0.
+PARed on: Fri Jan  2 08:00:08 2026
+
+Command Line: par -w -t 8 -hsp m sincos_linear_Avant_map.udb \
+	sincos_linear_Avant_par.dir/5_8.udb 
+
+Loading sincos_linear_Avant_map.udb ...
+Loading device for application GENERIC from file 'ap6a160be.nph' in environment: /usr/local/lscc/radiant/2025.2/ispfpga.
+Package Status:                     Preliminary    Version 14.
+Performance Hardware Data Status:   Preliminary    Version 108.1.
+
+
+
+Design:  top_sin_linear
+Family:  LAV-AT
+Device:  LAV-AT-E30ES
+Package: CBG484
+Performance Grade:   1
+
+Constraint Summary
+   Total number of constraints: 16
+   Total number of constraints dropped: 0
+
+WARNING <70001944> - par: No source clock for
+	generated clock	create_generated_clock -name {gpll_i/lscc_pll_inst/clkout_testclk_o} -source [get_pins {gpll_i/lscc_pll_inst/gen_ext_outclkdiv.u_pll.PLLC_MODE_inst/CLKI}] -multiply_by 39 -divide_by 20 [get_pins {gpll_i/lscc_pll_inst/gen_ext_outclkdiv.u_pll.PLLC_MODE_inst/CLKRES }] .
+WARNING <70001944> - par: No source clock for
+	generated clock	create_generated_clock -name {clk} -source [get_pins {gpll_i/lscc_pll_inst/gen_ext_outclkdiv.u_pll.PLLC_MODE_inst/CLKI}] -multiply_by 6 [get_pins {gpll_i/lscc_pll_inst/gen_ext_outclkdiv.u_pll.PLLC_MODE_inst/CLKOP }] .
+Number of Signals: 400
+Number of Connections: 1006
+
++
+Pin Constraint Summary:
+   0 out of 67 pins locked (0% locked).
+
+.
+
+INFO: STA multithread mode is on
+
+
+Starting Placer Phase 0. CPU time: 16 secs , REAL time: 17 secs 
+
+Finished Placer Phase 0. CPU time: 16 secs , REAL time: 17 secs 
+
+Starting Placer Phase 1. CPU time: 16 secs , REAL time: 17 secs 
+
+Finished Placer Phase 1. CPU time: 16 secs , REAL time: 17 secs 
+
+Placer score = 450200.
+Starting Placer Phase 2. CPU time: 16 secs , REAL time: 17 secs 
+
+Finished Placer Phase 2. CPU time: 17 secs , REAL time: 17 secs 
+
+Placer score =  445698
+
+Device utilization summary:
+
+   WRIO                 10/94           11% used
+                        10/94           11% bonded
+   HPIO                 57/260          22% used
+                        57/255          22% bonded
+   IOLOGIC_A             2/130           2% used
+   EBR                   6/400           2% used
+   PLL                   1/7            14% used
+   DSP                   1/700          <1% used
+     MULTADDSUB18X18     1
+   SLICE               132/81600        <1% used
+     LUT               219/163200       <1% used
+     REG                86/163200       <1% used
+
+
+
+------------------ Clock Report ------------------
+
+Global Clock Resources:
+  CLK_PIN    : 0 out of 14 (0%)
+  PLL        : 1 out of 7 (14%)
+  DCS        : 0 out of 4 (0%)
+  DCC        : 0 out of 216 (0%)
+  ECLKDIV    : 0 out of 25 (0%)
+  OSC        : 0 out of 1 (0%)
+
+Global Clocks:
+  PRIMARY "clk" from CLKOP on comp "gpll_i.lscc_pll_inst.gen_ext_outclkdiv.u_pll.PLLC_MODE_inst" on PLL site "PLL11", clk load = 65, ce load = 0, sr load = 0
+
+  PRIMARY  : 1 out of 24 (4%)
+
+Edge Clocks:
+  No edge clock selected.
+
+
+--------------- End of Clock Report ---------------
+
+
+I/O Usage Summary (final):
+   10 out of 94 (10.6%) WRIO sites used.
+   10 out of 94 (10.6%) bonded WRIO sites used.
+   Number of WRIO components: 10; differential: 0
+   Number of Vref pins used: 0
+   57 out of 260 (21.9%) HPIO sites used.
+   57 out of 255 (22.4%) bonded HPIO sites used.
+   Number of HPIO components: 57; differential: 0
+
+I/O Bank Usage Summary:
++----------+----------------+------------+------------+
+| I/O Bank | Usage          | Bank Vccio | Bank Vref1 |
++----------+----------------+------------+------------+
+| 0        | 0 / 15 (  0%)  | -          | -          |
+| 1        | 0 / 15 (  0%)  | -          | -          |
+| 2        | 0 / 12 (  0%)  | -          | -          |
+| 3        | 0 / 51 (  0%)  | -          | -          |
+| 8        | 0 / 51 (  0%)  | -          | -          |
+| 9        | 13 / 51 ( 25%) | 1.8V       | -          |
+| 10       | 43 / 51 ( 84%) | 1.8V       | -          |
+| 11       | 1 / 51 (  1%)  | 1.8V       | -          |
+| 12       | 0 / 16 (  0%)  | -          | -          |
+| 13       | 0 / 16 (  0%)  | -          | -          |
+| 14       | 10 / 20 ( 50%) | 3.3V       | -          |
++----------+----------------+------------+------------+
+
+Total Placer CPU time: 17 secs , REAL time: 18 secs 
+
+
+Checksum -- place: c77b68b079a9ca43e58142cf347bc283328b8e76
+Writing design to file sincos_linear_Avant_par.dir/5_8.udb ...
+
+
+Start NBR router at Fri Jan 02 08:00:26 JST 2026
+
+*****************************************************************
+Info: NBR allows conflicts(one node used by more than one signal)
+      in the earlier iterations. In each iteration, it tries to  
+      solve the conflicts while keeping the critical connections 
+      routed as short as possible. The routing process is said to
+      be completed when no conflicts exist and all connections   
+      are routed.                                                
+Note: NBR uses a different method to calculate timing slacks. The
+      worst slack and total negative slack may not be the same as
+      that in timing report. You should always run the timing    
+      tool to verify your design.                                
+*****************************************************************
+
+Starting routing resource preassignment
+
+
+
+Preassignment Summary:
+--------------------------------------------------------------------------------
+63 connections routed with dedicated routing resources
+1 global clock signals routed
+129 connections routed (of 940 total) (13.72%)
+---------------------------------------------------------
+Clock routing summary:
+Global clocks (1 used out of 24 available):
+    Signal "clk"
+       Clock   loads: 65    out of    65 routed (100.00%)
+Other clocks:
+    Signal "gpll_i.lscc_pll_inst.clkout_testclk_o"
+       Clock   loads: 0     out of    12 routed (  0.00%)
+       Data    loads: 0     out of     1 routed (  0.00%)
+---------------------------------------------------------
+--------------------------------------------------------------------------------
+Completed routing resource preassignment
+WARNING <70001944> - par: No source clock for
+	generated clock	create_generated_clock -name {gpll_i/lscc_pll_inst/clkout_testclk_o} -source [get_pins {gpll_i/lscc_pll_inst/gen_ext_outclkdiv.u_pll.PLLC_MODE_inst/CLKI}] -multiply_by 39 -divide_by 20 [get_pins {gpll_i/lscc_pll_inst/gen_ext_outclkdiv.u_pll.PLLC_MODE_inst/CLKRES }] .
+WARNING <70001944> - par: No source clock for
+	generated clock	create_generated_clock -name {clk} -source [get_pins {gpll_i/lscc_pll_inst/gen_ext_outclkdiv.u_pll.PLLC_MODE_inst/CLKI}] -multiply_by 6 [get_pins {gpll_i/lscc_pll_inst/gen_ext_outclkdiv.u_pll.PLLC_MODE_inst/CLKOP }] .
+--------------------------------------------------------------------------------
+Info: STA Multithread Mode is SET
+Number of threads = 4
+--------------------------------------------------------------------------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Routing in Serial Mode ......
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Start NBR section for initial routing at Fri Jan 02 08:00:42 JST 2026
+Level 4, iteration 1
+15(0.00%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 0 (nbr) score; real time: 17 secs 
+
+Info: Initial congestion level at 75.00% usage is 0
+Info: Initial congestion area  at 75.00% usage is 0 (0.00%)
+
+Start NBR section for normal routing at Fri Jan 02 08:00:43 JST 2026
+Level 4, iteration 1
+4(0.00%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 0 (nbr) score; real time: 17 secs 
+Level 4, iteration 2
+2(0.00%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 0 (nbr) score; real time: 17 secs 
+Level 4, iteration 3
+0(0.00%) conflict; 0(0.00%) untouched conn; 0 (nbr) score; 0 (nbr) score; real time: 18 secs 
+
+Start NBR section for post-routing at Fri Jan 02 08:00:44 JST 2026
+
+End NBR router with 0 unrouted connection(s)
+
+Checksum -- route: 1d1d91c7fa67962a6524ad84404a3e73194a9c9
+
+Total Router CPU time 17 secs , REAL time: 18 secs 
+Completely routed.
+End of route.  940 routed (100.00%); 0 unrouted.
+
+Writing design to file sincos_linear_Avant_par.dir/5_8.udb ...
+
+
+All signals are completely routed.
+
+
+PAR_SUMMARY::Run status = Completed
+PAR_SUMMARY::Number of unrouted conns = 0
+PAR_SUMMARY::Estimated worst slack<setup/<ns>> = <n/a>
+PAR_SUMMARY::Timing score<setup/<ns>> = <n/a>
+PAR_SUMMARY::Estimated worst slack<hold/<ns>> = <n/a>
+PAR_SUMMARY::Timing score<hold/<ns>> = <n/a>
+PAR_SUMMARY::Number of errors = 0
+
+Note: user must run 'timing' for timing closure signoff.
+
+Total CPU  Time: 38 secs 
+Total REAL Time: 38 secs 
+Peak Memory Usage: 4092.54 MB
+
+
+par done!
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2025 Lattice Semiconductor Corporation,  All rights reserved.

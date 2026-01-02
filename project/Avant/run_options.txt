@@ -1,0 +1,100 @@
+#--  Synopsys, Inc.
+#--  Version W-2025.03LR-SP1-Beta2
+#--  Project file /home/kanmei/src/sincos_linear/project/Avant/run_options.txt
+#--  Written on Fri Jan  2 07:59:36 2026
+
+
+#project files
+add_file -constraint "/usr/local/lscc/radiant/2025.2/scripts/tcl/flow/radiant_synplify_vars.tcl"
+add_file -constraint "sincos_linear_Avant_cpe.ldc"
+add_file -verilog "/usr/local/lscc/radiant/2025.2/ip/pmi/pmi_lav-at.v"
+add_file -vhdl -lib pmi "/usr/local/lscc/radiant/2025.2/ip/pmi/pmi_lav-at.vhd"
+add_file -verilog -vlog_std v2001 "/home/kanmei/src/sincos_linear/source/mult18x18p48.v"
+add_file -verilog -vlog_std v2001 "/home/kanmei/src/sincos_linear/source/sincos_linear.v"
+add_file -verilog -vlog_std v2001 "/home/kanmei/src/sincos_linear/source/sin_linear.v"
+add_file -verilog -vlog_std v2001 "/home/kanmei/src/sincos_linear/source/top_sin_linear.v"
+add_file -verilog -vlog_std v2001 "/home/kanmei/src/sincos_linear/source/rom_y36/rtl/rom_y36.v"
+add_file -verilog -vlog_std v2001 "/home/kanmei/src/sincos_linear/source/rom_dy18/rtl/rom_dy18.v"
+add_file -verilog -vlog_std v2001 "/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v"
+
+
+#implementation: "Avant"
+impl -add Avant -type fpga
+
+#
+#implementation attributes
+
+set_option -vlog_std v2001
+set_option -project_relative_includes 1
+set_option -include_path {/home/kanmei/src/sincos_linear/project;/home/kanmei/src/sincos_linear/source/gpll;/home/kanmei/src/sincos_linear/source/rom_dy18;/home/kanmei/src/sincos_linear/source/rom_y36}
+
+#device options
+set_option -technology LAV-AT
+set_option -part LAV_AT_E30ES
+set_option -package CBG484C
+set_option -speed_grade -1
+
+#compilation/mapping options
+set_option -top_module "top_sin_linear"
+
+# hdl_compiler_options
+set_option -hdl_strict_syntax 0
+
+# mapper_without_write_options
+set_option -frequency 200
+set_option -srs_instrumentation 1
+
+# mapper_options
+set_option -write_verilog 0
+set_option -write_structural_verilog 0
+set_option -write_vhdl 0
+set_option -design_rule_fanout_limit 0
+
+# Lattice XP
+set_option -maxfan 1000
+set_option -disable_io_insertion 0
+set_option -retiming 0
+set_option -pipe 1
+set_option -infer_seqShift 1
+set_option -forcegsr false
+set_option -fix_gated_and_generated_clocks 0
+set_option -rw_check_on_ram 0
+set_option -update_models_cp 0
+set_option -syn_edif_array_rename 0
+set_option -Write_declared_clocks_only 1
+set_option -seqshift_no_replicate 0
+set_option -run_design_rule_checker 0
+
+# cdc_analysis_option
+set_option -min_cdc_sync_flops 2
+set_option -unsafe_cdc_netlist_property 0
+
+# Lattice LAV-AT
+set_option -lattice_software Radiant
+set_option -const_mult_threshold 0
+set_option -s44_optimization 0
+set_option -infer_widefn 1
+set_option -bluesteel_adder_decomp_no_mult 1
+set_option -pack_rst_largeram 1
+set_option -automatic_compile_point 1
+
+# NFilter
+set_option -no_sequential_opt 0
+
+# sequential_optimization_options
+set_option -symbolic_fsm_compiler 1
+
+# Compiler Options
+set_option -compiler_compatible 0
+set_option -resource_sharing 1
+set_option -multi_file_compilation_unit 1
+
+#automatic place and route (vendor) options
+set_option -write_apr_constraint 1
+
+#set result format/file last
+project -result_file "./sincos_linear_Avant.vm"
+
+#set log file 
+set_option log_file "/home/kanmei/src/sincos_linear/project/Avant/sincos_linear_Avant.srf" 
+impl -active "Avant"

@@ -1,0 +1,193 @@
+
+Copyright (C) 1994-2025 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: W-2025.03LR-SP1-Beta2
+Install: /usr/local/lscc/radiant/2025.2/synpbase
+OS: Ubuntu 22.04.5 LTS
+Hostname: P360
+max virtual memory: unlimited (bytes)
+max user processes: 513751
+max stack size: 8388608 (bytes)
+
+
+Implementation : Avant
+Synopsys HDL compiler and linker, Version comp202503synp2, Build 038R, Built Oct  2 2025 06:42:54, @6263020
+
+Modified Files: 1
+FID:  path (prevtimestamp, timestamp)
+54       /home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v (N/A, 2026-01-02 07:58:39)
+
+*******************************************************************
+Modules that may have changed as a result of file changes: 6
+MID:  lib.cell.view
+93       work.gpll.verilog may have changed because the following files changed:
+                        /home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v (N/A, 2026-01-02 07:58:39) <-- (module definition)
+94       work.gpll_ipgen_apb2lmmi.verilog may have changed because the following files changed:
+                        /home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v (N/A, 2026-01-02 07:58:39) <-- (module definition)
+95       work.gpll_ipgen_lscc_pll.verilog may have changed because the following files changed:
+                        /home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v (N/A, 2026-01-02 07:58:39) <-- (module definition)
+96       work.gpll_ipgen_pll_init_bw.verilog may have changed because the following files changed:
+                        /home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v (N/A, 2026-01-02 07:58:39) <-- (module definition)
+97       work.gpll_ipgen_pll_sip_lmmi_mux.verilog may have changed because the following files changed:
+                        /home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v (N/A, 2026-01-02 07:58:39) <-- (module definition)
+98       work.gpll_ipgen_pll_syncreg.verilog may have changed because the following files changed:
+                        /home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v (N/A, 2026-01-02 07:58:39) <-- (module definition)
+
+*******************************************************************
+Unmodified files: 54
+FID:  path (timestamp)
+0        /home/kanmei/src/sincos_linear/source/mult18x18p48.v (2026-01-02 07:41:53)
+1        /home/kanmei/src/sincos_linear/source/rom_dy18/rtl/rom_dy18.v (2026-01-02 07:41:54)
+2        /home/kanmei/src/sincos_linear/source/rom_y36/rtl/rom_y36.v (2026-01-02 07:41:53)
+3        /home/kanmei/src/sincos_linear/source/sin_linear.v (2026-01-02 07:41:53)
+4        /home/kanmei/src/sincos_linear/source/sincos_linear.v (2026-01-02 07:51:57)
+5        /home/kanmei/src/sincos_linear/source/top_sin_linear.v (2026-01-02 07:50:05)
+6        /usr/local/lscc/radiant/2025.2/ip/pmi/../LFMXO4/ram_dp/rtl/lscc_lfmxo4_ram_dp.v (2025-10-18 05:21:40)
+7        /usr/local/lscc/radiant/2025.2/ip/pmi/../LFMXO4/ram_dp_true/rtl/lscc_lfmxo4_ram_dp_true.v (2025-10-18 05:21:40)
+8        /usr/local/lscc/radiant/2025.2/ip/pmi/../LFMXO4/ram_dq/rtl/lscc_lfmxo4_ram_dq.v (2025-10-18 05:21:40)
+9        /usr/local/lscc/radiant/2025.2/ip/pmi/../common/adder/rtl/lscc_adder.v (2025-10-18 05:21:42)
+10       /usr/local/lscc/radiant/2025.2/ip/pmi/../common/adder_subtractor/rtl/lscc_add_sub.v (2025-10-18 05:21:42)
+11       /usr/local/lscc/radiant/2025.2/ip/pmi/../common/complex_mult/rtl/lscc_complex_mult.v (2025-10-18 05:21:42)
+12       /usr/local/lscc/radiant/2025.2/ip/pmi/../common/counter/rtl/lscc_cntr.v (2025-10-18 05:21:42)
+13       /usr/local/lscc/radiant/2025.2/ip/pmi/../common/distributed_dpram/rtl/lscc_distributed_dpram.v (2025-10-18 05:21:42)
+14       /usr/local/lscc/radiant/2025.2/ip/pmi/../common/distributed_rom/rtl/lscc_distributed_rom.v (2025-10-18 05:21:42)
+15       /usr/local/lscc/radiant/2025.2/ip/pmi/../common/distributed_spram/rtl/lscc_distributed_spram.v (2025-10-18 05:21:42)
+16       /usr/local/lscc/radiant/2025.2/ip/pmi/../common/fifo/rtl/lscc_fifo.v (2025-10-18 05:21:42)
+17       /usr/local/lscc/radiant/2025.2/ip/pmi/../common/fifo_dc/rtl/lscc_fifo_dc.v (2025-10-18 05:21:43)
+18       /usr/local/lscc/radiant/2025.2/ip/pmi/../common/mult_accumulate/rtl/lscc_mult_accumulate.v (2025-10-18 05:21:44)
+19       /usr/local/lscc/radiant/2025.2/ip/pmi/../common/mult_add_sub/rtl/lscc_mult_add_sub.v (2025-10-18 05:21:44)
+20       /usr/local/lscc/radiant/2025.2/ip/pmi/../common/mult_add_sub_sum/rtl/lscc_mult_add_sub_sum.v (2025-10-18 05:21:44)
+21       /usr/local/lscc/radiant/2025.2/ip/pmi/../common/multiplier/rtl/lscc_multiplier.v (2025-10-18 05:21:44)
+22       /usr/local/lscc/radiant/2025.2/ip/pmi/../common/ram_dp/rtl/lscc_ram_dp.v (2025-10-18 05:21:44)
+23       /usr/local/lscc/radiant/2025.2/ip/pmi/../common/ram_dp_true/rtl/lscc_ram_dp_true.v (2025-10-18 05:21:45)
+24       /usr/local/lscc/radiant/2025.2/ip/pmi/../common/ram_dq/rtl/lscc_ram_dq.v (2025-10-18 05:21:45)
+25       /usr/local/lscc/radiant/2025.2/ip/pmi/../common/ram_shift_reg/rtl/lscc_shift_register.v (2025-10-18 05:21:45)
+26       /usr/local/lscc/radiant/2025.2/ip/pmi/../common/rom/rtl/lscc_rom.v (2025-10-18 05:21:45)
+27       /usr/local/lscc/radiant/2025.2/ip/pmi/../common/subtractor/rtl/lscc_subtractor.v (2025-10-18 05:21:45)
+28       /usr/local/lscc/radiant/2025.2/ip/pmi/pmi_add.v (2025-10-18 05:21:47)
+29       /usr/local/lscc/radiant/2025.2/ip/pmi/pmi_addsub.v (2025-10-18 05:21:47)
+30       /usr/local/lscc/radiant/2025.2/ip/pmi/pmi_complex_mult.v (2025-10-18 05:21:47)
+31       /usr/local/lscc/radiant/2025.2/ip/pmi/pmi_counter.v (2025-10-18 05:21:47)
+32       /usr/local/lscc/radiant/2025.2/ip/pmi/pmi_distributed_dpram.v (2025-10-18 05:21:47)
+33       /usr/local/lscc/radiant/2025.2/ip/pmi/pmi_distributed_rom.v (2025-10-18 05:21:47)
+34       /usr/local/lscc/radiant/2025.2/ip/pmi/pmi_distributed_shift_reg.v (2025-10-18 05:21:47)
+35       /usr/local/lscc/radiant/2025.2/ip/pmi/pmi_distributed_spram.v (2025-10-18 05:21:47)
+36       /usr/local/lscc/radiant/2025.2/ip/pmi/pmi_fifo.v (2025-10-18 05:21:47)
+37       /usr/local/lscc/radiant/2025.2/ip/pmi/pmi_fifo_dc.v (2025-10-18 05:21:47)
+38       /usr/local/lscc/radiant/2025.2/ip/pmi/pmi_lav-at.v (2025-10-18 05:21:47)
+39       /usr/local/lscc/radiant/2025.2/ip/pmi/pmi_mac.v (2025-10-18 05:21:47)
+40       /usr/local/lscc/radiant/2025.2/ip/pmi/pmi_mult.v (2025-10-18 05:21:47)
+41       /usr/local/lscc/radiant/2025.2/ip/pmi/pmi_multaddsub.v (2025-10-18 05:21:47)
+42       /usr/local/lscc/radiant/2025.2/ip/pmi/pmi_multaddsubsum.v (2025-10-18 05:21:47)
+43       /usr/local/lscc/radiant/2025.2/ip/pmi/pmi_ram_dp.v (2025-10-18 05:21:47)
+44       /usr/local/lscc/radiant/2025.2/ip/pmi/pmi_ram_dp_be.v (2025-10-18 05:21:47)
+45       /usr/local/lscc/radiant/2025.2/ip/pmi/pmi_ram_dp_true.v (2025-10-18 05:21:47)
+46       /usr/local/lscc/radiant/2025.2/ip/pmi/pmi_ram_dq.v (2025-10-18 05:21:47)
+47       /usr/local/lscc/radiant/2025.2/ip/pmi/pmi_ram_dq_be.v (2025-10-18 05:21:47)
+48       /usr/local/lscc/radiant/2025.2/ip/pmi/pmi_rom.v (2025-10-18 05:21:47)
+49       /usr/local/lscc/radiant/2025.2/ip/pmi/pmi_sub.v (2025-10-18 05:21:47)
+50       /usr/local/lscc/radiant/2025.2/synpbase/lib/generic/lav-ate-es.v (2025-10-18 12:52:19)
+51       /usr/local/lscc/radiant/2025.2/synpbase/lib/vlog/hypermods.v (2025-10-02 16:32:52)
+52       /usr/local/lscc/radiant/2025.2/synpbase/lib/vlog/scemi_objects.v (2025-10-02 16:32:52)
+53       /usr/local/lscc/radiant/2025.2/synpbase/lib/vlog/scemi_pipes.svh (2025-10-02 16:32:52)
+
+*******************************************************************
+Unchanged modules: 93
+MID:  lib.cell.view
+0        work.lscc_add_sub.verilog
+1        work.lscc_adder.verilog
+2        work.lscc_cntr.verilog
+3        work.lscc_complex_mult.verilog
+4        work.lscc_distributed_dpram.verilog
+5        work.lscc_distributed_rom.verilog
+6        work.lscc_distributed_spram.verilog
+7        work.lscc_fifo.verilog
+8        work.lscc_fifo_dc.verilog
+9        work.lscc_fifo_dc_fwft_fabric.verilog
+10       work.lscc_fifo_dc_hw_core.verilog
+11       work.lscc_fifo_dc_main.verilog
+12       work.lscc_fifo_fwft_fabric.verilog
+13       work.lscc_fifo_hw_core.verilog
+14       work.lscc_fifo_main.verilog
+15       work.lscc_fifo_mem_core.verilog
+16       work.lscc_fifo_mem_main.verilog
+17       work.lscc_fifo_soft_mem.verilog
+18       work.lscc_hard_fifo.verilog
+19       work.lscc_hard_fifo_dc.verilog
+20       work.lscc_lfmxo4_ram_dp.verilog
+21       work.lscc_lfmxo4_ram_dp_core.verilog
+22       work.lscc_lfmxo4_ram_dp_main.verilog
+23       work.lscc_lfmxo4_ram_dp_true.verilog
+24       work.lscc_lfmxo4_ram_dp_true_core.verilog
+25       work.lscc_lfmxo4_ram_dp_true_inst.verilog
+26       work.lscc_lfmxo4_ram_dp_true_main.verilog
+27       work.lscc_lfmxo4_ram_dq.verilog
+28       work.lscc_lfmxo4_ram_dq_core.verilog
+29       work.lscc_lfmxo4_ram_dq_inst.verilog
+30       work.lscc_lfmxo4_ram_dq_main.verilog
+31       work.lscc_lfmxo4_write_through.verilog
+32       work.lscc_lfxo4_ram_dp_true_addr_pipe.verilog
+33       work.lscc_lfxo4_ram_dp_true_read_mux.verilog
+34       work.lscc_mult_accumulate.verilog
+35       work.lscc_mult_add_sub.verilog
+36       work.lscc_mult_add_sub_sum.verilog
+37       work.lscc_multiplier.verilog
+38       work.lscc_multiplier_dsp.verilog
+39       work.lscc_multiplier_lut.verilog
+40       work.lscc_ram_dp.verilog
+41       work.lscc_ram_dp_core.verilog
+42       work.lscc_ram_dp_main.verilog
+43       work.lscc_ram_dp_true.verilog
+44       work.lscc_ram_dp_true_core.verilog
+45       work.lscc_ram_dp_true_inst.verilog
+46       work.lscc_ram_dp_true_main.verilog
+47       work.lscc_ram_dq.verilog
+48       work.lscc_ram_dq_core.verilog
+49       work.lscc_ram_dq_inst.verilog
+50       work.lscc_ram_dq_main.verilog
+51       work.lscc_reset_async.verilog
+52       work.lscc_rom.verilog
+53       work.lscc_rom_inst.verilog
+54       work.lscc_rom_inst_core.verilog
+55       work.lscc_shift_register.verilog
+56       work.lscc_soft_fifo.verilog
+57       work.lscc_soft_fifo_dc.verilog
+58       work.lscc_subtractor.verilog
+59       work.lscc_write_through.verilog
+60       work.mult18x18p48.verilog
+61       work.pmi_add.verilog
+62       work.pmi_addsub.verilog
+63       work.pmi_complex_mult.verilog
+64       work.pmi_counter.verilog
+65       work.pmi_distributed_dpram.verilog
+66       work.pmi_distributed_rom.verilog
+67       work.pmi_distributed_shift_reg.verilog
+68       work.pmi_distributed_spram.verilog
+69       work.pmi_fifo.verilog
+70       work.pmi_fifo_dc.verilog
+71       work.pmi_mac.verilog
+72       work.pmi_mult.verilog
+73       work.pmi_multaddsub.verilog
+74       work.pmi_multaddsubsum.verilog
+75       work.pmi_ram_dp.verilog
+76       work.pmi_ram_dp_be.verilog
+77       work.pmi_ram_dp_true.verilog
+78       work.pmi_ram_dq.verilog
+79       work.pmi_ram_dq_be.verilog
+80       work.pmi_rom.verilog
+81       work.pmi_sub.verilog
+82       work.rom_dy18.verilog
+83       work.rom_dy18_ipgen_lscc_rom.verilog
+84       work.rom_dy18_ipgen_lscc_rom_inst.verilog
+85       work.rom_dy18_ipgen_lscc_rom_inst_core.verilog
+86       work.rom_y36.verilog
+87       work.rom_y36_ipgen_lscc_rom.verilog
+88       work.rom_y36_ipgen_lscc_rom_inst.verilog
+89       work.rom_y36_ipgen_lscc_rom_inst_core.verilog
+90       work.sin_linear.verilog
+91       work.sincos_linear.verilog
+92       work.top_sin_linear.verilog

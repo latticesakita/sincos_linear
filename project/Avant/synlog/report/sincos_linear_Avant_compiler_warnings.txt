@@ -1,0 +1,21 @@
+@W: CL271 :"/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v":1972:16:1972:21|Pruning unused bits 3 to 0 of gen_bw_init.nf_usr_regval[15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CG360 :"/home/kanmei/src/sincos_linear/source/rom_y36/rtl/rom_y36.v":1959:11:1959:23|Removing wire one_err_det_o, as there is no assignment to it.
+@W: CG360 :"/home/kanmei/src/sincos_linear/source/rom_y36/rtl/rom_y36.v":1960:11:1960:23|Removing wire two_err_det_o, as there is no assignment to it.
+@W: CL318 :"/home/kanmei/src/sincos_linear/source/rom_y36/rtl/rom_y36.v":1959:11:1959:23|*Output one_err_det_o has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"/home/kanmei/src/sincos_linear/source/rom_y36/rtl/rom_y36.v":1960:11:1960:23|*Output two_err_det_o has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"/home/kanmei/src/sincos_linear/source/rom_y36/rtl/rom_y36.v":1959:11:1959:23|*Output one_err_det_o has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"/home/kanmei/src/sincos_linear/source/rom_y36/rtl/rom_y36.v":1960:11:1960:23|*Output two_err_det_o has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"/home/kanmei/src/sincos_linear/source/rom_y36/rtl/rom_y36.v":1959:11:1959:23|*Output one_err_det_o has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"/home/kanmei/src/sincos_linear/source/rom_y36/rtl/rom_y36.v":1960:11:1960:23|*Output two_err_det_o has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"/home/kanmei/src/sincos_linear/source/rom_y36/rtl/rom_y36.v":1959:11:1959:23|*Output one_err_det_o has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"/home/kanmei/src/sincos_linear/source/rom_y36/rtl/rom_y36.v":1960:11:1960:23|*Output two_err_det_o has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CG360 :"/home/kanmei/src/sincos_linear/source/rom_dy18/rtl/rom_dy18.v":1959:11:1959:23|Removing wire one_err_det_o, as there is no assignment to it.
+@W: CG360 :"/home/kanmei/src/sincos_linear/source/rom_dy18/rtl/rom_dy18.v":1960:11:1960:23|Removing wire two_err_det_o, as there is no assignment to it.
+@W: CL318 :"/home/kanmei/src/sincos_linear/source/rom_dy18/rtl/rom_dy18.v":1959:11:1959:23|*Output one_err_det_o has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"/home/kanmei/src/sincos_linear/source/rom_dy18/rtl/rom_dy18.v":1960:11:1960:23|*Output two_err_det_o has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"/home/kanmei/src/sincos_linear/source/rom_dy18/rtl/rom_dy18.v":1959:11:1959:23|*Output one_err_det_o has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"/home/kanmei/src/sincos_linear/source/rom_dy18/rtl/rom_dy18.v":1960:11:1960:23|*Output two_err_det_o has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL265 :"/home/kanmei/src/sincos_linear/source/sin_linear.v":80:0:80:5|Removing unused bit 0 of s2_quadrant[1:0]. Either assign all bits or reduce the width of the signal.
+@W: CL265 :"/home/kanmei/src/sincos_linear/source/sin_linear.v":80:0:80:5|Removing unused bit 0 of s3_quadrant[1:0]. Either assign all bits or reduce the width of the signal.
+@W: CL265 :"/home/kanmei/src/sincos_linear/source/sin_linear.v":42:0:42:5|Removing unused bit 0 of s1_quadrant[1:0]. Either assign all bits or reduce the width of the signal.
+

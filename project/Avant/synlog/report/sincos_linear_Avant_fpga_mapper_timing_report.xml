@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- *************************************************************************************
+FILE DESCRIPTION
+Max Top 5 critical clocks will be reported. For rest user needs to refer to Detailed report
+*******************************************************************************************-->
+<report_table display_priority="2" name="Timing Summary">
+<report_link name="Detailed report">
+<data>/home/kanmei/src/sincos_linear/project/Avant/synlog/sincos_linear_Avant_fpga_mapper.srr</data>
+<title>START OF TIMING REPORT</title>
+</report_link>
+<row>
+<data tcl_name="clock_name">Clock Name</data>
+<data tcl_name="req_freq">Req Freq</data>
+<data tcl_name="est_freq">Est Freq</data>
+<data tcl_name="slack">Slack</data>
+</row>
+<row>
+<data>gpll_ipgen_lscc_pll_Z1_layer0|clkout_clkop_o_inferred_clock</data>
+<data>200.0 MHz</data>
+<data>518.1 MHz</data>
+<data>3.070</data>
+</row>
+<row>
+<data>gpll_ipgen_lscc_pll_Z1_layer0|clkout_testclk_o_inferred_clock</data>
+<data>200.0 MHz</data>
+<data>419.6 MHz</data>
+<data>2.617</data>
+</row>
+<row>
+<data>System</data>
+<data>200.0 MHz</data>
+<data>1650.2 MHz</data>
+<data>4.394</data>
+</row>
+</report_table>

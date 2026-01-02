@@ -1,0 +1,71 @@
+i gpll_i.lscc_pll_inst.clkout_clkop_o_i
+m 0 0
+u 106 156
+p {t:gpll_i.lscc_pll_inst.gen_ext_outclkdiv\.u_pll.CLKOP}{t:gpll_i.lscc_pll_inst.clkout_clkop_o_inferred_clock.I[0]}{t:gpll_i.lscc_pll_inst.clkout_clkop_o_inferred_clock.OUT[0]}{p:gpll_i.lscc_pll_inst.clkout_clkop_o}{t:gpll_i.lscc_pll_inst.clkout_clkop_o}{p:gpll_i.clkop_o}{t:gpll_i.clkop_o}{t:valid_i_3[0].C}
+e ckid0_0 {t:valid_i_3[0].C} dffr
+c ckid0_0 {t:gpll_i.lscc_pll_inst.gen_ext_outclkdiv\.u_pll.CLKOP} PLLC Unsupported/too complex instance on clock path
+i gpll_i.lscc_pll_inst.clkout_testclk_o_i
+m 0 0
+u 13 27
+p {t:gpll_i.lscc_pll_inst.gen_ext_outclkdiv\.u_pll.CLKRES}{t:gpll_i.lscc_pll_inst.clkout_testclk_o_inferred_clock.I[0]}{t:gpll_i.lscc_pll_inst.clkout_testclk_o_inferred_clock.OUT[0]}{t:gpll_i.lscc_pll_inst.u_pll_init_bw.init_clk_i}{p:gpll_i.lscc_pll_inst.u_pll_init_bw.init_clk_i}{t:gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init\.bw_init_cs[4].C}
+e ckid0_1 {t:gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init\.bw_init_cs[4].C} dffr
+c ckid0_1 {t:gpll_i.lscc_pll_inst.gen_ext_outclkdiv\.u_pll.CLKRES} PLLC Unsupported/too complex instance on clock path
+i gpll_i.lscc_pll_inst.lmmi_ready_w
+m 0 0
+u 0 0
+i gpll_i.lscc_pll_inst.lmmi_rdata_o[0]
+m 0 0
+u 0 0
+i gpll_i.lscc_pll_inst.lmmi_rdata_o[1]
+m 0 0
+u 0 0
+i gpll_i.lscc_pll_inst.lmmi_rdata_o[2]
+m 0 0
+u 0 0
+i gpll_i.lscc_pll_inst.lmmi_rdata_o[3]
+m 0 0
+u 0 0
+i gpll_i.lscc_pll_inst.lmmi_rdata_o[4]
+m 0 0
+u 0 0
+i gpll_i.lscc_pll_inst.lmmi_rdata_o[5]
+m 0 0
+u 0 0
+i gpll_i.lscc_pll_inst.lmmi_rdata_o[6]
+m 0 0
+u 0 0
+i gpll_i.lscc_pll_inst.lmmi_rdata_o[7]
+m 0 0
+u 0 0
+i gpll_i.lscc_pll_inst.lmmi_rdata_o[8]
+m 0 0
+u 0 0
+i gpll_i.lscc_pll_inst.lmmi_rdata_o[9]
+m 0 0
+u 0 0
+i gpll_i.lscc_pll_inst.lmmi_rdata_o[10]
+m 0 0
+u 0 0
+i gpll_i.lscc_pll_inst.lmmi_rdata_o[11]
+m 0 0
+u 0 0
+i gpll_i.lscc_pll_inst.lmmi_rdata_o[12]
+m 0 0
+u 0 0
+i gpll_i.lscc_pll_inst.lmmi_rdata_o[13]
+m 0 0
+u 0 0
+i gpll_i.lscc_pll_inst.lmmi_rdata_o[14]
+m 0 0
+u 0 0
+i gpll_i.lscc_pll_inst.lmmi_rdata_o[15]
+m 0 0
+u 0 0
+i gpll_i.lscc_pll_inst.lmmi_rdata_valid_w
+m 0 0
+u 0 0
+i gpll_i.lscc_pll_inst.gen_ext_outclkdiv®un1_u_pll
+m 0 0
+u 0 0
+l 0 0 0 0 0 0
+r 0 0 0 0 0 0 0 0

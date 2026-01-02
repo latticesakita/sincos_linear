@@ -1,0 +1,500 @@
+<HTML>
+<HEAD>
+<TITLE>Map Report</TITLE>
+<link href="" rel="stylesheet" type="text/css" media="screen"/>
+<link href="" rel="stylesheet" type="text/css" media="print"/>
+<style type="text/css">
+#toc {
+  position: fixed;
+  right: 2px;
+  top: 2px;
+  padding: 2px 5px 2px 5px;
+  background-color:rgba(210,210,210,0.1);
+  border-style: solid;
+  border-color: rgba(192,192,192,0.8);
+  border-width:1px;
+}
+#toc_list {
+  display: none;
+  }
+</style>
+
+<script type="text/javascript">
+<!--
+function showTocList() {
+var a = document.getElementById("toc_list");
+a.style.display = "block";
+}
+
+function hideTocList() {
+var a = document.getElementById("toc_list");
+if (a)
+    a.style.display = "none";
+}
+
+//-->
+</script>
+
+</HEAD>
+
+<BODY>
+
+<DIV id="content" onclick="hideTocList()"><PRE>
+<A name="Mrp"></A>                         Lattice Mapping Report File
+
+Design:  top_sin_linear
+Family:  LAV-AT
+Device:  LAV-AT-E30ES
+Package: CBG484
+Performance Grade:  1
+
+Mapper:    version Radiant Software (64-bit) 2025.2.0.3.0
+Mapped on: Fri Jan  2 07:59:54 2026
+
+<A name="mrp_di"></A><B><U><big>Design Information</big></U></B>
+
+Command line:   map -i sincos_linear_Avant_syn.udb -o
+     sincos_linear_Avant_map.udb -mp sincos_linear_Avant.mrp -hierrpt -gui
+     -msgset /home/kanmei/src/sincos_linear/project/promote.xml
+
+<A name="mrp_ds"></A><B><U><big>Design Summary</big></U></B>
+
+   Number of registers:          88 out of 164259 (&lt;1%)
+      Number of SLICE         registers:   86 out of 163200 (&lt;1%)
+      Number of PIO Input     registers:    1 out of   353 (&lt;1%)
+      Number of PIO Output    registers:    1 out of   353 (&lt;1%)
+      Number of PIO Tri-State registers:    0 out of   353 (0%)
+   Number of LUT4s:              219 out of 163200 (&lt;1%)
+      Number used as logic LUT4s:              123
+      Number used as distributed RAM:           96 (6 per 16X4 or 32X2 RAM)
+      Number used as ripple logic:               0 (2 per CCU2)
+   Number of PIOs used/reserved:   71 out of   353 (20%)
+      Number of wide range IOs used/reserved:    4 out of   98 (4%)
+      Number of high performance IOs used/reserved:    0 out of  255 (0%)
+      Number of generic IOs used:   67
+                                 (either wide range or high performance)
+      Number of wide range IOs reserved:    4 (per sysConfig/prohibit
+                                                  constraint)
+      Number of IOs used:   67
+        Number used for single ended IO:   67
+        Number of pairs used for differential IO:    0
+        Number allocated to wide range IOs:    0 out of   98 (0%)
+        Number allocated to high performance IOs:    0 out of  255 (0%)
+        Number not allocated:   67
+                              (either wide range or high performance)
+   Number of IDDR/ODDR functions used:      0 out of   706 (0%)
+   Number of IOs using at least one DDR function: 0 (0 differential)
+   Minimum Number of 32K Block RAMs:      6 out of 400 (2%)
+   (PAR may use additional resources. Please refer to PAR report for final
+     resource utilization numbers)
+      Number of 32K-RAM:          6
+   Minimum Number of DSP Blocks:          1 out of 700 (&lt;1%)
+   (PAR may use additional resources. Please refer to PAR report for final
+     resource utilization numbers)
+      Number of MULTADDSUB18X18:  1
+   Number of PLLs:                1 out of 7 (14%)
+   Number of DDRDLLs:             0 out of 9 (0%)
+   Number of DLLDELs:             0 out of 28 (0%)
+   Number of DCSs:                0 out of 4 (0%)
+   Number of DCCs:                0 out of 216 (0%)
+   Number of ECLKDIVs:            0 out of 25 (0%)
+   Number of ECLKSYNCs:           0 out of 30 (0%)
+   Number of DDRPHYs:             0 out of 1 (0%)
+   Number of Oscillator:          0 out of 1 (0%)
+   Number of GSR:                 0 out of 1 (0%)
+   Number of ATM:                 0 out of 1 (0%)
+   Number of TSALL:               0 out of 1 (0%)
+   Number of JTAG:                0 out of 1 (0%)
+   Number of LMMI Slave:          0 out of 1 (0%)
+   Number of Config WDT:          0 out of 1 (0%)
+   Number of Clocks:  4
+      Net clk: 93 loads, 93 rising, 0 falling (Driver: Pin
+     gpll_i.lscc_pll_inst.gen_ext_outclkdiv.u_pll.PLLC_MODE_inst/CLKOP)
+      Net gpll_i.lscc_pll_inst.clkout_testclk_o: 18 loads, 18 rising, 0 falling
+     (Driver: Pin
+     gpll_i.lscc_pll_inst.gen_ext_outclkdiv.u_pll.PLLC_MODE_inst/CLKRES)
+      Net gpll_i.lscc_pll_inst.lmmi_clk_w: 1 loads, 1 rising, 0 falling (Driver:
+     Pin gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.u_pll_lmmi_mux.u_sw_lmmi
+     _mux.LMMICLK_OUT_cZ/Z)
+      Net clk50_c: 1 loads, 1 rising, 0 falling (Driver: Port clk50)
+   Number of Clock Enables:  3
+      Net gpll_i.lscc_pll_inst.u_pll_init_bw.bw_init_cs_0_a2: 1 loads, 1 SLICEs
+      Net gpll_i.lscc_pll_inst.u_pll_init_bw.N_78_i: 1 loads, 1 SLICEs
+      Net gpll_i.lscc_pll_inst.u_pll_init_bw.bw_init_cs_RNO[4]: 1 loads, 1
+     SLICEs
+   Number of LSRs:  4
+      Net VCC: 16 loads, 16 SLICEs
+      Net gpll_i.lscc_pll_inst.u_pll_init_bw.rst_n_reg: 15 loads, 15 SLICEs
+      Net gpll_i.lscc_pll_inst.u_pll_init_bw.resetn: 75 loads, 66 SLICEs
+      Net gpll_i.lscc_pll_inst.u_pll_init_bw.rst_n_sync_i: 1 loads, 1 SLICEs
+   Top 10 highest fanout non-clock nets:
+      Net gpll_i.lscc_pll_inst.u_pll_init_bw.resetn: 75 loads
+      Net CO0: 50 loads
+      Net tmp1[1]: 49 loads
+      Net CO0_i: 33 loads
+      Net G_3: 33 loads
+      Net tmp2[1]: 33 loads
+      Net dut.sin_linear_i.s3_quadrant[1]: 32 loads
+      Net G_75: 31 loads
+      Net phase_CR31_ram_29: 31 loads
+      Net VCC: 21 loads
+
+   Number of warnings:  1
+   Number of criticals: 3
+   Number of errors:    0
+
+<A name="mrp_dwe"></A><B><U><big>Design Errors/Criticals/Warnings</big></U></B>
+
+CRITICAL &lt;52351080&gt; - map: SysConfig constraint CONFIGIO_VOLTAGE_BANK1 is not
+     specified. Please set it to 1.2, 1.8, 2.5 or 3.3.
+CRITICAL &lt;52351080&gt; - map: SysConfig constraint CONFIGIO_VOLTAGE_BANK2 is not
+     specified. Please set it to 1.2, 1.8, 2.5 or 3.3.
+CRITICAL &lt;52351079&gt; - map: There is no set_clock_uncertainty constraint on the
+     PLL clock output &apos;CLKOP&apos; of instance
+     &apos;gpll_i/lscc_pll_inst/gen_ext_outclkdiv.u_pll.PLLC_MODE_inst&apos;. Please see
+     FPGA-AN-02059-1.0 - Lattice Radiant Timing Constraints Methodology for
+     further details.
+WARNING &lt;51011071&gt; - map: Remove invalid constraint &apos;set_false_path -to
+     [get_pins {gpll_i/lscc_pll_inst/u_pll_init_bw/gen_bw_init.u_rst_n_sync/sync
+     _reg[1]/CD gpll_i/lscc_pll_inst/u_pll_init_bw/gen_bw_init.u_rst_n_sync/sync
+     _reg_Z[0]/CD}]&apos; because the object(s) is(are) either not found, or tied to
+     a constant.
+
+<A name="mrp_ioa"></A><B><U><big>IO (PIO) Attributes</big></U></B>
+
++---------------------+-----------+-----------+-------+-------+-----------+
+| IO Name             | Direction | Levelmode |  IO   |  IO   | Special   |
+|                     |           |  IO_TYPE  |  REG  |  DDR  | IO Buffer |
++---------------------+-----------+-----------+-------+-------+-----------+
+| clk50               | INPUT     |           |       |       |           |
++---------------------+-----------+-----------+-------+-------+-----------+
+| phase_i[0]          | INPUT     |           |       |       |           |
++---------------------+-----------+-----------+-------+-------+-----------+
+| phase_i[1]          | INPUT     |           |       |       |           |
++---------------------+-----------+-----------+-------+-------+-----------+
+| phase_i[2]          | INPUT     |           |       |       |           |
++---------------------+-----------+-----------+-------+-------+-----------+
+| phase_i[3]          | INPUT     |           |       |       |           |
++---------------------+-----------+-----------+-------+-------+-----------+
+| phase_i[4]          | INPUT     |           |       |       |           |
++---------------------+-----------+-----------+-------+-------+-----------+
+| phase_i[5]          | INPUT     |           |       |       |           |
++---------------------+-----------+-----------+-------+-------+-----------+
+| phase_i[6]          | INPUT     |           |       |       |           |
++---------------------+-----------+-----------+-------+-------+-----------+
+| phase_i[7]          | INPUT     |           |       |       |           |
++---------------------+-----------+-----------+-------+-------+-----------+
+| phase_i[8]          | INPUT     |           |       |       |           |
++---------------------+-----------+-----------+-------+-------+-----------+
+| phase_i[9]          | INPUT     |           |       |       |           |
++---------------------+-----------+-----------+-------+-------+-----------+
+| phase_i[10]         | INPUT     |           |       |       |           |
++---------------------+-----------+-----------+-------+-------+-----------+
+| phase_i[11]         | INPUT     |           |       |       |           |
++---------------------+-----------+-----------+-------+-------+-----------+
+| phase_i[12]         | INPUT     |           |       |       |           |
++---------------------+-----------+-----------+-------+-------+-----------+
+| phase_i[13]         | INPUT     |           |       |       |           |
++---------------------+-----------+-----------+-------+-------+-----------+
+| phase_i[14]         | INPUT     |           |       |       |           |
++---------------------+-----------+-----------+-------+-------+-----------+
+| phase_i[15]         | INPUT     |           |       |       |           |
++---------------------+-----------+-----------+-------+-------+-----------+
+| phase_i[16]         | INPUT     |           |       |       |           |
++---------------------+-----------+-----------+-------+-------+-----------+
+| phase_i[17]         | INPUT     |           |       |       |           |
++---------------------+-----------+-----------+-------+-------+-----------+
+| phase_i[18]         | INPUT     |           |       |       |           |
++---------------------+-----------+-----------+-------+-------+-----------+
+| phase_i[19]         | INPUT     |           |       |       |           |
++---------------------+-----------+-----------+-------+-------+-----------+
+| phase_i[20]         | INPUT     |           |       |       |           |
++---------------------+-----------+-----------+-------+-------+-----------+
+| phase_i[21]         | INPUT     |           |       |       |           |
++---------------------+-----------+-----------+-------+-------+-----------+
+| phase_i[22]         | INPUT     |           |       |       |           |
++---------------------+-----------+-----------+-------+-------+-----------+
+| phase_i[23]         | INPUT     |           |       |       |           |
++---------------------+-----------+-----------+-------+-------+-----------+
+| phase_i[24]         | INPUT     |           |       |       |           |
++---------------------+-----------+-----------+-------+-------+-----------+
+| phase_i[25]         | INPUT     |           |       |       |           |
++---------------------+-----------+-----------+-------+-------+-----------+
+| phase_i[26]         | INPUT     |           |       |       |           |
++---------------------+-----------+-----------+-------+-------+-----------+
+| phase_i[27]         | INPUT     |           |       |       |           |
++---------------------+-----------+-----------+-------+-------+-----------+
+| phase_i[28]         | INPUT     |           |       |       |           |
++---------------------+-----------+-----------+-------+-------+-----------+
+| phase_i[29]         | INPUT     |           |       |       |           |
++---------------------+-----------+-----------+-------+-------+-----------+
+| phase_i[30]         | INPUT     |           |       |       |           |
++---------------------+-----------+-----------+-------+-------+-----------+
+| phase_i[31]         | INPUT     |           |       |       |           |
++---------------------+-----------+-----------+-------+-------+-----------+
+| valid_i             | INPUT     |           | I     |       |           |
++---------------------+-----------+-----------+-------+-------+-----------+
+| result_o[0]         | OUTPUT    |           |       |       |           |
++---------------------+-----------+-----------+-------+-------+-----------+
+| result_o[1]         | OUTPUT    |           |       |       |           |
++---------------------+-----------+-----------+-------+-------+-----------+
+| result_o[2]         | OUTPUT    |           |       |       |           |
++---------------------+-----------+-----------+-------+-------+-----------+
+| result_o[3]         | OUTPUT    |           |       |       |           |
++---------------------+-----------+-----------+-------+-------+-----------+
+| result_o[4]         | OUTPUT    |           |       |       |           |
++---------------------+-----------+-----------+-------+-------+-----------+
+| result_o[5]         | OUTPUT    |           |       |       |           |
++---------------------+-----------+-----------+-------+-------+-----------+
+| result_o[6]         | OUTPUT    |           |       |       |           |
++---------------------+-----------+-----------+-------+-------+-----------+
+| result_o[7]         | OUTPUT    |           |       |       |           |
++---------------------+-----------+-----------+-------+-------+-----------+
+| result_o[8]         | OUTPUT    |           |       |       |           |
++---------------------+-----------+-----------+-------+-------+-----------+
+| result_o[9]         | OUTPUT    |           |       |       |           |
++---------------------+-----------+-----------+-------+-------+-----------+
+| result_o[10]        | OUTPUT    |           |       |       |           |
++---------------------+-----------+-----------+-------+-------+-----------+
+| result_o[11]        | OUTPUT    |           |       |       |           |
++---------------------+-----------+-----------+-------+-------+-----------+
+| result_o[12]        | OUTPUT    |           |       |       |           |
++---------------------+-----------+-----------+-------+-------+-----------+
+| result_o[13]        | OUTPUT    |           |       |       |           |
++---------------------+-----------+-----------+-------+-------+-----------+
+| result_o[14]        | OUTPUT    |           |       |       |           |
++---------------------+-----------+-----------+-------+-------+-----------+
+| result_o[15]        | OUTPUT    |           |       |       |           |
++---------------------+-----------+-----------+-------+-------+-----------+
+| result_o[16]        | OUTPUT    |           |       |       |           |
++---------------------+-----------+-----------+-------+-------+-----------+
+| result_o[17]        | OUTPUT    |           |       |       |           |
++---------------------+-----------+-----------+-------+-------+-----------+
+| result_o[18]        | OUTPUT    |           |       |       |           |
++---------------------+-----------+-----------+-------+-------+-----------+
+| result_o[19]        | OUTPUT    |           |       |       |           |
++---------------------+-----------+-----------+-------+-------+-----------+
+| result_o[20]        | OUTPUT    |           |       |       |           |
++---------------------+-----------+-----------+-------+-------+-----------+
+| result_o[21]        | OUTPUT    |           |       |       |           |
++---------------------+-----------+-----------+-------+-------+-----------+
+| result_o[22]        | OUTPUT    |           |       |       |           |
++---------------------+-----------+-----------+-------+-------+-----------+
+| result_o[23]        | OUTPUT    |           |       |       |           |
++---------------------+-----------+-----------+-------+-------+-----------+
+| result_o[24]        | OUTPUT    |           |       |       |           |
++---------------------+-----------+-----------+-------+-------+-----------+
+| result_o[25]        | OUTPUT    |           |       |       |           |
++---------------------+-----------+-----------+-------+-------+-----------+
+| result_o[26]        | OUTPUT    |           |       |       |           |
++---------------------+-----------+-----------+-------+-------+-----------+
+| result_o[27]        | OUTPUT    |           |       |       |           |
++---------------------+-----------+-----------+-------+-------+-----------+
+| result_o[28]        | OUTPUT    |           |       |       |           |
++---------------------+-----------+-----------+-------+-------+-----------+
+| result_o[29]        | OUTPUT    |           |       |       |           |
++---------------------+-----------+-----------+-------+-------+-----------+
+| result_o[30]        | OUTPUT    |           |       |       |           |
++---------------------+-----------+-----------+-------+-------+-----------+
+| result_o[31]        | OUTPUT    |           |       |       |           |
++---------------------+-----------+-----------+-------+-------+-----------+
+| valid_o             | OUTPUT    |           | O     |       |           |
++---------------------+-----------+-----------+-------+-------+-----------+
+
+<A name="mrp_rm"></A><B><U><big>Removed logic</big></U></B>
+
+Block GSR_INST undriven or does not drive anything - clipped.
+Block GND_cZ was optimized away.
+Block gpll_i/lscc_pll_inst/u_pll_init_bw/gen_bw_init.u_pll_lmmi_mux/u_sw_lmmi_mu
+     x.LMMIOFFSET_FIP_RNISDN9G[2] was optimized away.
+Block gpll_i/lscc_pll_inst/u_pll_init_bw/usr_pll_lock_RNIQ7SO5 was optimized
+     away.
+Block gpll_i/lscc_pll_inst/u_pll_init_bw/gen_bw_init.rst_n_reg_RNI7HB8 was
+     optimized away.
+Block gpll_i/lscc_pll_inst/u_pll_init_bw/gen_bw_init.u_pll_lmmi_mux/u_sw_lmmi_mu
+     x.LMMIWDATA_FIP_RNIOBV7D[15] was optimized away.
+Block gpll_i/lscc_pll_inst/u_pll_init_bw/gen_bw_init.u_pll_lmmi_mux/u_sw_lmmi_mu
+     x.LMMIWDATA_FIP_RNIM9V7D[14] was optimized away.
+Block gpll_i/lscc_pll_inst/u_pll_init_bw/gen_bw_init.u_pll_lmmi_mux/u_sw_lmmi_mu
+     x.LMMIWDATA_FIP_RNIK7V7D[13] was optimized away.
+Block gpll_i/lscc_pll_inst/u_pll_init_bw/gen_bw_init.u_pll_lmmi_mux/u_sw_lmmi_mu
+     x.LMMIWDATA_FIP_RNII5V7D[12] was optimized away.
+Block gpll_i/lscc_pll_inst/u_pll_init_bw/gen_bw_init.u_pll_lmmi_mux/u_sw_lmmi_mu
+     x.LMMIWDATA_FIP_RNIG3V7D[11] was optimized away.
+Block gpll_i/lscc_pll_inst/u_pll_init_bw/gen_bw_init.u_pll_lmmi_mux/u_sw_lmmi_mu
+     x.LMMIWDATA_FIP_RNIE1V7D[10] was optimized away.
+Block gpll_i/lscc_pll_inst/u_pll_init_bw/gen_bw_init.u_pll_lmmi_mux/u_sw_lmmi_mu
+     x.LMMIWDATA_FIP_RNIUOTHG[9] was optimized away.
+Block gpll_i/lscc_pll_inst/u_pll_init_bw/gen_bw_init.u_pll_lmmi_mux/u_sw_lmmi_mu
+     x.LMMIWDATA_FIP_RNISMTHG[8] was optimized away.
+Block gpll_i/lscc_pll_inst/u_pll_init_bw/gen_bw_init.u_pll_lmmi_mux/u_sw_lmmi_mu
+     x.LMMIWDATA_FIP_RNIQKTHG[7] was optimized away.
+Block gpll_i/lscc_pll_inst/u_pll_init_bw/gen_bw_init.u_pll_lmmi_mux/u_sw_lmmi_mu
+     x.LMMIWDATA_FIP_RNIMGTHG[5] was optimized away.
+Block gpll_i/lscc_pll_inst/u_pll_init_bw/gen_bw_init.u_pll_lmmi_mux/u_sw_lmmi_mu
+     x.LMMIOFFSET_FIP_RNI0IN9G[4] was optimized away.
+Block gpll_i/lscc_pll_inst/u_pll_init_bw/gen_bw_init.u_pll_lmmi_mux/u_sw_lmmi_mu
+     x.LMMIOFFSET_FIP_RNIUFN9G[3] was optimized away.
+Block gpll_i/lscc_pll_inst/u_pll_init_bw/gen_bw_init.u_pll_lmmi_mux/u_sw_lmmi_mu
+     x.LMMIOFFSET_FIP_RNIQBN9G[1] was optimized away.
+Block gpll_i/lscc_pll_inst/u_pll_init_bw/gen_bw_init.u_pll_lmmi_mux/u_sw_lmmi_mu
+     x.LMMIOFFSET_FIP_RNIO9N9G[0] was optimized away.
+Block gpll_i/lscc_pll_inst/u_pll_init_bw/gen_bw_init.u_pll_lmmi_mux/u_sw_lmmi_mu
+     x.LMMIRESET_OUT_N_cZ was optimized away.
+
+<A name="mrp_pll"></A><B><U><big>PLL Summary</big></U></B>
+
+PLL 1:                                 Pin/Node Value
+  PLL Instance Name:                            gpll_i/lscc_pll_inst/gen_ext_out
+       clkdiv.u_pll.PLLC_MODE_inst
+  Input Reference Clock:               PIN      clk50_c
+  Output Clock(P):                     NODE     clk
+  Output Clock(S):                              NONE
+  Output Clock(S2):                             NONE
+  Output Clock(S3):                             NONE
+  Output Clock(S4):                             NONE
+  Output Clock(S5):                             NONE
+  Output Clock(PHY):                            NONE
+  Feedback Signal:                              NONE
+  PLL LOCK signal:                     NODE     gpll_i.lscc_pll_inst.pll_lock
+  CLKI Divider:                                 1
+  CLKFB Divider:                                78
+  CLKOP Divider:                                13
+  CLKOP CPHASE:                                 13
+  CLKOP FPHASE:                                 1
+  CLKOS Divider:                                1
+  CLKOS CPHASE:                                 1
+  CLKOS FPHASE:                                 1
+  CLKOS2 Divider:                               1
+  CLKOS2 CPHASE:                                1
+  CLKOS2 FPHASE:                                1
+  CLKOS3 Divider:                               1
+  CLKOS3 CPHASE:                                1
+  CLKOS3 FPHASE:                                1
+  CLKOS4 Divider:                               1
+  CLKOS4 CPHASE:                                1
+  CLKOS4 FPHASE:                                1
+  CLKOS5 Divider:                               1
+  CLKOS5 CPHASE:                                1
+  CLKOS5 FPHASE:                                1
+  CLKPHY Divider:                               1
+  CLKPHY FPHASE:                                1
+
+<A name="mrp_asic"></A><B><U><big>ASIC Components</big></U></B>
+
+Instance Name: gpll_i/lscc_pll_inst/gen_ext_outclkdiv.u_pll.PLLC_MODE_inst
+         Type: PLL_CORE
+Instance Name: dut/sin_linear_i/rom_y0_i/lscc_rom_inst/u_rom/PRIM_MODE.xADDR[0].
+     xDATA[2].mem_file.mem0/AP6.SP32K.sp32k.SP32K_MODE_inst
+         Type: EBR_CORE
+Instance Name: dut/sin_linear_i/rom_y0_i/lscc_rom_inst/u_rom/PRIM_MODE.xADDR[0].
+     xDATA[1].mem_file.mem0/AP6.SP32K.sp32k.SP32K_MODE_inst
+         Type: EBR_CORE
+Instance Name: dut/sin_linear_i/rom_y0_i/lscc_rom_inst/u_rom/PRIM_MODE.xADDR[0].
+     xDATA[0].mem_file.mem0/AP6.SP32K.sp32k.SP32K_MODE_inst
+         Type: EBR_CORE
+Instance Name: dut/sin_linear_i/rom_y0_i/lscc_rom_inst/u_rom/PRIM_MODE.xADDR[0].
+     xDATA[3].mem_file.mem0/AP6.SP32K.sp32k.SP32K_MODE_inst
+         Type: EBR_CORE
+Instance Name: dut/sin_linear_i/rom_dy_i/lscc_rom_inst/u_rom/PRIM_MODE.xADDR[0].
+     xDATA[1].mem_file.mem0/AP6.SP32K.sp32k.SP32K_MODE_inst
+         Type: EBR_CORE
+Instance Name: dut/sin_linear_i/rom_dy_i/lscc_rom_inst/u_rom/PRIM_MODE.xADDR[0].
+     xDATA[0].mem_file.mem0/AP6.SP32K.sp32k.SP32K_MODE_inst
+         Type: EBR_CORE
+Instance Name:
+     dut/sin_linear_i/mult18x18p48_i/multaddsub_m0.MULTADDSUB18X18A_MODE_inst
+         Type: DSP_CORE
+
+<A name="mrp_consum"></A><B><U><big>Constraint Summary</big></U></B>
+
+   Total number of constraints: 15
+   Total number of constraints dropped: 1
+   Dropped constraint is:
+     set_false_path -to [get_pins {gpll_i/lscc_pll_inst/u_pll_init_bw/gen_bw_ini
+     t.u_rst_n_sync/sync_reg[1]/CD gpll_i/lscc_pll_inst/u_pll_init_bw/gen_bw_ini
+     t.u_rst_n_sync/sync_reg_Z[0]/CD}]
+
+<A name="mrp_runtime"></A><B><U><big>Run Time and Memory Usage</big></U></B>
+
+   Total CPU Time: 6 secs
+   Total REAL Time: 6 secs
+   Peak Memory Usage: 2293 MB
+Checksum -- map: 5dc066cbe8a2753dc50f16ec3288302b4e456f1
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995
+     AT&amp;T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent
+     Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems
+     All rights reserved.
+Copyright (c) 2002-2025 Lattice Semiconductor
+     Corporation,  All rights reserved.
+</PRE></DIV>
+<DIV id="toc" class="radiant"><span onmousemove="showTocList()">Contents</span>
+<UL id="toc_list">
+<LI><A href=#mrp_di>Design Information</A></LI>
+<LI><A href=#mrp_ds>Design Summary</A></LI>
+<LI><A href=#mrp_dwe>Design Errors/Criticals/Warnings</A></LI>
+<LI><A href=#mrp_ioa>IO (PIO) Attributes</A></LI>
+<LI><A href=#mrp_rm>Removed logic</A></LI>
+<LI><A href=#mrp_pll>PLL Summary</A></LI>
+<LI><A href=#mrp_asic>ASIC Components</A></LI>
+<LI><A href=#mrp_consum>Constraint Summary</A></LI>
+<LI><A href=#mrp_runtime>Run Time and Memory Usage</A></LI>
+</UL>
+</DIV>
+
+<button id="back_to_top" class="radiant" onclick="scrollToTop()">&lt;</button>
+<script type="text/javascript">
+<!--
+var scrollStep = 0;
+function scrollToTop(){
+  var funScroll = function() {
+    var top = document.body.scrollTop;
+    if (top == 0) {
+      scrollStep = 0;
+      return;
+    }
+    if (scrollStep == 0)
+      scrollStep = top/20 + 1;
+    top -= scrollStep;
+    if (top < 0)
+      top = 0;
+    document.body.scrollTop = top;
+    requestAnimationFrame(funScroll);
+  };
+  funScroll();
+}
+
+window.addEventListener('scroll', function(e) {
+  var backToTop = document.getElementById('back_to_top')
+  if (document.body.scrollTop > 0) {
+    backToTop.style.display = 'block';
+  } else {	backToTop.style.display = 'none'  }});
+
+//-->
+</script>
+
+<style type="text/css">
+#back_to_top {
+  bottom:20px; right:20px;
+  width:30px; height:30px;
+  font-size: 20px;
+  padding: 2px 5px 2px 5px;
+  position:fixed;
+  background-color:rgba(210,210,210,0.1);
+  border-style: solid;
+  border-color: rgba(192,192,192,0.8);
+  border-width:1px;
+  display:none;
+  -webkit-transform: rotate(90deg);
+  -webkit-transform-origin:50% 50%;
+}
+#back_to_top:focus {
+  outline-width:0px;
+}
+</style>
+
+</BODY>
+

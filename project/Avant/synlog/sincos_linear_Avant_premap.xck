@@ -1,0 +1,2 @@
+ckid0_0:@|S:gpll_i.lscc_pll_inst.gen_ext_outclkdiv\.u_pll.CLKOP@|E:valid_i_3[0]@|F:@syn_dgcc_clockid0_0==1@|M:ClockId_0_0
+ckid0_1:@|S:gpll_i.lscc_pll_inst.gen_ext_outclkdiv\.u_pll.CLKRES@|E:gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init\.bw_init_cs[4]@|F:@syn_dgcc_clockid0_1==1@|M:ClockId_0_1

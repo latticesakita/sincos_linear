@@ -1,0 +1,17 @@
+@P:  Worst Slack : 2.617
+@P:  gpll_ipgen_lscc_pll_Z1_layer0|clkout_clkop_o_inferred_clock - Estimated Frequency : 518.1 MHz
+@P:  gpll_ipgen_lscc_pll_Z1_layer0|clkout_clkop_o_inferred_clock - Requested Frequency : 200.0 MHz
+@P:  gpll_ipgen_lscc_pll_Z1_layer0|clkout_clkop_o_inferred_clock - Estimated Period : 1.930
+@P:  gpll_ipgen_lscc_pll_Z1_layer0|clkout_clkop_o_inferred_clock - Requested Period : 5.000
+@P:  gpll_ipgen_lscc_pll_Z1_layer0|clkout_clkop_o_inferred_clock - Slack : 3.070
+@P:  gpll_ipgen_lscc_pll_Z1_layer0|clkout_testclk_o_inferred_clock - Estimated Frequency : 419.6 MHz
+@P:  gpll_ipgen_lscc_pll_Z1_layer0|clkout_testclk_o_inferred_clock - Requested Frequency : 200.0 MHz
+@P:  gpll_ipgen_lscc_pll_Z1_layer0|clkout_testclk_o_inferred_clock - Estimated Period : 2.383
+@P:  gpll_ipgen_lscc_pll_Z1_layer0|clkout_testclk_o_inferred_clock - Requested Period : 5.000
+@P:  gpll_ipgen_lscc_pll_Z1_layer0|clkout_testclk_o_inferred_clock - Slack : 2.617
+@P:  System - Estimated Frequency : 1650.2 MHz
+@P:  System - Requested Frequency : 200.0 MHz
+@P:  System - Estimated Period : 0.606
+@P:  System - Requested Period : 5.000
+@P:  System - Slack : 4.394
+@P:  CPU Time : 0h:00m:01s

@@ -1,0 +1,122 @@
+<HTML>
+<HEAD>
+<TITLE>Lattice TCL Log</TITLE>
+<link href="file:////usr/local/lscc/radiant/2025.2/data/theme/css/light/report.css" rel="stylesheet" type="text/css" media="screen"/>
+<link href="file:////usr/local/lscc/radiant/2025.2/data/theme/css/print/report.css" rel="stylesheet" type="text/css" media="print"/>
+<style type="text/css">
+#toc {
+  position: fixed;
+  right: 2px;
+  top: 2px;
+  padding: 2px 5px 2px 5px;
+  background-color:rgba(210,210,210,0.1);
+  border-style: solid;
+  border-color: rgba(192,192,192,0.8);
+  border-width:1px;
+}
+#toc_list {
+  display: none;
+  }
+</style>
+
+<script type="text/javascript">
+<!--
+function showTocList() {
+var a = document.getElementById("toc_list");
+a.style.display = "block";
+}
+
+function hideTocList() {
+var a = document.getElementById("toc_list");
+if (a)
+    a.style.display = "none";
+}
+
+//-->
+</script>
+
+</HEAD>
+
+<BODY>
+
+<DIV id="content" onclick="hideTocList()"><PRE>
+<A name="pn260102171207"></A><B><U><big>pn260102171207</big></U></B>
+#Start recording tcl command: 1/2/2026 07:47:05
+#Project Location: /home/kanmei/src/sincos_linear/project; Project name: sincos_linear
+prj_create -name "sincos_linear" -impl "Avant" -dev LAV-AT-E30-1CBG484C -performance "1" -synthesis "synplify"
+prj_add_source "/home/kanmei/src/sincos_linear/source/mult18x18p48.v" "/home/kanmei/src/sincos_linear/source/sincos_linear.v" "/home/kanmei/src/sincos_linear/source/sin_linear.v" "/home/kanmei/src/sincos_linear/source/tb_sin_linear.v" "/home/kanmei/src/sincos_linear/source/top_sin_linear.v" "/home/kanmei/src/sincos_linear/source/rom_y36/rom_y36.ipx" "/home/kanmei/src/sincos_linear/source/rom_dy18/rom_dy18.ipx"
+prj_save 
+prj_syn_sim_source -src "/home/kanmei/src/sincos_linear/source/tb_sin_linear.v" SimulateOnly
+prj_run Synthesis -impl Avant
+prj_run PAR -impl Avant
+prj_set_impl_opt -impl "Avant" {top} {top_sin_linear}
+prj_set_strategy_value -strategy Strategy1 par_core_number=16 par_place_iterator=16
+prj_run PAR -impl Avant
+prj_add_source "/home/kanmei/src/sincos_linear/source/gpll/gpll.ipx"
+prj_run PAR -impl Avant
+prj_add_source "/home/kanmei/src/sincos_linear//tb/tb.spf"
+#Stop recording: 1/2/2026 17:12:07
+
+
+
+</PRE></DIV>
+
+<DIV id="toc" class="radiant"><span onmousemove="showTocList()">Contents</span>
+<UL id="toc_list">
+<LI><A href=#pn260102171207>pn260102171207</A></LI>
+</UL>
+</DIV>
+
+<button id="back_to_top" class="radiant" onclick="scrollToTop()">&lt;</button>
+<script type="text/javascript">
+<!--
+var scrollStep = 0;
+function scrollToTop(){
+  var funScroll = function() {
+    var top = document.body.scrollTop;
+    if (top == 0) {
+      scrollStep = 0;
+      return;
+    }
+    if (scrollStep == 0)
+      scrollStep = top/20 + 1;
+    top -= scrollStep;
+    if (top < 0)
+      top = 0;
+    document.body.scrollTop = top;
+    requestAnimationFrame(funScroll);
+  };
+  funScroll();
+}
+
+window.addEventListener('scroll', function(e) {
+  var backToTop = document.getElementById('back_to_top')
+  if (document.body.scrollTop > 0) {
+    backToTop.style.display = 'block';
+  } else {	backToTop.style.display = 'none'  }});
+
+//-->
+</script>
+
+<style type="text/css">
+#back_to_top {
+  bottom:20px; right:20px;
+  width:30px; height:30px;
+  font-size: 20px;
+  padding: 2px 5px 2px 5px;
+  position:fixed;
+  background-color:rgba(210,210,210,0.1);
+  border-style: solid;
+  border-color: rgba(192,192,192,0.8);
+  border-width:1px;
+  display:none;
+  -webkit-transform: rotate(90deg);
+  -webkit-transform-origin:50% 50%;
+}
+#back_to_top:focus {
+  outline-width:0px;
+}
+</style>
+
+</BODY>
+
