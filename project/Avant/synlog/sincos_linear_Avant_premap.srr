@@ -1,4 +1,4 @@
-# Fri Jan  2 07:59:38 2026
+# Fri Jan  2 20:18:43 2026
 
 
 Copyright (C) 1994-2025 Synopsys, Inc.
@@ -97,7 +97,7 @@ Level     Clock                                                             Freq
 ----------------------------------------------------------------------------------------------------------------------------------------------------
 0 -       System                                                            200.0 MHz     5.000         system       system_clkgroup           0    
                                                                                                                                                     
-0 -       gpll_ipgen_lscc_pll_Z1_layer0|clkout_clkop_o_inferred_clock       200.0 MHz     5.000         inferred     Inferred_clkgroup_0_1     216  
+0 -       gpll_ipgen_lscc_pll_Z1_layer0|clkout_clkop_o_inferred_clock       200.0 MHz     5.000         inferred     Inferred_clkgroup_0_1     212  
                                                                                                                                                     
 0 -       gpll_ipgen_lscc_pll_Z1_layer0|clkout_testclk_o_inferred_clock     200.0 MHz     5.000         inferred     Inferred_clkgroup_0_2     27   
 ====================================================================================================================================================
@@ -112,12 +112,12 @@ Clock                                                             Load      Pin 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 System                                                            0         -                                                              -                                                                  -                 -            
                                                                                                                                                                                                                                              
-gpll_ipgen_lscc_pll_Z1_layer0|clkout_clkop_o_inferred_clock       216       gpll_i.lscc_pll_inst.gen_ext_outclkdiv\.u_pll.CLKOP(PLLC)      G_1.C                                                              -                 -            
+gpll_ipgen_lscc_pll_Z1_layer0|clkout_clkop_o_inferred_clock       212       gpll_i.lscc_pll_inst.gen_ext_outclkdiv\.u_pll.CLKOP(PLLC)      G_1.C                                                              -                 -            
                                                                                                                                                                                                                                              
 gpll_ipgen_lscc_pll_Z1_layer0|clkout_testclk_o_inferred_clock     27        gpll_i.lscc_pll_inst.gen_ext_outclkdiv\.u_pll.CLKRES(PLLC)     gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init\.pll_lock_reg.C     -                 -            
 =============================================================================================================================================================================================================================================
 
-@W: MT530 :"/home/kanmei/src/sincos_linear/source/rom_y36/rtl/rom_y36.v":2974:174:2974:178|Found inferred clock gpll_ipgen_lscc_pll_Z1_layer0|clkout_clkop_o_inferred_clock which controls 216 sequential elements including dut.sin_linear_i.rom_y0_i.lscc_rom_inst.u_rom.PRIM_MODE\.xADDR\[0\]\.xDATA\[2\]\.mem_file\.mem0.AP6\.SP32K\.sp32k. This clock has no specified timing constraint which may adversely impact design performance. 
+@W: MT530 :"/home/kanmei/src/sincos_linear/source/rom_y36/rtl/rom_y36.v":2974:174:2974:178|Found inferred clock gpll_ipgen_lscc_pll_Z1_layer0|clkout_clkop_o_inferred_clock which controls 212 sequential elements including dut.sin_linear_i.rom_y0_i.lscc_rom_inst.u_rom.PRIM_MODE\.xADDR\[0\]\.xDATA\[2\]\.mem_file\.mem0.AP6\.SP32K\.sp32k. This clock has no specified timing constraint which may adversely impact design performance. 
 @W: MT530 :"/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v":2285:4:2285:9|Found inferred clock gpll_ipgen_lscc_pll_Z1_layer0|clkout_testclk_o_inferred_clock which controls 27 sequential elements including gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init\.u_rst_n_sync.sync_reg[1:0]. This clock has no specified timing constraint which may adversely impact design performance. 
 
 ICG Latch Removal Summary:
@@ -131,14 +131,14 @@ Number of ICG latches not removed:	0
 
 #### START OF PREMAP CLOCK OPTIMIZATION REPORT #####[
 
-2 non-gated/non-generated clock tree(s) driving 183 clock pin(s) of sequential element(s)
+2 non-gated/non-generated clock tree(s) driving 179 clock pin(s) of sequential element(s)
 0 gated/generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
 0 instances converted, 0 sequential instances remain driven by gated/generated clocks
 
 ===================================================================== Non-Gated/Non-Generated Clocks =====================================================================
 Clock Tree ID     Driving Element                                          Drive Element Type     Fanout     Sample Instance                                              
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-@KP:ckid0_0       gpll_i.lscc_pll_inst.gen_ext_outclkdiv\.u_pll.CLKOP      PLLC                   156        valid_i_3[0]                                                 
+@KP:ckid0_0       gpll_i.lscc_pll_inst.gen_ext_outclkdiv\.u_pll.CLKOP      PLLC                   152        valid_i_3[0]                                                 
 @KP:ckid0_1       gpll_i.lscc_pll_inst.gen_ext_outclkdiv\.u_pll.CLKRES     PLLC                   27         gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init\.bw_init_cs[4]
 ==========================================================================================================================================================================
 
@@ -162,6 +162,6 @@ Pre-mapping successful!
 At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 313MB peak: 402MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
-# Fri Jan  2 07:59:39 2026
+# Fri Jan  2 20:18:43 2026
 
 ###########################################################]

@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<userSetting name="/home/kanmei/src/sincos_linear/project/promote.xml" version="Diamond (64-bit) 2025.2.0.3.0" date="金  1月 02 08時01分09秒 2026" vendor="Lattice Semiconductor Corporation" >
-  <msg mid="35901137" type="Warning" internal="true" />
-  <msg mid="35931002" type="Warning" internal="true" />
-  <msg mid="35911015" type="Info" internal="true" />
+<userSetting name="/home/kanmei/src/sincos_linear/project/promote.xml" version="Diamond (64-bit) 2025.2.0.3.0" date="Fri Jan 02 08:20:13 PM 2026" vendor="Lattice Semiconductor Corporation" >
+  <msg mid="2012653" type="Warning" internal="true" />
+  <msg mid="2012925" type="Error" internal="true" />
+  <msg mid="35901209" type="Warning" internal="true" />
   <msg mid="35911012" type="Info" internal="true" />
   <msg mid="35901328" type="Info" internal="true" />
-  <msg mid="35901209" type="Warning" internal="true" />
+  <msg mid="35901162" type="Warning" internal="true" />
+  <msg mid="35931002" type="Warning" internal="true" />
+  <msg mid="35901137" type="Warning" internal="true" />
+  <msg mid="35931008" type="Warning" internal="true" />
+  <msg mid="35911015" type="Info" internal="true" />
 </userSetting>

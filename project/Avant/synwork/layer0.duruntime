@@ -9,7 +9,7 @@ Runtime Summary:
 			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
 		* Library: work, DesignUnit: sin_linear
 			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
-		* Library: work, DesignUnit: mult18x18p48_UNSIGNED_UNSIGNED_BYPASSED_REGISTERED_ONCE_BYPASSED_BYPASSED_REGISTERED_12_layer0
+		* Library: work, DesignUnit: mult18x18p48_UNSIGNED_UNSIGNED_BYPASSED_BYPASSED_BYPASSED_BYPASSED_BYPASSED_12_layer0
 			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
 		* Library: work, DesignUnit: rom_dy18
 			Hardware Generation Phase, Optimization Phase: Negligible CPU time

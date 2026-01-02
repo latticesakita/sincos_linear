@@ -1,6 +1,6 @@
 Lattice Timing Report -  Setup  and Hold, Version Radiant Software (64-bit) 2025.2.0.3.0
 
-Fri Jan  2 08:01:04 2026
+Fri Jan  2 20:20:08 2026
 
 Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
 Copyright (c) 1995 AT&T Corp.   All rights reserved.
@@ -68,7 +68,7 @@ set_max_delay -from [get_pins gpll_i/lscc_pll_inst/u_pll_init_bw/gen_bw_init.en_
 
 1.2  Constraint Coverage
 ---------------------------
-Constraint Coverage: 2.38837%
+Constraint Coverage: 2.40334%
 
 
 1.3  Overall Summary
@@ -105,7 +105,7 @@ result_CR31_ram_5_cZ.dpram_inst/DI0     |    No arrival or required
 -------------------------------------------------------------------
                                         |                          
 Number of unconstrained timing end poin |                          
-ts                                      |                       379
+ts                                      |                       301
                                         |                          
 -------------------------------------------------------------------
 

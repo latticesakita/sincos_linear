@@ -2,7 +2,7 @@
 // Written by Synplify Pro 
 // Product Version "W-2025.03LR-SP1-Beta2"
 // Program "Synplify Pro", Mapper "map202503latsp1, Build 038R"
-// Fri Jan  2 07:59:40 2026
+// Fri Jan  2 20:18:44 2026
 //
 // Source file index table:
 // Object locations will have the form <file>:<line>
@@ -999,7 +999,7 @@ defparam \AP6.SP32K.sp32k .INITVAL_7D="0x75DD6751D3749D073DCE731CB725C8719C570DC
 defparam \AP6.SP32K.sp32k .INITVAL_7E="0x7D5F47D1F37C9F27C5F07BDEE7B9ED7B1EB7A9E97A1E7799E5791E3789E1781DF779DD771DA765D8";
 defparam \AP6.SP32K.sp32k .INITVAL_7F="0x7FDFF7FDFF7FDFF7FDFF7FDFF7F9FE7F9FE7F5FD7F5FC7F1FC7EDFB7E9FA7E5F97E1F87DDF77D9F6";
 defparam \AP6.SP32K.sp32k .INIT_DATA="DYNAMIC";
-defparam \AP6.SP32K.sp32k .OUTREG="USED";
+defparam \AP6.SP32K.sp32k .OUTREG="BYPASSED";
 defparam \AP6.SP32K.sp32k .RESETMODE="SYNC";
   VLO GND_cZ (
 	.Z(GND)
@@ -1169,7 +1169,7 @@ defparam \AP6.SP32K.sp32k .INITVAL_7D="0x23C095E0DE0E98C354135207264CAA6DCBA6D0A
 defparam \AP6.SP32K.sp32k .INITVAL_7E="0x409B7189046702A2B928661FF16CAE3DD365AD966DDCF771E0769CA6C18D57D283989B119E75F90C";
 defparam \AP6.SP32K.sp32k .INITVAL_7F="0x7EDEC74DB16114E438C41C0126A9392F8386A5101B5C14284A5FCAB734E57CCF87C8E3724A65E442";
 defparam \AP6.SP32K.sp32k .INIT_DATA="DYNAMIC";
-defparam \AP6.SP32K.sp32k .OUTREG="USED";
+defparam \AP6.SP32K.sp32k .OUTREG="BYPASSED";
 defparam \AP6.SP32K.sp32k .RESETMODE="SYNC";
   VLO GND_cZ (
 	.Z(GND)
@@ -1339,7 +1339,7 @@ defparam \AP6.SP32K.sp32k .INITVAL_7D="0x4544C72589639D819939141AC53533579CE20D7
 defparam \AP6.SP32K.sp32k .INITVAL_7E="0x094E67AD322F48B274F162465610E6230752891371CBF7E9794F1436381C3BC0557CFE381075C821";
 defparam \AP6.SP32K.sp32k .INITVAL_7F="0x084864B01650CB2190592410A720C802990561646C84345C2D61D2440D2662C3447C4E701745B1A7";
 defparam \AP6.SP32K.sp32k .INIT_DATA="DYNAMIC";
-defparam \AP6.SP32K.sp32k .OUTREG="USED";
+defparam \AP6.SP32K.sp32k .OUTREG="BYPASSED";
 defparam \AP6.SP32K.sp32k .RESETMODE="SYNC";
   VLO GND_cZ (
 	.Z(GND)
@@ -1509,7 +1509,7 @@ defparam \AP6.SP32K.sp32k .INITVAL_7D="0x3FCFF3FCFF3FCFF3FCFF3FCFF3FCFF3FCFF3FCF
 defparam \AP6.SP32K.sp32k .INITVAL_7E="0x3FCFF3FCFF3FCFF3FCFF3FCFF3FCFF3FCFF3FCFF3FCFF3FCFF3FCFF3FCFF3FCFF3FCFF3FCFF3FCFF";
 defparam \AP6.SP32K.sp32k .INITVAL_7F="0x3FCFF3FCFF3FCFF3FCFF3FCFF3FCFF3FCFF3FCFF3FCFF3FCFF3FCFF3FCFF3FCFF3FCFF3FCFF3FCFF";
 defparam \AP6.SP32K.sp32k .INIT_DATA="DYNAMIC";
-defparam \AP6.SP32K.sp32k .OUTREG="USED";
+defparam \AP6.SP32K.sp32k .OUTREG="BYPASSED";
 defparam \AP6.SP32K.sp32k .RESETMODE="SYNC";
   VLO GND_cZ (
 	.Z(GND)
@@ -1790,7 +1790,7 @@ defparam \AP6.SP32K.sp32k .INITVAL_7D="0x0240A0280A0280A0280B02C0B02C0B02C0B0300
 defparam \AP6.SP32K.sp32k .INITVAL_7E="0x0140501405014050140601806018060180701C0701C0701C07020080200802008024090240902409";
 defparam \AP6.SP32K.sp32k .INITVAL_7F="0x0000000000000000040100401004010040200802008020080300C0300C0300C03010040100401004";
 defparam \AP6.SP32K.sp32k .INIT_DATA="DYNAMIC";
-defparam \AP6.SP32K.sp32k .OUTREG="USED";
+defparam \AP6.SP32K.sp32k .OUTREG="BYPASSED";
 defparam \AP6.SP32K.sp32k .RESETMODE="SYNC";
   VLO GND_cZ (
 	.Z(GND)
@@ -1960,7 +1960,7 @@ defparam \AP6.SP32K.sp32k .INITVAL_7D="0x79033208D14816F6F80D170AB3E54865DE60D48
 defparam \AP6.SP32K.sp32k .INITVAL_7E="0x01855290F3509917802F1F8CD4716A6E40815CA63D54464DE20C48033D1E5B5BC02C5A2A0F751995";
 defparam \AP6.SP32K.sp32k .INITVAL_7F="0x09C763151458DB20045027CEE4F58C76C2A1E4C845D666D40414CA23C53F639DD0B07B329195A1B7";
 defparam \AP6.SP32K.sp32k .INIT_DATA="DYNAMIC";
-defparam \AP6.SP32K.sp32k .OUTREG="USED";
+defparam \AP6.SP32K.sp32k .OUTREG="BYPASSED";
 defparam \AP6.SP32K.sp32k .RESETMODE="SYNC";
   VLO GND_cZ (
 	.Z(GND)
@@ -2067,23 +2067,17 @@ wire VCC ;
 );
 endmodule /* rom_dy18 */
 
-module mult18x18p48_UNSIGNED_UNSIGNED_BYPASSED_REGISTERED_ONCE_BYPASSED_BYPASSED_REGISTERED_12_layer0 (
+module mult18x18p48_UNSIGNED_UNSIGNED_BYPASSED_BYPASSED_BYPASSED_BYPASSED_BYPASSED_12_layer0 (
   dsp_Z,
   s1_y0,
   s1_frac,
-  s1_dy,
-  resetn_i,
-  clk
+  s1_dy
 )
 ;
 output [47:16] dsp_Z ;
 input [35:0] s1_y0 ;
 input [17:0] s1_frac ;
 input [17:0] s1_dy ;
-input resetn_i ;
-input clk ;
-wire resetn_i ;
-wire clk ;
 wire [17:0] ASHIFTOUT;
 wire [17:0] BSHIFTOUT;
 wire [17:0] CSHIFTOUT;
@@ -2099,8 +2093,8 @@ wire CAS_COUT ;
 	.A(s1_dy[17:0]),
 	.B(s1_frac[17:0]),
 	.C({s1_y0[35:0], GND, GND, GND, GND, GND, GND, GND, GND, GND, GND, GND, GND}),
-	.CLK(clk),
-	.RST(resetn_i),
+	.CLK(GND),
+	.RST(VCC),
 	.CEA1(VCC),
 	.CEA2(VCC),
 	.CEB1(VCC),
@@ -2141,9 +2135,9 @@ defparam multaddsub_m0.REGACCUMCONTROLS="BYPASSED";
 defparam multaddsub_m0.REGADDSUBPRE="BYPASSED";
 defparam multaddsub_m0.REGCAS_ZOUT="BYPASSED";
 defparam multaddsub_m0.REGINPUTA="BYPASSED";
-defparam multaddsub_m0.REGINPUTB="REGISTERED_ONCE";
+defparam multaddsub_m0.REGINPUTB="BYPASSED";
 defparam multaddsub_m0.REGINPUTC="BYPASSED";
-defparam multaddsub_m0.REGOUTPUT="REGISTERED";
+defparam multaddsub_m0.REGOUTPUT="BYPASSED";
 defparam multaddsub_m0.REGPIPE="BYPASSED";
 defparam multaddsub_m0.REGPREPIPE="BYPASSED";
 defparam multaddsub_m0.REGSHIFTOUTA="BYPASSED";
@@ -2162,12 +2156,12 @@ defparam multaddsub_m0.SHIFTINPUTC="DISABLED";
   VHI VCC_cZ (
 	.Z(VCC)
 );
-endmodule /* mult18x18p48_UNSIGNED_UNSIGNED_BYPASSED_REGISTERED_ONCE_BYPASSED_BYPASSED_REGISTERED_12_layer0 */
+endmodule /* mult18x18p48_UNSIGNED_UNSIGNED_BYPASSED_BYPASSED_BYPASSED_BYPASSED_BYPASSED_12_layer0 */
 
 module sin_linear (
   result_0,
-  valid_o_0,
   valid_i_1,
+  valid_o_0,
   resetn_i,
   clk,
   phase_CR31_ram_30,
@@ -2206,8 +2200,8 @@ module sin_linear (
 )
 ;
 output [31:0] result_0 ;
-output valid_o_0 ;
 input valid_i_1 ;
+output valid_o_0 ;
 input resetn_i ;
 input clk ;
 input phase_CR31_ram_30 ;
@@ -2243,8 +2237,8 @@ input phase_CR31_ram_8 ;
 input phase_CR31_ram_29 ;
 input phase_CR31_ram_10 ;
 input G_75 ;
-wire valid_o_0 ;
 wire valid_i_1 ;
+wire valid_o_0 ;
 wire resetn_i ;
 wire clk ;
 wire phase_CR31_ram_30 ;
@@ -2284,17 +2278,13 @@ wire [17:0] s0_frac;
 wire [11:0] s0_addr;
 wire [31:31] phase;
 wire [47:16] dsp_Z;
-wire [1:1] s3_quadrant;
-wire [31:0] result_o_2;
-wire [0:0] s1_valid;
-wire [0:0] s2_valid;
-wire [1:1] s2_quadrant;
 wire [1:1] s1_quadrant;
-wire [0:0] s3_valid;
+wire [31:0] result_o_2;
 wire [17:0] s1_frac;
 wire [35:0] s1_y0;
 wire [17:0] s1_dy;
 wire GND ;
+wire s1_valid ;
 wire VCC ;
 // @50:31
   LUT4 \s0_frac_cZ[11]  (
@@ -2575,327 +2565,303 @@ defparam \s0_addr_cZ[8] .INIT="0x2828";
 	.Z(phase[31])
 );
 defparam \s1_quadrant_RNO[1] .INIT="0x8888";
-// @50:95
+// @50:74
   LUT4 \result_o_2_cZ[31]  (
 	.A(dsp_Z[47]),
-	.B(s3_quadrant[1]),
+	.B(s1_quadrant[1]),
 	.C(GND),
 	.D(GND),
 	.Z(result_o_2[31])
 );
 defparam \result_o_2_cZ[31] .INIT="0x6666";
-// @50:95
+// @50:74
   LUT4 \result_o_2_cZ[30]  (
 	.A(dsp_Z[46]),
-	.B(s3_quadrant[1]),
+	.B(s1_quadrant[1]),
 	.C(GND),
 	.D(GND),
 	.Z(result_o_2[30])
 );
 defparam \result_o_2_cZ[30] .INIT="0x6666";
-// @50:95
+// @50:74
   LUT4 \result_o_2_cZ[29]  (
 	.A(dsp_Z[45]),
-	.B(s3_quadrant[1]),
+	.B(s1_quadrant[1]),
 	.C(GND),
 	.D(GND),
 	.Z(result_o_2[29])
 );
 defparam \result_o_2_cZ[29] .INIT="0x6666";
-// @50:95
+// @50:74
   LUT4 \result_o_2_cZ[28]  (
 	.A(dsp_Z[44]),
-	.B(s3_quadrant[1]),
+	.B(s1_quadrant[1]),
 	.C(GND),
 	.D(GND),
 	.Z(result_o_2[28])
 );
 defparam \result_o_2_cZ[28] .INIT="0x6666";
-// @50:95
+// @50:74
   LUT4 \result_o_2_cZ[27]  (
 	.A(dsp_Z[43]),
-	.B(s3_quadrant[1]),
+	.B(s1_quadrant[1]),
 	.C(GND),
 	.D(GND),
 	.Z(result_o_2[27])
 );
 defparam \result_o_2_cZ[27] .INIT="0x6666";
-// @50:95
+// @50:74
   LUT4 \result_o_2_cZ[26]  (
 	.A(dsp_Z[42]),
-	.B(s3_quadrant[1]),
+	.B(s1_quadrant[1]),
 	.C(GND),
 	.D(GND),
 	.Z(result_o_2[26])
 );
 defparam \result_o_2_cZ[26] .INIT="0x6666";
-// @50:95
+// @50:74
   LUT4 \result_o_2_cZ[25]  (
 	.A(dsp_Z[41]),
-	.B(s3_quadrant[1]),
+	.B(s1_quadrant[1]),
 	.C(GND),
 	.D(GND),
 	.Z(result_o_2[25])
 );
 defparam \result_o_2_cZ[25] .INIT="0x6666";
-// @50:95
+// @50:74
   LUT4 \result_o_2_cZ[24]  (
 	.A(dsp_Z[40]),
-	.B(s3_quadrant[1]),
+	.B(s1_quadrant[1]),
 	.C(GND),
 	.D(GND),
 	.Z(result_o_2[24])
 );
 defparam \result_o_2_cZ[24] .INIT="0x6666";
-// @50:95
+// @50:74
   LUT4 \result_o_2_cZ[23]  (
 	.A(dsp_Z[39]),
-	.B(s3_quadrant[1]),
+	.B(s1_quadrant[1]),
 	.C(GND),
 	.D(GND),
 	.Z(result_o_2[23])
 );
 defparam \result_o_2_cZ[23] .INIT="0x6666";
-// @50:95
+// @50:74
   LUT4 \result_o_2_cZ[22]  (
 	.A(dsp_Z[38]),
-	.B(s3_quadrant[1]),
+	.B(s1_quadrant[1]),
 	.C(GND),
 	.D(GND),
 	.Z(result_o_2[22])
 );
 defparam \result_o_2_cZ[22] .INIT="0x6666";
-// @50:95
+// @50:74
   LUT4 \result_o_2_cZ[21]  (
 	.A(dsp_Z[37]),
-	.B(s3_quadrant[1]),
+	.B(s1_quadrant[1]),
 	.C(GND),
 	.D(GND),
 	.Z(result_o_2[21])
 );
 defparam \result_o_2_cZ[21] .INIT="0x6666";
-// @50:95
+// @50:74
   LUT4 \result_o_2_cZ[20]  (
 	.A(dsp_Z[36]),
-	.B(s3_quadrant[1]),
+	.B(s1_quadrant[1]),
 	.C(GND),
 	.D(GND),
 	.Z(result_o_2[20])
 );
 defparam \result_o_2_cZ[20] .INIT="0x6666";
-// @50:95
+// @50:74
   LUT4 \result_o_2_cZ[19]  (
 	.A(dsp_Z[35]),
-	.B(s3_quadrant[1]),
+	.B(s1_quadrant[1]),
 	.C(GND),
 	.D(GND),
 	.Z(result_o_2[19])
 );
 defparam \result_o_2_cZ[19] .INIT="0x6666";
-// @50:95
+// @50:74
   LUT4 \result_o_2_cZ[18]  (
 	.A(dsp_Z[34]),
-	.B(s3_quadrant[1]),
+	.B(s1_quadrant[1]),
 	.C(GND),
 	.D(GND),
 	.Z(result_o_2[18])
 );
 defparam \result_o_2_cZ[18] .INIT="0x6666";
-// @50:95
+// @50:74
   LUT4 \result_o_2_cZ[17]  (
 	.A(dsp_Z[33]),
-	.B(s3_quadrant[1]),
+	.B(s1_quadrant[1]),
 	.C(GND),
 	.D(GND),
 	.Z(result_o_2[17])
 );
 defparam \result_o_2_cZ[17] .INIT="0x6666";
-// @50:95
+// @50:74
   LUT4 \result_o_2_cZ[16]  (
 	.A(dsp_Z[32]),
-	.B(s3_quadrant[1]),
+	.B(s1_quadrant[1]),
 	.C(GND),
 	.D(GND),
 	.Z(result_o_2[16])
 );
 defparam \result_o_2_cZ[16] .INIT="0x6666";
-// @50:95
+// @50:74
   LUT4 \result_o_2_cZ[15]  (
 	.A(dsp_Z[31]),
-	.B(s3_quadrant[1]),
+	.B(s1_quadrant[1]),
 	.C(GND),
 	.D(GND),
 	.Z(result_o_2[15])
 );
 defparam \result_o_2_cZ[15] .INIT="0x6666";
-// @50:95
+// @50:74
   LUT4 \result_o_2_cZ[14]  (
 	.A(dsp_Z[30]),
-	.B(s3_quadrant[1]),
+	.B(s1_quadrant[1]),
 	.C(GND),
 	.D(GND),
 	.Z(result_o_2[14])
 );
 defparam \result_o_2_cZ[14] .INIT="0x6666";
-// @50:95
+// @50:74
   LUT4 \result_o_2_cZ[13]  (
 	.A(dsp_Z[29]),
-	.B(s3_quadrant[1]),
+	.B(s1_quadrant[1]),
 	.C(GND),
 	.D(GND),
 	.Z(result_o_2[13])
 );
 defparam \result_o_2_cZ[13] .INIT="0x6666";
-// @50:95
+// @50:74
   LUT4 \result_o_2_cZ[12]  (
 	.A(dsp_Z[28]),
-	.B(s3_quadrant[1]),
+	.B(s1_quadrant[1]),
 	.C(GND),
 	.D(GND),
 	.Z(result_o_2[12])
 );
 defparam \result_o_2_cZ[12] .INIT="0x6666";
-// @50:95
+// @50:74
   LUT4 \result_o_2_cZ[11]  (
 	.A(dsp_Z[27]),
-	.B(s3_quadrant[1]),
+	.B(s1_quadrant[1]),
 	.C(GND),
 	.D(GND),
 	.Z(result_o_2[11])
 );
 defparam \result_o_2_cZ[11] .INIT="0x6666";
-// @50:95
+// @50:74
   LUT4 \result_o_2_cZ[10]  (
 	.A(dsp_Z[26]),
-	.B(s3_quadrant[1]),
+	.B(s1_quadrant[1]),
 	.C(GND),
 	.D(GND),
 	.Z(result_o_2[10])
 );
 defparam \result_o_2_cZ[10] .INIT="0x6666";
-// @50:95
+// @50:74
   LUT4 \result_o_2_cZ[9]  (
 	.A(dsp_Z[25]),
-	.B(s3_quadrant[1]),
+	.B(s1_quadrant[1]),
 	.C(GND),
 	.D(GND),
 	.Z(result_o_2[9])
 );
 defparam \result_o_2_cZ[9] .INIT="0x6666";
-// @50:95
+// @50:74
   LUT4 \result_o_2_cZ[8]  (
 	.A(dsp_Z[24]),
-	.B(s3_quadrant[1]),
+	.B(s1_quadrant[1]),
 	.C(GND),
 	.D(GND),
 	.Z(result_o_2[8])
 );
 defparam \result_o_2_cZ[8] .INIT="0x6666";
-// @50:95
+// @50:74
   LUT4 \result_o_2_cZ[7]  (
 	.A(dsp_Z[23]),
-	.B(s3_quadrant[1]),
+	.B(s1_quadrant[1]),
 	.C(GND),
 	.D(GND),
 	.Z(result_o_2[7])
 );
 defparam \result_o_2_cZ[7] .INIT="0x6666";
-// @50:95
+// @50:74
   LUT4 \result_o_2_cZ[6]  (
 	.A(dsp_Z[22]),
-	.B(s3_quadrant[1]),
+	.B(s1_quadrant[1]),
 	.C(GND),
 	.D(GND),
 	.Z(result_o_2[6])
 );
 defparam \result_o_2_cZ[6] .INIT="0x6666";
-// @50:95
+// @50:74
   LUT4 \result_o_2_cZ[5]  (
 	.A(dsp_Z[21]),
-	.B(s3_quadrant[1]),
+	.B(s1_quadrant[1]),
 	.C(GND),
 	.D(GND),
 	.Z(result_o_2[5])
 );
 defparam \result_o_2_cZ[5] .INIT="0x6666";
-// @50:95
+// @50:74
   LUT4 \result_o_2_cZ[4]  (
 	.A(dsp_Z[20]),
-	.B(s3_quadrant[1]),
+	.B(s1_quadrant[1]),
 	.C(GND),
 	.D(GND),
 	.Z(result_o_2[4])
 );
 defparam \result_o_2_cZ[4] .INIT="0x6666";
-// @50:95
+// @50:74
   LUT4 \result_o_2_cZ[3]  (
 	.A(dsp_Z[19]),
-	.B(s3_quadrant[1]),
+	.B(s1_quadrant[1]),
 	.C(GND),
 	.D(GND),
 	.Z(result_o_2[3])
 );
 defparam \result_o_2_cZ[3] .INIT="0x6666";
-// @50:95
+// @50:74
   LUT4 \result_o_2_cZ[2]  (
 	.A(dsp_Z[18]),
-	.B(s3_quadrant[1]),
+	.B(s1_quadrant[1]),
 	.C(GND),
 	.D(GND),
 	.Z(result_o_2[2])
 );
 defparam \result_o_2_cZ[2] .INIT="0x6666";
-// @50:95
+// @50:74
   LUT4 \result_o_2_cZ[1]  (
 	.A(dsp_Z[17]),
-	.B(s3_quadrant[1]),
+	.B(s1_quadrant[1]),
 	.C(GND),
 	.D(GND),
 	.Z(result_o_2[1])
 );
 defparam \result_o_2_cZ[1] .INIT="0x6666";
-// @50:95
+// @50:74
   LUT4 \result_o_2_cZ[0]  (
 	.A(dsp_Z[16]),
-	.B(s3_quadrant[1]),
+	.B(s1_quadrant[1]),
 	.C(GND),
 	.D(GND),
 	.Z(result_o_2[0])
 );
 defparam \result_o_2_cZ[0] .INIT="0x6666";
-// @50:80
-  FD1P3DX \s2_valid_Z[0]  (
-	.D(s1_valid[0]),
+// @50:67
+  FD1P3DX valid_o (
+	.D(s1_valid),
 	.SP(VCC),
 	.CK(clk),
 	.CD(resetn_i),
-	.Q(s2_valid[0])
+	.Q(valid_o_0)
 );
-// @50:80
-  FD1P3DX \s1_valid_Z[0]  (
-	.D(valid_i_1),
-	.SP(VCC),
-	.CK(clk),
-	.CD(resetn_i),
-	.Q(s1_valid[0])
-);
-// @50:80
-  FD1P3DX \s3_quadrant_0[1]  (
-	.D(s2_quadrant[1]),
-	.SP(VCC),
-	.CK(clk),
-	.CD(resetn_i),
-	.Q(s3_quadrant[1])
-);
-// @50:80
-  FD1P3DX \s2_quadrant_Z[1]  (
-	.D(s1_quadrant[1]),
-	.SP(VCC),
-	.CK(clk),
-	.CD(resetn_i),
-	.Q(s2_quadrant[1])
-);
-// @50:80
+// @50:42
   FD1P3DX \s1_quadrant_Z[1]  (
 	.D(phase[31]),
 	.SP(VCC),
@@ -2903,21 +2869,45 @@ defparam \result_o_2_cZ[0] .INIT="0x6666";
 	.CD(resetn_i),
 	.Q(s1_quadrant[1])
 );
-// @50:80
-  FD1P3DX \valid_o[0]  (
-	.D(s3_valid[0]),
+// @50:42
+  FD1P3DX s1_valid_Z (
+	.D(valid_i_1),
 	.SP(VCC),
 	.CK(clk),
 	.CD(resetn_i),
-	.Q(valid_o_0)
+	.Q(s1_valid)
 );
-// @50:80
-  FD1P3DX \s3_valid_Z[0]  (
-	.D(s2_valid[0]),
+// @50:42
+  FD1P3DX \s1_frac_Z[14]  (
+	.D(s0_frac[14]),
 	.SP(VCC),
 	.CK(clk),
 	.CD(resetn_i),
-	.Q(s3_valid[0])
+	.Q(s1_frac[14])
+);
+// @50:42
+  FD1P3DX \s1_frac_Z[13]  (
+	.D(s0_frac[13]),
+	.SP(VCC),
+	.CK(clk),
+	.CD(resetn_i),
+	.Q(s1_frac[13])
+);
+// @50:42
+  FD1P3DX \s1_frac_Z[12]  (
+	.D(s0_frac[12]),
+	.SP(VCC),
+	.CK(clk),
+	.CD(resetn_i),
+	.Q(s1_frac[12])
+);
+// @50:42
+  FD1P3DX \s1_frac_Z[11]  (
+	.D(s0_frac[11]),
+	.SP(VCC),
+	.CK(clk),
+	.CD(resetn_i),
+	.Q(s1_frac[11])
 );
 // @50:42
   FD1P3DX \s1_frac_Z[10]  (
@@ -3007,7 +2997,39 @@ defparam \result_o_2_cZ[0] .INIT="0x6666";
 	.CD(resetn_i),
 	.Q(s1_frac[0])
 );
-// @50:80
+// @50:67
+  FD1P3DX \result_o[11]  (
+	.D(result_o_2[11]),
+	.SP(VCC),
+	.CK(clk),
+	.CD(resetn_i),
+	.Q(result_0[11])
+);
+// @50:67
+  FD1P3DX \result_o[10]  (
+	.D(result_o_2[10]),
+	.SP(VCC),
+	.CK(clk),
+	.CD(resetn_i),
+	.Q(result_0[10])
+);
+// @50:67
+  FD1P3DX \result_o[9]  (
+	.D(result_o_2[9]),
+	.SP(VCC),
+	.CK(clk),
+	.CD(resetn_i),
+	.Q(result_0[9])
+);
+// @50:67
+  FD1P3DX \result_o[8]  (
+	.D(result_o_2[8]),
+	.SP(VCC),
+	.CK(clk),
+	.CD(resetn_i),
+	.Q(result_0[8])
+);
+// @50:67
   FD1P3DX \result_o[7]  (
 	.D(result_o_2[7]),
 	.SP(VCC),
@@ -3015,7 +3037,7 @@ defparam \result_o_2_cZ[0] .INIT="0x6666";
 	.CD(resetn_i),
 	.Q(result_0[7])
 );
-// @50:80
+// @50:67
   FD1P3DX \result_o[6]  (
 	.D(result_o_2[6]),
 	.SP(VCC),
@@ -3023,7 +3045,7 @@ defparam \result_o_2_cZ[0] .INIT="0x6666";
 	.CD(resetn_i),
 	.Q(result_0[6])
 );
-// @50:80
+// @50:67
   FD1P3DX \result_o[5]  (
 	.D(result_o_2[5]),
 	.SP(VCC),
@@ -3031,7 +3053,7 @@ defparam \result_o_2_cZ[0] .INIT="0x6666";
 	.CD(resetn_i),
 	.Q(result_0[5])
 );
-// @50:80
+// @50:67
   FD1P3DX \result_o[4]  (
 	.D(result_o_2[4]),
 	.SP(VCC),
@@ -3039,7 +3061,7 @@ defparam \result_o_2_cZ[0] .INIT="0x6666";
 	.CD(resetn_i),
 	.Q(result_0[4])
 );
-// @50:80
+// @50:67
   FD1P3DX \result_o[3]  (
 	.D(result_o_2[3]),
 	.SP(VCC),
@@ -3047,7 +3069,7 @@ defparam \result_o_2_cZ[0] .INIT="0x6666";
 	.CD(resetn_i),
 	.Q(result_0[3])
 );
-// @50:80
+// @50:67
   FD1P3DX \result_o[2]  (
 	.D(result_o_2[2]),
 	.SP(VCC),
@@ -3055,7 +3077,7 @@ defparam \result_o_2_cZ[0] .INIT="0x6666";
 	.CD(resetn_i),
 	.Q(result_0[2])
 );
-// @50:80
+// @50:67
   FD1P3DX \result_o[1]  (
 	.D(result_o_2[1]),
 	.SP(VCC),
@@ -3063,7 +3085,7 @@ defparam \result_o_2_cZ[0] .INIT="0x6666";
 	.CD(resetn_i),
 	.Q(result_0[1])
 );
-// @50:80
+// @50:67
   FD1P3DX \result_o[0]  (
 	.D(result_o_2[0]),
 	.SP(VCC),
@@ -3095,199 +3117,7 @@ defparam \result_o_2_cZ[0] .INIT="0x6666";
 	.CD(resetn_i),
 	.Q(s1_frac[15])
 );
-// @50:42
-  FD1P3DX \s1_frac_Z[14]  (
-	.D(s0_frac[14]),
-	.SP(VCC),
-	.CK(clk),
-	.CD(resetn_i),
-	.Q(s1_frac[14])
-);
-// @50:42
-  FD1P3DX \s1_frac_Z[13]  (
-	.D(s0_frac[13]),
-	.SP(VCC),
-	.CK(clk),
-	.CD(resetn_i),
-	.Q(s1_frac[13])
-);
-// @50:42
-  FD1P3DX \s1_frac_Z[12]  (
-	.D(s0_frac[12]),
-	.SP(VCC),
-	.CK(clk),
-	.CD(resetn_i),
-	.Q(s1_frac[12])
-);
-// @50:42
-  FD1P3DX \s1_frac_Z[11]  (
-	.D(s0_frac[11]),
-	.SP(VCC),
-	.CK(clk),
-	.CD(resetn_i),
-	.Q(s1_frac[11])
-);
-// @50:80
-  FD1P3DX \result_o[22]  (
-	.D(result_o_2[22]),
-	.SP(VCC),
-	.CK(clk),
-	.CD(resetn_i),
-	.Q(result_0[22])
-);
-// @50:80
-  FD1P3DX \result_o[21]  (
-	.D(result_o_2[21]),
-	.SP(VCC),
-	.CK(clk),
-	.CD(resetn_i),
-	.Q(result_0[21])
-);
-// @50:80
-  FD1P3DX \result_o[20]  (
-	.D(result_o_2[20]),
-	.SP(VCC),
-	.CK(clk),
-	.CD(resetn_i),
-	.Q(result_0[20])
-);
-// @50:80
-  FD1P3DX \result_o[19]  (
-	.D(result_o_2[19]),
-	.SP(VCC),
-	.CK(clk),
-	.CD(resetn_i),
-	.Q(result_0[19])
-);
-// @50:80
-  FD1P3DX \result_o[18]  (
-	.D(result_o_2[18]),
-	.SP(VCC),
-	.CK(clk),
-	.CD(resetn_i),
-	.Q(result_0[18])
-);
-// @50:80
-  FD1P3DX \result_o[17]  (
-	.D(result_o_2[17]),
-	.SP(VCC),
-	.CK(clk),
-	.CD(resetn_i),
-	.Q(result_0[17])
-);
-// @50:80
-  FD1P3DX \result_o[16]  (
-	.D(result_o_2[16]),
-	.SP(VCC),
-	.CK(clk),
-	.CD(resetn_i),
-	.Q(result_0[16])
-);
-// @50:80
-  FD1P3DX \result_o[15]  (
-	.D(result_o_2[15]),
-	.SP(VCC),
-	.CK(clk),
-	.CD(resetn_i),
-	.Q(result_0[15])
-);
-// @50:80
-  FD1P3DX \result_o[14]  (
-	.D(result_o_2[14]),
-	.SP(VCC),
-	.CK(clk),
-	.CD(resetn_i),
-	.Q(result_0[14])
-);
-// @50:80
-  FD1P3DX \result_o[13]  (
-	.D(result_o_2[13]),
-	.SP(VCC),
-	.CK(clk),
-	.CD(resetn_i),
-	.Q(result_0[13])
-);
-// @50:80
-  FD1P3DX \result_o[12]  (
-	.D(result_o_2[12]),
-	.SP(VCC),
-	.CK(clk),
-	.CD(resetn_i),
-	.Q(result_0[12])
-);
-// @50:80
-  FD1P3DX \result_o[11]  (
-	.D(result_o_2[11]),
-	.SP(VCC),
-	.CK(clk),
-	.CD(resetn_i),
-	.Q(result_0[11])
-);
-// @50:80
-  FD1P3DX \result_o[10]  (
-	.D(result_o_2[10]),
-	.SP(VCC),
-	.CK(clk),
-	.CD(resetn_i),
-	.Q(result_0[10])
-);
-// @50:80
-  FD1P3DX \result_o[9]  (
-	.D(result_o_2[9]),
-	.SP(VCC),
-	.CK(clk),
-	.CD(resetn_i),
-	.Q(result_0[9])
-);
-// @50:80
-  FD1P3DX \result_o[8]  (
-	.D(result_o_2[8]),
-	.SP(VCC),
-	.CK(clk),
-	.CD(resetn_i),
-	.Q(result_0[8])
-);
-// @50:80
-  FD1P3DX \result_o[31]  (
-	.D(result_o_2[31]),
-	.SP(VCC),
-	.CK(clk),
-	.CD(resetn_i),
-	.Q(result_0[31])
-);
-// @50:80
-  FD1P3DX \result_o[30]  (
-	.D(result_o_2[30]),
-	.SP(VCC),
-	.CK(clk),
-	.CD(resetn_i),
-	.Q(result_0[30])
-);
-// @50:80
-  FD1P3DX \result_o[29]  (
-	.D(result_o_2[29]),
-	.SP(VCC),
-	.CK(clk),
-	.CD(resetn_i),
-	.Q(result_0[29])
-);
-// @50:80
-  FD1P3DX \result_o[28]  (
-	.D(result_o_2[28]),
-	.SP(VCC),
-	.CK(clk),
-	.CD(resetn_i),
-	.Q(result_0[28])
-);
-// @50:80
-  FD1P3DX \result_o[27]  (
-	.D(result_o_2[27]),
-	.SP(VCC),
-	.CK(clk),
-	.CD(resetn_i),
-	.Q(result_0[27])
-);
-// @50:80
+// @50:67
   FD1P3DX \result_o[26]  (
 	.D(result_o_2[26]),
 	.SP(VCC),
@@ -3295,7 +3125,7 @@ defparam \result_o_2_cZ[0] .INIT="0x6666";
 	.CD(resetn_i),
 	.Q(result_0[26])
 );
-// @50:80
+// @50:67
   FD1P3DX \result_o[25]  (
 	.D(result_o_2[25]),
 	.SP(VCC),
@@ -3303,7 +3133,7 @@ defparam \result_o_2_cZ[0] .INIT="0x6666";
 	.CD(resetn_i),
 	.Q(result_0[25])
 );
-// @50:80
+// @50:67
   FD1P3DX \result_o[24]  (
 	.D(result_o_2[24]),
 	.SP(VCC),
@@ -3311,13 +3141,141 @@ defparam \result_o_2_cZ[0] .INIT="0x6666";
 	.CD(resetn_i),
 	.Q(result_0[24])
 );
-// @50:80
+// @50:67
   FD1P3DX \result_o[23]  (
 	.D(result_o_2[23]),
 	.SP(VCC),
 	.CK(clk),
 	.CD(resetn_i),
 	.Q(result_0[23])
+);
+// @50:67
+  FD1P3DX \result_o[22]  (
+	.D(result_o_2[22]),
+	.SP(VCC),
+	.CK(clk),
+	.CD(resetn_i),
+	.Q(result_0[22])
+);
+// @50:67
+  FD1P3DX \result_o[21]  (
+	.D(result_o_2[21]),
+	.SP(VCC),
+	.CK(clk),
+	.CD(resetn_i),
+	.Q(result_0[21])
+);
+// @50:67
+  FD1P3DX \result_o[20]  (
+	.D(result_o_2[20]),
+	.SP(VCC),
+	.CK(clk),
+	.CD(resetn_i),
+	.Q(result_0[20])
+);
+// @50:67
+  FD1P3DX \result_o[19]  (
+	.D(result_o_2[19]),
+	.SP(VCC),
+	.CK(clk),
+	.CD(resetn_i),
+	.Q(result_0[19])
+);
+// @50:67
+  FD1P3DX \result_o[18]  (
+	.D(result_o_2[18]),
+	.SP(VCC),
+	.CK(clk),
+	.CD(resetn_i),
+	.Q(result_0[18])
+);
+// @50:67
+  FD1P3DX \result_o[17]  (
+	.D(result_o_2[17]),
+	.SP(VCC),
+	.CK(clk),
+	.CD(resetn_i),
+	.Q(result_0[17])
+);
+// @50:67
+  FD1P3DX \result_o[16]  (
+	.D(result_o_2[16]),
+	.SP(VCC),
+	.CK(clk),
+	.CD(resetn_i),
+	.Q(result_0[16])
+);
+// @50:67
+  FD1P3DX \result_o[15]  (
+	.D(result_o_2[15]),
+	.SP(VCC),
+	.CK(clk),
+	.CD(resetn_i),
+	.Q(result_0[15])
+);
+// @50:67
+  FD1P3DX \result_o[14]  (
+	.D(result_o_2[14]),
+	.SP(VCC),
+	.CK(clk),
+	.CD(resetn_i),
+	.Q(result_0[14])
+);
+// @50:67
+  FD1P3DX \result_o[13]  (
+	.D(result_o_2[13]),
+	.SP(VCC),
+	.CK(clk),
+	.CD(resetn_i),
+	.Q(result_0[13])
+);
+// @50:67
+  FD1P3DX \result_o[12]  (
+	.D(result_o_2[12]),
+	.SP(VCC),
+	.CK(clk),
+	.CD(resetn_i),
+	.Q(result_0[12])
+);
+// @50:67
+  FD1P3DX \result_o[31]  (
+	.D(result_o_2[31]),
+	.SP(VCC),
+	.CK(clk),
+	.CD(resetn_i),
+	.Q(result_0[31])
+);
+// @50:67
+  FD1P3DX \result_o[30]  (
+	.D(result_o_2[30]),
+	.SP(VCC),
+	.CK(clk),
+	.CD(resetn_i),
+	.Q(result_0[30])
+);
+// @50:67
+  FD1P3DX \result_o[29]  (
+	.D(result_o_2[29]),
+	.SP(VCC),
+	.CK(clk),
+	.CD(resetn_i),
+	.Q(result_0[29])
+);
+// @50:67
+  FD1P3DX \result_o[28]  (
+	.D(result_o_2[28]),
+	.SP(VCC),
+	.CK(clk),
+	.CD(resetn_i),
+	.Q(result_0[28])
+);
+// @50:67
+  FD1P3DX \result_o[27]  (
+	.D(result_o_2[27]),
+	.SP(VCC),
+	.CK(clk),
+	.CD(resetn_i),
+	.Q(result_0[27])
 );
 // @50:55
   rom_y36 rom_y0_i (
@@ -3333,14 +3291,12 @@ defparam \result_o_2_cZ[0] .INIT="0x6666";
 	.clk(clk),
 	.resetn_i(resetn_i)
 );
-// @50:71
-  mult18x18p48_UNSIGNED_UNSIGNED_BYPASSED_REGISTERED_ONCE_BYPASSED_BYPASSED_REGISTERED_12_layer0 mult18x18p48_i (
+// @50:65
+  mult18x18p48_UNSIGNED_UNSIGNED_BYPASSED_BYPASSED_BYPASSED_BYPASSED_BYPASSED_12_layer0 mult18x18p48_i (
 	.dsp_Z(dsp_Z[47:16]),
 	.s1_y0(s1_y0[35:0]),
 	.s1_frac(s1_frac[17:0]),
-	.s1_dy(s1_dy[17:0]),
-	.resetn_i(resetn_i),
-	.clk(clk)
+	.s1_dy(s1_dy[17:0])
 );
   VLO GND_cZ (
 	.Z(GND)
@@ -3387,8 +3343,8 @@ module sincos_linear_32s (
   phase_CR31_ram_30,
   clk,
   resetn_i,
-  valid_i_1,
-  valid_o_0
+  valid_o_0,
+  valid_i_1
 )
 ;
 output [31:0] result_0 ;
@@ -3427,8 +3383,8 @@ input phase_CR31_ram_25 ;
 input phase_CR31_ram_30 ;
 input clk ;
 input resetn_i ;
-input valid_i_1 ;
 output valid_o_0 ;
+input valid_i_1 ;
 wire G_75 ;
 wire phase_CR31_ram_10 ;
 wire phase_CR31_ram_29 ;
@@ -3464,15 +3420,15 @@ wire phase_CR31_ram_25 ;
 wire phase_CR31_ram_30 ;
 wire clk ;
 wire resetn_i ;
-wire valid_i_1 ;
 wire valid_o_0 ;
+wire valid_i_1 ;
 wire GND ;
 wire VCC ;
 // @49:24
   sin_linear sin_linear_i (
 	.result_0(result_0[31:0]),
-	.valid_o_0(valid_o_0),
 	.valid_i_1(valid_i_1),
+	.valid_o_0(valid_o_0),
 	.resetn_i(resetn_i),
 	.clk(clk),
 	.phase_CR31_ram_30(phase_CR31_ram_30),
@@ -4607,8 +4563,8 @@ defparam \result_CF1_RNI1BV4B[1] .INIT="0x6666";
 	.phase_CR31_ram_30(phase_CR31_ram_30),
 	.clk(clk),
 	.resetn_i(resetn_i),
-	.valid_i_1(valid_i_1_scalar),
-	.valid_o_0(valid_o_0)
+	.valid_o_0(valid_o_0),
+	.valid_i_1(valid_i_1_scalar)
 );
   VLO GND_cZ (
 	.Z(GND)

@@ -35,7 +35,7 @@ wire [17:0] s0_frac = phase_i[30] ? ~phase_i[17: 0] : phase_i[17: 0];
 // ************************************
 reg [1:0] s1_quadrant;
 reg       s1_valid;
-reg  [17:0] s1_frac;
+reg [17:0] s1_frac;
 wire [35:0] s1_y0;
 wire [17:0] s1_dy;
 
@@ -43,7 +43,7 @@ always @(posedge clk or negedge resetn) begin
 	if(!resetn) begin
 		s1_quadrant <= 0;
                 s1_valid    <= 0;
-		s1_frac     <= 0;
+                s1_frac     <= 0;
 	end
 	else begin
 		s1_quadrant <= s0_quadrant ;
@@ -61,38 +61,17 @@ rom_dy18  rom_dy_i (.rst_i(~resetn), .rd_clk_i(clk), .rd_clk_en_i(1'b1), .rd_en_
 // ************************************
 wire [47:0] dsp_Z; // = dy * frac + y0
 
-mult18x18p48 #(
-	.ASIGNED	("UNSIGNED"),
-	.BSIGNED	("UNSIGNED"),
-	//.REGINPUTA	("REGISTERED_ONCE"),
-	.REGINPUTB	("REGISTERED_ONCE"),
-	//.REGINPUTC	("REGISTERED_ONCE"),
-	.REGOUTPUT	("REGISTERED")
-) mult18x18p48_i (
-	.clk(clk),	.resetn(resetn),
-	.A(s1_dy), .B(s1_frac), .C({s1_y0, {DY_SHIFT{1'b0}}}),
-	.Z(dsp_Z));
+mult18x18p48 #(.ASIGNED("UNSIGNED"), .BSIGNED("UNSIGNED"))
+    mult18x18p48_i (.A(s1_dy), .B(s1_frac), .C({{(48-36-DY_SHIFT){1'b0}},s1_y0, {DY_SHIFT{1'b0}}}), .Z(dsp_Z));
 
-reg s2_valid;
-reg s3_valid;
-reg [1:0] s2_quadrant;
-reg [1:0] s3_quadrant;
 always @(posedge clk or negedge resetn) begin
 	if(!resetn) begin
 		valid_o <= 0;
-		s2_valid <= 0;
-		s3_valid <= 0;
 		result_o <= 0;
-		s2_quadrant <= 0;
-		s3_quadrant <= 0;
 	end
 	else begin
-		s2_quadrant <= s1_quadrant ;
-		s3_quadrant <= s2_quadrant ;
-		s2_valid   <= s1_valid;
-		s3_valid   <= s2_valid;
-		valid_o    <= s3_valid;
-		result_o <= s3_quadrant[1] ? ~dsp_Z[36+DY_SHIFT-1 :36+DY_SHIFT-OUTPUT_WIDTH] : dsp_Z[36+DY_SHIFT-1 :36+DY_SHIFT-OUTPUT_WIDTH];
+		valid_o  <= s1_valid;
+		result_o <= s1_quadrant[1] ? ~dsp_Z[36+DY_SHIFT-1 :36+DY_SHIFT-OUTPUT_WIDTH] : dsp_Z[36+DY_SHIFT-1 :36+DY_SHIFT-OUTPUT_WIDTH];
 	end
 end
 

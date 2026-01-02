@@ -1,6 +1,6 @@
                          Lattice PAR Report File
 Radiant Software (64-bit) 2025.2.0.3.0
-Fri Jan  2 08:00:01 2026
+Fri Jan  2 20:19:05 2026
 
 Command Line: par -w -n 16 -t 1 -s 1 -cores 16 -hsp m \
 	sincos_linear_Avant_map.udb sincos_linear_Avant.udb 
@@ -9,22 +9,22 @@ Command Line: par -w -n 16 -t 1 -s 1 -cores 16 -hsp m \
 Level/       Number       Estimated       Timing       Estimated Worst    Timing          Run      Run
 Cost [udb]   Unrouted     Worst Slack     Score        Slack(hold)        Score(hold)     Time     Status
 ----------   --------     -----------     ------       ---------------    -----------     ----     ------
-5_1   *      0            -               -            -                  -               43       Completed
+5_1   *      0            -               -            -                  -               37       Completed
 5_2          0            -               -            -                  -               42       Completed
-5_3          0            -               -            -                  -               41       Completed
-5_4          0            -               -            -                  -               34       Completed
+5_3          0            -               -            -                  -               35       Completed
+5_4          0            -               -            -                  -               37       Completed
 5_5          0            -               -            -                  -               36       Completed
-5_6          0            -               -            -                  -               41       Completed
-5_7          0            -               -            -                  -               37       Completed
+5_6          0            -               -            -                  -               35       Completed
+5_7          0            -               -            -                  -               40       Completed
 5_8          0            -               -            -                  -               39       Completed
 5_9          0            -               -            -                  -               38       Completed
-5_10         0            -               -            -                  -               37       Completed
-5_11         0            -               -            -                  -               42       Completed
+5_10         0            -               -            -                  -               40       Completed
+5_11         0            -               -            -                  -               45       Completed
 5_12         0            -               -            -                  -               41       Completed
-5_13         0            -               -            -                  -               37       Completed
-5_14         0            -               -            -                  -               42       Completed
-5_15         0            -               -            -                  -               35       Completed
-5_16         0            -               -            -                  -               37       Completed
+5_13         0            -               -            -                  -               34       Completed
+5_14         0            -               -            -                  -               36       Completed
+5_15         0            -               -            -                  -               41       Completed
+5_16         0            -               -            -                  -               40       Completed
 
 * : Design saved.
 

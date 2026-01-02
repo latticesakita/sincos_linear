@@ -8,7 +8,7 @@ Package: CBG484
 Performance Grade:  1
 
 Mapper:    version Radiant Software (64-bit) 2025.2.0.3.0
-Mapped on: Fri Jan  2 07:59:54 2026
+Mapped on: Fri Jan  2 20:18:59 2026
 
 Design Information
 ------------------
@@ -20,8 +20,8 @@ Command line:   map -i sincos_linear_Avant_syn.udb -o
 Design Summary
 --------------
 
-   Number of registers:          88 out of 164259 (<1%)
-      Number of SLICE         registers:   86 out of 163200 (<1%)
+   Number of registers:          84 out of 164259 (<1%)
+      Number of SLICE         registers:   82 out of 163200 (<1%)
       Number of PIO Input     registers:    1 out of   353 (<1%)
       Number of PIO Output    registers:    1 out of   353 (<1%)
       Number of PIO Tri-State registers:    0 out of   353 (0%)
@@ -78,7 +78,7 @@ Design Summary (cont)
    Number of LMMI Slave:          0 out of 1 (0%)
    Number of Config WDT:          0 out of 1 (0%)
    Number of Clocks:  4
-      Net clk: 93 loads, 93 rising, 0 falling (Driver: Pin
+      Net clk: 88 loads, 88 rising, 0 falling (Driver: Pin
      gpll_i.lscc_pll_inst.gen_ext_outclkdiv.u_pll.PLLC_MODE_inst/CLKOP)
       Net gpll_i.lscc_pll_inst.clkout_testclk_o: 18 loads, 18 rising, 0 falling
      (Driver: Pin
@@ -95,16 +95,16 @@ Design Summary (cont)
    Number of LSRs:  4
       Net VCC: 16 loads, 16 SLICEs
       Net gpll_i.lscc_pll_inst.u_pll_init_bw.rst_n_reg: 15 loads, 15 SLICEs
-      Net gpll_i.lscc_pll_inst.u_pll_init_bw.resetn: 75 loads, 66 SLICEs
+      Net gpll_i.lscc_pll_inst.u_pll_init_bw.resetn: 70 loads, 62 SLICEs
       Net gpll_i.lscc_pll_inst.u_pll_init_bw.rst_n_sync_i: 1 loads, 1 SLICEs
    Top 10 highest fanout non-clock nets:
-      Net gpll_i.lscc_pll_inst.u_pll_init_bw.resetn: 75 loads
+      Net gpll_i.lscc_pll_inst.u_pll_init_bw.resetn: 70 loads
       Net CO0: 50 loads
       Net tmp1[1]: 49 loads
       Net CO0_i: 33 loads
       Net G_3: 33 loads
       Net tmp2[1]: 33 loads
-      Net dut.sin_linear_i.s3_quadrant[1]: 32 loads
+      Net dut.sin_linear_i.s1_quadrant[1]: 32 loads
       Net G_75: 31 loads
       Net phase_CR31_ram_29: 31 loads
       Net VCC: 21 loads
@@ -446,7 +446,7 @@ Run Time and Memory Usage
    Total CPU Time: 6 secs
    Total REAL Time: 6 secs
    Peak Memory Usage: 2293 MB
-Checksum -- map: 5dc066cbe8a2753dc50f16ec3288302b4e456f1
+Checksum -- map: 4219f5e331763b3d52b64aec38fc0612c2ac7e29
 
 
 

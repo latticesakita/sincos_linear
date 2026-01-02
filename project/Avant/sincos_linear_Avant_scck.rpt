@@ -16,7 +16,7 @@ max stack size: 8388608 (bytes)
 
 Implementation : Avant
 
-# Written on Fri Jan  2 07:59:38 2026
+# Written on Fri Jan  2 20:18:43 2026
 
 ##### FILES SYNTAX CHECKED ##############################################
 Constraint File(s):      "/usr/local/lscc/radiant/2025.2/scripts/tcl/flow/radiant_synplify_vars.tcl"
@@ -39,7 +39,7 @@ Level     Clock                                                             Freq
 ----------------------------------------------------------------------------------------------------------------------------------------------------
 0 -       System                                                            200.0 MHz     5.000         system       system_clkgroup           0    
                                                                                                                                                     
-0 -       gpll_ipgen_lscc_pll_Z1_layer0|clkout_clkop_o_inferred_clock       200.0 MHz     5.000         inferred     Inferred_clkgroup_0_1     216  
+0 -       gpll_ipgen_lscc_pll_Z1_layer0|clkout_clkop_o_inferred_clock       200.0 MHz     5.000         inferred     Inferred_clkgroup_0_1     212  
                                                                                                                                                     
 0 -       gpll_ipgen_lscc_pll_Z1_layer0|clkout_testclk_o_inferred_clock     200.0 MHz     5.000         inferred     Inferred_clkgroup_0_2     27   
 ====================================================================================================================================================
@@ -53,7 +53,7 @@ Clock                                                             Load      Pin 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 System                                                            0         -                                                              -                                                                  -                 -            
                                                                                                                                                                                                                                              
-gpll_ipgen_lscc_pll_Z1_layer0|clkout_clkop_o_inferred_clock       216       gpll_i.lscc_pll_inst.gen_ext_outclkdiv\.u_pll.CLKOP(PLLC)      G_1.C                                                              -                 -            
+gpll_ipgen_lscc_pll_Z1_layer0|clkout_clkop_o_inferred_clock       212       gpll_i.lscc_pll_inst.gen_ext_outclkdiv\.u_pll.CLKOP(PLLC)      G_1.C                                                              -                 -            
                                                                                                                                                                                                                                              
 gpll_ipgen_lscc_pll_Z1_layer0|clkout_testclk_o_inferred_clock     27        gpll_i.lscc_pll_inst.gen_ext_outclkdiv\.u_pll.CLKRES(PLLC)     gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init\.pll_lock_reg.C     -                 -            
 =============================================================================================================================================================================================================================================

@@ -19,13 +19,13 @@ Implementation : Avant
 Synopsys Synopsys Netlist Linker, Version comp202503synp2, Build 038R, Built Oct  2 2025 06:42:54, @6263020
 
 @N|Running in 64-bit mode
-Options changed - recompiling
+File /home/kanmei/src/sincos_linear/project/Avant/synwork/sincos_linear_Avant_comp.srs changed - recompiling
 
 At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 248MB peak: 248MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Fri Jan  2 07:59:38 2026
+# Fri Jan  2 20:18:42 2026
 
 ###########################################################]

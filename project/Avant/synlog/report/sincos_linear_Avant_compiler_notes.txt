@@ -207,8 +207,6 @@
 @N: CL135 :"/home/kanmei/src/sincos_linear/source/top_sin_linear.v":48:0:48:5|Found sequential shift valid_i with address depth of 4 words and data bit width of 1.
 @N: CL135 :"/home/kanmei/src/sincos_linear/source/top_sin_linear.v":48:0:48:5|Found sequential shift valid_o with address depth of 3 words and data bit width of 1.
 @N: CL135 :"/home/kanmei/src/sincos_linear/source/top_sin_linear.v":48:0:48:5|Found sequential shift result with address depth of 3 words and data bit width of 32.
-@N: CL135 :"/home/kanmei/src/sincos_linear/source/sin_linear.v":80:0:80:5|Found sequential shift s3_quadrant with address depth of 3 words and data bit width of 1.
-@N: CL135 :"/home/kanmei/src/sincos_linear/source/sin_linear.v":80:0:80:5|Found sequential shift valid_o with address depth of 4 words and data bit width of 1.
 @N: CL159 :"/home/kanmei/src/sincos_linear/source/rom_dy18/rtl/rom_dy18.v":1952:10:1952:16|Input rd_en_i is unused.
 @N: CL159 :"/home/kanmei/src/sincos_linear/source/rom_dy18/rtl/rom_dy18.v":1957:31:1957:35|Input ben_i is unused.
 @N: CL159 :"/home/kanmei/src/sincos_linear/source/rom_dy18/rtl/rom_dy18.v":1952:10:1952:16|Input rd_en_i is unused.

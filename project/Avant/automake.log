@@ -486,7 +486,7 @@ NOTE:  This version of the software is not a production release. No warranty is 
 Starting:    /usr/local/lscc/radiant/2025.2/synpbase/linux_a_64/mbin/synbatch
 Install:     /usr/local/lscc/radiant/2025.2/synpbase
 Hostname:    P360
-Date:        Fri Jan  2 07:59:36 2026
+Date:        Fri Jan  2 20:18:40 2026
 Version:     W-2025.03LR-SP1-Beta2
 
 Arguments:   -product synplify_base -batch sincos_linear_Avant_synplify.tcl
@@ -505,28 +505,28 @@ Running: Avant in foreground
 Running proj_1|Avant
 
 Running Flow: compile (Compile) on proj_1|Avant
-# Fri Jan  2 07:59:36 2026
+# Fri Jan  2 20:18:40 2026
 
 Running Flow: compile_flow (Compile Process) on proj_1|Avant
-# Fri Jan  2 07:59:36 2026
+# Fri Jan  2 20:18:40 2026
 
 Running: compiler (Compile Input) on proj_1|Avant
-# Fri Jan  2 07:59:36 2026
-Process ID: 300405
+# Fri Jan  2 20:18:40 2026
+Process ID: 586494
 Copied /home/kanmei/src/sincos_linear/project/Avant/synwork/sincos_linear_Avant_comp.srs to /home/kanmei/src/sincos_linear/project/Avant/sincos_linear_Avant.srs
 
 compiler completed
-# Fri Jan  2 07:59:38 2026
+# Fri Jan  2 20:18:42 2026
 
 Return Code: 0
 Run Time:00h:00m:01s
 
 Running: multi_srs_gen (Multi-srs Generator) on proj_1|Avant
-# Fri Jan  2 07:59:38 2026
-Process ID: 300497
+# Fri Jan  2 20:18:42 2026
+Process ID: 586580
 
 multi_srs_gen completed
-# Fri Jan  2 07:59:38 2026
+# Fri Jan  2 20:18:42 2026
 
 Return Code: 0
 Run Time:00h:00m:00s
@@ -535,30 +535,30 @@ Copied /home/kanmei/src/sincos_linear/project/Avant/sincos_linear_Avant.srr to /
 Complete: Compile Process on proj_1|Avant
 
 Running: premap (Premap) on proj_1|Avant
-# Fri Jan  2 07:59:38 2026
-Process ID: 300513
+# Fri Jan  2 20:18:42 2026
+Process ID: 586602
 
 premap completed with warnings
-# Fri Jan  2 07:59:39 2026
+# Fri Jan  2 20:18:43 2026
 
 Return Code: 1
 Run Time:00h:00m:01s
 Complete: Compile on proj_1|Avant
 
 Running Flow: map (Map) on proj_1|Avant
-# Fri Jan  2 07:59:39 2026
+# Fri Jan  2 20:18:43 2026
 License granted for 4 parallel jobs
 
 Running: fpga_mapper (Map & Optimize) on proj_1|Avant
-# Fri Jan  2 07:59:39 2026
-Process ID: 300534
+# Fri Jan  2 20:18:43 2026
+Process ID: 586617
 Copied /home/kanmei/src/sincos_linear/project/Avant/synwork/sincos_linear_Avant_m.srm to /home/kanmei/src/sincos_linear/project/Avant/sincos_linear_Avant.srm
 
 fpga_mapper completed with warnings
-# Fri Jan  2 07:59:40 2026
+# Fri Jan  2 20:18:45 2026
 
 Return Code: 1
-Run Time:00h:00m:01s
+Run Time:00h:00m:02s
 Complete: Map on proj_1|Avant
 Copied /home/kanmei/src/sincos_linear/project/Avant/sincos_linear_Avant.srr to /home/kanmei/src/sincos_linear/project/Avant/sincos_linear_Avant.srf
 Complete: Logic Synthesis on proj_1|Avant
@@ -576,7 +576,7 @@ Child process exit with 0.
 #OS: Linux 
 #Hostname: P360
 
-# Fri Jan  2 07:59:36 2026
+# Fri Jan  2 20:18:40 2026
 
 #Implementation: Avant
 
@@ -631,7 +631,7 @@ At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memor
 
 
 Process completed successfully.
-# Fri Jan  2 07:59:36 2026
+# Fri Jan  2 20:18:40 2026
 
 ###########################################################]
 ###########################################################[
@@ -801,7 +801,7 @@ At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory
 
 
 Process completed successfully.
-# Fri Jan  2 07:59:36 2026
+# Fri Jan  2 20:18:41 2026
 
 ###########################################################]
 ###########################################################[
@@ -946,6 +946,7 @@ Process completed successfully.
 @I::"/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v" (library work)
 @N|stack limit increased to max
 Verilog syntax check successful!
+File /home/kanmei/src/sincos_linear/source/sin_linear.v changed - recompiling
 @N: CG364 :"/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v":1849:33:1849:54|Synthesizing module gpll_ipgen_pll_init_bw in library work.
 
 	SIMULATION=32'b00000000000000000000000000000000
@@ -1162,10 +1163,10 @@ Finished optimization stage 1 on gpll (CPU Time 0h:00m:00s, Memory Used current:
 	ADDR_DEPTH=32'b00000000000000000001000000000000
 	ADDR_WIDTH=32'b00000000000000000000000000001100
 	DATA_WIDTH=32'b00000000000000000000000000100100
-	REGMODE=24'b011100100110010101100111
+	REGMODE=40'b0110111001101111011100100110010101100111
 	GSR=1'b0
 	RESETMODE=32'b01110011011110010110111001100011
-	INIT_FILE=640'b0100111100111010001011110111001101110010011000110010111101000001011101100110000101101110011101000101111101101100011010010110001000101111011011100011001001011111011011000110100101100010001011110111001101101111011101010111001001100011011001010010111101110011011010010110111001100011011011110111001101011111011011000110100101101110011001010110000101110010001100010011100000101111011100100110111101101101010111110111100100110011001101100010111101101101011010010111001101100011001011110111100100110011001101100101111101110010011011110110110101011111011110010011001100110110010111110110001101101111011100000111100100101110011011010110010101101101
+	INIT_FILE=568'b0010111101101000011011110110110101100101001011110110101101100001011011100110110101100101011010010010111101110011011100100110001100101111011100110110100101101110011000110110111101110011010111110110110001101001011011100110010101100001011100100010111101110011011011110111010101110010011000110110010100101111011100100110111101101101010111110111100100110011001101100010111101101101011010010111001101100011001011110111100100110011001101100101111101110010011011110110110101011111011110010011001100110110010111110110001101101111011100000111100100101110011011010110010101101101
 	INIT_FILE_FORMAT=24'b011010000110010101111000
 	WRITE_MODE=48'b011011100110111101110010011011010110000101101100
 	MODULE_TYPE=48'b011100100110000101101101010111110110010001110001
@@ -1323,7 +1324,7 @@ Finished optimization stage 1 on gpll (CPU Time 0h:00m:00s, Memory Used current:
 	FAMILY_CODE=32'b00000000000000000000000000000011
 	DATA_WIDTH=32'b00000000000000000000000000001001
 	ADDR_WIDTH=32'b00000000000000000000000000001100
-	OUTREG=24'b011100100110010101100111
+	OUTREG=40'b0110111001101111011100100110010101100111
 	RESETMODE=32'b01110011011110010110111001100011
 	GSR=1'b0
 	CSCDECODE=32'b00000000000000000000000000000000
@@ -1509,7 +1510,7 @@ Finished optimization stage 1 on rom_y36_ipgen_lscc_rom_inst_core_Z3_layer0 (CPU
 	FAMILY_CODE=32'b00000000000000000000000000000011
 	DATA_WIDTH=32'b00000000000000000000000000001001
 	ADDR_WIDTH=32'b00000000000000000000000000001100
-	OUTREG=24'b011100100110010101100111
+	OUTREG=40'b0110111001101111011100100110010101100111
 	RESETMODE=32'b01110011011110010110111001100011
 	GSR=1'b0
 	CSCDECODE=32'b00000000000000000000000000000000
@@ -1690,7 +1691,7 @@ Finished optimization stage 1 on rom_y36_ipgen_lscc_rom_inst_core_Z4_layer0 (CPU
 	FAMILY_CODE=32'b00000000000000000000000000000011
 	DATA_WIDTH=32'b00000000000000000000000000001001
 	ADDR_WIDTH=32'b00000000000000000000000000001100
-	OUTREG=24'b011100100110010101100111
+	OUTREG=40'b0110111001101111011100100110010101100111
 	RESETMODE=32'b01110011011110010110111001100011
 	GSR=1'b0
 	CSCDECODE=32'b00000000000000000000000000000000
@@ -1871,7 +1872,7 @@ Finished optimization stage 1 on rom_y36_ipgen_lscc_rom_inst_core_Z5_layer0 (CPU
 	FAMILY_CODE=32'b00000000000000000000000000000011
 	DATA_WIDTH=32'b00000000000000000000000000001001
 	ADDR_WIDTH=32'b00000000000000000000000000001100
-	OUTREG=24'b011100100110010101100111
+	OUTREG=40'b0110111001101111011100100110010101100111
 	RESETMODE=32'b01110011011110010110111001100011
 	GSR=1'b0
 	CSCDECODE=32'b00000000000000000000000000000000
@@ -2050,10 +2051,10 @@ Finished optimization stage 1 on rom_y36_ipgen_lscc_rom_inst_Z2_layer0 (CPU Time
 	RADDR_DEPTH=32'b00000000000000000001000000000000
 	RADDR_WIDTH=32'b00000000000000000000000000001100
 	RDATA_WIDTH=32'b00000000000000000000000000100100
-	REGMODE=24'b011100100110010101100111
+	REGMODE=40'b0110111001101111011100100110010101100111
 	GSR=1'b0
 	RESETMODE=32'b01110011011110010110111001100011
-	INIT_FILE=640'b0100111100111010001011110111001101110010011000110010111101000001011101100110000101101110011101000101111101101100011010010110001000101111011011100011001001011111011011000110100101100010001011110111001101101111011101010111001001100011011001010010111101110011011010010110111001100011011011110111001101011111011011000110100101101110011001010110000101110010001100010011100000101111011100100110111101101101010111110111100100110011001101100010111101101101011010010111001101100011001011110111100100110011001101100101111101110010011011110110110101011111011110010011001100110110010111110110001101101111011100000111100100101110011011010110010101101101
+	INIT_FILE=568'b0010111101101000011011110110110101100101001011110110101101100001011011100110110101100101011010010010111101110011011100100110001100101111011100110110100101101110011000110110111101110011010111110110110001101001011011100110010101100001011100100010111101110011011011110111010101110010011000110110010100101111011100100110111101101101010111110111100100110011001101100010111101101101011010010111001101100011001011110111100100110011001101100101111101110010011011110110110101011111011110010011001100110110010111110110001101101111011100000111100100101110011011010110010101101101
 	INIT_FILE_FORMAT=24'b011010000110010101111000
 	MODULE_TYPE=24'b011100100110111101101101
 	INIT_DATA_TYPE=32'b00000000000000000000000000000001
@@ -2196,10 +2197,10 @@ Finished optimization stage 1 on rom_y36_ipgen_lscc_rom_inst_Z2_layer0 (CPU Time
 	INIT_DATA=56'b01000100010110010100111001000001010011010100100101000011
    Generated name = rom_y36_ipgen_lscc_rom_Z7_layer0
 Running optimization stage 1 on rom_y36_ipgen_lscc_rom_Z7_layer0 .......
-Finished optimization stage 1 on rom_y36_ipgen_lscc_rom_Z7_layer0 (CPU Time 0h:00m:00s, Memory Used current: 302MB peak: 302MB)
+Finished optimization stage 1 on rom_y36_ipgen_lscc_rom_Z7_layer0 (CPU Time 0h:00m:00s, Memory Used current: 301MB peak: 301MB)
 @N: CG364 :"/home/kanmei/src/sincos_linear/source/rom_y36/rtl/rom_y36.v":11:66:11:72|Synthesizing module rom_y36 in library work.
 Running optimization stage 1 on rom_y36 .......
-Finished optimization stage 1 on rom_y36 (CPU Time 0h:00m:00s, Memory Used current: 302MB peak: 302MB)
+Finished optimization stage 1 on rom_y36 (CPU Time 0h:00m:00s, Memory Used current: 301MB peak: 301MB)
 @N: CG364 :"/home/kanmei/src/sincos_linear/source/rom_dy18/rtl/rom_dy18.v":624:7:624:34|Synthesizing module rom_dy18_ipgen_lscc_rom_inst in library work.
 
 	_FCODE_LIFCL_=32'b00000000000000000000000000000001
@@ -2211,10 +2212,10 @@ Finished optimization stage 1 on rom_y36 (CPU Time 0h:00m:00s, Memory Used curre
 	ADDR_DEPTH=32'b00000000000000000001000000000000
 	ADDR_WIDTH=32'b00000000000000000000000000001100
 	DATA_WIDTH=32'b00000000000000000000000000010010
-	REGMODE=24'b011100100110010101100111
+	REGMODE=40'b0110111001101111011100100110010101100111
 	GSR=1'b0
 	RESETMODE=32'b01110011011110010110111001100011
-	INIT_FILE=664'b0100111100111010001011110111001101110010011000110010111101000001011101100110000101101110011101000101111101101100011010010110001000101111011011100011001001011111011011000110100101100010001011110111001101101111011101010111001001100011011001010010111101110011011010010110111001100011011011110111001101011111011011000110100101101110011001010110000101110010001100010011100000101111011100100110111101101101010111110110010001111001001100010011100000101111011011010110100101110011011000110010111101100100011110010011000100111000010111110111001001101111011011010101111101100100011110010011000100111000010111110110001101101111011100000111100100101110011011010110010101101101
+	INIT_FILE=592'b0010111101101000011011110110110101100101001011110110101101100001011011100110110101100101011010010010111101110011011100100110001100101111011100110110100101101110011000110110111101110011010111110110110001101001011011100110010101100001011100100010111101110011011011110111010101110010011000110110010100101111011100100110111101101101010111110110010001111001001100010011100000101111011011010110100101110011011000110010111101100100011110010011000100111000010111110111001001101111011011010101111101100100011110010011000100111000010111110110001101101111011100000111100100101110011011010110010101101101
 	INIT_FILE_FORMAT=24'b011010000110010101111000
 	WRITE_MODE=48'b011011100110111101110010011011010110000101101100
 	MODULE_TYPE=48'b011100100110000101101101010111110110010001110001
@@ -2372,7 +2373,7 @@ Finished optimization stage 1 on rom_y36 (CPU Time 0h:00m:00s, Memory Used curre
 	FAMILY_CODE=32'b00000000000000000000000000000011
 	DATA_WIDTH=32'b00000000000000000000000000001001
 	ADDR_WIDTH=32'b00000000000000000000000000001100
-	OUTREG=24'b011100100110010101100111
+	OUTREG=40'b0110111001101111011100100110010101100111
 	RESETMODE=32'b01110011011110010110111001100011
 	GSR=1'b0
 	CSCDECODE=32'b00000000000000000000000000000000
@@ -2555,7 +2556,7 @@ Finished optimization stage 1 on rom_dy18_ipgen_lscc_rom_inst_core_Z9_layer0 (CP
 	FAMILY_CODE=32'b00000000000000000000000000000011
 	DATA_WIDTH=32'b00000000000000000000000000001001
 	ADDR_WIDTH=32'b00000000000000000000000000001100
-	OUTREG=24'b011100100110010101100111
+	OUTREG=40'b0110111001101111011100100110010101100111
 	RESETMODE=32'b01110011011110010110111001100011
 	GSR=1'b0
 	CSCDECODE=32'b00000000000000000000000000000000
@@ -2734,10 +2735,10 @@ Finished optimization stage 1 on rom_dy18_ipgen_lscc_rom_inst_Z8_layer0 (CPU Tim
 	RADDR_DEPTH=32'b00000000000000000001000000000000
 	RADDR_WIDTH=32'b00000000000000000000000000001100
 	RDATA_WIDTH=32'b00000000000000000000000000010010
-	REGMODE=24'b011100100110010101100111
+	REGMODE=40'b0110111001101111011100100110010101100111
 	GSR=1'b0
 	RESETMODE=32'b01110011011110010110111001100011
-	INIT_FILE=664'b0100111100111010001011110111001101110010011000110010111101000001011101100110000101101110011101000101111101101100011010010110001000101111011011100011001001011111011011000110100101100010001011110111001101101111011101010111001001100011011001010010111101110011011010010110111001100011011011110111001101011111011011000110100101101110011001010110000101110010001100010011100000101111011100100110111101101101010111110110010001111001001100010011100000101111011011010110100101110011011000110010111101100100011110010011000100111000010111110111001001101111011011010101111101100100011110010011000100111000010111110110001101101111011100000111100100101110011011010110010101101101
+	INIT_FILE=592'b0010111101101000011011110110110101100101001011110110101101100001011011100110110101100101011010010010111101110011011100100110001100101111011100110110100101101110011000110110111101110011010111110110110001101001011011100110010101100001011100100010111101110011011011110111010101110010011000110110010100101111011100100110111101101101010111110110010001111001001100010011100000101111011011010110100101110011011000110010111101100100011110010011000100111000010111110111001001101111011011010101111101100100011110010011000100111000010111110110001101101111011100000111100100101110011011010110010101101101
 	INIT_FILE_FORMAT=24'b011010000110010101111000
 	MODULE_TYPE=24'b011100100110111101101101
 	INIT_DATA_TYPE=32'b00000000000000000000000000000001
@@ -2892,17 +2893,18 @@ Finished optimization stage 1 on MULTADDSUB18X18A (CPU Time 0h:00m:00s, Memory U
 	ASIGNED=64'b0101010101001110010100110100100101000111010011100100010101000100
 	BSIGNED=64'b0101010101001110010100110100100101000111010011100100010101000100
 	REGINPUTA=64'b0100001001011001010100000100000101010011010100110100010101000100
-	REGINPUTB=120'b010100100100010101000111010010010101001101010100010001010101001001000101010001000101111101001111010011100100001101000101
+	REGINPUTB=64'b0100001001011001010100000100000101010011010100110100010101000100
 	REGINPUTC=64'b0100001001011001010100000100000101010011010100110100010101000100
 	REGPIPE=64'b0100001001011001010100000100000101010011010100110100010101000100
-	REGOUTPUT=80'b01010010010001010100011101001001010100110101010001000101010100100100010101000100
-   Generated name = mult18x18p48_UNSIGNED_UNSIGNED_BYPASSED_REGISTERED_ONCE_BYPASSED_BYPASSED_REGISTERED_12_layer0
-Running optimization stage 1 on mult18x18p48_UNSIGNED_UNSIGNED_BYPASSED_REGISTERED_ONCE_BYPASSED_BYPASSED_REGISTERED_12_layer0 .......
-Finished optimization stage 1 on mult18x18p48_UNSIGNED_UNSIGNED_BYPASSED_REGISTERED_ONCE_BYPASSED_BYPASSED_REGISTERED_12_layer0 (CPU Time 0h:00m:00s, Memory Used current: 306MB peak: 306MB)
+	REGOUTPUT=64'b0100001001011001010100000100000101010011010100110100010101000100
+   Generated name = mult18x18p48_UNSIGNED_UNSIGNED_BYPASSED_BYPASSED_BYPASSED_BYPASSED_BYPASSED_12_layer0
+Running optimization stage 1 on mult18x18p48_UNSIGNED_UNSIGNED_BYPASSED_BYPASSED_BYPASSED_BYPASSED_BYPASSED_12_layer0 .......
+Finished optimization stage 1 on mult18x18p48_UNSIGNED_UNSIGNED_BYPASSED_BYPASSED_BYPASSED_BYPASSED_BYPASSED_12_layer0 (CPU Time 0h:00m:00s, Memory Used current: 306MB peak: 306MB)
 @N: CG364 :"/home/kanmei/src/sincos_linear/source/sin_linear.v":12:7:12:16|Synthesizing module sin_linear in library work.
+@W: CG390 :"/home/kanmei/src/sincos_linear/source/sin_linear.v":65:50:65:64|Repeat multiplier in concatenation evaluates to 0
+@W: CG781 :"/home/kanmei/src/sincos_linear/source/sin_linear.v":65:4:65:17|Input clk on instance mult18x18p48_i is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG781 :"/home/kanmei/src/sincos_linear/source/sin_linear.v":65:4:65:17|Input resetn on instance mult18x18p48_i is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
 Running optimization stage 1 on sin_linear .......
-@W: CL265 :"/home/kanmei/src/sincos_linear/source/sin_linear.v":80:0:80:5|Removing unused bit 0 of s2_quadrant[1:0]. Either assign all bits or reduce the width of the signal.
-@W: CL265 :"/home/kanmei/src/sincos_linear/source/sin_linear.v":80:0:80:5|Removing unused bit 0 of s3_quadrant[1:0]. Either assign all bits or reduce the width of the signal.
 @W: CL265 :"/home/kanmei/src/sincos_linear/source/sin_linear.v":42:0:42:5|Removing unused bit 0 of s1_quadrant[1:0]. Either assign all bits or reduce the width of the signal.
 Finished optimization stage 1 on sin_linear (CPU Time 0h:00m:00s, Memory Used current: 306MB peak: 306MB)
 @N: CG364 :"/home/kanmei/src/sincos_linear/source/sincos_linear.v":3:7:3:19|Synthesizing module sincos_linear in library work.
@@ -2923,11 +2925,9 @@ Finished optimization stage 2 on top_sin_linear (CPU Time 0h:00m:00s, Memory Use
 Running optimization stage 2 on sincos_linear_32s .......
 Finished optimization stage 2 on sincos_linear_32s (CPU Time 0h:00m:00s, Memory Used current: 306MB peak: 306MB)
 Running optimization stage 2 on sin_linear .......
-@N: CL135 :"/home/kanmei/src/sincos_linear/source/sin_linear.v":80:0:80:5|Found sequential shift s3_quadrant with address depth of 3 words and data bit width of 1.
-@N: CL135 :"/home/kanmei/src/sincos_linear/source/sin_linear.v":80:0:80:5|Found sequential shift valid_o with address depth of 4 words and data bit width of 1.
 Finished optimization stage 2 on sin_linear (CPU Time 0h:00m:00s, Memory Used current: 306MB peak: 306MB)
-Running optimization stage 2 on mult18x18p48_UNSIGNED_UNSIGNED_BYPASSED_REGISTERED_ONCE_BYPASSED_BYPASSED_REGISTERED_12_layer0 .......
-Finished optimization stage 2 on mult18x18p48_UNSIGNED_UNSIGNED_BYPASSED_REGISTERED_ONCE_BYPASSED_BYPASSED_REGISTERED_12_layer0 (CPU Time 0h:00m:00s, Memory Used current: 306MB peak: 306MB)
+Running optimization stage 2 on mult18x18p48_UNSIGNED_UNSIGNED_BYPASSED_BYPASSED_BYPASSED_BYPASSED_BYPASSED_12_layer0 .......
+Finished optimization stage 2 on mult18x18p48_UNSIGNED_UNSIGNED_BYPASSED_BYPASSED_BYPASSED_BYPASSED_BYPASSED_12_layer0 (CPU Time 0h:00m:00s, Memory Used current: 306MB peak: 306MB)
 Running optimization stage 2 on MULTADDSUB18X18A .......
 Finished optimization stage 2 on MULTADDSUB18X18A (CPU Time 0h:00m:00s, Memory Used current: 306MB peak: 306MB)
 Running optimization stage 2 on rom_dy18 .......
@@ -3011,7 +3011,7 @@ At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory
 
 
 Process completed successfully.
-# Fri Jan  2 07:59:37 2026
+# Fri Jan  2 20:18:41 2026
 
 ###########################################################]
 ###########################################################[
@@ -3041,7 +3041,7 @@ At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Fri Jan  2 07:59:37 2026
+# Fri Jan  2 20:18:41 2026
 
 ###########################################################]
 
@@ -3056,7 +3056,7 @@ At c_hdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Fri Jan  2 07:59:37 2026
+# Fri Jan  2 20:18:41 2026
 
 ###########################################################]
 ###########################################################[
@@ -3080,19 +3080,17 @@ Implementation : Avant
 Synopsys Synopsys Netlist Linker, Version comp202503synp2, Build 038R, Built Oct  2 2025 06:42:54, @6263020
 
 @N|Running in 64-bit mode
-Options changed - recompiling
+File /home/kanmei/src/sincos_linear/project/Avant/synwork/sincos_linear_Avant_comp.srs changed - recompiling
 
 At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 248MB peak: 248MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Fri Jan  2 07:59:38 2026
+# Fri Jan  2 20:18:42 2026
 
 ###########################################################]
-Premap Report
-
-# Fri Jan  2 07:59:38 2026
+# Fri Jan  2 20:18:43 2026
 
 
 Copyright (C) 1994-2025 Synopsys, Inc.
@@ -3191,7 +3189,7 @@ Level     Clock                                                             Freq
 ----------------------------------------------------------------------------------------------------------------------------------------------------
 0 -       System                                                            200.0 MHz     5.000         system       system_clkgroup           0    
                                                                                                                                                     
-0 -       gpll_ipgen_lscc_pll_Z1_layer0|clkout_clkop_o_inferred_clock       200.0 MHz     5.000         inferred     Inferred_clkgroup_0_1     216  
+0 -       gpll_ipgen_lscc_pll_Z1_layer0|clkout_clkop_o_inferred_clock       200.0 MHz     5.000         inferred     Inferred_clkgroup_0_1     212  
                                                                                                                                                     
 0 -       gpll_ipgen_lscc_pll_Z1_layer0|clkout_testclk_o_inferred_clock     200.0 MHz     5.000         inferred     Inferred_clkgroup_0_2     27   
 ====================================================================================================================================================
@@ -3206,12 +3204,12 @@ Clock                                                             Load      Pin 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 System                                                            0         -                                                              -                                                                  -                 -            
                                                                                                                                                                                                                                              
-gpll_ipgen_lscc_pll_Z1_layer0|clkout_clkop_o_inferred_clock       216       gpll_i.lscc_pll_inst.gen_ext_outclkdiv\.u_pll.CLKOP(PLLC)      G_1.C                                                              -                 -            
+gpll_ipgen_lscc_pll_Z1_layer0|clkout_clkop_o_inferred_clock       212       gpll_i.lscc_pll_inst.gen_ext_outclkdiv\.u_pll.CLKOP(PLLC)      G_1.C                                                              -                 -            
                                                                                                                                                                                                                                              
 gpll_ipgen_lscc_pll_Z1_layer0|clkout_testclk_o_inferred_clock     27        gpll_i.lscc_pll_inst.gen_ext_outclkdiv\.u_pll.CLKRES(PLLC)     gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init\.pll_lock_reg.C     -                 -            
 =============================================================================================================================================================================================================================================
 
-@W: MT530 :"/home/kanmei/src/sincos_linear/source/rom_y36/rtl/rom_y36.v":2974:174:2974:178|Found inferred clock gpll_ipgen_lscc_pll_Z1_layer0|clkout_clkop_o_inferred_clock which controls 216 sequential elements including dut.sin_linear_i.rom_y0_i.lscc_rom_inst.u_rom.PRIM_MODE\.xADDR\[0\]\.xDATA\[2\]\.mem_file\.mem0.AP6\.SP32K\.sp32k. This clock has no specified timing constraint which may adversely impact design performance. 
+@W: MT530 :"/home/kanmei/src/sincos_linear/source/rom_y36/rtl/rom_y36.v":2974:174:2974:178|Found inferred clock gpll_ipgen_lscc_pll_Z1_layer0|clkout_clkop_o_inferred_clock which controls 212 sequential elements including dut.sin_linear_i.rom_y0_i.lscc_rom_inst.u_rom.PRIM_MODE\.xADDR\[0\]\.xDATA\[2\]\.mem_file\.mem0.AP6\.SP32K\.sp32k. This clock has no specified timing constraint which may adversely impact design performance. 
 @W: MT530 :"/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v":2285:4:2285:9|Found inferred clock gpll_ipgen_lscc_pll_Z1_layer0|clkout_testclk_o_inferred_clock which controls 27 sequential elements including gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init\.u_rst_n_sync.sync_reg[1:0]. This clock has no specified timing constraint which may adversely impact design performance. 
 
 ICG Latch Removal Summary:
@@ -3225,14 +3223,14 @@ Number of ICG latches not removed:	0
 
 #### START OF PREMAP CLOCK OPTIMIZATION REPORT #####[
 
-2 non-gated/non-generated clock tree(s) driving 183 clock pin(s) of sequential element(s)
+2 non-gated/non-generated clock tree(s) driving 179 clock pin(s) of sequential element(s)
 0 gated/generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
 0 instances converted, 0 sequential instances remain driven by gated/generated clocks
 
 ===================================================================== Non-Gated/Non-Generated Clocks =====================================================================
 Clock Tree ID     Driving Element                                          Drive Element Type     Fanout     Sample Instance                                              
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-@KP:ckid0_0       gpll_i.lscc_pll_inst.gen_ext_outclkdiv\.u_pll.CLKOP      PLLC                   156        valid_i_3[0]                                                 
+@KP:ckid0_0       gpll_i.lscc_pll_inst.gen_ext_outclkdiv\.u_pll.CLKOP      PLLC                   152        valid_i_3[0]                                                 
 @KP:ckid0_1       gpll_i.lscc_pll_inst.gen_ext_outclkdiv\.u_pll.CLKRES     PLLC                   27         gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init\.bw_init_cs[4]
 ==========================================================================================================================================================================
 
@@ -3256,12 +3254,12 @@ Pre-mapping successful!
 At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 313MB peak: 402MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
-# Fri Jan  2 07:59:39 2026
+# Fri Jan  2 20:18:43 2026
 
 ###########################################################]
 Map & Optimize Report
 
-# Fri Jan  2 07:59:39 2026
+# Fri Jan  2 20:18:43 2026
 
 
 Copyright (C) 1994-2025 Synopsys, Inc.
@@ -3441,16 +3439,16 @@ Finished factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; M
 
 NConnInternalConnection caching is on
 
-Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 1452MB peak: 1452MB)
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 1452MB peak: 1515MB)
 
 
-Starting Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 1452MB peak: 1452MB)
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 1452MB peak: 1515MB)
 
 
-Finished Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 1452MB peak: 1452MB)
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 1452MB peak: 1515MB)
 
 
-Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 1452MB peak: 1452MB)
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 1452MB peak: 1515MB)
 
 @W: BN132 :"/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v":2001:16:2001:21|Removing instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.wdata[6] because it is equivalent to instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.wdata[3]. To keep the instance, apply constraint syn_preserve=1 on the instance.
 @W: BN132 :"/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v":2001:16:2001:21|Removing instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.wdata[3] because it is equivalent to instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.wdata[2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
@@ -3461,51 +3459,51 @@ Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:00s; CP
 @W: BN132 :"/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v":2001:16:2001:21|Removing instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.wdata[11] because it is equivalent to instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.wdata[5]. To keep the instance, apply constraint syn_preserve=1 on the instance.
 @W: BN132 :"/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v":2001:16:2001:21|Removing instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.wdata[10] because it is equivalent to instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.wdata[5]. To keep the instance, apply constraint syn_preserve=1 on the instance.
 
-Finished preparing to map (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 1452MB peak: 1452MB)
+Finished preparing to map (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 1452MB peak: 1515MB)
 
 
-Finished technology mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 1452MB peak: 1452MB)
+Finished technology mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 1452MB peak: 1515MB)
 
 Pass		 CPU time		Worst Slack		Luts / Registers
 ------------------------------------------------------------
-   1		0h:00m:00s		     2.91ns		 118 /        91
+   1		0h:00m:00s		     2.91ns		 118 /        87
 
-Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 1452MB peak: 1452MB)
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 1452MB peak: 1515MB)
 
 @N: BN362 :"/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v":1972:16:1972:21|Removing sequential instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init\.nf_usr_regval[10] (in view: work.top_sin_linear(verilog)) because it does not drive other instances.
 @N: BN362 :"/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v":1972:16:1972:21|Removing sequential instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init\.bw_usr_regval[0] (in view: work.top_sin_linear(verilog)) because it does not drive other instances.
 @N: BN362 :"/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v":2001:16:2001:21|Removing sequential instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init\.wdata[5] (in view: work.top_sin_linear(verilog)) because it does not drive other instances.
 @N: FX164 |The option to pack registers in the IOB has not been specified. Please set syn_useioff attribute.  
 
-Finished restoring hierarchy (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 1452MB peak: 1452MB)
+Finished restoring hierarchy (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 1452MB peak: 1515MB)
 
 
-Starting CDBProcessSetClockGroups... (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 1452MB peak: 1452MB)
+Starting CDBProcessSetClockGroups... (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 1452MB peak: 1515MB)
 
 
-Finished with CDBProcessSetClockGroups (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 1452MB peak: 1452MB)
+Finished with CDBProcessSetClockGroups (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 1452MB peak: 1515MB)
 
 
-Start Writing Netlists (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 1452MB peak: 1452MB)
+Start Writing Netlists (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 1452MB peak: 1515MB)
 
 Writing Analyst data base /home/kanmei/src/sincos_linear/project/Avant/synwork/sincos_linear_Avant_m.srm
 
-Finished Writing Netlist Databases (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 1452MB peak: 1452MB)
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 1452MB peak: 1515MB)
 
 Writing Verilog Simulation files
 
-Writing scf file... (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 1452MB peak: 1452MB)
+Writing scf file... (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 1452MB peak: 1515MB)
 
 @N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.
 @N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
 
-Finished Writing Verilog Simulation files (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 1452MB peak: 1452MB)
+Finished Writing Verilog Simulation files (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 1452MB peak: 1515MB)
 
 
-Finished Writing Netlists (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 1452MB peak: 1452MB)
+Finished Writing Netlists (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 1452MB peak: 1515MB)
 
 
-Start final timing analysis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 1452MB peak: 1452MB)
+Start final timing analysis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 1452MB peak: 1515MB)
 
 @W: MT246 :"/home/kanmei/src/sincos_linear/source/mult18x18p48.v":52:3:52:15|Blackbox MULTADDSUB18X18A is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results)
 @W: MT246 :"/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v":1377:58:1377:62|Blackbox PLLC is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results)
@@ -3515,7 +3513,7 @@ Start final timing analysis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:0
 
 
 ##### START OF TIMING REPORT #####[
-# Timing report written on Fri Jan  2 07:59:40 2026
+# Timing report written on Fri Jan  2 20:18:44 2026
 #
 
 
@@ -3586,21 +3584,21 @@ Detailed Report for Clock: gpll_ipgen_lscc_pll_Z1_layer0|clkout_clkop_o_inferred
 Starting Points with Worst Slack
 ********************************
 
-                                      Starting                                                                                               Arrival          
-Instance                              Reference                                                       Type        Pin     Net                Time        Slack
-                                      Clock                                                                                                                   
---------------------------------------------------------------------------------------------------------------------------------------------------------------
-result_CF1[0]                         gpll_ipgen_lscc_pll_Z1_layer0|clkout_clkop_o_inferred_clock     FD1P3IX     Q       CO0                1.078       3.070
-result_CF1[1]                         gpll_ipgen_lscc_pll_Z1_layer0|clkout_clkop_o_inferred_clock     FD1P3IX     Q       tmp1[1]            1.075       3.073
-dut.sin_linear_i.s3_quadrant_0[1]     gpll_ipgen_lscc_pll_Z1_layer0|clkout_clkop_o_inferred_clock     FD1P3DX     Q       s3_quadrant[1]     1.113       3.227
-G_75                                  gpll_ipgen_lscc_pll_Z1_layer0|clkout_clkop_o_inferred_clock     FD1P3DX     Q       G_75               1.112       3.228
-G_3                                   gpll_ipgen_lscc_pll_Z1_layer0|clkout_clkop_o_inferred_clock     FD1P3DX     Q       G_3                1.115       3.831
-G_1                                   gpll_ipgen_lscc_pll_Z1_layer0|clkout_clkop_o_inferred_clock     FD1P3DX     Q       G_1                0.853       4.093
-G_2                                   gpll_ipgen_lscc_pll_Z1_layer0|clkout_clkop_o_inferred_clock     FD1P3DX     Q       G_2                0.853       4.093
-dut.sin_linear_i.s1_quadrant[1]       gpll_ipgen_lscc_pll_Z1_layer0|clkout_clkop_o_inferred_clock     FD1P3DX     Q       s1_quadrant[1]     0.853       4.093
-dut.sin_linear_i.s1_valid[0]          gpll_ipgen_lscc_pll_Z1_layer0|clkout_clkop_o_inferred_clock     FD1P3DX     Q       s1_valid[0]        0.853       4.093
-dut.sin_linear_i.s2_quadrant[1]       gpll_ipgen_lscc_pll_Z1_layer0|clkout_clkop_o_inferred_clock     FD1P3DX     Q       s2_quadrant[1]     0.853       4.093
-==============================================================================================================================================================
+                                    Starting                                                                                                Arrival          
+Instance                            Reference                                                       Type         Pin     Net                Time        Slack
+                                    Clock                                                                                                                    
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+result_CF1[0]                       gpll_ipgen_lscc_pll_Z1_layer0|clkout_clkop_o_inferred_clock     FD1P3IX      Q       CO0                1.078       3.070
+result_CF1[1]                       gpll_ipgen_lscc_pll_Z1_layer0|clkout_clkop_o_inferred_clock     FD1P3IX      Q       tmp1[1]            1.075       3.073
+dut.sin_linear_i.s1_quadrant[1]     gpll_ipgen_lscc_pll_Z1_layer0|clkout_clkop_o_inferred_clock     FD1P3DX      Q       s1_quadrant[1]     1.113       3.227
+G_75                                gpll_ipgen_lscc_pll_Z1_layer0|clkout_clkop_o_inferred_clock     FD1P3DX      Q       G_75               1.112       3.228
+G_3                                 gpll_ipgen_lscc_pll_Z1_layer0|clkout_clkop_o_inferred_clock     FD1P3DX      Q       G_3                1.115       3.831
+G_1                                 gpll_ipgen_lscc_pll_Z1_layer0|clkout_clkop_o_inferred_clock     FD1P3DX      Q       G_1                0.853       4.093
+G_2                                 gpll_ipgen_lscc_pll_Z1_layer0|clkout_clkop_o_inferred_clock     FD1P3DX      Q       G_2                0.853       4.093
+dut.sin_linear_i.s1_valid           gpll_ipgen_lscc_pll_Z1_layer0|clkout_clkop_o_inferred_clock     FD1P3DX      Q       s1_valid           0.853       4.093
+valid_i_0_0io[0]                    gpll_ipgen_lscc_pll_Z1_layer0|clkout_clkop_o_inferred_clock     IFD1P3DX     Q       valid_i_0[0]       0.853       4.093
+valid_i_1[0]                        gpll_ipgen_lscc_pll_Z1_layer0|clkout_clkop_o_inferred_clock     FD1P3DX      Q       valid_i_1[0]       0.853       4.093
+=============================================================================================================================================================
 
 
 Ending Points with Worst Slack
@@ -3832,17 +3830,17 @@ Timing exceptions that could not be applied
 @W: MT447 :"/home/kanmei/src/sincos_linear/project/Avant/sincos_linear_Avant_cpe.ldc":17:0:17:0|Timing constraint (to [get_pins {gpll_i/lscc_pll_inst/gen_ext_outclkdiv\.u_pll/RESET}]) (false path) was not applied to the design because none of the paths specified by the constraint exist in the design 
 None
 
-Finished final timing analysis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 1452MB peak: 1452MB)
+Finished final timing analysis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 1452MB peak: 1515MB)
 
 
-Finished timing report (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 1452MB peak: 1452MB)
+Finished timing report (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 1452MB peak: 1515MB)
 
 ---------------------------------------
 Resource Usage Report
 Part: lav_at_e30escbg484c-1
 
 
-Register bits: 88 of 163200 (0%)
+Register bits: 84 of 163200 (0%)
 I/O cells:       67
 Block Rams : 6 of 400 (1%)
 
@@ -3851,7 +3849,7 @@ DSP primitives:       1 of 2100 (0%)
 Details:
 DPR16X4A:       8
 FD1P3BX:        2
-FD1P3DX:        80
+FD1P3DX:        76
 FD1P3IX:        4
 GSRA:           1
 IB:             34
@@ -3878,7 +3876,7 @@ Carry Chains: 0
 Blackboxes: 0
 
 Mapping Summary:
-Total number of registers: 88 + 0 = 88 of 163200 (0.05%)
+Total number of registers: 84 + 0 = 84 of 163200 (0.05%)
 Total number of LUTs: 109 + 0 = 109 
 Total number of EBRs: 6 + 0 = 6 of 400 (1.50%)
 Total number of DSPs: 1 + 0 = 1 of 700 (0.14%)
@@ -3887,10 +3885,10 @@ Total number of Carry Chains: 0 + 0 = 0
 Total number of BlackBoxes: 47 + 0 = 47 
 Mapper successful!
 
-At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 1363MB peak: 1452MB)
+At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 1363MB peak: 1515MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
-# Fri Jan  2 07:59:40 2026
+# Fri Jan  2 20:18:45 2026
 
 ###########################################################]
 
@@ -3907,7 +3905,7 @@ Command Line: postsyn -a LAV-AT -p LAV-AT-E30ES -t CBG484 -sp 1 -oc Commercial -
    Package:          CBG484
    Performance:      1
 Reading input file 'sincos_linear_Avant.vm' ...
-CPU Time to convert: 1.75513
+CPU Time to convert: 1.73704
 REAL Time to convert: 2
 convert PEAK Memory Usage: 552 MB
 convert CURRENT Memory Usage: 552 MB
@@ -3984,7 +3982,7 @@ POSTSYN finished successfully.
 Total CPU Time: 2 secs 
 Total REAL Time: 3 secs 
 Peak Memory Usage: 762 MB
-Checksum -- postsyn: c56b49a8f3acfd2cfc368c219e672531c686574b
+Checksum -- postsyn: 61015dec168f91cb51fff35337ceb9292045d847
 
 
 
@@ -4018,8 +4016,8 @@ WARNING <51011071> - Remove invalid constraint 'set_false_path -to [get_pins {gp
 
 
 Design Summary:
-   Number of registers:          88 out of 164259 (<1%)
-      Number of SLICE         registers:   86 out of 163200 (<1%)
+   Number of registers:          84 out of 164259 (<1%)
+      Number of SLICE         registers:   82 out of 163200 (<1%)
       Number of PIO Input     registers:    1 out of   353 (<1%)
       Number of PIO Output    registers:    1 out of   353 (<1%)
       Number of PIO Tri-State registers:    0 out of   353 (0%)
@@ -4067,7 +4065,7 @@ Design Summary:
    Number of LMMI Slave:          0 out of 1 (0%)
    Number of Config WDT:          0 out of 1 (0%)
    Number of Clocks:  4
-      Net clk: 93 loads, 93 rising, 0 falling (Driver: Pin gpll_i.lscc_pll_inst.gen_ext_outclkdiv.u_pll.PLLC_MODE_inst/CLKOP)
+      Net clk: 88 loads, 88 rising, 0 falling (Driver: Pin gpll_i.lscc_pll_inst.gen_ext_outclkdiv.u_pll.PLLC_MODE_inst/CLKOP)
       Net gpll_i.lscc_pll_inst.clkout_testclk_o: 18 loads, 18 rising, 0 falling (Driver: Pin gpll_i.lscc_pll_inst.gen_ext_outclkdiv.u_pll.PLLC_MODE_inst/CLKRES)
       Net gpll_i.lscc_pll_inst.lmmi_clk_w: 1 loads, 1 rising, 0 falling (Driver: Pin gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.u_pll_lmmi_mux.u_sw_lmmi_mux.LMMICLK_OUT_cZ/Z)
       Net clk50_c: 1 loads, 1 rising, 0 falling (Driver: Port clk50)
@@ -4078,16 +4076,16 @@ Design Summary:
    Number of LSRs:  4
       Net VCC: 16 loads, 16 SLICEs
       Net gpll_i.lscc_pll_inst.u_pll_init_bw.rst_n_reg: 15 loads, 15 SLICEs
-      Net gpll_i.lscc_pll_inst.u_pll_init_bw.resetn: 75 loads, 66 SLICEs
+      Net gpll_i.lscc_pll_inst.u_pll_init_bw.resetn: 70 loads, 62 SLICEs
       Net gpll_i.lscc_pll_inst.u_pll_init_bw.rst_n_sync_i: 1 loads, 1 SLICEs
    Top 10 highest fanout non-clock nets:
-      Net gpll_i.lscc_pll_inst.u_pll_init_bw.resetn: 75 loads
+      Net gpll_i.lscc_pll_inst.u_pll_init_bw.resetn: 70 loads
       Net CO0: 50 loads
       Net tmp1[1]: 49 loads
       Net CO0_i: 33 loads
       Net G_3: 33 loads
       Net tmp2[1]: 33 loads
-      Net dut.sin_linear_i.s3_quadrant[1]: 32 loads
+      Net dut.sin_linear_i.s1_quadrant[1]: 32 loads
       Net G_75: 31 loads
       Net phase_CR31_ram_29: 31 loads
       Net VCC: 21 loads
@@ -4109,76 +4107,76 @@ Total CPU Time: 6 secs
 Total REAL Time: 6 secs  
 Peak Memory Usage: 2293 MB
 
-Checksum -- map: 5dc066cbe8a2753dc50f16ec3288302b4e456f1
-**** CMD map_run - CPU/Elapsed: 0 secs / 6 secs , MEM/Increased: 543.101 Mb/ 0.000 Mb, DATE: ?  1? 02 07:59:55 JST 2026
-Thank you for using Radiant. Total CPU/Elapsed time: 0 secs /6 secs 
+Checksum -- map: 4219f5e331763b3d52b64aec38fc0612c2ac7e29
+**** CMD map_run - CPU/Elapsed: 0 secs / 7 secs , MEM/Increased: 543.105 Mb/ 0.000 Mb, DATE: ?  1? 02 20:19:00 JST 2026
+Thank you for using Radiant. Total CPU/Elapsed time: 0 secs /7 secs 
 
 pnmainc -log pnmain "sincos_linear_Avant_par.tcl"
-Starting job 5_1 on node p360 at Fri Jan  2 08:00:01 2026
+Starting job 5_1 on node p360 at Fri Jan  2 20:19:05 2026
 
-Starting job 5_2 on node p360 at Fri Jan  2 08:00:02 2026
+Starting job 5_2 on node p360 at Fri Jan  2 20:19:06 2026
 
-Starting job 5_3 on node p360 at Fri Jan  2 08:00:03 2026
+Starting job 5_3 on node p360 at Fri Jan  2 20:19:07 2026
 
-Starting job 5_4 on node p360 at Fri Jan  2 08:00:04 2026
+Starting job 5_4 on node p360 at Fri Jan  2 20:19:08 2026
 
-Starting job 5_5 on node p360 at Fri Jan  2 08:00:05 2026
+Starting job 5_5 on node p360 at Fri Jan  2 20:19:09 2026
 
-Starting job 5_6 on node p360 at Fri Jan  2 08:00:06 2026
+Starting job 5_6 on node p360 at Fri Jan  2 20:19:10 2026
 
-Starting job 5_7 on node p360 at Fri Jan  2 08:00:07 2026
+Starting job 5_7 on node p360 at Fri Jan  2 20:19:11 2026
 
-Starting job 5_8 on node p360 at Fri Jan  2 08:00:08 2026
+Starting job 5_8 on node p360 at Fri Jan  2 20:19:12 2026
 
-Starting job 5_9 on node p360 at Fri Jan  2 08:00:09 2026
+Starting job 5_9 on node p360 at Fri Jan  2 20:19:13 2026
 
-Starting job 5_10 on node p360 at Fri Jan  2 08:00:10 2026
+Starting job 5_10 on node p360 at Fri Jan  2 20:19:14 2026
 
-Starting job 5_11 on node p360 at Fri Jan  2 08:00:11 2026
+Starting job 5_11 on node p360 at Fri Jan  2 20:19:15 2026
 
-Starting job 5_12 on node p360 at Fri Jan  2 08:00:12 2026
+Starting job 5_12 on node p360 at Fri Jan  2 20:19:16 2026
 
-Starting job 5_13 on node p360 at Fri Jan  2 08:00:13 2026
+Starting job 5_13 on node p360 at Fri Jan  2 20:19:17 2026
 
-Starting job 5_14 on node p360 at Fri Jan  2 08:00:14 2026
+Starting job 5_14 on node p360 at Fri Jan  2 20:19:18 2026
 
-Starting job 5_15 on node p360 at Fri Jan  2 08:00:15 2026
+Starting job 5_15 on node p360 at Fri Jan  2 20:19:19 2026
 
-Starting job 5_16 on node p360 at Fri Jan  2 08:00:16 2026
+Starting job 5_16 on node p360 at Fri Jan  2 20:19:20 2026
 
-Finished job 5_4 on node p360 at Fri Jan  2 08:00:38 2026
+Finished job 5_1 on node p360 at Fri Jan  2 20:19:42 2026
 
-Finished job 5_5 on node p360 at Fri Jan  2 08:00:41 2026
+Finished job 5_3 on node p360 at Fri Jan  2 20:19:42 2026
 
-Finished job 5_1 on node p360 at Fri Jan  2 08:00:44 2026
+Finished job 5_4 on node p360 at Fri Jan  2 20:19:45 2026
 
-Finished job 5_2 on node p360 at Fri Jan  2 08:00:44 2026
+Finished job 5_5 on node p360 at Fri Jan  2 20:19:45 2026
 
-Finished job 5_3 on node p360 at Fri Jan  2 08:00:44 2026
+Finished job 5_6 on node p360 at Fri Jan  2 20:19:45 2026
 
-Finished job 5_7 on node p360 at Fri Jan  2 08:00:44 2026
+Finished job 5_2 on node p360 at Fri Jan  2 20:19:48 2026
 
-Finished job 5_6 on node p360 at Fri Jan  2 08:00:47 2026
+Finished job 5_7 on node p360 at Fri Jan  2 20:19:51 2026
 
-Finished job 5_8 on node p360 at Fri Jan  2 08:00:47 2026
+Finished job 5_8 on node p360 at Fri Jan  2 20:19:51 2026
 
-Finished job 5_9 on node p360 at Fri Jan  2 08:00:47 2026
+Finished job 5_9 on node p360 at Fri Jan  2 20:19:51 2026
 
-Finished job 5_10 on node p360 at Fri Jan  2 08:00:47 2026
+Finished job 5_13 on node p360 at Fri Jan  2 20:19:51 2026
 
-Finished job 5_13 on node p360 at Fri Jan  2 08:00:50 2026
+Finished job 5_10 on node p360 at Fri Jan  2 20:19:54 2026
 
-Finished job 5_15 on node p360 at Fri Jan  2 08:00:50 2026
+Finished job 5_14 on node p360 at Fri Jan  2 20:19:54 2026
 
-Finished job 5_11 on node p360 at Fri Jan  2 08:00:53 2026
+Finished job 5_12 on node p360 at Fri Jan  2 20:19:57 2026
 
-Finished job 5_12 on node p360 at Fri Jan  2 08:00:53 2026
+Finished job 5_11 on node p360 at Fri Jan  2 20:20:00 2026
 
-Finished job 5_16 on node p360 at Fri Jan  2 08:00:53 2026
+Finished job 5_15 on node p360 at Fri Jan  2 20:20:00 2026
 
-Finished job 5_14 on node p360 at Fri Jan  2 08:00:56 2026
+Finished job 5_16 on node p360 at Fri Jan  2 20:20:00 2026
 
-**** CMD par_run - CPU/Elapsed: 0 secs / 55 secs , MEM/Increased: 543.101 Mb/ 0.000 Mb, DATE: ?  1? 02 08:00:56 JST 2026
+**** CMD par_run - CPU/Elapsed: 0 secs / 55 secs , MEM/Increased: 543.105 Mb/ 0.000 Mb, DATE: ?  1? 02 20:20:00 JST 2026
 Thank you for using Radiant. Total CPU/Elapsed time: 0 secs /55 secs 
 
 timing -sethld -v 10 -u 10 -endpoints 10 -nperend 1 -sp 1 -hsp m   -pwrprd -html -rpt "sincos_linear_Avant.twr" "sincos_linear_Avant.udb" 
@@ -4196,7 +4194,7 @@ Performance Grade:   1
 
 
 
-Successfully loading udb, 2.48 seconds
+Successfully loading udb, 2.49 seconds
 
 Initializing timer
 Starting design annotation....
@@ -4208,7 +4206,7 @@ WARNING <70001944> - No source clock for
 
 Starting full timing analysis...
 Performance Hardware Data Status:   Preliminary    Version 108.1.
-Connections ignored  80  counted  963  covered  23
+Connections ignored  78  counted  957  covered  23
 Changing speed to 1;   changing temperature to 0
 Changing speed to m;   changing temperature to 0
 
@@ -4217,5 +4215,5 @@ Total CPU Time: 11 secs
 Total REAL Time: 12 secs 
 Peak Memory Usage: 2805 MB
 
- 11.634330s wall, 10.950000s user + 0.680000s system = 11.630000s CPU (100.0%)
+ 11.678490s wall, 10.980000s user + 0.700000s system = 11.680000s CPU (100.0%)
 

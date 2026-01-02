@@ -63,7 +63,7 @@ NOTE:  This version of the software is not a production release. No warranty is 
 Starting:    /usr/local/lscc/radiant/2025.2/synpbase/linux_a_64/mbin/synbatch
 Install:     /usr/local/lscc/radiant/2025.2/synpbase
 Hostname:    P360
-Date:        Fri Jan  2 07:57:45 2026
+Date:        Fri Jan  2 20:15:16 2026
 Version:     W-2025.03LR-SP1-Beta2
 
 Arguments:   -product synplify_base -batch sincos_linear_Avant_synplify.tcl
@@ -81,28 +81,28 @@ Running: Avant in foreground
 Running proj_1|Avant
 
 Running Flow: compile (Compile) on proj_1|Avant
-# Fri Jan  2 07:57:45 2026
+# Fri Jan  2 20:15:16 2026
 
 Running Flow: compile_flow (Compile Process) on proj_1|Avant
-# Fri Jan  2 07:57:45 2026
+# Fri Jan  2 20:15:16 2026
 
 Running: compiler (Compile Input) on proj_1|Avant
-# Fri Jan  2 07:57:45 2026
-Process ID: 299612
+# Fri Jan  2 20:15:16 2026
+Process ID: 585167
 compiler exited with errors
 Job failed on: proj_1|Avant
 
 Job: "compiler" terminated with error status: 2
 See log file: "/home/kanmei/src/sincos_linear/project/Avant/synlog/sincos_linear_Avant_compiler.srr"
-# Fri Jan  2 07:57:46 2026
+# Fri Jan  2 20:15:16 2026
 
 Return Code: 2
-Run Time:00h:00m:01s
+Run Time:00h:00m:00s
 Complete: Compile Process on proj_1|Avant
 Complete: Compile on proj_1|Avant
 Complete: Logic Synthesis on proj_1|Avant
 Copied /home/kanmei/src/sincos_linear/project/Avant/sincos_linear_Avant.srr to /home/kanmei/src/sincos_linear/project/Avant/sincos_linear_Avant.srf
-Error: At line 71 while processing "sincos_linear_Avant_synplify.tcl"
+Error: At line 73 while processing "sincos_linear_Avant_synplify.tcl"
 2
 TCL script complete: "sincos_linear_Avant_synplify.tcl"
 TCL script had errors: "sincos_linear_Avant_synplify.tcl"

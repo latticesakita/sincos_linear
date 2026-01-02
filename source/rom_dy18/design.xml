@@ -17,14 +17,14 @@
                     <ipxact:configurableElementValue referenceId="RDATA_WIDTH">18</ipxact:configurableElementValue>
                     <ipxact:configurableElementValue referenceId="Total Memory bits">73728</ipxact:configurableElementValue>
                     <ipxact:configurableElementValue referenceId="RADDR_WIDTH">12</ipxact:configurableElementValue>
-                    <ipxact:configurableElementValue referenceId="REGMODE">True</ipxact:configurableElementValue>
+                    <ipxact:configurableElementValue referenceId="REGMODE">False</ipxact:configurableElementValue>
                     <ipxact:configurableElementValue referenceId="OUTPUT_CLK_EN">False</ipxact:configurableElementValue>
                     <ipxact:configurableElementValue referenceId="ECC_ENABLE">False</ipxact:configurableElementValue>
                     <ipxact:configurableElementValue referenceId="RESETMODE">sync</ipxact:configurableElementValue>
                     <ipxact:configurableElementValue referenceId="user_init_mode">mem_file</ipxact:configurableElementValue>
                     <ipxact:configurableElementValue referenceId="INIT_MODE">mem_file</ipxact:configurableElementValue>
-                    <ipxact:configurableElementValue referenceId="user_init_file">O:/src/Avant_lib/n2_lib/source/sincos_linear18/rom_dy18/misc/dy18_rom_dy18_copy.mem</ipxact:configurableElementValue>
-                    <ipxact:configurableElementValue referenceId="INIT_FILE">O:/src/Avant_lib/n2_lib/source/sincos_linear18/rom_dy18/misc/dy18_rom_dy18_copy.mem</ipxact:configurableElementValue>
+                    <ipxact:configurableElementValue referenceId="user_init_file">/home/kanmei/src/sincos_linear/source/rom_dy18/misc/dy18_rom_dy18_copy.mem</ipxact:configurableElementValue>
+                    <ipxact:configurableElementValue referenceId="INIT_FILE">/home/kanmei/src/sincos_linear/source/rom_dy18/misc/dy18_rom_dy18_copy.mem</ipxact:configurableElementValue>
                     <ipxact:configurableElementValue referenceId="INIT_FILE_FORMAT">hex</ipxact:configurableElementValue>
                     <ipxact:configurableElementValue referenceId="buff_init_file">1</ipxact:configurableElementValue>
                     <ipxact:configurableElementValue referenceId="INIT_DATA_TYPE_IN">True</ipxact:configurableElementValue>

@@ -1,6 +1,6 @@
 i gpll_i.lscc_pll_inst.clkout_clkop_o_i
 m 0 0
-u 106 156
+u 102 152
 p {t:gpll_i.lscc_pll_inst.gen_ext_outclkdiv\.u_pll.CLKOP}{t:gpll_i.lscc_pll_inst.clkout_clkop_o_inferred_clock.I[0]}{t:gpll_i.lscc_pll_inst.clkout_clkop_o_inferred_clock.OUT[0]}{p:gpll_i.lscc_pll_inst.clkout_clkop_o}{t:gpll_i.lscc_pll_inst.clkout_clkop_o}{p:gpll_i.clkop_o}{t:gpll_i.clkop_o}{t:valid_i_3[0].C}
 e ckid0_0 {t:valid_i_3[0].C} dffr
 c ckid0_0 {t:gpll_i.lscc_pll_inst.gen_ext_outclkdiv\.u_pll.CLKOP} PLLC Unsupported/too complex instance on clock path

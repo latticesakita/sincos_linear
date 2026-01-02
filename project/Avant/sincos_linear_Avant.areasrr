@@ -29,13 +29,13 @@ Name            Total elements     Utilization     Notes
 --------------------------------------------------------
 IFD1P3DX        1                                       
 OFD1P3DX        1                                       
-FD1P3DX         80                                      
+FD1P3DX         76                                      
 FD1P3IX         4                                       
 FD1P3BX         2                                       
                                                         
-Total FLOPS     88                 100 %                
+Total FLOPS     84                 100 %                
 ========================================================
-Total SEQUENTIAL ELEMENTS in the block top_sin_linear:	88 (25.88 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block top_sin_linear:	84 (25.00 % Utilization)
 
 
 COMBINATIONAL LOGIC
@@ -46,7 +46,7 @@ LUT4           109
                                                        
 Total LUTS     115                100 %                
 =======================================================
-Total COMBINATIONAL LOGIC in the block top_sin_linear:	115 (33.82 % Utilization)
+Total COMBINATIONAL LOGIC in the block top_sin_linear:	115 (34.23 % Utilization)
 
 
 DSP
@@ -56,7 +56,7 @@ MULTADDSUB18X18A     1
                                                              
 Total DSP            1                  100 %                
 =============================================================
-Total DSP in the block top_sin_linear:	1 (0.29 % Utilization)
+Total DSP in the block top_sin_linear:	1 (0.30 % Utilization)
 
 
 MEMORY ELEMENTS
@@ -69,7 +69,7 @@ SPR16X4A              8
 Total BLOCKRAM        6                  100 %                
 Total DISTRAM/ROM     16                 100 %                
 ==============================================================
-Total MEMORY ELEMENTS in the block top_sin_linear:	22 (6.47 % Utilization)
+Total MEMORY ELEMENTS in the block top_sin_linear:	22 (6.55 % Utilization)
 
 
 IO PADS
@@ -80,7 +80,7 @@ OB           33
                                                      
 Total IO     67                 100 %                
 =====================================================
-Total IO PADS in the block top_sin_linear:	67 (19.71 % Utilization)
+Total IO PADS in the block top_sin_linear:	67 (19.94 % Utilization)
 
 
 BLACKBOX
@@ -94,7 +94,7 @@ PLL_LMMI_MUX        1
                                                             
 Total BLACK BOX     47                 100 %                
 ============================================================
-Total BLACKBOX in the block top_sin_linear:	47 (13.82 % Utilization)
+Total BLACKBOX in the block top_sin_linear:	47 (13.99 % Utilization)
 
 ----------------------------------------------------------
 ########   Utilization report for  cell:   gpll   ########
@@ -108,9 +108,9 @@ FD1P3DX         14
 FD1P3BX         2                                       
 FD1P3IX         2                                       
                                                         
-Total FLOPS     18                 20.5 %               
+Total FLOPS     18                 21.4 %               
 ========================================================
-Total SEQUENTIAL ELEMENTS in the block gpll_i:	18 (5.29 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block gpll_i:	18 (5.36 % Utilization)
 
 
 COMBINATIONAL LOGIC
@@ -121,7 +121,7 @@ LUT4           13
                                                        
 Total LUTS     18                 15.7 %               
 =======================================================
-Total COMBINATIONAL LOGIC in the block gpll_i:	18 (5.29 % Utilization)
+Total COMBINATIONAL LOGIC in the block gpll_i:	18 (5.36 % Utilization)
 
 
 BLACKBOX
@@ -134,7 +134,7 @@ PLL_LMMI_MUX        1
                                                             
 Total BLACK BOX     14                 29.8 %               
 ============================================================
-Total BLACKBOX in the block gpll_i:	14 (4.12 % Utilization)
+Total BLACKBOX in the block gpll_i:	14 (4.17 % Utilization)
 
 -----------------------------------------------------------------------------------
 ########   Utilization report for  cell:   gpll_ipgen_lscc_pll_Z1_layer0   ########
@@ -149,9 +149,9 @@ FD1P3DX         14
 FD1P3BX         2                                       
 FD1P3IX         2                                       
                                                         
-Total FLOPS     18                 20.5 %               
+Total FLOPS     18                 21.4 %               
 ========================================================
-Total SEQUENTIAL ELEMENTS in the block gpll_i.lscc_pll_inst:	18 (5.29 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block gpll_i.lscc_pll_inst:	18 (5.36 % Utilization)
 
 
 COMBINATIONAL LOGIC
@@ -162,7 +162,7 @@ LUT4           13
                                                        
 Total LUTS     18                 15.7 %               
 =======================================================
-Total COMBINATIONAL LOGIC in the block gpll_i.lscc_pll_inst:	18 (5.29 % Utilization)
+Total COMBINATIONAL LOGIC in the block gpll_i.lscc_pll_inst:	18 (5.36 % Utilization)
 
 
 BLACKBOX
@@ -175,7 +175,7 @@ PLL_LMMI_MUX        1
                                                             
 Total BLACK BOX     12                 25.5 %               
 ============================================================
-Total BLACKBOX in the block gpll_i.lscc_pll_inst:	12 (3.53 % Utilization)
+Total BLACKBOX in the block gpll_i.lscc_pll_inst:	12 (3.57 % Utilization)
 
 -------------------------------------------------------------------------------------------------------
 ########   Utilization report for  cell:   gpll_ipgen_pll_init_bw_0s_1s_1277952_0_19_1s_None   ########
@@ -190,9 +190,9 @@ FD1P3DX         14
 FD1P3BX         2                                       
 FD1P3IX         2                                       
                                                         
-Total FLOPS     18                 20.5 %               
+Total FLOPS     18                 21.4 %               
 ========================================================
-Total SEQUENTIAL ELEMENTS in the block gpll_i.lscc_pll_inst.u_pll_init_bw:	18 (5.29 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block gpll_i.lscc_pll_inst.u_pll_init_bw:	18 (5.36 % Utilization)
 
 
 COMBINATIONAL LOGIC
@@ -203,7 +203,7 @@ LUT4           13
                                                        
 Total LUTS     18                 15.7 %               
 =======================================================
-Total COMBINATIONAL LOGIC in the block gpll_i.lscc_pll_inst.u_pll_init_bw:	18 (5.29 % Utilization)
+Total COMBINATIONAL LOGIC in the block gpll_i.lscc_pll_inst.u_pll_init_bw:	18 (5.36 % Utilization)
 
 
 BLACKBOX
@@ -215,7 +215,7 @@ PLL_LMMI_MUX        1
                                                             
 Total BLACK BOX     9                  19.1 %               
 ============================================================
-Total BLACKBOX in the block gpll_i.lscc_pll_inst.u_pll_init_bw:	9 (2.65 % Utilization)
+Total BLACKBOX in the block gpll_i.lscc_pll_inst.u_pll_init_bw:	9 (2.68 % Utilization)
 
 ---------------------------------------------------------------------------------
 ########   Utilization report for  cell:   gpll_ipgen_pll_sip_lmmi_mux   ########
@@ -230,7 +230,7 @@ INV            1
                                                        
 Total LUTS     1                  0.870 %              
 =======================================================
-Total COMBINATIONAL LOGIC in the block gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.u_pll_lmmi_mux:	1 (0.29 % Utilization)
+Total COMBINATIONAL LOGIC in the block gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.u_pll_lmmi_mux:	1 (0.30 % Utilization)
 
 
 BLACKBOX
@@ -242,7 +242,7 @@ VHI                 1
                                                             
 Total BLACK BOX     3                  6.38 %               
 ============================================================
-Total BLACKBOX in the block gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.u_pll_lmmi_mux:	3 (0.88 % Utilization)
+Total BLACKBOX in the block gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.u_pll_lmmi_mux:	3 (0.89 % Utilization)
 
 ------------------------------------------------------------------------------
 ########   Utilization report for  cell:   gpll_ipgen_pll_syncreg_0   ########
@@ -255,9 +255,9 @@ Name            Total elements     Utilization     Notes
 --------------------------------------------------------
 FD1P3DX         2                                       
                                                         
-Total FLOPS     2                  2.27 %               
+Total FLOPS     2                  2.38 %               
 ========================================================
-Total SEQUENTIAL ELEMENTS in the block gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.u_lock_sync:	2 (0.59 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.u_lock_sync:	2 (0.60 % Utilization)
 
 
 COMBINATIONAL LOGIC
@@ -267,7 +267,7 @@ INV            1
                                                        
 Total LUTS     1                  0.870 %              
 =======================================================
-Total COMBINATIONAL LOGIC in the block gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.u_lock_sync:	1 (0.29 % Utilization)
+Total COMBINATIONAL LOGIC in the block gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.u_lock_sync:	1 (0.30 % Utilization)
 
 
 BLACKBOX
@@ -278,7 +278,7 @@ VLO                 1
                                                             
 Total BLACK BOX     2                  4.26 %               
 ============================================================
-Total BLACKBOX in the block gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.u_lock_sync:	2 (0.59 % Utilization)
+Total BLACKBOX in the block gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.u_lock_sync:	2 (0.60 % Utilization)
 
 ------------------------------------------------------------------------------
 ########   Utilization report for  cell:   gpll_ipgen_pll_syncreg_1   ########
@@ -291,9 +291,9 @@ Name            Total elements     Utilization     Notes
 --------------------------------------------------------
 FD1P3IX         2                                       
                                                         
-Total FLOPS     2                  2.27 %               
+Total FLOPS     2                  2.38 %               
 ========================================================
-Total SEQUENTIAL ELEMENTS in the block gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.u_rst_n_sync:	2 (0.59 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.u_rst_n_sync:	2 (0.60 % Utilization)
 
 
 COMBINATIONAL LOGIC
@@ -303,7 +303,7 @@ INV            1
                                                        
 Total LUTS     1                  0.870 %              
 =======================================================
-Total COMBINATIONAL LOGIC in the block gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.u_rst_n_sync:	1 (0.29 % Utilization)
+Total COMBINATIONAL LOGIC in the block gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.u_rst_n_sync:	1 (0.30 % Utilization)
 
 
 BLACKBOX
@@ -314,7 +314,7 @@ VLO                 1
                                                             
 Total BLACK BOX     2                  4.26 %               
 ============================================================
-Total BLACKBOX in the block gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.u_rst_n_sync:	2 (0.59 % Utilization)
+Total BLACKBOX in the block gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.u_rst_n_sync:	2 (0.60 % Utilization)
 
 -----------------------------------------------------------------------
 ########   Utilization report for  cell:   sincos_linear_32s   ########
@@ -324,11 +324,11 @@ Instance path:   dut
 SEQUENTIAL ELEMENTS
 Name            Total elements     Utilization     Notes
 --------------------------------------------------------
-FD1P3DX         57                                      
+FD1P3DX         53                                      
                                                         
-Total FLOPS     57                 64.8 %               
+Total FLOPS     53                 63.1 %               
 ========================================================
-Total SEQUENTIAL ELEMENTS in the block dut:	57 (16.76 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block dut:	53 (15.77 % Utilization)
 
 
 COMBINATIONAL LOGIC
@@ -338,7 +338,7 @@ LUT4           63
                                                        
 Total LUTS     63                 54.8 %               
 =======================================================
-Total COMBINATIONAL LOGIC in the block dut:	63 (18.53 % Utilization)
+Total COMBINATIONAL LOGIC in the block dut:	63 (18.75 % Utilization)
 
 
 DSP
@@ -348,7 +348,7 @@ MULTADDSUB18X18A     1
                                                              
 Total DSP            1                  100 %                
 =============================================================
-Total DSP in the block dut:	1 (0.29 % Utilization)
+Total DSP in the block dut:	1 (0.30 % Utilization)
 
 
 MEMORY ELEMENTS
@@ -358,7 +358,7 @@ SP32K              6
                                                            
 Total BLOCKRAM     6                  100 %                
 ===========================================================
-Total MEMORY ELEMENTS in the block dut:	6 (1.76 % Utilization)
+Total MEMORY ELEMENTS in the block dut:	6 (1.79 % Utilization)
 
 
 BLACKBOX
@@ -369,7 +369,7 @@ VLO                 15
                                                             
 Total BLACK BOX     30                 63.8 %               
 ============================================================
-Total BLACKBOX in the block dut:	30 (8.82 % Utilization)
+Total BLACKBOX in the block dut:	30 (8.93 % Utilization)
 
 ----------------------------------------------------------------
 ########   Utilization report for  cell:   sin_linear   ########
@@ -380,11 +380,11 @@ Parent Instance:   dut
 SEQUENTIAL ELEMENTS
 Name            Total elements     Utilization     Notes
 --------------------------------------------------------
-FD1P3DX         57                                      
+FD1P3DX         53                                      
                                                         
-Total FLOPS     57                 64.8 %               
+Total FLOPS     53                 63.1 %               
 ========================================================
-Total SEQUENTIAL ELEMENTS in the block dut.sin_linear_i:	57 (16.76 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block dut.sin_linear_i:	53 (15.77 % Utilization)
 
 
 COMBINATIONAL LOGIC
@@ -394,7 +394,7 @@ LUT4           63
                                                        
 Total LUTS     63                 54.8 %               
 =======================================================
-Total COMBINATIONAL LOGIC in the block dut.sin_linear_i:	63 (18.53 % Utilization)
+Total COMBINATIONAL LOGIC in the block dut.sin_linear_i:	63 (18.75 % Utilization)
 
 
 DSP
@@ -404,7 +404,7 @@ MULTADDSUB18X18A     1
                                                              
 Total DSP            1                  100 %                
 =============================================================
-Total DSP in the block dut.sin_linear_i:	1 (0.29 % Utilization)
+Total DSP in the block dut.sin_linear_i:	1 (0.30 % Utilization)
 
 
 MEMORY ELEMENTS
@@ -414,7 +414,7 @@ SP32K              6
                                                            
 Total BLOCKRAM     6                  100 %                
 ===========================================================
-Total MEMORY ELEMENTS in the block dut.sin_linear_i:	6 (1.76 % Utilization)
+Total MEMORY ELEMENTS in the block dut.sin_linear_i:	6 (1.79 % Utilization)
 
 
 BLACKBOX
@@ -425,13 +425,13 @@ VHI                 14
                                                             
 Total BLACK BOX     28                 59.6 %               
 ============================================================
-Total BLACKBOX in the block dut.sin_linear_i:	28 (8.24 % Utilization)
+Total BLACKBOX in the block dut.sin_linear_i:	28 (8.33 % Utilization)
 
-----------------------------------------------------------------------------------------------------------------------------------------------------
-########   Utilization report for  cell:   mult18x18p48_UNSIGNED_UNSIGNED_BYPASSED_REGISTERED_ONCE_BYPASSED_BYPASSED_REGISTERED_12_layer0   ########
-Instance path:   dut.sin_linear_i.mult18x18p48_i                                                                                                    
-Parent Instance:   dut.sin_linear_i                                                                                                                 
-====================================================================================================================================================
+-------------------------------------------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   mult18x18p48_UNSIGNED_UNSIGNED_BYPASSED_BYPASSED_BYPASSED_BYPASSED_BYPASSED_12_layer0   ########
+Instance path:   dut.sin_linear_i.mult18x18p48_i                                                                                           
+Parent Instance:   dut.sin_linear_i                                                                                                        
+===========================================================================================================================================
 
 DSP
 Name                 Total elements     Utilization     Notes
@@ -440,7 +440,7 @@ MULTADDSUB18X18A     1
                                                              
 Total DSP            1                  100 %                
 =============================================================
-Total DSP in the block dut.sin_linear_i.mult18x18p48_i:	1 (0.29 % Utilization)
+Total DSP in the block dut.sin_linear_i.mult18x18p48_i:	1 (0.30 % Utilization)
 
 
 BLACKBOX
@@ -451,7 +451,7 @@ VHI                 1
                                                             
 Total BLACK BOX     2                  4.26 %               
 ============================================================
-Total BLACKBOX in the block dut.sin_linear_i.mult18x18p48_i:	2 (0.59 % Utilization)
+Total BLACKBOX in the block dut.sin_linear_i.mult18x18p48_i:	2 (0.60 % Utilization)
 
 --------------------------------------------------------------
 ########   Utilization report for  cell:   rom_dy18   ########
@@ -466,7 +466,7 @@ SP32K              2
                                                            
 Total BLOCKRAM     2                  33.3 %               
 ===========================================================
-Total MEMORY ELEMENTS in the block dut.sin_linear_i.rom_dy_i:	2 (0.59 % Utilization)
+Total MEMORY ELEMENTS in the block dut.sin_linear_i.rom_dy_i:	2 (0.60 % Utilization)
 
 
 BLACKBOX
@@ -477,7 +477,7 @@ VLO                 5
                                                             
 Total BLACK BOX     10                 21.3 %               
 ============================================================
-Total BLACKBOX in the block dut.sin_linear_i.rom_dy_i:	10 (2.94 % Utilization)
+Total BLACKBOX in the block dut.sin_linear_i.rom_dy_i:	10 (2.98 % Utilization)
 
 ----------------------------------------------------------------------------------------
 ########   Utilization report for  cell:   rom_dy18_ipgen_lscc_rom_Z11_layer0   ########
@@ -492,7 +492,7 @@ SP32K              2
                                                            
 Total BLOCKRAM     2                  33.3 %               
 ===========================================================
-Total MEMORY ELEMENTS in the block dut.sin_linear_i.rom_dy_i.lscc_rom_inst:	2 (0.59 % Utilization)
+Total MEMORY ELEMENTS in the block dut.sin_linear_i.rom_dy_i.lscc_rom_inst:	2 (0.60 % Utilization)
 
 
 BLACKBOX
@@ -503,7 +503,7 @@ VLO                 4
                                                             
 Total BLACK BOX     8                  17 %                 
 ============================================================
-Total BLACKBOX in the block dut.sin_linear_i.rom_dy_i.lscc_rom_inst:	8 (2.35 % Utilization)
+Total BLACKBOX in the block dut.sin_linear_i.rom_dy_i.lscc_rom_inst:	8 (2.38 % Utilization)
 
 --------------------------------------------------------------------------------------------
 ########   Utilization report for  cell:   rom_dy18_ipgen_lscc_rom_inst_Z8_layer0   ########
@@ -518,7 +518,7 @@ SP32K              2
                                                            
 Total BLOCKRAM     2                  33.3 %               
 ===========================================================
-Total MEMORY ELEMENTS in the block dut.sin_linear_i.rom_dy_i.lscc_rom_inst.u_rom:	2 (0.59 % Utilization)
+Total MEMORY ELEMENTS in the block dut.sin_linear_i.rom_dy_i.lscc_rom_inst.u_rom:	2 (0.60 % Utilization)
 
 
 BLACKBOX
@@ -529,7 +529,7 @@ VLO                 3
                                                             
 Total BLACK BOX     6                  12.8 %               
 ============================================================
-Total BLACKBOX in the block dut.sin_linear_i.rom_dy_i.lscc_rom_inst.u_rom:	6 (1.76 % Utilization)
+Total BLACKBOX in the block dut.sin_linear_i.rom_dy_i.lscc_rom_inst.u_rom:	6 (1.79 % Utilization)
 
 --------------------------------------------------------------------------------------------------------
 ########   Utilization report for  cell:   rom_dy18_ipgen_lscc_rom_inst_core_Z10_layer0   ########      
@@ -544,7 +544,7 @@ SP32K              1
                                                            
 Total BLOCKRAM     1                  16.7 %               
 ===========================================================
-Total MEMORY ELEMENTS in the block dut.sin_linear_i.rom_dy_i.lscc_rom_inst.u_rom.PRIM_MODE.xADDR[0].xDATA[1].mem_file.mem0:	1 (0.29 % Utilization)
+Total MEMORY ELEMENTS in the block dut.sin_linear_i.rom_dy_i.lscc_rom_inst.u_rom.PRIM_MODE.xADDR[0].xDATA[1].mem_file.mem0:	1 (0.30 % Utilization)
 
 
 BLACKBOX
@@ -555,7 +555,7 @@ VHI                 1
                                                             
 Total BLACK BOX     2                  4.26 %               
 ============================================================
-Total BLACKBOX in the block dut.sin_linear_i.rom_dy_i.lscc_rom_inst.u_rom.PRIM_MODE.xADDR[0].xDATA[1].mem_file.mem0:	2 (0.59 % Utilization)
+Total BLACKBOX in the block dut.sin_linear_i.rom_dy_i.lscc_rom_inst.u_rom.PRIM_MODE.xADDR[0].xDATA[1].mem_file.mem0:	2 (0.60 % Utilization)
 
 --------------------------------------------------------------------------------------------------------
 ########   Utilization report for  cell:   rom_dy18_ipgen_lscc_rom_inst_core_Z9_layer0   ########       
@@ -570,7 +570,7 @@ SP32K              1
                                                            
 Total BLOCKRAM     1                  16.7 %               
 ===========================================================
-Total MEMORY ELEMENTS in the block dut.sin_linear_i.rom_dy_i.lscc_rom_inst.u_rom.PRIM_MODE.xADDR[0].xDATA[0].mem_file.mem0:	1 (0.29 % Utilization)
+Total MEMORY ELEMENTS in the block dut.sin_linear_i.rom_dy_i.lscc_rom_inst.u_rom.PRIM_MODE.xADDR[0].xDATA[0].mem_file.mem0:	1 (0.30 % Utilization)
 
 
 BLACKBOX
@@ -581,7 +581,7 @@ VHI                 1
                                                             
 Total BLACK BOX     2                  4.26 %               
 ============================================================
-Total BLACKBOX in the block dut.sin_linear_i.rom_dy_i.lscc_rom_inst.u_rom.PRIM_MODE.xADDR[0].xDATA[0].mem_file.mem0:	2 (0.59 % Utilization)
+Total BLACKBOX in the block dut.sin_linear_i.rom_dy_i.lscc_rom_inst.u_rom.PRIM_MODE.xADDR[0].xDATA[0].mem_file.mem0:	2 (0.60 % Utilization)
 
 -------------------------------------------------------------
 ########   Utilization report for  cell:   rom_y36   ########
@@ -596,7 +596,7 @@ SP32K              4
                                                            
 Total BLOCKRAM     4                  66.7 %               
 ===========================================================
-Total MEMORY ELEMENTS in the block dut.sin_linear_i.rom_y0_i:	4 (1.18 % Utilization)
+Total MEMORY ELEMENTS in the block dut.sin_linear_i.rom_y0_i:	4 (1.19 % Utilization)
 
 
 BLACKBOX
@@ -607,7 +607,7 @@ VLO                 7
                                                             
 Total BLACK BOX     14                 29.8 %               
 ============================================================
-Total BLACKBOX in the block dut.sin_linear_i.rom_y0_i:	14 (4.12 % Utilization)
+Total BLACKBOX in the block dut.sin_linear_i.rom_y0_i:	14 (4.17 % Utilization)
 
 --------------------------------------------------------------------------------------
 ########   Utilization report for  cell:   rom_y36_ipgen_lscc_rom_Z7_layer0   ########
@@ -622,7 +622,7 @@ SP32K              4
                                                            
 Total BLOCKRAM     4                  66.7 %               
 ===========================================================
-Total MEMORY ELEMENTS in the block dut.sin_linear_i.rom_y0_i.lscc_rom_inst:	4 (1.18 % Utilization)
+Total MEMORY ELEMENTS in the block dut.sin_linear_i.rom_y0_i.lscc_rom_inst:	4 (1.19 % Utilization)
 
 
 BLACKBOX
@@ -633,7 +633,7 @@ VLO                 6
                                                             
 Total BLACK BOX     12                 25.5 %               
 ============================================================
-Total BLACKBOX in the block dut.sin_linear_i.rom_y0_i.lscc_rom_inst:	12 (3.53 % Utilization)
+Total BLACKBOX in the block dut.sin_linear_i.rom_y0_i.lscc_rom_inst:	12 (3.57 % Utilization)
 
 -------------------------------------------------------------------------------------------
 ########   Utilization report for  cell:   rom_y36_ipgen_lscc_rom_inst_Z2_layer0   ########
@@ -648,7 +648,7 @@ SP32K              4
                                                            
 Total BLOCKRAM     4                  66.7 %               
 ===========================================================
-Total MEMORY ELEMENTS in the block dut.sin_linear_i.rom_y0_i.lscc_rom_inst.u_rom:	4 (1.18 % Utilization)
+Total MEMORY ELEMENTS in the block dut.sin_linear_i.rom_y0_i.lscc_rom_inst.u_rom:	4 (1.19 % Utilization)
 
 
 BLACKBOX
@@ -659,7 +659,7 @@ VLO                 5
                                                             
 Total BLACK BOX     10                 21.3 %               
 ============================================================
-Total BLACKBOX in the block dut.sin_linear_i.rom_y0_i.lscc_rom_inst.u_rom:	10 (2.94 % Utilization)
+Total BLACKBOX in the block dut.sin_linear_i.rom_y0_i.lscc_rom_inst.u_rom:	10 (2.98 % Utilization)
 
 --------------------------------------------------------------------------------------------------------
 ########   Utilization report for  cell:   rom_y36_ipgen_lscc_rom_inst_core_Z3_layer0   ########        
@@ -674,7 +674,7 @@ SP32K              1
                                                            
 Total BLOCKRAM     1                  16.7 %               
 ===========================================================
-Total MEMORY ELEMENTS in the block dut.sin_linear_i.rom_y0_i.lscc_rom_inst.u_rom.PRIM_MODE.xADDR[0].xDATA[0].mem_file.mem0:	1 (0.29 % Utilization)
+Total MEMORY ELEMENTS in the block dut.sin_linear_i.rom_y0_i.lscc_rom_inst.u_rom.PRIM_MODE.xADDR[0].xDATA[0].mem_file.mem0:	1 (0.30 % Utilization)
 
 
 BLACKBOX
@@ -685,7 +685,7 @@ VHI                 1
                                                             
 Total BLACK BOX     2                  4.26 %               
 ============================================================
-Total BLACKBOX in the block dut.sin_linear_i.rom_y0_i.lscc_rom_inst.u_rom.PRIM_MODE.xADDR[0].xDATA[0].mem_file.mem0:	2 (0.59 % Utilization)
+Total BLACKBOX in the block dut.sin_linear_i.rom_y0_i.lscc_rom_inst.u_rom.PRIM_MODE.xADDR[0].xDATA[0].mem_file.mem0:	2 (0.60 % Utilization)
 
 --------------------------------------------------------------------------------------------------------
 ########   Utilization report for  cell:   rom_y36_ipgen_lscc_rom_inst_core_Z4_layer0   ########        
@@ -700,7 +700,7 @@ SP32K              1
                                                            
 Total BLOCKRAM     1                  16.7 %               
 ===========================================================
-Total MEMORY ELEMENTS in the block dut.sin_linear_i.rom_y0_i.lscc_rom_inst.u_rom.PRIM_MODE.xADDR[0].xDATA[1].mem_file.mem0:	1 (0.29 % Utilization)
+Total MEMORY ELEMENTS in the block dut.sin_linear_i.rom_y0_i.lscc_rom_inst.u_rom.PRIM_MODE.xADDR[0].xDATA[1].mem_file.mem0:	1 (0.30 % Utilization)
 
 
 BLACKBOX
@@ -711,7 +711,7 @@ VHI                 1
                                                             
 Total BLACK BOX     2                  4.26 %               
 ============================================================
-Total BLACKBOX in the block dut.sin_linear_i.rom_y0_i.lscc_rom_inst.u_rom.PRIM_MODE.xADDR[0].xDATA[1].mem_file.mem0:	2 (0.59 % Utilization)
+Total BLACKBOX in the block dut.sin_linear_i.rom_y0_i.lscc_rom_inst.u_rom.PRIM_MODE.xADDR[0].xDATA[1].mem_file.mem0:	2 (0.60 % Utilization)
 
 --------------------------------------------------------------------------------------------------------
 ########   Utilization report for  cell:   rom_y36_ipgen_lscc_rom_inst_core_Z5_layer0   ########        
@@ -726,7 +726,7 @@ SP32K              1
                                                            
 Total BLOCKRAM     1                  16.7 %               
 ===========================================================
-Total MEMORY ELEMENTS in the block dut.sin_linear_i.rom_y0_i.lscc_rom_inst.u_rom.PRIM_MODE.xADDR[0].xDATA[2].mem_file.mem0:	1 (0.29 % Utilization)
+Total MEMORY ELEMENTS in the block dut.sin_linear_i.rom_y0_i.lscc_rom_inst.u_rom.PRIM_MODE.xADDR[0].xDATA[2].mem_file.mem0:	1 (0.30 % Utilization)
 
 
 BLACKBOX
@@ -737,7 +737,7 @@ VHI                 1
                                                             
 Total BLACK BOX     2                  4.26 %               
 ============================================================
-Total BLACKBOX in the block dut.sin_linear_i.rom_y0_i.lscc_rom_inst.u_rom.PRIM_MODE.xADDR[0].xDATA[2].mem_file.mem0:	2 (0.59 % Utilization)
+Total BLACKBOX in the block dut.sin_linear_i.rom_y0_i.lscc_rom_inst.u_rom.PRIM_MODE.xADDR[0].xDATA[2].mem_file.mem0:	2 (0.60 % Utilization)
 
 --------------------------------------------------------------------------------------------------------
 ########   Utilization report for  cell:   rom_y36_ipgen_lscc_rom_inst_core_Z6_layer0   ########        
@@ -752,7 +752,7 @@ SP32K              1
                                                            
 Total BLOCKRAM     1                  16.7 %               
 ===========================================================
-Total MEMORY ELEMENTS in the block dut.sin_linear_i.rom_y0_i.lscc_rom_inst.u_rom.PRIM_MODE.xADDR[0].xDATA[3].mem_file.mem0:	1 (0.29 % Utilization)
+Total MEMORY ELEMENTS in the block dut.sin_linear_i.rom_y0_i.lscc_rom_inst.u_rom.PRIM_MODE.xADDR[0].xDATA[3].mem_file.mem0:	1 (0.30 % Utilization)
 
 
 BLACKBOX
@@ -763,7 +763,7 @@ VHI                 1
                                                             
 Total BLACK BOX     2                  4.26 %               
 ============================================================
-Total BLACKBOX in the block dut.sin_linear_i.rom_y0_i.lscc_rom_inst.u_rom.PRIM_MODE.xADDR[0].xDATA[3].mem_file.mem0:	2 (0.59 % Utilization)
+Total BLACKBOX in the block dut.sin_linear_i.rom_y0_i.lscc_rom_inst.u_rom.PRIM_MODE.xADDR[0].xDATA[3].mem_file.mem0:	2 (0.60 % Utilization)
 
 
 ##### END OF AREA REPORT #####]
