@@ -62,12 +62,12 @@ rom_dy18  rom_dy_i (.rst_i(~resetn), .rd_clk_i(clk), .rd_clk_en_i(1'b1), .rd_en_
 wire [47:0] dsp_Z; // = dy * frac + y0
 
 mult18x18p48 #(
-	.ASIGNED	("UNSIGNED"),
-	.BSIGNED	("UNSIGNED"),
-	//.REGINPUTA	("REGISTERED_ONCE"),
-	.REGINPUTB	("REGISTERED_ONCE"),
-	//.REGINPUTC	("REGISTERED_ONCE"),
-	.REGOUTPUT	("REGISTERED")
+	.ASIGNED	("UNSIGNED")
+	, .BSIGNED	("UNSIGNED")
+	//, .REGINPUTA	("REGISTERED_ONCE")
+	, .REGINPUTB	("REGISTERED_ONCE")
+	//, .REGINPUTC	("REGISTERED_ONCE")
+	, .REGOUTPUT	("REGISTERED")
 ) mult18x18p48_i (
 	.clk(clk),	.resetn(resetn),
 	.A(s1_dy), .B(s1_frac), .C({s1_y0, {DY_SHIFT{1'b0}}}),
@@ -82,7 +82,7 @@ always @(posedge clk or negedge resetn) begin
 		valid_o <= 0;
 		s2_valid <= 0;
 		s3_valid <= 0;
-		result_o <= 0;
+		//result_o <= 0;
 		s2_quadrant <= 0;
 		s3_quadrant <= 0;
 	end
@@ -91,10 +91,12 @@ always @(posedge clk or negedge resetn) begin
 		s3_quadrant <= s2_quadrant ;
 		s2_valid   <= s1_valid;
 		s3_valid   <= s2_valid;
-		valid_o    <= s3_valid;
-		result_o <= s3_quadrant[1] ? ~dsp_Z[36+DY_SHIFT-1 :36+DY_SHIFT-OUTPUT_WIDTH] : dsp_Z[36+DY_SHIFT-1 :36+DY_SHIFT-OUTPUT_WIDTH];
+		valid_o    <= s2_valid;
+		//result_o <= s2_quadrant[1] ? ~dsp_Z[36+DY_SHIFT-1 :36+DY_SHIFT-OUTPUT_WIDTH] : dsp_Z[36+DY_SHIFT-1 :36+DY_SHIFT-OUTPUT_WIDTH];
 	end
 end
+always @(*) 
+	result_o = s2_quadrant[1] ? ~dsp_Z[36+DY_SHIFT-1 :36+DY_SHIFT-OUTPUT_WIDTH] : dsp_Z[36+DY_SHIFT-1 :36+DY_SHIFT-OUTPUT_WIDTH];
 
 endmodule
 

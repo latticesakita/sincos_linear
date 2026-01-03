@@ -3,9 +3,9 @@
 
 #device options
 set_option -technology LAV-AT
-set_option -part LAV_AT_E30ES
+set_option -part LAV_AT_E30
 set_option -package CBG484C
-set_option -speed_grade -1
+set_option -speed_grade -3
 #compilation/mapping options
 set_option -symbolic_fsm_compiler true
 set_option -resource_sharing true

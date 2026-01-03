@@ -15,7 +15,8 @@
 @W: CL318 :"/home/kanmei/src/sincos_linear/source/rom_dy18/rtl/rom_dy18.v":1960:11:1960:23|*Output two_err_det_o has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
 @W: CL318 :"/home/kanmei/src/sincos_linear/source/rom_dy18/rtl/rom_dy18.v":1959:11:1959:23|*Output one_err_det_o has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
 @W: CL318 :"/home/kanmei/src/sincos_linear/source/rom_dy18/rtl/rom_dy18.v":1960:11:1960:23|*Output two_err_det_o has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL169 :"/home/kanmei/src/sincos_linear/source/sin_linear.v":80:0:80:5|Pruning unused register s3_valid. Make sure that there are no unused intermediate registers.
+@W: CL169 :"/home/kanmei/src/sincos_linear/source/sin_linear.v":80:0:80:5|Pruning unused register s3_quadrant[1:0]. Make sure that there are no unused intermediate registers.
 @W: CL265 :"/home/kanmei/src/sincos_linear/source/sin_linear.v":80:0:80:5|Removing unused bit 0 of s2_quadrant[1:0]. Either assign all bits or reduce the width of the signal.
-@W: CL265 :"/home/kanmei/src/sincos_linear/source/sin_linear.v":80:0:80:5|Removing unused bit 0 of s3_quadrant[1:0]. Either assign all bits or reduce the width of the signal.
 @W: CL265 :"/home/kanmei/src/sincos_linear/source/sin_linear.v":42:0:42:5|Removing unused bit 0 of s1_quadrant[1:0]. Either assign all bits or reduce the width of the signal.
 

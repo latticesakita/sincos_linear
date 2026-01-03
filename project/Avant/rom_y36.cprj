@@ -5,4 +5,4 @@
 -path "/home/kanmei/src/sincos_linear/source/rom_y36" "/home/kanmei/src/sincos_linear/project"
 -top rom_y36
 -a "LAV-AT"
--t "LAV-AT-E30ES"
+-t "LAV-AT-E30"

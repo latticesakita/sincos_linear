@@ -1,8 +1,8 @@
 /usr/local/lscc/radiant/2025.2/synpbase/bin/syn_nfilter  -link  -top  top_sin_linear  -multisrs  /home/kanmei/src/sincos_linear/project/Avant/synwork/sincos_linear_Avant_comp.srs  -osyn  /home/kanmei/src/sincos_linear/project/Avant/synwork/sincos_linear_Avant_mult.srs  -log  /home/kanmei/src/sincos_linear/project/Avant/synlog/sincos_linear_Avant_multi_srs_gen.srr 
 relcom:/usr/local/lscc/radiant/2025.2/synpbase/bin/syn_nfilter -link -top top_sin_linear -multisrs ../synwork/sincos_linear_Avant_comp.srs -osyn ../synwork/sincos_linear_Avant_mult.srs -log ../synlog/sincos_linear_Avant_multi_srs_gen.srr
-rc:0 success:1 runtime:0
-file:../synwork/sincos_linear_Avant_comp.srs|io:i|time:1767308377|size:295044|exec:0|csum:78799DE4CE5A3FE02931287A32DF1461
-file:../synwork/sincos_linear_Avant_mult.srs|io:o|time:1767308378|size:3301|exec:0|csum:
-file:../synlog/sincos_linear_Avant_multi_srs_gen.srr|io:o|time:1767308378|size:1163|exec:0|csum:
-file:/usr/local/lscc/radiant/2025.2/synpbase/linux_a_64/syn_nfilter|io:i|time:1759390442|size:13480432|exec:1|csum:287A05A6184FA40253F6786264938636
-file:/usr/local/lscc/radiant/2025.2/synpbase/bin/syn_nfilter|io:i|time:1759390046|size:368|exec:1|csum:004E4455B64BA10AD6A92FB2301610E0
+rc:0 success:1 runtime:1
+file:../synwork/sincos_linear_Avant_comp.srs|io:i|time:1767437849|size:295047|exec:0|csum:D43E7C6744921C9C058692BA34C706CF
+file:../synwork/sincos_linear_Avant_mult.srs|io:o|time:1767437850|size:3303|exec:0|csum:
+file:../synlog/sincos_linear_Avant_multi_srs_gen.srr|io:o|time:1767437850|size:1236|exec:0|csum:
+file:/usr/local/lscc/radiant/2025.2/synpbase/linux_a_64/syn_nfilter|io:i|time:1762852024|size:13480432|exec:1|csum:F81C2F1D87E4AFA1131496AD970E5EEB
+file:/usr/local/lscc/radiant/2025.2/synpbase/bin/syn_nfilter|io:i|time:1762851660|size:368|exec:1|csum:004E4455B64BA10AD6A92FB2301610E0

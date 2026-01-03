@@ -7,9 +7,8 @@ Report for cell top_sin_linear
                                   LUT4	        219        100.0
                                LUTGATE	        123        100.0
                                 LUTRAM	         96        100.0
-                                 IOREG	          2        100.0
                                  IOBUF	         67        100.0
-                                PFUREG	         86        100.0
+                                PFUREG	         54        100.0
                                 MULT18	          1        100.0
 SUB MODULES
                                   cell	      count    LUT4 Usage(%)
@@ -22,7 +21,7 @@ Report for cell gpll
                                   cell	      count    Res Usage(%)
                                   LUT4	         25        11.4
                                LUTGATE	         25        20.3
-                                PFUREG	         18        20.9
+                                PFUREG	         18        33.3
 SUB MODULES
                                   cell	      count    LUT4 Usage(%)
          gpll_ipgen_lscc_pll_Z1_layer0	          1        11.4
@@ -33,7 +32,7 @@ Report for cell gpll_ipgen_lscc_pll_Z1_layer0
                                   cell	      count    Res Usage(%)
                                   LUT4	         25        11.4
                                LUTGATE	         25        20.3
-                                PFUREG	         18        20.9
+                                PFUREG	         18        33.3
 SUB MODULES
                                   cell	      count    LUT4 Usage(%)
 gpll_ipgen_pll_init_bw_0s_1s_1277952_0_19_1s_None	          1        11.4
@@ -44,7 +43,7 @@ Report for cell gpll_ipgen_pll_init_bw_0s_1s_1277952_0_19_1s_None
                                   cell	      count    Res Usage(%)
                                   LUT4	         25        11.4
                                LUTGATE	         25        20.3
-                                PFUREG	         18        20.9
+                                PFUREG	         18        33.3
 SUB MODULES
                                   cell	      count    LUT4 Usage(%)
            gpll_ipgen_pll_sip_lmmi_mux	          1         4.6
@@ -57,7 +56,7 @@ Report for cell gpll_ipgen_pll_syncreg_1
                                   cell	      count    Res Usage(%)
                                   LUT4	          1         0.5
                                LUTGATE	          1         0.8
-                                PFUREG	          2         2.3
+                                PFUREG	          2         3.7
 ---------------------------------------------------
 Report for cell gpll_ipgen_pll_syncreg_0
    Instance path: top_sin_linear/gpll_i/lscc_pll_inst/u_pll_init_bw/gen_bw_init.u_lock_sync
@@ -65,7 +64,7 @@ Report for cell gpll_ipgen_pll_syncreg_0
                                   cell	      count    Res Usage(%)
                                   LUT4	          1         0.5
                                LUTGATE	          1         0.8
-                                PFUREG	          2         2.3
+                                PFUREG	          2         3.7
 ---------------------------------------------------
 Report for cell gpll_ipgen_pll_sip_lmmi_mux
    Instance path: top_sin_linear/gpll_i/lscc_pll_inst/u_pll_init_bw/gen_bw_init.u_pll_lmmi_mux
@@ -81,7 +80,7 @@ Report for cell sincos_linear_32s
                                    EBR	       6.00        100.0
                                   LUT4	         63        28.8
                                LUTGATE	         63        51.2
-                                PFUREG	         57        66.3
+                                PFUREG	         23        42.6
                                 MULT18	          1        100.0
 SUB MODULES
                                   cell	      count    LUT4 Usage(%)
@@ -94,7 +93,7 @@ Report for cell sin_linear
                                    EBR	       6.00        100.0
                                   LUT4	         63        28.8
                                LUTGATE	         63        51.2
-                                PFUREG	         57        66.3
+                                PFUREG	         23        42.6
                                 MULT18	          1        100.0
 SUB MODULES
                                   cell	      count    LUT4 Usage(%)

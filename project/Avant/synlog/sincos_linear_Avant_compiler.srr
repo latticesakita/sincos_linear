@@ -5,7 +5,7 @@ and may only be used pursuant to the terms and conditions of a written license a
 with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
 Synopsys software or the associated documentation is strictly prohibited.
 Tool: Synplify Pro (R)
-Build: W-2025.03LR-SP1-Beta2
+Build: W-2025.03LR-SP1
 Install: /usr/local/lscc/radiant/2025.2/synpbase
 OS: Ubuntu 22.04.5 LTS
 Hostname: P360
@@ -15,7 +15,7 @@ max stack size: 8388608 (bytes)
 
 
 Implementation : Avant
-Synopsys HDL Compiler, Version comp202503synp2, Build 038R, Built Oct  2 2025 06:42:54, @6263020
+Synopsys HDL Compiler, Version comp202503synp2, Build 038R, Built Nov 11 2025 07:12:37, @6327464
 
 @N|Running in 64-bit mode
 ###########################################################[
@@ -26,7 +26,7 @@ and may only be used pursuant to the terms and conditions of a written license a
 with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
 Synopsys software or the associated documentation is strictly prohibited.
 Tool: Synplify Pro (R)
-Build: W-2025.03LR-SP1-Beta2
+Build: W-2025.03LR-SP1
 Install: /usr/local/lscc/radiant/2025.2/synpbase
 OS: Ubuntu 22.04.5 LTS
 Hostname: P360
@@ -36,7 +36,7 @@ max stack size: 8388608 (bytes)
 
 
 Implementation : Avant
-Synopsys VHDL Compiler, Version comp202503synp2, Build 038R, Built Oct  2 2025 06:42:54, @6263020
+Synopsys VHDL Compiler, Version comp202503synp2, Build 038R, Built Nov 11 2025 07:12:37, @6327464
 
 @N|Running in 64-bit mode
 @N|stack limit increased to max
@@ -49,7 +49,7 @@ At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memor
 
 
 Process completed successfully.
-# Fri Jan  2 07:59:36 2026
+# Sat Jan  3 19:57:28 2026
 
 ###########################################################]
 ###########################################################[
@@ -60,7 +60,7 @@ and may only be used pursuant to the terms and conditions of a written license a
 with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
 Synopsys software or the associated documentation is strictly prohibited.
 Tool: Synplify Pro (R)
-Build: W-2025.03LR-SP1-Beta2
+Build: W-2025.03LR-SP1
 Install: /usr/local/lscc/radiant/2025.2/synpbase
 OS: Ubuntu 22.04.5 LTS
 Hostname: P360
@@ -70,10 +70,10 @@ max stack size: 8388608 (bytes)
 
 
 Implementation : Avant
-Synopsys Verilog Compiler, Version comp202503synp2, Build 038R, Built Oct  2 2025 06:42:54, @6263020
+Synopsys Verilog Compiler, Version comp202503synp2, Build 038R, Built Nov 11 2025 07:12:37, @6327464
 
 @N|Running in 64-bit mode
-@I::"/usr/local/lscc/radiant/2025.2/synpbase/lib/generic/lav-ate-es.v" (library work)
+@I::"/usr/local/lscc/radiant/2025.2/synpbase/lib/generic/lav-ate.v" (library work)
 @I::"/usr/local/lscc/radiant/2025.2/synpbase/lib/vlog/hypermods.v" (library __hyper__lib__)
 @I::"/usr/local/lscc/radiant/2025.2/ip/pmi/pmi_lav-at.v" (library work)
 @I:"/usr/local/lscc/radiant/2025.2/ip/pmi/pmi_lav-at.v":"/usr/local/lscc/radiant/2025.2/ip/pmi/pmi_addsub.v" (library work)
@@ -139,10 +139,10 @@ Synopsys Verilog Compiler, Version comp202503synp2, Build 038R, Built Oct  2 202
 @N: CG334 :"/usr/local/lscc/radiant/2025.2/ip/pmi/../common/ram_dp/rtl/lscc_ram_dp.v":1095:29:1095:41|Read directive translate_off.
 @N: CG333 :"/usr/local/lscc/radiant/2025.2/ip/pmi/../common/ram_dp/rtl/lscc_ram_dp.v":1099:29:1099:40|Read directive translate_on.
 @I:"/usr/local/lscc/radiant/2025.2/ip/pmi/pmi_ram_dp.v":"/usr/local/lscc/radiant/2025.2/ip/pmi/../LFMXO4/ram_dp/rtl/lscc_lfmxo4_ram_dp.v" (library work)
-@N: CG334 :"/usr/local/lscc/radiant/2025.2/ip/pmi/../LFMXO4/ram_dp/rtl/lscc_lfmxo4_ram_dp.v":1952:25:1952:37|Read directive translate_off.
-@N: CG333 :"/usr/local/lscc/radiant/2025.2/ip/pmi/../LFMXO4/ram_dp/rtl/lscc_lfmxo4_ram_dp.v":1960:25:1960:36|Read directive translate_on.
-@N: CG334 :"/usr/local/lscc/radiant/2025.2/ip/pmi/../LFMXO4/ram_dp/rtl/lscc_lfmxo4_ram_dp.v":2026:29:2026:41|Read directive translate_off.
-@N: CG333 :"/usr/local/lscc/radiant/2025.2/ip/pmi/../LFMXO4/ram_dp/rtl/lscc_lfmxo4_ram_dp.v":2034:29:2034:40|Read directive translate_on.
+@N: CG334 :"/usr/local/lscc/radiant/2025.2/ip/pmi/../LFMXO4/ram_dp/rtl/lscc_lfmxo4_ram_dp.v":2040:25:2040:37|Read directive translate_off.
+@N: CG333 :"/usr/local/lscc/radiant/2025.2/ip/pmi/../LFMXO4/ram_dp/rtl/lscc_lfmxo4_ram_dp.v":2048:25:2048:36|Read directive translate_on.
+@N: CG334 :"/usr/local/lscc/radiant/2025.2/ip/pmi/../LFMXO4/ram_dp/rtl/lscc_lfmxo4_ram_dp.v":2114:29:2114:41|Read directive translate_off.
+@N: CG333 :"/usr/local/lscc/radiant/2025.2/ip/pmi/../LFMXO4/ram_dp/rtl/lscc_lfmxo4_ram_dp.v":2122:29:2122:40|Read directive translate_on.
 @I:"/usr/local/lscc/radiant/2025.2/ip/pmi/pmi_lav-at.v":"/usr/local/lscc/radiant/2025.2/ip/pmi/pmi_ram_dp_be.v" (library work)
 @N: CG334 :"/usr/local/lscc/radiant/2025.2/ip/pmi/pmi_ram_dp_be.v":194:11:194:23|Read directive translate_off.
 @N: CG333 :"/usr/local/lscc/radiant/2025.2/ip/pmi/pmi_ram_dp_be.v":203:11:203:22|Read directive translate_on.
@@ -194,8 +194,6 @@ Synopsys Verilog Compiler, Version comp202503synp2, Build 038R, Built Oct  2 202
 @N: CG334 :"/usr/local/lscc/radiant/2025.2/ip/pmi/../common/ram_dq/rtl/lscc_ram_dq.v":1485:25:1485:37|Read directive translate_off.
 @N: CG333 :"/usr/local/lscc/radiant/2025.2/ip/pmi/../common/ram_dq/rtl/lscc_ram_dq.v":1491:25:1491:36|Read directive translate_on.
 @I:"/usr/local/lscc/radiant/2025.2/ip/pmi/pmi_ram_dq.v":"/usr/local/lscc/radiant/2025.2/ip/pmi/../LFMXO4/ram_dq/rtl/lscc_lfmxo4_ram_dq.v" (library work)
-@N: CG334 :"/usr/local/lscc/radiant/2025.2/ip/pmi/../LFMXO4/ram_dq/rtl/lscc_lfmxo4_ram_dq.v":1402:25:1402:37|Read directive translate_off.
-@N: CG333 :"/usr/local/lscc/radiant/2025.2/ip/pmi/../LFMXO4/ram_dq/rtl/lscc_lfmxo4_ram_dq.v":1408:25:1408:36|Read directive translate_on.
 @I:"/usr/local/lscc/radiant/2025.2/ip/pmi/pmi_lav-at.v":"/usr/local/lscc/radiant/2025.2/ip/pmi/pmi_ram_dq_be.v" (library work)
 @N: CG334 :"/usr/local/lscc/radiant/2025.2/ip/pmi/pmi_ram_dq_be.v":92:11:92:23|Read directive translate_off.
 @N: CG333 :"/usr/local/lscc/radiant/2025.2/ip/pmi/pmi_ram_dq_be.v":100:11:100:22|Read directive translate_on.
@@ -215,15 +213,15 @@ Synopsys Verilog Compiler, Version comp202503synp2, Build 038R, Built Oct  2 202
 @N|stack limit increased to max
 Verilog syntax check successful!
 
-At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 287MB peak: 287MB)
+At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 288MB peak: 288MB)
 
 
 Process completed successfully.
-# Fri Jan  2 07:59:36 2026
+# Sat Jan  3 19:57:29 2026
 
 ###########################################################]
 ###########################################################[
-@I::"/usr/local/lscc/radiant/2025.2/synpbase/lib/generic/lav-ate-es.v" (library work)
+@I::"/usr/local/lscc/radiant/2025.2/synpbase/lib/generic/lav-ate.v" (library work)
 @I::"/usr/local/lscc/radiant/2025.2/synpbase/lib/vlog/hypermods.v" (library __hyper__lib__)
 @I::"/usr/local/lscc/radiant/2025.2/ip/pmi/pmi_lav-at.v" (library work)
 @I:"/usr/local/lscc/radiant/2025.2/ip/pmi/pmi_lav-at.v":"/usr/local/lscc/radiant/2025.2/ip/pmi/pmi_addsub.v" (library work)
@@ -289,10 +287,10 @@ Process completed successfully.
 @N: CG334 :"/usr/local/lscc/radiant/2025.2/ip/pmi/../common/ram_dp/rtl/lscc_ram_dp.v":1095:29:1095:41|Read directive translate_off.
 @N: CG333 :"/usr/local/lscc/radiant/2025.2/ip/pmi/../common/ram_dp/rtl/lscc_ram_dp.v":1099:29:1099:40|Read directive translate_on.
 @I:"/usr/local/lscc/radiant/2025.2/ip/pmi/pmi_ram_dp.v":"/usr/local/lscc/radiant/2025.2/ip/pmi/../LFMXO4/ram_dp/rtl/lscc_lfmxo4_ram_dp.v" (library work)
-@N: CG334 :"/usr/local/lscc/radiant/2025.2/ip/pmi/../LFMXO4/ram_dp/rtl/lscc_lfmxo4_ram_dp.v":1952:25:1952:37|Read directive translate_off.
-@N: CG333 :"/usr/local/lscc/radiant/2025.2/ip/pmi/../LFMXO4/ram_dp/rtl/lscc_lfmxo4_ram_dp.v":1960:25:1960:36|Read directive translate_on.
-@N: CG334 :"/usr/local/lscc/radiant/2025.2/ip/pmi/../LFMXO4/ram_dp/rtl/lscc_lfmxo4_ram_dp.v":2026:29:2026:41|Read directive translate_off.
-@N: CG333 :"/usr/local/lscc/radiant/2025.2/ip/pmi/../LFMXO4/ram_dp/rtl/lscc_lfmxo4_ram_dp.v":2034:29:2034:40|Read directive translate_on.
+@N: CG334 :"/usr/local/lscc/radiant/2025.2/ip/pmi/../LFMXO4/ram_dp/rtl/lscc_lfmxo4_ram_dp.v":2040:25:2040:37|Read directive translate_off.
+@N: CG333 :"/usr/local/lscc/radiant/2025.2/ip/pmi/../LFMXO4/ram_dp/rtl/lscc_lfmxo4_ram_dp.v":2048:25:2048:36|Read directive translate_on.
+@N: CG334 :"/usr/local/lscc/radiant/2025.2/ip/pmi/../LFMXO4/ram_dp/rtl/lscc_lfmxo4_ram_dp.v":2114:29:2114:41|Read directive translate_off.
+@N: CG333 :"/usr/local/lscc/radiant/2025.2/ip/pmi/../LFMXO4/ram_dp/rtl/lscc_lfmxo4_ram_dp.v":2122:29:2122:40|Read directive translate_on.
 @I:"/usr/local/lscc/radiant/2025.2/ip/pmi/pmi_lav-at.v":"/usr/local/lscc/radiant/2025.2/ip/pmi/pmi_ram_dp_be.v" (library work)
 @N: CG334 :"/usr/local/lscc/radiant/2025.2/ip/pmi/pmi_ram_dp_be.v":194:11:194:23|Read directive translate_off.
 @N: CG333 :"/usr/local/lscc/radiant/2025.2/ip/pmi/pmi_ram_dp_be.v":203:11:203:22|Read directive translate_on.
@@ -344,8 +342,6 @@ Process completed successfully.
 @N: CG334 :"/usr/local/lscc/radiant/2025.2/ip/pmi/../common/ram_dq/rtl/lscc_ram_dq.v":1485:25:1485:37|Read directive translate_off.
 @N: CG333 :"/usr/local/lscc/radiant/2025.2/ip/pmi/../common/ram_dq/rtl/lscc_ram_dq.v":1491:25:1491:36|Read directive translate_on.
 @I:"/usr/local/lscc/radiant/2025.2/ip/pmi/pmi_ram_dq.v":"/usr/local/lscc/radiant/2025.2/ip/pmi/../LFMXO4/ram_dq/rtl/lscc_lfmxo4_ram_dq.v" (library work)
-@N: CG334 :"/usr/local/lscc/radiant/2025.2/ip/pmi/../LFMXO4/ram_dq/rtl/lscc_lfmxo4_ram_dq.v":1402:25:1402:37|Read directive translate_off.
-@N: CG333 :"/usr/local/lscc/radiant/2025.2/ip/pmi/../LFMXO4/ram_dq/rtl/lscc_lfmxo4_ram_dq.v":1408:25:1408:36|Read directive translate_on.
 @I:"/usr/local/lscc/radiant/2025.2/ip/pmi/pmi_lav-at.v":"/usr/local/lscc/radiant/2025.2/ip/pmi/pmi_ram_dq_be.v" (library work)
 @N: CG334 :"/usr/local/lscc/radiant/2025.2/ip/pmi/pmi_ram_dq_be.v":92:11:92:23|Read directive translate_off.
 @N: CG333 :"/usr/local/lscc/radiant/2025.2/ip/pmi/pmi_ram_dq_be.v":100:11:100:22|Read directive translate_on.
@@ -364,6 +360,7 @@ Process completed successfully.
 @I::"/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v" (library work)
 @N|stack limit increased to max
 Verilog syntax check successful!
+File /home/kanmei/src/sincos_linear/source/top_sin_linear.v changed - recompiling
 @N: CG364 :"/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v":1849:33:1849:54|Synthesizing module gpll_ipgen_pll_init_bw in library work.
 
 	SIMULATION=32'b00000000000000000000000000000000
@@ -377,7 +374,7 @@ Verilog syntax check successful!
 @N: CG364 :"/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v":2240:31:2240:52|Synthesizing module gpll_ipgen_pll_syncreg in library work.
 Running optimization stage 1 on gpll_ipgen_pll_syncreg .......
 Finished optimization stage 1 on gpll_ipgen_pll_syncreg (CPU Time 0h:00m:00s, Memory Used current: 289MB peak: 289MB)
-@N: CG364 :"/usr/local/lscc/radiant/2025.2/synpbase/lib/generic/lav-ate-es.v":3763:7:3763:18|Synthesizing module PLL_LMMI_MUX in library work.
+@N: CG364 :"/usr/local/lscc/radiant/2025.2/synpbase/lib/generic/lav-ate.v":4220:7:4220:18|Synthesizing module PLL_LMMI_MUX in library work.
 Running optimization stage 1 on PLL_LMMI_MUX .......
 Finished optimization stage 1 on PLL_LMMI_MUX (CPU Time 0h:00m:00s, Memory Used current: 289MB peak: 289MB)
 @N: CG364 :"/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v":2175:33:2175:59|Synthesizing module gpll_ipgen_pll_sip_lmmi_mux in library work.
@@ -385,7 +382,7 @@ Running optimization stage 1 on gpll_ipgen_pll_sip_lmmi_mux .......
 Finished optimization stage 1 on gpll_ipgen_pll_sip_lmmi_mux (CPU Time 0h:00m:00s, Memory Used current: 289MB peak: 289MB)
 Running optimization stage 1 on gpll_ipgen_pll_init_bw_0s_1s_1277952_0_19_1s_None .......
 @W: CL271 :"/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v":1972:16:1972:21|Pruning unused bits 3 to 0 of gen_bw_init.nf_usr_regval[15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
-Finished optimization stage 1 on gpll_ipgen_pll_init_bw_0s_1s_1277952_0_19_1s_None (CPU Time 0h:00m:00s, Memory Used current: 289MB peak: 289MB)
+Finished optimization stage 1 on gpll_ipgen_pll_init_bw_0s_1s_1277952_0_19_1s_None (CPU Time 0h:00m:00s, Memory Used current: 290MB peak: 290MB)
 @N: CG364 :"/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v":199:33:199:51|Synthesizing module gpll_ipgen_lscc_pll in library work.
 
 	VCO_FREQ=88'b0011001100111001001100000011000000101110001100000011000000110000001100000011000000110000
@@ -561,14 +558,14 @@ Finished optimization stage 1 on gpll_ipgen_pll_init_bw_0s_1s_1277952_0_19_1s_No
 	STATIC_VCO_PHASE_STEP=16'b0100111001001111
 	STATIC_VCO_PHASE_DIR=56'b01000100010001010100110001000001010110010100010101000100
    Generated name = gpll_ipgen_lscc_pll_Z1_layer0
-@N: CG364 :"/usr/local/lscc/radiant/2025.2/synpbase/lib/generic/lav-ate-es.v":3247:7:3247:10|Synthesizing module PLLC in library work.
+@N: CG364 :"/usr/local/lscc/radiant/2025.2/synpbase/lib/generic/lav-ate.v":3566:7:3566:10|Synthesizing module PLLC in library work.
 Running optimization stage 1 on PLLC .......
-Finished optimization stage 1 on PLLC (CPU Time 0h:00m:00s, Memory Used current: 289MB peak: 289MB)
+Finished optimization stage 1 on PLLC (CPU Time 0h:00m:00s, Memory Used current: 290MB peak: 290MB)
 Running optimization stage 1 on gpll_ipgen_lscc_pll_Z1_layer0 .......
-Finished optimization stage 1 on gpll_ipgen_lscc_pll_Z1_layer0 (CPU Time 0h:00m:00s, Memory Used current: 289MB peak: 289MB)
+Finished optimization stage 1 on gpll_ipgen_lscc_pll_Z1_layer0 (CPU Time 0h:00m:00s, Memory Used current: 290MB peak: 290MB)
 @N: CG364 :"/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v":11:63:11:66|Synthesizing module gpll in library work.
 Running optimization stage 1 on gpll .......
-Finished optimization stage 1 on gpll (CPU Time 0h:00m:00s, Memory Used current: 289MB peak: 289MB)
+Finished optimization stage 1 on gpll (CPU Time 0h:00m:00s, Memory Used current: 290MB peak: 290MB)
 @N: CG364 :"/home/kanmei/src/sincos_linear/source/rom_y36/rtl/rom_y36.v":624:7:624:33|Synthesizing module rom_y36_ipgen_lscc_rom_inst in library work.
 
 	_FCODE_LIFCL_=32'b00000000000000000000000000000001
@@ -908,15 +905,15 @@ Finished optimization stage 1 on gpll (CPU Time 0h:00m:00s, Memory Used current:
 	MEM_TYPE=24'b010001010100001001010010
 	T_MEM_SIZE=72'b010110110011001100110110001011000011010000110000001110010011011001011101
    Generated name = rom_y36_ipgen_lscc_rom_inst_core_Z3_layer0
-@N: CG364 :"/usr/local/lscc/radiant/2025.2/synpbase/lib/generic/lav-ate-es.v":3460:7:3460:11|Synthesizing module SP32K in library work.
+@N: CG364 :"/usr/local/lscc/radiant/2025.2/synpbase/lib/generic/lav-ate.v":3812:7:3812:11|Synthesizing module SP32K in library work.
 Running optimization stage 1 on SP32K .......
-Finished optimization stage 1 on SP32K (CPU Time 0h:00m:00s, Memory Used current: 292MB peak: 292MB)
+Finished optimization stage 1 on SP32K (CPU Time 0h:00m:00s, Memory Used current: 293MB peak: 293MB)
 @W: CG360 :"/home/kanmei/src/sincos_linear/source/rom_y36/rtl/rom_y36.v":1959:11:1959:23|Removing wire one_err_det_o, as there is no assignment to it.
 @W: CG360 :"/home/kanmei/src/sincos_linear/source/rom_y36/rtl/rom_y36.v":1960:11:1960:23|Removing wire two_err_det_o, as there is no assignment to it.
 Running optimization stage 1 on rom_y36_ipgen_lscc_rom_inst_core_Z3_layer0 .......
 @W: CL318 :"/home/kanmei/src/sincos_linear/source/rom_y36/rtl/rom_y36.v":1959:11:1959:23|*Output one_err_det_o has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
 @W: CL318 :"/home/kanmei/src/sincos_linear/source/rom_y36/rtl/rom_y36.v":1960:11:1960:23|*Output two_err_det_o has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
-Finished optimization stage 1 on rom_y36_ipgen_lscc_rom_inst_core_Z3_layer0 (CPU Time 0h:00m:00s, Memory Used current: 292MB peak: 292MB)
+Finished optimization stage 1 on rom_y36_ipgen_lscc_rom_inst_core_Z3_layer0 (CPU Time 0h:00m:00s, Memory Used current: 293MB peak: 293MB)
 @N: CG364 :"/home/kanmei/src/sincos_linear/source/rom_y36/rtl/rom_y36.v":1794:7:1794:38|Synthesizing module rom_y36_ipgen_lscc_rom_inst_core in library work.
 
 	_FCODE_LIFCL_=32'b00000000000000000000000000000001
@@ -1097,7 +1094,7 @@ Finished optimization stage 1 on rom_y36_ipgen_lscc_rom_inst_core_Z3_layer0 (CPU
 Running optimization stage 1 on rom_y36_ipgen_lscc_rom_inst_core_Z4_layer0 .......
 @W: CL318 :"/home/kanmei/src/sincos_linear/source/rom_y36/rtl/rom_y36.v":1959:11:1959:23|*Output one_err_det_o has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
 @W: CL318 :"/home/kanmei/src/sincos_linear/source/rom_y36/rtl/rom_y36.v":1960:11:1960:23|*Output two_err_det_o has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
-Finished optimization stage 1 on rom_y36_ipgen_lscc_rom_inst_core_Z4_layer0 (CPU Time 0h:00m:00s, Memory Used current: 295MB peak: 295MB)
+Finished optimization stage 1 on rom_y36_ipgen_lscc_rom_inst_core_Z4_layer0 (CPU Time 0h:00m:00s, Memory Used current: 296MB peak: 296MB)
 @N: CG364 :"/home/kanmei/src/sincos_linear/source/rom_y36/rtl/rom_y36.v":1794:7:1794:38|Synthesizing module rom_y36_ipgen_lscc_rom_inst_core in library work.
 
 	_FCODE_LIFCL_=32'b00000000000000000000000000000001
@@ -1278,7 +1275,7 @@ Finished optimization stage 1 on rom_y36_ipgen_lscc_rom_inst_core_Z4_layer0 (CPU
 Running optimization stage 1 on rom_y36_ipgen_lscc_rom_inst_core_Z5_layer0 .......
 @W: CL318 :"/home/kanmei/src/sincos_linear/source/rom_y36/rtl/rom_y36.v":1959:11:1959:23|*Output one_err_det_o has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
 @W: CL318 :"/home/kanmei/src/sincos_linear/source/rom_y36/rtl/rom_y36.v":1960:11:1960:23|*Output two_err_det_o has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
-Finished optimization stage 1 on rom_y36_ipgen_lscc_rom_inst_core_Z5_layer0 (CPU Time 0h:00m:00s, Memory Used current: 298MB peak: 298MB)
+Finished optimization stage 1 on rom_y36_ipgen_lscc_rom_inst_core_Z5_layer0 (CPU Time 0h:00m:00s, Memory Used current: 299MB peak: 299MB)
 @N: CG364 :"/home/kanmei/src/sincos_linear/source/rom_y36/rtl/rom_y36.v":1794:7:1794:38|Synthesizing module rom_y36_ipgen_lscc_rom_inst_core in library work.
 
 	_FCODE_LIFCL_=32'b00000000000000000000000000000001
@@ -1461,7 +1458,7 @@ Running optimization stage 1 on rom_y36_ipgen_lscc_rom_inst_core_Z6_layer0 .....
 @W: CL318 :"/home/kanmei/src/sincos_linear/source/rom_y36/rtl/rom_y36.v":1960:11:1960:23|*Output two_err_det_o has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
 Finished optimization stage 1 on rom_y36_ipgen_lscc_rom_inst_core_Z6_layer0 (CPU Time 0h:00m:00s, Memory Used current: 301MB peak: 301MB)
 Running optimization stage 1 on rom_y36_ipgen_lscc_rom_inst_Z2_layer0 .......
-Finished optimization stage 1 on rom_y36_ipgen_lscc_rom_inst_Z2_layer0 (CPU Time 0h:00m:00s, Memory Used current: 301MB peak: 301MB)
+Finished optimization stage 1 on rom_y36_ipgen_lscc_rom_inst_Z2_layer0 (CPU Time 0h:00m:00s, Memory Used current: 302MB peak: 302MB)
 @N: CG364 :"/home/kanmei/src/sincos_linear/source/rom_y36/rtl/rom_y36.v":230:7:230:28|Synthesizing module rom_y36_ipgen_lscc_rom in library work.
 
 	FAMILY=48'b010011000100000101010110001011010100000101010100
@@ -2143,7 +2140,7 @@ Finished optimization stage 1 on rom_dy18_ipgen_lscc_rom_inst_core_Z9_layer0 (CP
 Running optimization stage 1 on rom_dy18_ipgen_lscc_rom_inst_core_Z10_layer0 .......
 @W: CL318 :"/home/kanmei/src/sincos_linear/source/rom_dy18/rtl/rom_dy18.v":1959:11:1959:23|*Output one_err_det_o has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
 @W: CL318 :"/home/kanmei/src/sincos_linear/source/rom_dy18/rtl/rom_dy18.v":1960:11:1960:23|*Output two_err_det_o has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
-Finished optimization stage 1 on rom_dy18_ipgen_lscc_rom_inst_core_Z10_layer0 (CPU Time 0h:00m:00s, Memory Used current: 305MB peak: 305MB)
+Finished optimization stage 1 on rom_dy18_ipgen_lscc_rom_inst_core_Z10_layer0 (CPU Time 0h:00m:00s, Memory Used current: 306MB peak: 306MB)
 Running optimization stage 1 on rom_dy18_ipgen_lscc_rom_inst_Z8_layer0 .......
 Finished optimization stage 1 on rom_dy18_ipgen_lscc_rom_inst_Z8_layer0 (CPU Time 0h:00m:00s, Memory Used current: 306MB peak: 306MB)
 @N: CG364 :"/home/kanmei/src/sincos_linear/source/rom_dy18/rtl/rom_dy18.v":230:7:230:29|Synthesizing module rom_dy18_ipgen_lscc_rom in library work.
@@ -2302,7 +2299,7 @@ Finished optimization stage 1 on rom_dy18_ipgen_lscc_rom_Z11_layer0 (CPU Time 0h
 @N: CG364 :"/home/kanmei/src/sincos_linear/source/rom_dy18/rtl/rom_dy18.v":11:67:11:74|Synthesizing module rom_dy18 in library work.
 Running optimization stage 1 on rom_dy18 .......
 Finished optimization stage 1 on rom_dy18 (CPU Time 0h:00m:00s, Memory Used current: 306MB peak: 306MB)
-@N: CG364 :"/usr/local/lscc/radiant/2025.2/synpbase/lib/generic/lav-ate-es.v":2872:7:2872:22|Synthesizing module MULTADDSUB18X18A in library work.
+@N: CG364 :"/usr/local/lscc/radiant/2025.2/synpbase/lib/generic/lav-ate.v":3191:7:3191:22|Synthesizing module MULTADDSUB18X18A in library work.
 Running optimization stage 1 on MULTADDSUB18X18A .......
 Finished optimization stage 1 on MULTADDSUB18X18A (CPU Time 0h:00m:00s, Memory Used current: 306MB peak: 306MB)
 @N: CG364 :"/home/kanmei/src/sincos_linear/source/mult18x18p48.v":2:7:2:18|Synthesizing module mult18x18p48 in library work.
@@ -2319,79 +2316,79 @@ Running optimization stage 1 on mult18x18p48_UNSIGNED_UNSIGNED_BYPASSED_REGISTER
 Finished optimization stage 1 on mult18x18p48_UNSIGNED_UNSIGNED_BYPASSED_REGISTERED_ONCE_BYPASSED_BYPASSED_REGISTERED_12_layer0 (CPU Time 0h:00m:00s, Memory Used current: 306MB peak: 306MB)
 @N: CG364 :"/home/kanmei/src/sincos_linear/source/sin_linear.v":12:7:12:16|Synthesizing module sin_linear in library work.
 Running optimization stage 1 on sin_linear .......
+@W: CL169 :"/home/kanmei/src/sincos_linear/source/sin_linear.v":80:0:80:5|Pruning unused register s3_valid. Make sure that there are no unused intermediate registers.
+@W: CL169 :"/home/kanmei/src/sincos_linear/source/sin_linear.v":80:0:80:5|Pruning unused register s3_quadrant[1:0]. Make sure that there are no unused intermediate registers.
 @W: CL265 :"/home/kanmei/src/sincos_linear/source/sin_linear.v":80:0:80:5|Removing unused bit 0 of s2_quadrant[1:0]. Either assign all bits or reduce the width of the signal.
-@W: CL265 :"/home/kanmei/src/sincos_linear/source/sin_linear.v":80:0:80:5|Removing unused bit 0 of s3_quadrant[1:0]. Either assign all bits or reduce the width of the signal.
 @W: CL265 :"/home/kanmei/src/sincos_linear/source/sin_linear.v":42:0:42:5|Removing unused bit 0 of s1_quadrant[1:0]. Either assign all bits or reduce the width of the signal.
-Finished optimization stage 1 on sin_linear (CPU Time 0h:00m:00s, Memory Used current: 306MB peak: 306MB)
+Finished optimization stage 1 on sin_linear (CPU Time 0h:00m:00s, Memory Used current: 307MB peak: 307MB)
 @N: CG364 :"/home/kanmei/src/sincos_linear/source/sincos_linear.v":3:7:3:19|Synthesizing module sincos_linear in library work.
 
 	OUTPUT_WIDTH=32'b00000000000000000000000000100000
    Generated name = sincos_linear_32s
 Running optimization stage 1 on sincos_linear_32s .......
-Finished optimization stage 1 on sincos_linear_32s (CPU Time 0h:00m:00s, Memory Used current: 306MB peak: 306MB)
+Finished optimization stage 1 on sincos_linear_32s (CPU Time 0h:00m:00s, Memory Used current: 307MB peak: 307MB)
 @N: CG364 :"/home/kanmei/src/sincos_linear/source/top_sin_linear.v":3:7:3:20|Synthesizing module top_sin_linear in library work.
 Running optimization stage 1 on top_sin_linear .......
-Finished optimization stage 1 on top_sin_linear (CPU Time 0h:00m:00s, Memory Used current: 306MB peak: 306MB)
+Finished optimization stage 1 on top_sin_linear (CPU Time 0h:00m:00s, Memory Used current: 307MB peak: 307MB)
 Running optimization stage 2 on top_sin_linear .......
 @N: CL135 :"/home/kanmei/src/sincos_linear/source/top_sin_linear.v":48:0:48:5|Found sequential shift phase with address depth of 4 words and data bit width of 32.
 @N: CL135 :"/home/kanmei/src/sincos_linear/source/top_sin_linear.v":48:0:48:5|Found sequential shift valid_i with address depth of 4 words and data bit width of 1.
 @N: CL135 :"/home/kanmei/src/sincos_linear/source/top_sin_linear.v":48:0:48:5|Found sequential shift valid_o with address depth of 3 words and data bit width of 1.
 @N: CL135 :"/home/kanmei/src/sincos_linear/source/top_sin_linear.v":48:0:48:5|Found sequential shift result with address depth of 3 words and data bit width of 32.
-Finished optimization stage 2 on top_sin_linear (CPU Time 0h:00m:00s, Memory Used current: 306MB peak: 306MB)
+Finished optimization stage 2 on top_sin_linear (CPU Time 0h:00m:00s, Memory Used current: 307MB peak: 307MB)
 Running optimization stage 2 on sincos_linear_32s .......
-Finished optimization stage 2 on sincos_linear_32s (CPU Time 0h:00m:00s, Memory Used current: 306MB peak: 306MB)
+Finished optimization stage 2 on sincos_linear_32s (CPU Time 0h:00m:00s, Memory Used current: 307MB peak: 307MB)
 Running optimization stage 2 on sin_linear .......
-@N: CL135 :"/home/kanmei/src/sincos_linear/source/sin_linear.v":80:0:80:5|Found sequential shift s3_quadrant with address depth of 3 words and data bit width of 1.
-@N: CL135 :"/home/kanmei/src/sincos_linear/source/sin_linear.v":80:0:80:5|Found sequential shift valid_o with address depth of 4 words and data bit width of 1.
-Finished optimization stage 2 on sin_linear (CPU Time 0h:00m:00s, Memory Used current: 306MB peak: 306MB)
+@N: CL135 :"/home/kanmei/src/sincos_linear/source/sin_linear.v":80:0:80:5|Found sequential shift valid_o with address depth of 3 words and data bit width of 1.
+Finished optimization stage 2 on sin_linear (CPU Time 0h:00m:00s, Memory Used current: 307MB peak: 307MB)
 Running optimization stage 2 on mult18x18p48_UNSIGNED_UNSIGNED_BYPASSED_REGISTERED_ONCE_BYPASSED_BYPASSED_REGISTERED_12_layer0 .......
-Finished optimization stage 2 on mult18x18p48_UNSIGNED_UNSIGNED_BYPASSED_REGISTERED_ONCE_BYPASSED_BYPASSED_REGISTERED_12_layer0 (CPU Time 0h:00m:00s, Memory Used current: 306MB peak: 306MB)
+Finished optimization stage 2 on mult18x18p48_UNSIGNED_UNSIGNED_BYPASSED_REGISTERED_ONCE_BYPASSED_BYPASSED_REGISTERED_12_layer0 (CPU Time 0h:00m:00s, Memory Used current: 307MB peak: 307MB)
 Running optimization stage 2 on MULTADDSUB18X18A .......
-Finished optimization stage 2 on MULTADDSUB18X18A (CPU Time 0h:00m:00s, Memory Used current: 306MB peak: 306MB)
+Finished optimization stage 2 on MULTADDSUB18X18A (CPU Time 0h:00m:00s, Memory Used current: 307MB peak: 307MB)
 Running optimization stage 2 on rom_dy18 .......
-Finished optimization stage 2 on rom_dy18 (CPU Time 0h:00m:00s, Memory Used current: 306MB peak: 306MB)
+Finished optimization stage 2 on rom_dy18 (CPU Time 0h:00m:00s, Memory Used current: 307MB peak: 307MB)
 Running optimization stage 2 on rom_dy18_ipgen_lscc_rom_Z11_layer0 .......
-Finished optimization stage 2 on rom_dy18_ipgen_lscc_rom_Z11_layer0 (CPU Time 0h:00m:00s, Memory Used current: 306MB peak: 306MB)
+Finished optimization stage 2 on rom_dy18_ipgen_lscc_rom_Z11_layer0 (CPU Time 0h:00m:00s, Memory Used current: 307MB peak: 307MB)
 Running optimization stage 2 on rom_dy18_ipgen_lscc_rom_inst_core_Z10_layer0 .......
 @N: CL159 :"/home/kanmei/src/sincos_linear/source/rom_dy18/rtl/rom_dy18.v":1952:10:1952:16|Input rd_en_i is unused.
 @N: CL159 :"/home/kanmei/src/sincos_linear/source/rom_dy18/rtl/rom_dy18.v":1957:31:1957:35|Input ben_i is unused.
-Finished optimization stage 2 on rom_dy18_ipgen_lscc_rom_inst_core_Z10_layer0 (CPU Time 0h:00m:00s, Memory Used current: 306MB peak: 306MB)
+Finished optimization stage 2 on rom_dy18_ipgen_lscc_rom_inst_core_Z10_layer0 (CPU Time 0h:00m:00s, Memory Used current: 307MB peak: 307MB)
 Running optimization stage 2 on rom_dy18_ipgen_lscc_rom_inst_core_Z9_layer0 .......
 @N: CL159 :"/home/kanmei/src/sincos_linear/source/rom_dy18/rtl/rom_dy18.v":1952:10:1952:16|Input rd_en_i is unused.
 @N: CL159 :"/home/kanmei/src/sincos_linear/source/rom_dy18/rtl/rom_dy18.v":1957:31:1957:35|Input ben_i is unused.
-Finished optimization stage 2 on rom_dy18_ipgen_lscc_rom_inst_core_Z9_layer0 (CPU Time 0h:00m:00s, Memory Used current: 306MB peak: 306MB)
+Finished optimization stage 2 on rom_dy18_ipgen_lscc_rom_inst_core_Z9_layer0 (CPU Time 0h:00m:00s, Memory Used current: 307MB peak: 307MB)
 Running optimization stage 2 on rom_dy18_ipgen_lscc_rom_inst_Z8_layer0 .......
 @N: CL159 :"/home/kanmei/src/sincos_linear/source/rom_dy18/rtl/rom_dy18.v":794:31:794:35|Input ben_i is unused.
-Finished optimization stage 2 on rom_dy18_ipgen_lscc_rom_inst_Z8_layer0 (CPU Time 0h:00m:00s, Memory Used current: 306MB peak: 306MB)
+Finished optimization stage 2 on rom_dy18_ipgen_lscc_rom_inst_Z8_layer0 (CPU Time 0h:00m:00s, Memory Used current: 307MB peak: 307MB)
 Running optimization stage 2 on rom_y36 .......
-Finished optimization stage 2 on rom_y36 (CPU Time 0h:00m:00s, Memory Used current: 306MB peak: 306MB)
+Finished optimization stage 2 on rom_y36 (CPU Time 0h:00m:00s, Memory Used current: 307MB peak: 307MB)
 Running optimization stage 2 on rom_y36_ipgen_lscc_rom_Z7_layer0 .......
-Finished optimization stage 2 on rom_y36_ipgen_lscc_rom_Z7_layer0 (CPU Time 0h:00m:00s, Memory Used current: 306MB peak: 306MB)
+Finished optimization stage 2 on rom_y36_ipgen_lscc_rom_Z7_layer0 (CPU Time 0h:00m:00s, Memory Used current: 307MB peak: 307MB)
 Running optimization stage 2 on rom_y36_ipgen_lscc_rom_inst_core_Z6_layer0 .......
 @N: CL159 :"/home/kanmei/src/sincos_linear/source/rom_y36/rtl/rom_y36.v":1952:10:1952:16|Input rd_en_i is unused.
 @N: CL159 :"/home/kanmei/src/sincos_linear/source/rom_y36/rtl/rom_y36.v":1957:31:1957:35|Input ben_i is unused.
-Finished optimization stage 2 on rom_y36_ipgen_lscc_rom_inst_core_Z6_layer0 (CPU Time 0h:00m:00s, Memory Used current: 306MB peak: 306MB)
+Finished optimization stage 2 on rom_y36_ipgen_lscc_rom_inst_core_Z6_layer0 (CPU Time 0h:00m:00s, Memory Used current: 307MB peak: 307MB)
 Running optimization stage 2 on rom_y36_ipgen_lscc_rom_inst_core_Z5_layer0 .......
 @N: CL159 :"/home/kanmei/src/sincos_linear/source/rom_y36/rtl/rom_y36.v":1952:10:1952:16|Input rd_en_i is unused.
 @N: CL159 :"/home/kanmei/src/sincos_linear/source/rom_y36/rtl/rom_y36.v":1957:31:1957:35|Input ben_i is unused.
-Finished optimization stage 2 on rom_y36_ipgen_lscc_rom_inst_core_Z5_layer0 (CPU Time 0h:00m:00s, Memory Used current: 306MB peak: 306MB)
+Finished optimization stage 2 on rom_y36_ipgen_lscc_rom_inst_core_Z5_layer0 (CPU Time 0h:00m:00s, Memory Used current: 307MB peak: 307MB)
 Running optimization stage 2 on rom_y36_ipgen_lscc_rom_inst_core_Z4_layer0 .......
 @N: CL159 :"/home/kanmei/src/sincos_linear/source/rom_y36/rtl/rom_y36.v":1952:10:1952:16|Input rd_en_i is unused.
 @N: CL159 :"/home/kanmei/src/sincos_linear/source/rom_y36/rtl/rom_y36.v":1957:31:1957:35|Input ben_i is unused.
-Finished optimization stage 2 on rom_y36_ipgen_lscc_rom_inst_core_Z4_layer0 (CPU Time 0h:00m:00s, Memory Used current: 306MB peak: 306MB)
+Finished optimization stage 2 on rom_y36_ipgen_lscc_rom_inst_core_Z4_layer0 (CPU Time 0h:00m:00s, Memory Used current: 307MB peak: 307MB)
 Running optimization stage 2 on SP32K .......
-Finished optimization stage 2 on SP32K (CPU Time 0h:00m:00s, Memory Used current: 306MB peak: 306MB)
+Finished optimization stage 2 on SP32K (CPU Time 0h:00m:00s, Memory Used current: 307MB peak: 307MB)
 Running optimization stage 2 on rom_y36_ipgen_lscc_rom_inst_core_Z3_layer0 .......
 @N: CL159 :"/home/kanmei/src/sincos_linear/source/rom_y36/rtl/rom_y36.v":1952:10:1952:16|Input rd_en_i is unused.
 @N: CL159 :"/home/kanmei/src/sincos_linear/source/rom_y36/rtl/rom_y36.v":1957:31:1957:35|Input ben_i is unused.
-Finished optimization stage 2 on rom_y36_ipgen_lscc_rom_inst_core_Z3_layer0 (CPU Time 0h:00m:00s, Memory Used current: 306MB peak: 306MB)
+Finished optimization stage 2 on rom_y36_ipgen_lscc_rom_inst_core_Z3_layer0 (CPU Time 0h:00m:00s, Memory Used current: 307MB peak: 307MB)
 Running optimization stage 2 on rom_y36_ipgen_lscc_rom_inst_Z2_layer0 .......
 @N: CL159 :"/home/kanmei/src/sincos_linear/source/rom_y36/rtl/rom_y36.v":794:31:794:35|Input ben_i is unused.
-Finished optimization stage 2 on rom_y36_ipgen_lscc_rom_inst_Z2_layer0 (CPU Time 0h:00m:00s, Memory Used current: 306MB peak: 306MB)
+Finished optimization stage 2 on rom_y36_ipgen_lscc_rom_inst_Z2_layer0 (CPU Time 0h:00m:00s, Memory Used current: 307MB peak: 307MB)
 Running optimization stage 2 on gpll .......
-Finished optimization stage 2 on gpll (CPU Time 0h:00m:00s, Memory Used current: 306MB peak: 306MB)
+Finished optimization stage 2 on gpll (CPU Time 0h:00m:00s, Memory Used current: 307MB peak: 307MB)
 Running optimization stage 2 on PLLC .......
-Finished optimization stage 2 on PLLC (CPU Time 0h:00m:00s, Memory Used current: 306MB peak: 306MB)
+Finished optimization stage 2 on PLLC (CPU Time 0h:00m:00s, Memory Used current: 307MB peak: 307MB)
 Running optimization stage 2 on gpll_ipgen_lscc_pll_Z1_layer0 .......
 @N: CL159 :"/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v":302:10:302:21|Input usr_fbkclk_i is unused.
 @N: CL159 :"/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v":354:10:354:19|Input apb_pclk_i is unused.
@@ -2401,13 +2398,13 @@ Running optimization stage 2 on gpll_ipgen_lscc_pll_Z1_layer0 .......
 @N: CL159 :"/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v":358:10:358:21|Input apb_pwrite_i is unused.
 @N: CL159 :"/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v":359:16:359:26|Input apb_paddr_i is unused.
 @N: CL159 :"/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v":360:17:360:28|Input apb_pwdata_i is unused.
-Finished optimization stage 2 on gpll_ipgen_lscc_pll_Z1_layer0 (CPU Time 0h:00m:00s, Memory Used current: 306MB peak: 306MB)
+Finished optimization stage 2 on gpll_ipgen_lscc_pll_Z1_layer0 (CPU Time 0h:00m:00s, Memory Used current: 307MB peak: 307MB)
 Running optimization stage 2 on gpll_ipgen_pll_sip_lmmi_mux .......
-Finished optimization stage 2 on gpll_ipgen_pll_sip_lmmi_mux (CPU Time 0h:00m:00s, Memory Used current: 306MB peak: 306MB)
+Finished optimization stage 2 on gpll_ipgen_pll_sip_lmmi_mux (CPU Time 0h:00m:00s, Memory Used current: 307MB peak: 307MB)
 Running optimization stage 2 on PLL_LMMI_MUX .......
-Finished optimization stage 2 on PLL_LMMI_MUX (CPU Time 0h:00m:00s, Memory Used current: 306MB peak: 306MB)
+Finished optimization stage 2 on PLL_LMMI_MUX (CPU Time 0h:00m:00s, Memory Used current: 307MB peak: 307MB)
 Running optimization stage 2 on gpll_ipgen_pll_syncreg .......
-Finished optimization stage 2 on gpll_ipgen_pll_syncreg (CPU Time 0h:00m:00s, Memory Used current: 306MB peak: 306MB)
+Finished optimization stage 2 on gpll_ipgen_pll_syncreg (CPU Time 0h:00m:00s, Memory Used current: 307MB peak: 307MB)
 Running optimization stage 2 on gpll_ipgen_pll_init_bw_0s_1s_1277952_0_19_1s_None .......
 @N: CL201 :"/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v":2001:16:2001:21|Trying to extract state machine for register gen_bw_init.bw_init_cs.
 Extracted state machine for register gen_bw_init.bw_init_cs
@@ -2417,7 +2414,7 @@ State machine has 5 reachable states with original encodings of:
    010
    011
    100
-Finished optimization stage 2 on gpll_ipgen_pll_init_bw_0s_1s_1277952_0_19_1s_None (CPU Time 0h:00m:00s, Memory Used current: 307MB peak: 307MB)
+Finished optimization stage 2 on gpll_ipgen_pll_init_bw_0s_1s_1277952_0_19_1s_None (CPU Time 0h:00m:00s, Memory Used current: 308MB peak: 308MB)
 
 For a summary of runtime per design unit, please see file:
 ==========================================================
@@ -2425,11 +2422,11 @@ For a summary of runtime per design unit, please see file:
 
 
 
-At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 307MB peak: 307MB)
+At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 308MB peak: 308MB)
 
 
 Process completed successfully.
-# Fri Jan  2 07:59:37 2026
+# Sat Jan  3 19:57:29 2026
 
 ###########################################################]
 ###########################################################[
@@ -2440,7 +2437,7 @@ and may only be used pursuant to the terms and conditions of a written license a
 with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
 Synopsys software or the associated documentation is strictly prohibited.
 Tool: Synplify Pro (R)
-Build: W-2025.03LR-SP1-Beta2
+Build: W-2025.03LR-SP1
 Install: /usr/local/lscc/radiant/2025.2/synpbase
 OS: Ubuntu 22.04.5 LTS
 Hostname: P360
@@ -2450,7 +2447,7 @@ max stack size: 8388608 (bytes)
 
 
 Implementation : Avant
-Synopsys Synopsys Netlist Linker, Version comp202503synp2, Build 038R, Built Oct  2 2025 06:42:54, @6263020
+Synopsys Synopsys Netlist Linker, Version comp202503synp2, Build 038R, Built Nov 11 2025 07:12:37, @6327464
 
 @N|Running in 64-bit mode
 
@@ -2459,7 +2456,7 @@ At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Fri Jan  2 07:59:37 2026
+# Sat Jan  3 19:57:29 2026
 
 ###########################################################]
 
@@ -2474,6 +2471,6 @@ At c_hdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Fri Jan  2 07:59:37 2026
+# Sat Jan  3 19:57:29 2026
 
 ###########################################################]

@@ -1,4 +1,4 @@
-# Fri Jan  2 07:59:39 2026
+# Sat Jan  3 19:57:31 2026
 
 
 Copyright (C) 1994-2025 Synopsys, Inc.
@@ -7,7 +7,7 @@ and may only be used pursuant to the terms and conditions of a written license a
 with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
 Synopsys software or the associated documentation is strictly prohibited.
 Tool: Synplify Pro (R)
-Build: W-2025.03LR-SP1-Beta2
+Build: W-2025.03LR-SP1
 Install: /usr/local/lscc/radiant/2025.2/synpbase
 OS: Ubuntu 22.04.5 LTS
 Hostname: P360
@@ -17,7 +17,7 @@ max stack size: 8388608 (bytes)
 
 
 Implementation : Avant
-Synopsys Lattice Technology Mapper, Version map202503latsp1, Build 038R, Built Oct 13 2025 23:19:42, @6279131
+Synopsys Lattice Technology Mapper, Version map202503latsp1, Build 038R, Built Dec  2 2025 06:50:44, @6366936
 
 
 Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 341MB peak: 341MB)
@@ -178,71 +178,71 @@ Finished factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; M
 
 NConnInternalConnection caching is on
 
-Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 1452MB peak: 1452MB)
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 1316MB peak: 1316MB)
 
 
-Starting Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 1452MB peak: 1452MB)
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 1316MB peak: 1316MB)
 
 
-Finished Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 1452MB peak: 1452MB)
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 1316MB peak: 1316MB)
 
 
-Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 1452MB peak: 1452MB)
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 1316MB peak: 1316MB)
 
-@W: BN132 :"/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v":2001:16:2001:21|Removing instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.wdata[6] because it is equivalent to instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.wdata[3]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v":2001:16:2001:21|Removing instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.wdata[3] because it is equivalent to instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.wdata[2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v":2001:16:2001:21|Removing instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.wdata_0[2] because it is equivalent to instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.wdata[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
 @W: BN132 :"/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v":2001:16:2001:21|Removing instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.wdata[7] because it is equivalent to instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.wdata[5]. To keep the instance, apply constraint syn_preserve=1 on the instance.
 @W: BN132 :"/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v":2001:16:2001:21|Removing instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.wdata[8] because it is equivalent to instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.wdata[5]. To keep the instance, apply constraint syn_preserve=1 on the instance.
 @W: BN132 :"/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v":2001:16:2001:21|Removing instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.wdata[9] because it is equivalent to instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.wdata[5]. To keep the instance, apply constraint syn_preserve=1 on the instance.
 @W: BN132 :"/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v":2001:16:2001:21|Removing instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.wdata[11] because it is equivalent to instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.wdata[5]. To keep the instance, apply constraint syn_preserve=1 on the instance.
 @W: BN132 :"/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v":2001:16:2001:21|Removing instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.wdata[10] because it is equivalent to instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.wdata[5]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v":2001:16:2001:21|Removing instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.wdata[6] because it is equivalent to instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.wdata[3]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v":2001:16:2001:21|Removing instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.wdata[3] because it is equivalent to instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.wdata[2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v":2001:16:2001:21|Removing instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.wdata_0[2] because it is equivalent to instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.wdata[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
 
-Finished preparing to map (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 1452MB peak: 1452MB)
+Finished preparing to map (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 1316MB peak: 1316MB)
 
 
-Finished technology mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 1452MB peak: 1452MB)
+Finished technology mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 1316MB peak: 1316MB)
 
 Pass		 CPU time		Worst Slack		Luts / Registers
 ------------------------------------------------------------
-   1		0h:00m:00s		     2.91ns		 118 /        91
+   1		0h:00m:00s		     2.91ns		 118 /        57
 
-Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 1452MB peak: 1452MB)
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 1316MB peak: 1316MB)
 
 @N: BN362 :"/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v":1972:16:1972:21|Removing sequential instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init\.nf_usr_regval[10] (in view: work.top_sin_linear(verilog)) because it does not drive other instances.
 @N: BN362 :"/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v":1972:16:1972:21|Removing sequential instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init\.bw_usr_regval[0] (in view: work.top_sin_linear(verilog)) because it does not drive other instances.
 @N: BN362 :"/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v":2001:16:2001:21|Removing sequential instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init\.wdata[5] (in view: work.top_sin_linear(verilog)) because it does not drive other instances.
 @N: FX164 |The option to pack registers in the IOB has not been specified. Please set syn_useioff attribute.  
 
-Finished restoring hierarchy (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 1452MB peak: 1452MB)
+Finished restoring hierarchy (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 1316MB peak: 1316MB)
 
 
-Starting CDBProcessSetClockGroups... (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 1452MB peak: 1452MB)
+Starting CDBProcessSetClockGroups... (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 1316MB peak: 1316MB)
 
 
-Finished with CDBProcessSetClockGroups (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 1452MB peak: 1452MB)
+Finished with CDBProcessSetClockGroups (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 1316MB peak: 1316MB)
 
 
-Start Writing Netlists (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 1452MB peak: 1452MB)
+Start Writing Netlists (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 1316MB peak: 1316MB)
 
 Writing Analyst data base /home/kanmei/src/sincos_linear/project/Avant/synwork/sincos_linear_Avant_m.srm
 
-Finished Writing Netlist Databases (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 1452MB peak: 1452MB)
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 1316MB peak: 1316MB)
 
 Writing Verilog Simulation files
 
-Writing scf file... (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 1452MB peak: 1452MB)
+Writing scf file... (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 1316MB peak: 1316MB)
 
 @N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.
 @N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
 
-Finished Writing Verilog Simulation files (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 1452MB peak: 1452MB)
+Finished Writing Verilog Simulation files (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 1316MB peak: 1316MB)
 
 
-Finished Writing Netlists (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 1452MB peak: 1452MB)
+Finished Writing Netlists (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 1316MB peak: 1316MB)
 
 
-Start final timing analysis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 1452MB peak: 1452MB)
+Start final timing analysis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 1316MB peak: 1316MB)
 
 @W: MT246 :"/home/kanmei/src/sincos_linear/source/mult18x18p48.v":52:3:52:15|Blackbox MULTADDSUB18X18A is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results)
 @W: MT246 :"/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v":1377:58:1377:62|Blackbox PLLC is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results)
@@ -252,7 +252,7 @@ Start final timing analysis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:0
 
 
 ##### START OF TIMING REPORT #####[
-# Timing report written on Fri Jan  2 07:59:40 2026
+# Timing report written on Sat Jan  3 19:57:33 2026
 #
 
 
@@ -323,21 +323,21 @@ Detailed Report for Clock: gpll_ipgen_lscc_pll_Z1_layer0|clkout_clkop_o_inferred
 Starting Points with Worst Slack
 ********************************
 
-                                      Starting                                                                                               Arrival          
-Instance                              Reference                                                       Type        Pin     Net                Time        Slack
-                                      Clock                                                                                                                   
---------------------------------------------------------------------------------------------------------------------------------------------------------------
-result_CF1[0]                         gpll_ipgen_lscc_pll_Z1_layer0|clkout_clkop_o_inferred_clock     FD1P3IX     Q       CO0                1.078       3.070
-result_CF1[1]                         gpll_ipgen_lscc_pll_Z1_layer0|clkout_clkop_o_inferred_clock     FD1P3IX     Q       tmp1[1]            1.075       3.073
-dut.sin_linear_i.s3_quadrant_0[1]     gpll_ipgen_lscc_pll_Z1_layer0|clkout_clkop_o_inferred_clock     FD1P3DX     Q       s3_quadrant[1]     1.113       3.227
-G_75                                  gpll_ipgen_lscc_pll_Z1_layer0|clkout_clkop_o_inferred_clock     FD1P3DX     Q       G_75               1.112       3.228
-G_3                                   gpll_ipgen_lscc_pll_Z1_layer0|clkout_clkop_o_inferred_clock     FD1P3DX     Q       G_3                1.115       3.831
-G_1                                   gpll_ipgen_lscc_pll_Z1_layer0|clkout_clkop_o_inferred_clock     FD1P3DX     Q       G_1                0.853       4.093
-G_2                                   gpll_ipgen_lscc_pll_Z1_layer0|clkout_clkop_o_inferred_clock     FD1P3DX     Q       G_2                0.853       4.093
-dut.sin_linear_i.s1_quadrant[1]       gpll_ipgen_lscc_pll_Z1_layer0|clkout_clkop_o_inferred_clock     FD1P3DX     Q       s1_quadrant[1]     0.853       4.093
-dut.sin_linear_i.s1_valid[0]          gpll_ipgen_lscc_pll_Z1_layer0|clkout_clkop_o_inferred_clock     FD1P3DX     Q       s1_valid[0]        0.853       4.093
-dut.sin_linear_i.s2_quadrant[1]       gpll_ipgen_lscc_pll_Z1_layer0|clkout_clkop_o_inferred_clock     FD1P3DX     Q       s2_quadrant[1]     0.853       4.093
-==============================================================================================================================================================
+                                    Starting                                                                                               Arrival          
+Instance                            Reference                                                       Type        Pin     Net                Time        Slack
+                                    Clock                                                                                                                   
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+result_CF1[0]                       gpll_ipgen_lscc_pll_Z1_layer0|clkout_clkop_o_inferred_clock     FD1P3IX     Q       CO0                1.078       3.070
+result_CF1[1]                       gpll_ipgen_lscc_pll_Z1_layer0|clkout_clkop_o_inferred_clock     FD1P3IX     Q       tmp1[1]            1.075       3.073
+G_75                                gpll_ipgen_lscc_pll_Z1_layer0|clkout_clkop_o_inferred_clock     FD1P3DX     Q       G_75               1.112       3.228
+dut.sin_linear_i.s2_quadrant[1]     gpll_ipgen_lscc_pll_Z1_layer0|clkout_clkop_o_inferred_clock     FD1P3DX     Q       s2_quadrant[1]     1.113       3.707
+G_3                                 gpll_ipgen_lscc_pll_Z1_layer0|clkout_clkop_o_inferred_clock     FD1P3DX     Q       G_3                1.115       3.831
+G_1                                 gpll_ipgen_lscc_pll_Z1_layer0|clkout_clkop_o_inferred_clock     FD1P3DX     Q       G_1                0.853       4.093
+G_2                                 gpll_ipgen_lscc_pll_Z1_layer0|clkout_clkop_o_inferred_clock     FD1P3DX     Q       G_2                0.853       4.093
+dut.sin_linear_i.s1_quadrant[1]     gpll_ipgen_lscc_pll_Z1_layer0|clkout_clkop_o_inferred_clock     FD1P3DX     Q       s1_quadrant[1]     0.853       4.093
+dut.sin_linear_i.s1_valid[0]        gpll_ipgen_lscc_pll_Z1_layer0|clkout_clkop_o_inferred_clock     FD1P3DX     Q       s1_valid[0]        0.853       4.093
+dut.sin_linear_i.s2_valid[0]        gpll_ipgen_lscc_pll_Z1_layer0|clkout_clkop_o_inferred_clock     FD1P3DX     Q       s2_valid[0]        0.853       4.093
+============================================================================================================================================================
 
 
 Ending Points with Worst Slack
@@ -488,21 +488,21 @@ Detailed Report for Clock: System
 Starting Points with Worst Slack
 ********************************
 
-                                                  Starting                                                          Arrival          
-Instance                                          Reference     Type                 Pin           Net              Time        Slack
-                                                  Clock                                                                              
--------------------------------------------------------------------------------------------------------------------------------------
-gpll_i.lscc_pll_inst.gen_ext_outclkdiv\.u_pll     System        PLLC                 LMMIREADY     lmmi_ready_w     0.000       3.680
-dut.sin_linear_i.mult18x18p48_i.multaddsub_m0     System        MULTADDSUB18X18A     ZOUT[16]      dsp_Z[16]        0.000       4.340
-dut.sin_linear_i.mult18x18p48_i.multaddsub_m0     System        MULTADDSUB18X18A     ZOUT[17]      dsp_Z[17]        0.000       4.340
-dut.sin_linear_i.mult18x18p48_i.multaddsub_m0     System        MULTADDSUB18X18A     ZOUT[18]      dsp_Z[18]        0.000       4.340
-dut.sin_linear_i.mult18x18p48_i.multaddsub_m0     System        MULTADDSUB18X18A     ZOUT[19]      dsp_Z[19]        0.000       4.340
-dut.sin_linear_i.mult18x18p48_i.multaddsub_m0     System        MULTADDSUB18X18A     ZOUT[20]      dsp_Z[20]        0.000       4.340
-dut.sin_linear_i.mult18x18p48_i.multaddsub_m0     System        MULTADDSUB18X18A     ZOUT[21]      dsp_Z[21]        0.000       4.340
-dut.sin_linear_i.mult18x18p48_i.multaddsub_m0     System        MULTADDSUB18X18A     ZOUT[22]      dsp_Z[22]        0.000       4.340
-dut.sin_linear_i.mult18x18p48_i.multaddsub_m0     System        MULTADDSUB18X18A     ZOUT[23]      dsp_Z[23]        0.000       4.340
-dut.sin_linear_i.mult18x18p48_i.multaddsub_m0     System        MULTADDSUB18X18A     ZOUT[24]      dsp_Z[24]        0.000       4.340
-=====================================================================================================================================
+                                                  Starting                                                      Arrival          
+Instance                                          Reference     Type         Pin           Net                  Time        Slack
+                                                  Clock                                                                          
+---------------------------------------------------------------------------------------------------------------------------------
+gpll_i.lscc_pll_inst.gen_ext_outclkdiv\.u_pll     System        PLLC         LMMIREADY     lmmi_ready_w         0.000       3.680
+phase_CR31_ram                                    System        SPR16X4A     DO[0]         phase_CR31_ram       0.000       4.340
+phase_CR31_ram                                    System        SPR16X4A     DO[0]         phase_CR31_ram       0.000       4.340
+phase_CR31_ram                                    System        SPR16X4A     DO[1]         phase_CR31_ram_0     0.000       4.340
+phase_CR31_ram                                    System        SPR16X4A     DO[1]         phase_CR31_ram_0     0.000       4.340
+phase_CR31_ram                                    System        SPR16X4A     DO[2]         phase_CR31_ram_1     0.000       4.340
+phase_CR31_ram                                    System        SPR16X4A     DO[2]         phase_CR31_ram_1     0.000       4.340
+phase_CR31_ram                                    System        SPR16X4A     DO[3]         phase_CR31_ram_2     0.000       4.340
+phase_CR31_ram                                    System        SPR16X4A     DO[3]         phase_CR31_ram_2     0.000       4.340
+phase_CR31_ram_0                                  System        SPR16X4A     DO[0]         phase_CR31_ram_3     0.000       4.340
+=================================================================================================================================
 
 
 Ending Points with Worst Slack
@@ -514,14 +514,14 @@ Instance                                                             Reference  
 ------------------------------------------------------------------------------------------------------------------------------------------------
 gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init\.dly_wait_cntr[0]     System        FD1P3DX     D       dly_wait_cntr_4[0]     4.946        3.680
 gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init\.dly_wait_cntr[1]     System        FD1P3DX     D       dly_wait_cntr_4[1]     4.946        3.680
-dut.sin_linear_i.result_o[0]                                         System        FD1P3DX     D       result_o_2[0]          4.946        4.340
-dut.sin_linear_i.result_o[1]                                         System        FD1P3DX     D       result_o_2[1]          4.946        4.340
-dut.sin_linear_i.result_o[2]                                         System        FD1P3DX     D       result_o_2[2]          4.946        4.340
-dut.sin_linear_i.result_o[3]                                         System        FD1P3DX     D       result_o_2[3]          4.946        4.340
-dut.sin_linear_i.result_o[4]                                         System        FD1P3DX     D       result_o_2[4]          4.946        4.340
-dut.sin_linear_i.result_o[5]                                         System        FD1P3DX     D       result_o_2[5]          4.946        4.340
-dut.sin_linear_i.result_o[6]                                         System        FD1P3DX     D       result_o_2[6]          4.946        4.340
-dut.sin_linear_i.result_o[7]                                         System        FD1P3DX     D       result_o_2[7]          4.946        4.340
+dut.sin_linear_i.s1_frac[0]                                          System        FD1P3DX     D       s0_frac[0]             4.946        4.340
+dut.sin_linear_i.s1_frac[1]                                          System        FD1P3DX     D       s0_frac[1]             4.946        4.340
+dut.sin_linear_i.s1_frac[2]                                          System        FD1P3DX     D       s0_frac[2]             4.946        4.340
+dut.sin_linear_i.s1_frac[3]                                          System        FD1P3DX     D       s0_frac[3]             4.946        4.340
+dut.sin_linear_i.s1_frac[4]                                          System        FD1P3DX     D       s0_frac[4]             4.946        4.340
+dut.sin_linear_i.s1_frac[5]                                          System        FD1P3DX     D       s0_frac[5]             4.946        4.340
+dut.sin_linear_i.s1_frac[6]                                          System        FD1P3DX     D       s0_frac[6]             4.946        4.340
+dut.sin_linear_i.s1_frac[7]                                          System        FD1P3DX     D       s0_frac[7]             4.946        4.340
 ================================================================================================================================================
 
 
@@ -569,17 +569,17 @@ Timing exceptions that could not be applied
 @W: MT447 :"/home/kanmei/src/sincos_linear/project/Avant/sincos_linear_Avant_cpe.ldc":17:0:17:0|Timing constraint (to [get_pins {gpll_i/lscc_pll_inst/gen_ext_outclkdiv\.u_pll/RESET}]) (false path) was not applied to the design because none of the paths specified by the constraint exist in the design 
 None
 
-Finished final timing analysis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 1452MB peak: 1452MB)
+Finished final timing analysis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 1316MB peak: 1316MB)
 
 
-Finished timing report (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 1452MB peak: 1452MB)
+Finished timing report (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 1316MB peak: 1316MB)
 
 ---------------------------------------
 Resource Usage Report
-Part: lav_at_e30escbg484c-1
+Part: lav_at_e30cbg484c-3
 
 
-Register bits: 88 of 163200 (0%)
+Register bits: 54 of 163200 (0%)
 I/O cells:       67
 Block Rams : 6 of 400 (1%)
 
@@ -588,16 +588,14 @@ DSP primitives:       1 of 2100 (0%)
 Details:
 DPR16X4A:       8
 FD1P3BX:        2
-FD1P3DX:        80
+FD1P3DX:        48
 FD1P3IX:        4
 GSRA:           1
 IB:             34
-IFD1P3DX:       1
 INV:            6
 LUT4:           109
 MULTADDSUB18X18A: 1
 OB:             33
-OFD1P3DX:       1
 PLLC:           1
 PLL_LMMI_MUX:   1
 SP32K:          6
@@ -615,7 +613,7 @@ Carry Chains: 0
 Blackboxes: 0
 
 Mapping Summary:
-Total number of registers: 88 + 0 = 88 of 163200 (0.05%)
+Total number of registers: 54 + 0 = 54 of 163200 (0.03%)
 Total number of LUTs: 109 + 0 = 109 
 Total number of EBRs: 6 + 0 = 6 of 400 (1.50%)
 Total number of DSPs: 1 + 0 = 1 of 700 (0.14%)
@@ -624,9 +622,9 @@ Total number of Carry Chains: 0 + 0 = 0
 Total number of BlackBoxes: 47 + 0 = 47 
 Mapper successful!
 
-At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 1363MB peak: 1452MB)
+At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 1227MB peak: 1316MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
-# Fri Jan  2 07:59:40 2026
+# Sat Jan  3 19:57:33 2026
 
 ###########################################################]

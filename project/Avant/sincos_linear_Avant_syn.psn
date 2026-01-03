@@ -1,9 +1,9 @@
-POSTSYN: Post Synthesis Process Radiant Software (64-bit) 2025.2.0.3.0
-Command Line: postsyn -a LAV-AT -p LAV-AT-E30ES -t CBG484 -sp 1 -oc Commercial -top -ipsdc ipsdclist.txt -w -o sincos_linear_Avant_syn.udb -ldc sincos_linear_Avant.ldc -gui -msgset /home/kanmei/src/sincos_linear/project/promote.xml sincos_linear_Avant.vm 
+POSTSYN: Post Synthesis Process Radiant Software (64-bit) 2025.2.0.48.0
+Command Line: postsyn -a LAV-AT -p LAV-AT-E30 -t CBG484 -sp 3 -oc Commercial -top -ipsdc ipsdclist.txt -w -o sincos_linear_Avant_syn.udb -ldc sincos_linear_Avant.ldc -gui -msgset /home/kanmei/src/sincos_linear/project/promote.xml sincos_linear_Avant.vm 
    Architecture:     LAV-AT
-   Device:           LAV-AT-E30ES
+   Device:           LAV-AT-E30
    Package:          CBG484
-   Performance:      1
+   Performance:      3
 Reading input file 'sincos_linear_Avant.vm' ...
 Reading constraint file 'sincos_linear_Avant.ldc' ...
 Reading constraint file '/home/kanmei/src/sincos_linear/source/gpll/constraints/constraint.sdc' ...
@@ -75,7 +75,7 @@ Constraint Summary:
  
 Writing output file 'sincos_linear_Avant_syn.udb'.
 POSTSYN finished successfully.
-Total CPU Time: 2 secs 
-Total REAL Time: 3 secs 
-Peak Memory Usage: 762 MB
-Checksum -- postsyn: c56b49a8f3acfd2cfc368c219e672531c686574b
+Total CPU Time: 4 secs 
+Total REAL Time: 5 secs 
+Peak Memory Usage: 1006 MB
+Checksum -- postsyn: 5d4b85355b385e12e7546fbcab15ac7a4208e5d

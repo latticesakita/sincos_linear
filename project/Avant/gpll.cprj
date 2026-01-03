@@ -6,4 +6,4 @@
 -path "/home/kanmei/src/sincos_linear/source/gpll" "/home/kanmei/src/sincos_linear/project"
 -top gpll
 -a "LAV-AT"
--t "LAV-AT-E30ES"
+-t "LAV-AT-E30"

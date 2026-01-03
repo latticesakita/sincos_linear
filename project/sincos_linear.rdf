@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<RadiantProject version="4.2" radiant="2025.2.0.3.0" title="sincos_linear" device="LAV-AT-E30ES-1CBG484C" performance_grade="1" family_int="ap6a00b" device_int="ap6a160bee" package_int="CBG484" operation_int="COM" speed_int="1" default_implementation="Avant">
+<RadiantProject version="4.2" radiant="2025.2.0.48.0" title="sincos_linear" device="LAV-AT-E30-3CBG484C" performance_grade="3" family_int="ap6a00b" device_int="ap6a160cee" package_int="CBG484" operation_int="COM" speed_int="3" default_implementation="Avant">
     <Options/>
     <Implementation title="Avant" dir="Avant" description="Avant" synthesis="synplify" default_strategy="Strategy1">
         <Options top="top_sin_linear"/>
@@ -25,6 +25,9 @@
             <Options/>
         </Source>
         <Source name="../source/gpll/gpll.ipx" type="IPX_Module" type_short="IPX">
+            <Options/>
+        </Source>
+        <Source name="sincos_linear.pdc" type="Physical Constraints File" type_short="PDC">
             <Options/>
         </Source>
         <Source name="../tb/tb.spf" type="Simulation Project File" type_short="SPF">

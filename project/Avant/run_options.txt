@@ -1,7 +1,7 @@
 #--  Synopsys, Inc.
-#--  Version W-2025.03LR-SP1-Beta2
+#--  Version W-2025.03LR-SP1
 #--  Project file /home/kanmei/src/sincos_linear/project/Avant/run_options.txt
-#--  Written on Fri Jan  2 07:59:36 2026
+#--  Written on Sat Jan  3 19:57:28 2026
 
 
 #project files
@@ -30,9 +30,9 @@ set_option -include_path {/home/kanmei/src/sincos_linear/project;/home/kanmei/sr
 
 #device options
 set_option -technology LAV-AT
-set_option -part LAV_AT_E30ES
+set_option -part LAV_AT_E30
 set_option -package CBG484C
-set_option -speed_grade -1
+set_option -speed_grade -3
 
 #compilation/mapping options
 set_option -top_module "top_sin_linear"
