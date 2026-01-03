@@ -3,34 +3,36 @@
 
 Design:  top_sin_linear
 Family:  LAV-AT
-Device:  LAV-AT-E30ES
+Device:  LAV-AT-E30
 Package: CBG484
 Performance Grade:  1
 
-Mapper:    version Radiant Software (64-bit) 2025.2.0.3.0
-Mapped on: Fri Jan  2 20:18:59 2026
+Mapper:    version Radiant Software (64-bit) 2025.2.0.48.0
+Mapped on: Sat Jan  3 17:22:43 2026
 
 Design Information
 ------------------
 
-Command line:   map -i sincos_linear_Avant_syn.udb -o
-     sincos_linear_Avant_map.udb -mp sincos_linear_Avant.mrp -hierrpt -gui
-     -msgset /home/kanmei/src/sincos_linear/project/promote.xml
+Command line:   map -pdc
+     /home/kanmei/src/sincos_linear/project/sincos_linear.pdc -i
+     sincos_linear_Avant_syn.udb -o sincos_linear_Avant_map.udb -mp
+     sincos_linear_Avant.mrp -hierrpt -gui -msgset
+     /home/kanmei/src/sincos_linear/project/promote.xml
 
 Design Summary
 --------------
 
-   Number of registers:          84 out of 164259 (<1%)
-      Number of SLICE         registers:   82 out of 163200 (<1%)
-      Number of PIO Input     registers:    1 out of   353 (<1%)
-      Number of PIO Output    registers:    1 out of   353 (<1%)
-      Number of PIO Tri-State registers:    0 out of   353 (0%)
+   Number of registers:          84 out of 164262 (<1%)
+      Number of SLICE         registers:   84 out of 163200 (<1%)
+      Number of PIO Input     registers:    0 out of   354 (0%)
+      Number of PIO Output    registers:    0 out of   354 (0%)
+      Number of PIO Tri-State registers:    0 out of   354 (0%)
    Number of LUT4s:              219 out of 163200 (<1%)
       Number used as logic LUT4s:              123
       Number used as distributed RAM:           96 (6 per 16X4 or 32X2 RAM)
       Number used as ripple logic:               0 (2 per CCU2)
-   Number of PIOs used/reserved:   71 out of   353 (20%)
-      Number of wide range IOs used/reserved:    4 out of   98 (4%)
+   Number of PIOs used/reserved:   71 out of   354 (20%)
+      Number of wide range IOs used/reserved:    4 out of   99 (4%)
       Number of high performance IOs used/reserved:    0 out of  255 (0%)
       Number of generic IOs used:   67
                                  (either wide range or high performance)
@@ -39,11 +41,11 @@ Design Summary
       Number of IOs used:   67
         Number used for single ended IO:   67
         Number of pairs used for differential IO:    0
-        Number allocated to wide range IOs:    0 out of   98 (0%)
+        Number allocated to wide range IOs:    0 out of   99 (0%)
         Number allocated to high performance IOs:    0 out of  255 (0%)
         Number not allocated:   67
                               (either wide range or high performance)
-   Number of IDDR/ODDR functions used:      0 out of   706 (0%)
+   Number of IDDR/ODDR functions used:      0 out of   708 (0%)
    Number of IOs using at least one DDR function: 0 (0 differential)
    Minimum Number of 32K Block RAMs:      6 out of 400 (2%)
    (PAR may use additional resources. Please refer to PAR report for final
@@ -58,8 +60,6 @@ Design Summary
    Number of DLLDELs:             0 out of 28 (0%)
    Number of DCSs:                0 out of 4 (0%)
    Number of DCCs:                0 out of 216 (0%)
-   Number of ECLKDIVs:            0 out of 25 (0%)
-   Number of ECLKSYNCs:           0 out of 30 (0%)
 
                                     Page 1
 
@@ -69,6 +69,8 @@ Design Summary
 
 Design Summary (cont)
 ---------------------
+   Number of ECLKDIVs:            0 out of 25 (0%)
+   Number of ECLKSYNCs:           0 out of 30 (0%)
    Number of DDRPHYs:             0 out of 1 (0%)
    Number of Oscillator:          0 out of 1 (0%)
    Number of GSR:                 0 out of 1 (0%)
@@ -76,6 +78,7 @@ Design Summary (cont)
    Number of TSALL:               0 out of 1 (0%)
    Number of JTAG:                0 out of 1 (0%)
    Number of LMMI Slave:          0 out of 1 (0%)
+   Number of SED:                 0 out of 1 (0%)
    Number of Config WDT:          0 out of 1 (0%)
    Number of Clocks:  4
       Net clk: 88 loads, 88 rising, 0 falling (Driver: Pin
@@ -95,7 +98,7 @@ Design Summary (cont)
    Number of LSRs:  4
       Net VCC: 16 loads, 16 SLICEs
       Net gpll_i.lscc_pll_inst.u_pll_init_bw.rst_n_reg: 15 loads, 15 SLICEs
-      Net gpll_i.lscc_pll_inst.u_pll_init_bw.resetn: 70 loads, 62 SLICEs
+      Net gpll_i.lscc_pll_inst.u_pll_init_bw.resetn: 70 loads, 64 SLICEs
       Net gpll_i.lscc_pll_inst.u_pll_init_bw.rst_n_sync_i: 1 loads, 1 SLICEs
    Top 10 highest fanout non-clock nets:
       Net gpll_i.lscc_pll_inst.u_pll_init_bw.resetn: 70 loads
@@ -124,9 +127,6 @@ CRITICAL <52351080> - map: SysConfig constraint CONFIGIO_VOLTAGE_BANK1 is not
      specified. Please set it to 1.2, 1.8, 2.5 or 3.3.
 CRITICAL <52351080> - map: SysConfig constraint CONFIGIO_VOLTAGE_BANK2 is not
      specified. Please set it to 1.2, 1.8, 2.5 or 3.3.
-CRITICAL <52351079> - map: There is no set_clock_uncertainty constraint on the
-     PLL clock output 'CLKOP' of instance
-     'gpll_i/lscc_pll_inst/gen_ext_outclkdiv.u_pll.PLLC_MODE_inst'. Please see
 
                                     Page 2
 
@@ -136,6 +136,9 @@ CRITICAL <52351079> - map: There is no set_clock_uncertainty constraint on the
 
 Design Errors/Criticals/Warnings (cont)
 ---------------------------------------
+CRITICAL <52351079> - map: There is no set_clock_uncertainty constraint on the
+     PLL clock output 'CLKOP' of instance
+     'gpll_i/lscc_pll_inst/gen_ext_outclkdiv.u_pll.PLLC_MODE_inst'. Please see
      FPGA-AN-02059-1.0 - Lattice Radiant Timing Constraints Methodology for
      further details.
 WARNING <51011071> - map: Remove invalid constraint 'set_false_path -to
@@ -190,9 +193,6 @@ IO (PIO) Attributes
 | phase_i[17]         | INPUT     |           |       |       |           |
 +---------------------+-----------+-----------+-------+-------+-----------+
 | phase_i[18]         | INPUT     |           |       |       |           |
-+---------------------+-----------+-----------+-------+-------+-----------+
-| phase_i[19]         | INPUT     |           |       |       |           |
-+---------------------+-----------+-----------+-------+-------+-----------+
 
                                     Page 3
 
@@ -202,6 +202,9 @@ IO (PIO) Attributes
 
 IO (PIO) Attributes (cont)
 --------------------------
++---------------------+-----------+-----------+-------+-------+-----------+
+| phase_i[19]         | INPUT     |           |       |       |           |
++---------------------+-----------+-----------+-------+-------+-----------+
 | phase_i[20]         | INPUT     |           |       |       |           |
 +---------------------+-----------+-----------+-------+-------+-----------+
 | phase_i[21]         | INPUT     |           |       |       |           |
@@ -226,7 +229,7 @@ IO (PIO) Attributes (cont)
 +---------------------+-----------+-----------+-------+-------+-----------+
 | phase_i[31]         | INPUT     |           |       |       |           |
 +---------------------+-----------+-----------+-------+-------+-----------+
-| valid_i             | INPUT     |           | I     |       |           |
+| valid_i             | INPUT     |           |       |       |           |
 +---------------------+-----------+-----------+-------+-------+-----------+
 | result_o[0]         | OUTPUT    |           |       |       |           |
 +---------------------+-----------+-----------+-------+-------+-----------+
@@ -256,9 +259,6 @@ IO (PIO) Attributes (cont)
 +---------------------+-----------+-----------+-------+-------+-----------+
 | result_o[13]        | OUTPUT    |           |       |       |           |
 +---------------------+-----------+-----------+-------+-------+-----------+
-| result_o[14]        | OUTPUT    |           |       |       |           |
-+---------------------+-----------+-----------+-------+-------+-----------+
-| result_o[15]        | OUTPUT    |           |       |       |           |
 
                                     Page 4
 
@@ -268,6 +268,9 @@ IO (PIO) Attributes (cont)
 
 IO (PIO) Attributes (cont)
 --------------------------
+| result_o[14]        | OUTPUT    |           |       |       |           |
++---------------------+-----------+-----------+-------+-------+-----------+
+| result_o[15]        | OUTPUT    |           |       |       |           |
 +---------------------+-----------+-----------+-------+-------+-----------+
 | result_o[16]        | OUTPUT    |           |       |       |           |
 +---------------------+-----------+-----------+-------+-------+-----------+
@@ -301,7 +304,7 @@ IO (PIO) Attributes (cont)
 +---------------------+-----------+-----------+-------+-------+-----------+
 | result_o[31]        | OUTPUT    |           |       |       |           |
 +---------------------+-----------+-----------+-------+-------+-----------+
-| valid_o             | OUTPUT    |           | O     |       |           |
+| valid_o             | OUTPUT    |           |       |       |           |
 +---------------------+-----------+-----------+-------+-------+-----------+
 
 Removed logic
@@ -322,9 +325,6 @@ Block gpll_i/lscc_pll_inst/u_pll_init_bw/gen_bw_init.u_pll_lmmi_mux/u_sw_lmmi_mu
 Block gpll_i/lscc_pll_inst/u_pll_init_bw/gen_bw_init.u_pll_lmmi_mux/u_sw_lmmi_mu
      x.LMMIWDATA_FIP_RNIK7V7D[13] was optimized away.
 Block gpll_i/lscc_pll_inst/u_pll_init_bw/gen_bw_init.u_pll_lmmi_mux/u_sw_lmmi_mu
-     x.LMMIWDATA_FIP_RNII5V7D[12] was optimized away.
-Block gpll_i/lscc_pll_inst/u_pll_init_bw/gen_bw_init.u_pll_lmmi_mux/u_sw_lmmi_mu
-     x.LMMIWDATA_FIP_RNIG3V7D[11] was optimized away.
 
                                     Page 5
 
@@ -334,6 +334,9 @@ Block gpll_i/lscc_pll_inst/u_pll_init_bw/gen_bw_init.u_pll_lmmi_mux/u_sw_lmmi_mu
 
 Removed logic (cont)
 --------------------
+     x.LMMIWDATA_FIP_RNII5V7D[12] was optimized away.
+Block gpll_i/lscc_pll_inst/u_pll_init_bw/gen_bw_init.u_pll_lmmi_mux/u_sw_lmmi_mu
+     x.LMMIWDATA_FIP_RNIG3V7D[11] was optimized away.
 Block gpll_i/lscc_pll_inst/u_pll_init_bw/gen_bw_init.u_pll_lmmi_mux/u_sw_lmmi_mu
      x.LMMIWDATA_FIP_RNIE1V7D[10] was optimized away.
 Block gpll_i/lscc_pll_inst/u_pll_init_bw/gen_bw_init.u_pll_lmmi_mux/u_sw_lmmi_mu
@@ -388,9 +391,6 @@ PLL 1:                                 Pin/Node Value
   CLKOS4 Divider:                               1
   CLKOS4 CPHASE:                                1
   CLKOS4 FPHASE:                                1
-  CLKOS5 Divider:                               1
-  CLKOS5 CPHASE:                                1
-  CLKOS5 FPHASE:                                1
 
                                     Page 6
 
@@ -400,6 +400,9 @@ PLL 1:                                 Pin/Node Value
 
 PLL Summary (cont)
 ------------------
+  CLKOS5 Divider:                               1
+  CLKOS5 CPHASE:                                1
+  CLKOS5 FPHASE:                                1
   CLKPHY Divider:                               1
   CLKPHY FPHASE:                                1
 
@@ -433,7 +436,7 @@ Instance Name:
 Constraint Summary
 ------------------
 
-   Total number of constraints: 15
+   Total number of constraints: 16
    Total number of constraints dropped: 1
    Dropped constraint is:
      set_false_path -to [get_pins {gpll_i/lscc_pll_inst/u_pll_init_bw/gen_bw_ini
@@ -443,13 +446,10 @@ Constraint Summary
 Run Time and Memory Usage
 -------------------------
 
-   Total CPU Time: 6 secs
-   Total REAL Time: 6 secs
-   Peak Memory Usage: 2293 MB
-Checksum -- map: 4219f5e331763b3d52b64aec38fc0612c2ac7e29
-
-
-
+   Total CPU Time: 8 secs
+   Total REAL Time: 9 secs
+   Peak Memory Usage: 2562 MB
+Checksum -- map: 29c83995b832fe2c6fa43495640d2f2500bd7cf
 
 
 

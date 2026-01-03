@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?> 
 <!-- 
   Synopsys, Inc.
-  Version W-2025.03LR-SP1-Beta2
+  Version W-2025.03LR-SP1
   Project file /home/kanmei/src/sincos_linear/project/Avant/syntmp/run_option.xml
-  Written on Fri Jan  2 20:18:40 2026
+  Written on Sat Jan  3 17:19:56 2026
 
 
 --> 
 <project_attribute_list name="Project Settings"> 
      <option name="project_name" display_name="Project Name">proj_1</option>
-     <option name="device_name" display_name="Device Name">Avant: Lattice LAV-AT : LAV_AT_E30ES</option>
+     <option name="device_name" display_name="Device Name">Avant: Lattice LAV-AT : LAV_AT_E30</option>
      <option name="impl_name" display_name="Implementation Name">Avant</option>
      <option name="top_module" display_name="Top Module">top_sin_linear</option>
      <option name="pipe" display_name="Pipelining">1</option>

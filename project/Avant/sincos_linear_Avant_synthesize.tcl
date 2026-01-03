@@ -24,7 +24,7 @@ if {[ catch {::radiant::runengine::run_engine synpwrap -prj "sincos_linear_Avant
     file delete -force -- sincos_linear_Avant.vm sincos_linear_Avant.ldc
     return -options $options $result
 }
-::radiant::runengine::run_postsyn [list -a LAV-AT -p LAV-AT-E30ES -t CBG484 -sp 1 -oc Commercial -top -ipsdc ipsdclist.txt -w -o sincos_linear_Avant_syn.udb sincos_linear_Avant.vm] [list sincos_linear_Avant.ldc]
+::radiant::runengine::run_postsyn [list -a LAV-AT -p LAV-AT-E30 -t CBG484 -sp 1 -oc Commercial -top -ipsdc ipsdclist.txt -w -o sincos_linear_Avant_syn.udb sincos_linear_Avant.vm] [list sincos_linear_Avant.ldc]
 
 } out]} {
    ::radiant::runengine::runtime_log $out

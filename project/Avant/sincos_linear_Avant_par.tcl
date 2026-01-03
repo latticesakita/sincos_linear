@@ -11,7 +11,7 @@ cd {/home/kanmei/src/sincos_linear/project/Avant}
 
 sys_set_attribute -gui on -msg {/home/kanmei/src/sincos_linear/project/promote.xml}
 msg_load {/home/kanmei/src/sincos_linear/project/promote.xml}
-des_set_project_udb -in {sincos_linear_Avant_map.udb} -out {sincos_linear_Avant.udb} -milestone par -pm ap6a00be
+des_set_project_udb -in {sincos_linear_Avant_map.udb} -out {sincos_linear_Avant.udb} -milestone par -pm ap6a00ce
 des_set_reference_udb -clean
 # par option
 par_set_option { disable_timing_driven false placement_iterations 16 placement_iteration_start_point 1 placement_save_best_run "1"  number_of_host_machine_cores "16"   stop_once_timing_is_met false   set_speed_grade_for_hold_optimization m disable_auto_hold_timing_correction false prioritize_hold_correction_over_setup_performance false run_placement_only false impose_hold_timing_correction false run_post_placement_physical_synthesis false plc_opt_critical_instance_duplication -1 plc_opt_sweet_spot_relocation -1 plc_opt_device_dependent_optimization -1 plc_opt_timing_effort_level medium }
@@ -23,6 +23,9 @@ if {[file exists {/home/kanmei/src/sincos_linear/project/Avant/sincos_linear_Ava
   file copy -force -- {/home/kanmei/src/sincos_linear/project/Avant/sincos_linear_Avant_syn.udb} {/home/kanmei/src/sincos_linear/project/Avant/incr/postsyn.udb}
   file copy -force -- {/home/kanmei/src/sincos_linear/project/Avant/sincos_linear_Avant_map.udb} {/home/kanmei/src/sincos_linear/project/Avant/incr/postmap.udb}
   file copy -force -- {/home/kanmei/src/sincos_linear/project/Avant/sincos_linear_Avant.udb} {/home/kanmei/src/sincos_linear/project/Avant/incr/postpar.udb}
+  if [file exists {/home/kanmei/src/sincos_linear/project/sincos_linear.pdc}] {
+    file copy -force -- {/home/kanmei/src/sincos_linear/project/sincos_linear.pdc} {/home/kanmei/src/sincos_linear/project/Avant/incr/lastrun.pdc}
+  }
 }
 
 } out]} {

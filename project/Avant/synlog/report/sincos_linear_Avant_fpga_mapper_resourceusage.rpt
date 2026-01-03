@@ -1,5 +1,5 @@
 Resource Usage Report
-Part: lav_at_e30escbg484c-1
+Part: lav_at_e30cbg484c-1
 
 
 Register bits: 84 of 163200 (0%)
@@ -8,16 +8,14 @@ I/O cells:       67
 Details:
 DPR16X4A:       8
 FD1P3BX:        2
-FD1P3DX:        76
+FD1P3DX:        78
 FD1P3IX:        4
 GSRA:           1
 IB:             34
-IFD1P3DX:       1
 INV:            6
 LUT4:           109
 MULTADDSUB18X18A: 1
 OB:             33
-OFD1P3DX:       1
 PLLC:           1
 PLL_LMMI_MUX:   1
 SP32K:          6

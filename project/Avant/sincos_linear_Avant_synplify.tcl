@@ -3,7 +3,7 @@
 
 #device options
 set_option -technology LAV-AT
-set_option -part LAV_AT_E30ES
+set_option -part LAV_AT_E30
 set_option -package CBG484C
 set_option -speed_grade -1
 #compilation/mapping options

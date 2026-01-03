@@ -11,8 +11,9 @@ cd {/home/kanmei/src/sincos_linear/project/Avant}
 
 sys_set_attribute -gui on -msg {/home/kanmei/src/sincos_linear/project/promote.xml}
 msg_load {/home/kanmei/src/sincos_linear/project/promote.xml}
-des_set_project_udb -in {sincos_linear_Avant_syn.udb} -out {sincos_linear_Avant_map.udb} -milestone map -pm ap6a00be
+des_set_project_udb -in {sincos_linear_Avant_syn.udb} -out {sincos_linear_Avant_map.udb} -milestone map -pm ap6a00ce
 des_set_reference_udb -clean
+map_set_option {pdc_file "/home/kanmei/src/sincos_linear/project/sincos_linear.pdc"}
 # map option
 map_set_option { report_symbol_cross_reference false report_signal_cross_reference false infer_gsr false  ignore_constraint_errors false vio false}
 map_run

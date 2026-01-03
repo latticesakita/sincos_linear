@@ -36,10 +36,10 @@
 @N: CG333 :"/usr/local/lscc/radiant/2025.2/ip/pmi/../common/ram_dp/rtl/lscc_ram_dp.v":1064:25:1064:36|Read directive translate_on.
 @N: CG334 :"/usr/local/lscc/radiant/2025.2/ip/pmi/../common/ram_dp/rtl/lscc_ram_dp.v":1095:29:1095:41|Read directive translate_off.
 @N: CG333 :"/usr/local/lscc/radiant/2025.2/ip/pmi/../common/ram_dp/rtl/lscc_ram_dp.v":1099:29:1099:40|Read directive translate_on.
-@N: CG334 :"/usr/local/lscc/radiant/2025.2/ip/pmi/../LFMXO4/ram_dp/rtl/lscc_lfmxo4_ram_dp.v":1952:25:1952:37|Read directive translate_off.
-@N: CG333 :"/usr/local/lscc/radiant/2025.2/ip/pmi/../LFMXO4/ram_dp/rtl/lscc_lfmxo4_ram_dp.v":1960:25:1960:36|Read directive translate_on.
-@N: CG334 :"/usr/local/lscc/radiant/2025.2/ip/pmi/../LFMXO4/ram_dp/rtl/lscc_lfmxo4_ram_dp.v":2026:29:2026:41|Read directive translate_off.
-@N: CG333 :"/usr/local/lscc/radiant/2025.2/ip/pmi/../LFMXO4/ram_dp/rtl/lscc_lfmxo4_ram_dp.v":2034:29:2034:40|Read directive translate_on.
+@N: CG334 :"/usr/local/lscc/radiant/2025.2/ip/pmi/../LFMXO4/ram_dp/rtl/lscc_lfmxo4_ram_dp.v":2040:25:2040:37|Read directive translate_off.
+@N: CG333 :"/usr/local/lscc/radiant/2025.2/ip/pmi/../LFMXO4/ram_dp/rtl/lscc_lfmxo4_ram_dp.v":2048:25:2048:36|Read directive translate_on.
+@N: CG334 :"/usr/local/lscc/radiant/2025.2/ip/pmi/../LFMXO4/ram_dp/rtl/lscc_lfmxo4_ram_dp.v":2114:29:2114:41|Read directive translate_off.
+@N: CG333 :"/usr/local/lscc/radiant/2025.2/ip/pmi/../LFMXO4/ram_dp/rtl/lscc_lfmxo4_ram_dp.v":2122:29:2122:40|Read directive translate_on.
 @N: CG334 :"/usr/local/lscc/radiant/2025.2/ip/pmi/pmi_ram_dp_be.v":194:11:194:23|Read directive translate_off.
 @N: CG333 :"/usr/local/lscc/radiant/2025.2/ip/pmi/pmi_ram_dp_be.v":203:11:203:22|Read directive translate_on.
 @N: CG334 :"/usr/local/lscc/radiant/2025.2/ip/pmi/../common/ram_dp_true/rtl/lscc_ram_dp_true.v":1880:29:1880:41|Read directive translate_off.
@@ -84,8 +84,6 @@
 @N: CG333 :"/usr/local/lscc/radiant/2025.2/ip/pmi/../LFMXO4/ram_dp_true/rtl/lscc_lfmxo4_ram_dp_true.v":2552:33:2552:44|Read directive translate_on.
 @N: CG334 :"/usr/local/lscc/radiant/2025.2/ip/pmi/../common/ram_dq/rtl/lscc_ram_dq.v":1485:25:1485:37|Read directive translate_off.
 @N: CG333 :"/usr/local/lscc/radiant/2025.2/ip/pmi/../common/ram_dq/rtl/lscc_ram_dq.v":1491:25:1491:36|Read directive translate_on.
-@N: CG334 :"/usr/local/lscc/radiant/2025.2/ip/pmi/../LFMXO4/ram_dq/rtl/lscc_lfmxo4_ram_dq.v":1402:25:1402:37|Read directive translate_off.
-@N: CG333 :"/usr/local/lscc/radiant/2025.2/ip/pmi/../LFMXO4/ram_dq/rtl/lscc_lfmxo4_ram_dq.v":1408:25:1408:36|Read directive translate_on.
 @N: CG334 :"/usr/local/lscc/radiant/2025.2/ip/pmi/pmi_ram_dq_be.v":92:11:92:23|Read directive translate_off.
 @N: CG333 :"/usr/local/lscc/radiant/2025.2/ip/pmi/pmi_ram_dq_be.v":100:11:100:22|Read directive translate_on.
 @N: CG334 :"/usr/local/lscc/radiant/2025.2/ip/pmi/../common/rom/rtl/lscc_rom.v":970:25:970:37|Read directive translate_off.
@@ -123,10 +121,10 @@
 @N: CG333 :"/usr/local/lscc/radiant/2025.2/ip/pmi/../common/ram_dp/rtl/lscc_ram_dp.v":1064:25:1064:36|Read directive translate_on.
 @N: CG334 :"/usr/local/lscc/radiant/2025.2/ip/pmi/../common/ram_dp/rtl/lscc_ram_dp.v":1095:29:1095:41|Read directive translate_off.
 @N: CG333 :"/usr/local/lscc/radiant/2025.2/ip/pmi/../common/ram_dp/rtl/lscc_ram_dp.v":1099:29:1099:40|Read directive translate_on.
-@N: CG334 :"/usr/local/lscc/radiant/2025.2/ip/pmi/../LFMXO4/ram_dp/rtl/lscc_lfmxo4_ram_dp.v":1952:25:1952:37|Read directive translate_off.
-@N: CG333 :"/usr/local/lscc/radiant/2025.2/ip/pmi/../LFMXO4/ram_dp/rtl/lscc_lfmxo4_ram_dp.v":1960:25:1960:36|Read directive translate_on.
-@N: CG334 :"/usr/local/lscc/radiant/2025.2/ip/pmi/../LFMXO4/ram_dp/rtl/lscc_lfmxo4_ram_dp.v":2026:29:2026:41|Read directive translate_off.
-@N: CG333 :"/usr/local/lscc/radiant/2025.2/ip/pmi/../LFMXO4/ram_dp/rtl/lscc_lfmxo4_ram_dp.v":2034:29:2034:40|Read directive translate_on.
+@N: CG334 :"/usr/local/lscc/radiant/2025.2/ip/pmi/../LFMXO4/ram_dp/rtl/lscc_lfmxo4_ram_dp.v":2040:25:2040:37|Read directive translate_off.
+@N: CG333 :"/usr/local/lscc/radiant/2025.2/ip/pmi/../LFMXO4/ram_dp/rtl/lscc_lfmxo4_ram_dp.v":2048:25:2048:36|Read directive translate_on.
+@N: CG334 :"/usr/local/lscc/radiant/2025.2/ip/pmi/../LFMXO4/ram_dp/rtl/lscc_lfmxo4_ram_dp.v":2114:29:2114:41|Read directive translate_off.
+@N: CG333 :"/usr/local/lscc/radiant/2025.2/ip/pmi/../LFMXO4/ram_dp/rtl/lscc_lfmxo4_ram_dp.v":2122:29:2122:40|Read directive translate_on.
 @N: CG334 :"/usr/local/lscc/radiant/2025.2/ip/pmi/pmi_ram_dp_be.v":194:11:194:23|Read directive translate_off.
 @N: CG333 :"/usr/local/lscc/radiant/2025.2/ip/pmi/pmi_ram_dp_be.v":203:11:203:22|Read directive translate_on.
 @N: CG334 :"/usr/local/lscc/radiant/2025.2/ip/pmi/../common/ram_dp_true/rtl/lscc_ram_dp_true.v":1880:29:1880:41|Read directive translate_off.
@@ -171,8 +169,6 @@
 @N: CG333 :"/usr/local/lscc/radiant/2025.2/ip/pmi/../LFMXO4/ram_dp_true/rtl/lscc_lfmxo4_ram_dp_true.v":2552:33:2552:44|Read directive translate_on.
 @N: CG334 :"/usr/local/lscc/radiant/2025.2/ip/pmi/../common/ram_dq/rtl/lscc_ram_dq.v":1485:25:1485:37|Read directive translate_off.
 @N: CG333 :"/usr/local/lscc/radiant/2025.2/ip/pmi/../common/ram_dq/rtl/lscc_ram_dq.v":1491:25:1491:36|Read directive translate_on.
-@N: CG334 :"/usr/local/lscc/radiant/2025.2/ip/pmi/../LFMXO4/ram_dq/rtl/lscc_lfmxo4_ram_dq.v":1402:25:1402:37|Read directive translate_off.
-@N: CG333 :"/usr/local/lscc/radiant/2025.2/ip/pmi/../LFMXO4/ram_dq/rtl/lscc_lfmxo4_ram_dq.v":1408:25:1408:36|Read directive translate_on.
 @N: CG334 :"/usr/local/lscc/radiant/2025.2/ip/pmi/pmi_ram_dq_be.v":92:11:92:23|Read directive translate_off.
 @N: CG333 :"/usr/local/lscc/radiant/2025.2/ip/pmi/pmi_ram_dq_be.v":100:11:100:22|Read directive translate_on.
 @N: CG334 :"/usr/local/lscc/radiant/2025.2/ip/pmi/../common/rom/rtl/lscc_rom.v":970:25:970:37|Read directive translate_off.
@@ -180,14 +176,14 @@
 @N|stack limit increased to max
 @N: CG364 :"/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v":1849:33:1849:54|Synthesizing module gpll_ipgen_pll_init_bw in library work.
 @N: CG364 :"/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v":2240:31:2240:52|Synthesizing module gpll_ipgen_pll_syncreg in library work.
-@N: CG364 :"/usr/local/lscc/radiant/2025.2/synpbase/lib/generic/lav-ate-es.v":3763:7:3763:18|Synthesizing module PLL_LMMI_MUX in library work.
+@N: CG364 :"/usr/local/lscc/radiant/2025.2/synpbase/lib/generic/lav-ate.v":4220:7:4220:18|Synthesizing module PLL_LMMI_MUX in library work.
 @N: CG364 :"/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v":2175:33:2175:59|Synthesizing module gpll_ipgen_pll_sip_lmmi_mux in library work.
 @N: CG364 :"/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v":199:33:199:51|Synthesizing module gpll_ipgen_lscc_pll in library work.
-@N: CG364 :"/usr/local/lscc/radiant/2025.2/synpbase/lib/generic/lav-ate-es.v":3247:7:3247:10|Synthesizing module PLLC in library work.
+@N: CG364 :"/usr/local/lscc/radiant/2025.2/synpbase/lib/generic/lav-ate.v":3566:7:3566:10|Synthesizing module PLLC in library work.
 @N: CG364 :"/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v":11:63:11:66|Synthesizing module gpll in library work.
 @N: CG364 :"/home/kanmei/src/sincos_linear/source/rom_y36/rtl/rom_y36.v":624:7:624:33|Synthesizing module rom_y36_ipgen_lscc_rom_inst in library work.
 @N: CG364 :"/home/kanmei/src/sincos_linear/source/rom_y36/rtl/rom_y36.v":1794:7:1794:38|Synthesizing module rom_y36_ipgen_lscc_rom_inst_core in library work.
-@N: CG364 :"/usr/local/lscc/radiant/2025.2/synpbase/lib/generic/lav-ate-es.v":3460:7:3460:11|Synthesizing module SP32K in library work.
+@N: CG364 :"/usr/local/lscc/radiant/2025.2/synpbase/lib/generic/lav-ate.v":3812:7:3812:11|Synthesizing module SP32K in library work.
 @N: CG364 :"/home/kanmei/src/sincos_linear/source/rom_y36/rtl/rom_y36.v":1794:7:1794:38|Synthesizing module rom_y36_ipgen_lscc_rom_inst_core in library work.
 @N: CG364 :"/home/kanmei/src/sincos_linear/source/rom_y36/rtl/rom_y36.v":1794:7:1794:38|Synthesizing module rom_y36_ipgen_lscc_rom_inst_core in library work.
 @N: CG364 :"/home/kanmei/src/sincos_linear/source/rom_y36/rtl/rom_y36.v":1794:7:1794:38|Synthesizing module rom_y36_ipgen_lscc_rom_inst_core in library work.
@@ -198,7 +194,7 @@
 @N: CG364 :"/home/kanmei/src/sincos_linear/source/rom_dy18/rtl/rom_dy18.v":1794:7:1794:39|Synthesizing module rom_dy18_ipgen_lscc_rom_inst_core in library work.
 @N: CG364 :"/home/kanmei/src/sincos_linear/source/rom_dy18/rtl/rom_dy18.v":230:7:230:29|Synthesizing module rom_dy18_ipgen_lscc_rom in library work.
 @N: CG364 :"/home/kanmei/src/sincos_linear/source/rom_dy18/rtl/rom_dy18.v":11:67:11:74|Synthesizing module rom_dy18 in library work.
-@N: CG364 :"/usr/local/lscc/radiant/2025.2/synpbase/lib/generic/lav-ate-es.v":2872:7:2872:22|Synthesizing module MULTADDSUB18X18A in library work.
+@N: CG364 :"/usr/local/lscc/radiant/2025.2/synpbase/lib/generic/lav-ate.v":3191:7:3191:22|Synthesizing module MULTADDSUB18X18A in library work.
 @N: CG364 :"/home/kanmei/src/sincos_linear/source/mult18x18p48.v":2:7:2:18|Synthesizing module mult18x18p48 in library work.
 @N: CG364 :"/home/kanmei/src/sincos_linear/source/sin_linear.v":12:7:12:16|Synthesizing module sin_linear in library work.
 @N: CG364 :"/home/kanmei/src/sincos_linear/source/sincos_linear.v":3:7:3:19|Synthesizing module sincos_linear in library work.

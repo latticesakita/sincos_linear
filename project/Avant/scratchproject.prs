@@ -1,5 +1,5 @@
 #--  Synopsys, Inc.
-#--  Version W-2025.03LR-SP1-Beta2
+#--  Version W-2025.03LR-SP1
 #--  Project file /home/kanmei/src/sincos_linear/project/Avant/scratchproject.prs
 
 #project files
@@ -29,7 +29,7 @@ set_option -include_path {/home/kanmei/src/sincos_linear/project;/home/kanmei/sr
 
 #device options
 set_option -technology LAV-AT
-set_option -part LAV_AT_E30ES
+set_option -part LAV_AT_E30
 set_option -package CBG484C
 set_option -speed_grade -1
 
