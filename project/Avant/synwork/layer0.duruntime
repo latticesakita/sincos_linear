@@ -43,7 +43,7 @@ Runtime Summary:
 			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
 		* Library: work, DesignUnit: gpll_ipgen_pll_syncreg
 			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
-		* Library: work, DesignUnit: gpll_ipgen_pll_init_bw_0s_1s_1277952_0_19_1s_None
+		* Library: work, DesignUnit: gpll_ipgen_pll_init_bw_0s_1s_1310720_0_19_1s_None
 			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
 		* Library: work, DesignUnit: MULTADDSUB18X18A
 			Initial Cleanup Phase, Optimization Phase: Negligible CPU time

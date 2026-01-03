@@ -24,7 +24,7 @@ set_max_delay -from [get_pins lscc_pll_inst/u_pll_init_bw/gen_bw_init.init_reque
 ##Original File: /home/kanmei/src/sincos_linear/source/gpll/constraints/constraint.sdc
 set_max_delay -from [get_pins lscc_pll_inst/u_pll_init_bw/gen_bw_init.init_request*/Q] -to [get_pins lscc_pll_inst/gen_ext_outclkdiv.u_pll.PLLC_MODE_inst/LMMIWRRDN] -datapath_only 6 originating in instance gpll_i was updated to set_max_delay -from [get_pins {gpll_i/lscc_pll_inst/u_pll_init_bw/gen_bw_init.init_request/Q }] -   ....   gen_ext_outclkdiv.u_pll.PLLC_MODE_inst/LMMIWRRDN }] -datapath_only 6 and kept.
 ##Original File: /home/kanmei/src/sincos_linear/source/gpll/constraints/constraint.sdc
-set_max_delay -from [get_pins lscc_pll_inst/u_pll_init_bw/gen_bw_init.wdata*/Q] -to [get_pins lscc_pll_inst/gen_ext_outclkdiv.u_pll.PLLC_MODE_inst/LMMIWDATA*] -datapath_only 6 originating in instance gpll_i was updated to set_max_delay -from [get_pins {gpll_i/lscc_pll_inst/u_pll_init_bw/gen_bw_init.wdata[1]/Q gpll_i/lscc_pl   ....   en_ext_outclkdiv.u_pll.PLLC_MODE_inst/LMMIWDATA0 }] -datapath_only 6 and kept.
+set_max_delay -from [get_pins lscc_pll_inst/u_pll_init_bw/gen_bw_init.wdata*/Q] -to [get_pins lscc_pll_inst/gen_ext_outclkdiv.u_pll.PLLC_MODE_inst/LMMIWDATA*] -datapath_only 6 originating in instance gpll_i was updated to set_max_delay -from [get_pins {gpll_i/lscc_pll_inst/u_pll_init_bw/gen_bw_init.wdata_0[2]/Q gpll_i/lscc_   ....   en_ext_outclkdiv.u_pll.PLLC_MODE_inst/LMMIWDATA0 }] -datapath_only 6 and kept.
 ##Original File: /home/kanmei/src/sincos_linear/source/gpll/constraints/constraint.sdc
 set_max_delay -from [get_pins lscc_pll_inst/u_pll_init_bw/gen_bw_init.en_usr_lmmi*/Q] -to [get_pins lscc_pll_inst/gen_ext_outclkdiv.u_pll.PLLC_MODE_inst/LMMIWDATA*] -datapath_only 6 originating in instance gpll_i was updated to set_max_delay -from [get_pins {gpll_i/lscc_pll_inst/u_pll_init_bw/gen_bw_init.en_usr_lmmi/Q }] -t   ....   en_ext_outclkdiv.u_pll.PLLC_MODE_inst/LMMIWDATA0 }] -datapath_only 6 and kept.
 ##Original File: /home/kanmei/src/sincos_linear/source/gpll/constraints/constraint.sdc
@@ -65,9 +65,9 @@ Starting design annotation....
 WARNING <70001949> - The object gpll_i/lscc_pll_inst/u_pll_init_bw/gen_bw_init.dly_wait_cntr_4[1]/D in the option "-to" of constraint set_max_delay -from [get_pins gpll_i/lscc_pll_inst/gen_ext_outclkdiv.u_pll.PLLC_MODE_inst/LMMIREADY] -to [get_pins {gpll_i/lscc_pll_inst/u_pll_init_bw/gen_bw_init.dly_wait_cntr_4[1]/D gpll_i/lscc_pll_inst/u_pll_init_bw/gen_bw_init.dly_wait_cntr_4[0]/D gpll_i/lscc_pll_inst/u_pll_init_bw/gen_bw_init.dly_wait_cntr[1]/D gpll_i/lscc_pll_inst/u_pll_init_bw/gen_bw_init.dly_wait_cntr[0]/D}] -datapath_only 6 is not valid.
 WARNING <70001949> - The object gpll_i/lscc_pll_inst/u_pll_init_bw/gen_bw_init.dly_wait_cntr_4[0]/D in the option "-to" of constraint set_max_delay -from [get_pins gpll_i/lscc_pll_inst/gen_ext_outclkdiv.u_pll.PLLC_MODE_inst/LMMIREADY] -to [get_pins {gpll_i/lscc_pll_inst/u_pll_init_bw/gen_bw_init.dly_wait_cntr_4[1]/D gpll_i/lscc_pll_inst/u_pll_init_bw/gen_bw_init.dly_wait_cntr_4[0]/D gpll_i/lscc_pll_inst/u_pll_init_bw/gen_bw_init.dly_wait_cntr[1]/D gpll_i/lscc_pll_inst/u_pll_init_bw/gen_bw_init.dly_wait_cntr[0]/D}] -datapath_only 6 is not valid.
 WARNING <70001944> - No source clock for
-	generated clock	create_generated_clock -name {gpll_i/lscc_pll_inst/clkout_testclk_o} -source [get_pins {gpll_i/lscc_pll_inst/gen_ext_outclkdiv.u_pll.PLLC_MODE_inst/CLKI}] -multiply_by 39 -divide_by 20 [get_pins {gpll_i/lscc_pll_inst/gen_ext_outclkdiv.u_pll.PLLC_MODE_inst/CLKRES }] .
+	generated clock	create_generated_clock -name {gpll_i/lscc_pll_inst/clkout_testclk_o} -source [get_pins {gpll_i/lscc_pll_inst/gen_ext_outclkdiv.u_pll.PLLC_MODE_inst/CLKI}] -multiply_by 2 [get_pins {gpll_i/lscc_pll_inst/gen_ext_outclkdiv.u_pll.PLLC_MODE_inst/CLKRES }] .
 WARNING <70001944> - No source clock for
-	generated clock	create_generated_clock -name {clk} -source [get_pins {gpll_i/lscc_pll_inst/gen_ext_outclkdiv.u_pll.PLLC_MODE_inst/CLKI}] -multiply_by 6 [get_pins {gpll_i/lscc_pll_inst/gen_ext_outclkdiv.u_pll.PLLC_MODE_inst/CLKOP }] .
+	generated clock	create_generated_clock -name {clk} -source [get_pins {gpll_i/lscc_pll_inst/gen_ext_outclkdiv.u_pll.PLLC_MODE_inst/CLKI}] -multiply_by 4 [get_pins {gpll_i/lscc_pll_inst/gen_ext_outclkdiv.u_pll.PLLC_MODE_inst/CLKOP }] .
  
 Constraint Summary:
    Total number of constraints: 15
@@ -78,4 +78,4 @@ POSTSYN finished successfully.
 Total CPU Time: 4 secs 
 Total REAL Time: 5 secs 
 Peak Memory Usage: 1006 MB
-Checksum -- postsyn: 20448f749e02775b4f575f622f2b044d74a8aad7
+Checksum -- postsyn: 3ed730a23feaf9be5069d052484417c65f1ac43

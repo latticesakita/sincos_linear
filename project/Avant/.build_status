@@ -6,18 +6,18 @@
             <Task name="IBIS" build_result="0" update_result="3" update_time="0"/>
             <Task name="TimingSimFileVlg" build_result="0" update_result="3" update_time="0"/>
         </Milestone>
-        <Milestone name="Map" build_result="2" build_time="1767428565">
-            <Task name="Map" build_result="2" update_result="0" update_time="1767428565"/>
+        <Milestone name="Map" build_result="2" build_time="1767445554">
+            <Task name="Map" build_result="2" update_result="0" update_time="1767445554"/>
             <Task name="MapTrace" build_result="0" update_result="2" update_time="1767428539"/>
         </Milestone>
-        <Milestone name="PAR" build_result="2" build_time="1767428630">
-            <Task name="PAR" build_result="2" update_result="0" update_time="1767428630"/>
+        <Milestone name="PAR" build_result="2" build_time="1767445637">
+            <Task name="PAR" build_result="2" update_result="0" update_time="1767445637"/>
             <Task name="PostParVM" build_result="0" update_result="3" update_time="0"/>
-            <Task name="PARTrace" build_result="2" update_result="0" update_time="1767428644"/>
+            <Task name="PARTrace" build_result="2" update_result="0" update_time="1767445652"/>
             <Task name="IOTiming" build_result="0" update_result="3" update_time="0"/>
         </Milestone>
-        <Milestone name="Synthesis" build_result="2" build_time="1767428406">
-            <Task name="Synplify_Synthesis" build_result="2" update_result="0" update_time="1767428406"/>
+        <Milestone name="Synthesis" build_result="2" build_time="1767445540">
+            <Task name="Synplify_Synthesis" build_result="2" update_result="0" update_time="1767445540"/>
             <Task name="Synplify_Lint" build_result="0" update_result="3" update_time="0"/>
             <Task name="SynTrace" build_result="0" update_result="3" update_time="0"/>
             <Task name="SynVerilogSimFile" build_result="0" update_result="3" update_time="0"/>
@@ -30,9 +30,9 @@
             <Task name="PIODRC" build_result="0" update_result="3" update_time="0"/>
             <Task name="DEC" build_result="0" update_result="3" update_time="0"/>
         </Milestone>
-        <Report name="sincos_linear_Avant.twr.html" last_build_time="1767428643" last_build_size="498027"/>
-        <Report name="sincos_linear_Avant.udb" last_build_time="1767428630" last_build_size="87385"/>
-        <Report name="sincos_linear_Avant_map.udb" last_build_time="1767428564" last_build_size="64355"/>
-        <Report name="sincos_linear_Avant_syn.udb" last_build_time="1767428405" last_build_size="74636"/>
+        <Report name="sincos_linear_Avant.twr.html" last_build_time="1767445651" last_build_size="483861"/>
+        <Report name="sincos_linear_Avant.udb" last_build_time="1767445637" last_build_size="87149"/>
+        <Report name="sincos_linear_Avant_map.udb" last_build_time="1767445554" last_build_size="64489"/>
+        <Report name="sincos_linear_Avant_syn.udb" last_build_time="1767445540" last_build_size="74625"/>
     </Strategy>
 </BuildStatus>

@@ -2946,14 +2946,38 @@
         <Message>
             <ID>2012025</ID>
             <Severity>16</Severity>
-            <Dynamic>BN132 :&quot;/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v&quot;:1972:16:1972:21|Removing instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.nf_usr_regval[8] because it is equivalent to instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.nf_usr_regval[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Dynamic>BN132 :&quot;/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v&quot;:1972:16:1972:21|Removing instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.nf_usr_regval[7] because it is equivalent to instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.nf_usr_regval[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
             <Navigation>BN132</Navigation>
             <Navigation>/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v</Navigation>
             <Navigation>1972</Navigation>
             <Navigation>16</Navigation>
             <Navigation>1972</Navigation>
             <Navigation>21</Navigation>
-            <Navigation>Removing instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.nf_usr_regval[8] because it is equivalent to instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.nf_usr_regval[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+            <Navigation>Removing instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.nf_usr_regval[7] because it is equivalent to instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.nf_usr_regval[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2012025</ID>
+            <Severity>16</Severity>
+            <Dynamic>BN132 :&quot;/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v&quot;:1972:16:1972:21|Removing instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.nf_usr_regval[6] because it is equivalent to instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.nf_usr_regval[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v</Navigation>
+            <Navigation>1972</Navigation>
+            <Navigation>16</Navigation>
+            <Navigation>1972</Navigation>
+            <Navigation>21</Navigation>
+            <Navigation>Removing instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.nf_usr_regval[6] because it is equivalent to instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.nf_usr_regval[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2012025</ID>
+            <Severity>16</Severity>
+            <Dynamic>BN132 :&quot;/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v&quot;:1972:16:1972:21|Removing instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.nf_usr_regval[5] because it is equivalent to instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.nf_usr_regval[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v</Navigation>
+            <Navigation>1972</Navigation>
+            <Navigation>16</Navigation>
+            <Navigation>1972</Navigation>
+            <Navigation>21</Navigation>
+            <Navigation>Removing instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.nf_usr_regval[5] because it is equivalent to instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.nf_usr_regval[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
         </Message>
         <Message>
             <ID>2012025</ID>
@@ -2994,38 +3018,14 @@
         <Message>
             <ID>2012025</ID>
             <Severity>16</Severity>
-            <Dynamic>BN132 :&quot;/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v&quot;:1972:16:1972:21|Removing instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.nf_usr_regval[7] because it is equivalent to instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.nf_usr_regval[10]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Dynamic>BN132 :&quot;/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v&quot;:1972:16:1972:21|Removing instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.nf_usr_regval[8] because it is equivalent to instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.nf_usr_regval[10]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
             <Navigation>BN132</Navigation>
             <Navigation>/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v</Navigation>
             <Navigation>1972</Navigation>
             <Navigation>16</Navigation>
             <Navigation>1972</Navigation>
             <Navigation>21</Navigation>
-            <Navigation>Removing instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.nf_usr_regval[7] because it is equivalent to instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.nf_usr_regval[10]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
-        </Message>
-        <Message>
-            <ID>2012025</ID>
-            <Severity>16</Severity>
-            <Dynamic>BN132 :&quot;/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v&quot;:1972:16:1972:21|Removing instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.nf_usr_regval[6] because it is equivalent to instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.nf_usr_regval[10]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
-            <Navigation>BN132</Navigation>
-            <Navigation>/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v</Navigation>
-            <Navigation>1972</Navigation>
-            <Navigation>16</Navigation>
-            <Navigation>1972</Navigation>
-            <Navigation>21</Navigation>
-            <Navigation>Removing instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.nf_usr_regval[6] because it is equivalent to instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.nf_usr_regval[10]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
-        </Message>
-        <Message>
-            <ID>2012025</ID>
-            <Severity>16</Severity>
-            <Dynamic>BN132 :&quot;/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v&quot;:1972:16:1972:21|Removing instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.nf_usr_regval[5] because it is equivalent to instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.nf_usr_regval[10]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
-            <Navigation>BN132</Navigation>
-            <Navigation>/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v</Navigation>
-            <Navigation>1972</Navigation>
-            <Navigation>16</Navigation>
-            <Navigation>1972</Navigation>
-            <Navigation>21</Navigation>
-            <Navigation>Removing instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.nf_usr_regval[5] because it is equivalent to instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.nf_usr_regval[10]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+            <Navigation>Removing instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.nf_usr_regval[8] because it is equivalent to instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.nf_usr_regval[10]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
         </Message>
         <Message>
             <ID>2012025</ID>
@@ -3054,14 +3054,14 @@
         <Message>
             <ID>2012025</ID>
             <Severity>16</Severity>
-            <Dynamic>BN132 :&quot;/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v&quot;:2001:16:2001:21|Removing instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.wdata_0[2] because it is equivalent to instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.wdata[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Dynamic>BN132 :&quot;/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v&quot;:2001:16:2001:21|Removing instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.wdata[1] because it is equivalent to instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.wdata[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
             <Navigation>BN132</Navigation>
             <Navigation>/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v</Navigation>
             <Navigation>2001</Navigation>
             <Navigation>16</Navigation>
             <Navigation>2001</Navigation>
             <Navigation>21</Navigation>
-            <Navigation>Removing instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.wdata_0[2] because it is equivalent to instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.wdata[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+            <Navigation>Removing instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.wdata[1] because it is equivalent to instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.wdata[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
         </Message>
         <Message>
             <ID>2012025</ID>
@@ -3310,12 +3310,12 @@
         <Message>
             <ID>70001944</ID>
             <Severity>16</Severity>
-            <Dynamic>create_generated_clock -name {gpll_i/lscc_pll_inst/clkout_testclk_o} -source [get_pins {gpll_i/lscc_pll_inst/gen_ext_outclkdiv.u_pll.PLLC_MODE_inst/CLKI}] -multiply_by 39 -divide_by 20 [get_pins {gpll_i/lscc_pll_inst/gen_ext_outclkdiv.u_pll.PLLC_MODE_inst/CLKRES }] </Dynamic>
+            <Dynamic>create_generated_clock -name {gpll_i/lscc_pll_inst/clkout_testclk_o} -source [get_pins {gpll_i/lscc_pll_inst/gen_ext_outclkdiv.u_pll.PLLC_MODE_inst/CLKI}] -multiply_by 2 [get_pins {gpll_i/lscc_pll_inst/gen_ext_outclkdiv.u_pll.PLLC_MODE_inst/CLKRES }] </Dynamic>
         </Message>
         <Message>
             <ID>70001944</ID>
             <Severity>16</Severity>
-            <Dynamic>create_generated_clock -name {clk} -source [get_pins {gpll_i/lscc_pll_inst/gen_ext_outclkdiv.u_pll.PLLC_MODE_inst/CLKI}] -multiply_by 6 [get_pins {gpll_i/lscc_pll_inst/gen_ext_outclkdiv.u_pll.PLLC_MODE_inst/CLKOP }] </Dynamic>
+            <Dynamic>create_generated_clock -name {clk} -source [get_pins {gpll_i/lscc_pll_inst/gen_ext_outclkdiv.u_pll.PLLC_MODE_inst/CLKI}] -multiply_by 4 [get_pins {gpll_i/lscc_pll_inst/gen_ext_outclkdiv.u_pll.PLLC_MODE_inst/CLKOP }] </Dynamic>
         </Message>
     </Task>
     <Task name="Map">

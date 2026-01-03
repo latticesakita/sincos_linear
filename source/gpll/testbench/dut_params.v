@@ -1,5 +1,5 @@
-localparam DEVICE_NAME = "LN2-CT-20ES";
-localparam VCO_FREQ = 3900.000000;
+localparam DEVICE_NAME = "LAV-AT-E30";
+localparam VCO_FREQ = 4000.000000;
 localparam REFCLK_FREQ = 50.000000;
 localparam REFCLK_SEL = 0;
 localparam FBKSEL_CLKOUT = 0;
@@ -44,7 +44,7 @@ localparam CLK4_PHI = 1;
 localparam CLK5_PHI = 1;
 localparam CLK6_PHI = 1;
 localparam CLK7_PHI = 1;
-localparam CLK0_DEL = 13;
+localparam CLK0_DEL = 20;
 localparam CLK1_DEL = 1;
 localparam CLK2_DEL = 1;
 localparam CLK3_DEL = 1;
@@ -57,11 +57,11 @@ localparam PLL_DITHEN = 0;
 localparam PLL_ENSAT = 1;
 localparam PLL_INTFBK = 1;
 localparam PLL_CLKR = 6'h00;
-localparam PLL_CLKF = 26'h0138000;
+localparam PLL_CLKF = 26'h0140000;
 localparam PLL_CLKV = 26'h0000000;
 localparam PLL_CLKS = 12'h000;
 localparam PLL_BWADJ = 12'h013;
-localparam PLL_CLKOD0 = 11'h00C;
+localparam PLL_CLKOD0 = 11'h013;
 localparam PLL_CLKOD1 = 11'h000;
 localparam PLL_CLKOD2 = 11'h000;
 localparam PLL_CLKOD3 = 11'h000;
@@ -73,6 +73,6 @@ localparam REG_INTERFACE = "None";
 localparam REG_MAPPING = 0;
 `define ap6a00b
 `define LAV_AT
-`define LN2_CT_20ES
+`define LAV_AT_E30
 `define DUT_INST_NAME u_gpll
 `define GATE_SIM 0

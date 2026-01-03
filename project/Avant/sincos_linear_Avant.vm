@@ -2,7 +2,7 @@
 // Written by Synplify Pro 
 // Product Version "W-2025.03LR-SP1"
 // Program "Synplify Pro", Mapper "map202503latsp1, Build 038R"
-// Sat Jan  3 17:20:00 2026
+// Sat Jan  3 22:05:35 2026
 //
 // Source file index table:
 // Object locations will have the form <file>:<line>
@@ -242,7 +242,7 @@ wire LMMIREADY ;
 );
 endmodule /* gpll_ipgen_pll_sip_lmmi_mux */
 
-(* LATTICE_IP_MODULE=1 *)module gpll_ipgen_pll_init_bw_0s_1s_1277952_0_19_1s_None (
+(* LATTICE_IP_MODULE=1 *)module gpll_ipgen_pll_init_bw_0s_1s_1310720_0_19_1s_None (
   lmmi_wdata_w,
   lmmi_offset_w,
   lmmi_rdata_o,
@@ -285,7 +285,7 @@ wire [4:0] bw_init_cs;
 wire [3:1] bw_init_cs_ns;
 wire [4:4] bw_init_cs_RNO;
 wire [1:1] sync_reg;
-wire [2:0] init_wdata;
+wire [4:0] init_wdata;
 wire rst_n_reg ;
 wire rst_n_reg_i ;
 wire resetn ;
@@ -439,12 +439,12 @@ defparam \gen_bw_init.dly_wait_cntr_4[0] .INIT="0x0006";
 );
 defparam \gen_bw_init.bw_init_cs_RNO[4] .INIT="0x8080";
 // @54:2001
-  FD1P3DX \gen_bw_init.wdata[1]  (
+  FD1P3DX \gen_bw_init.wdata_0[2]  (
 	.D(sync_reg[1]),
 	.SP(VCC),
 	.CK(clkout_testclk_o),
 	.CD(rst_n_reg_i),
-	.Q(init_wdata[1])
+	.Q(init_wdata[4])
 );
 // @54:2001
   FD1P3DX \gen_bw_init.wdata[0]  (
@@ -585,7 +585,7 @@ defparam \gen_bw_init.bw_init_cs_RNO[4] .INIT="0x8080";
 	.lmmi_rdata_o(lmmi_rdata_o[15:0]),
 	.lmmi_offset_w(lmmi_offset_w[4:0]),
 	.lmmi_wdata_w(lmmi_wdata_w[15:0]),
-	.init_wdata({GND, GND, GND, GND, GND, GND, GND, GND, GND, init_wdata[2], GND, init_wdata[1], init_wdata[2], init_wdata[2:0]}),
+	.init_wdata({GND, GND, GND, GND, GND, GND, GND, GND, GND, init_wdata[2], GND, init_wdata[4], init_wdata[2], init_wdata[2], init_wdata[0], init_wdata[0]}),
 	.lmmi_ready_w(lmmi_ready_w),
 	.lmmi_rdata_valid_w(lmmi_rdata_valid_w),
 	.lmmi_wr_rdn_w(lmmi_wr_rdn_w),
@@ -602,7 +602,7 @@ defparam \gen_bw_init.bw_init_cs_RNO[4] .INIT="0x8080";
   VHI VCC_cZ (
 	.Z(VCC)
 );
-endmodule /* gpll_ipgen_pll_init_bw_0s_1s_1277952_0_19_1s_None */
+endmodule /* gpll_ipgen_pll_init_bw_0s_1s_1310720_0_19_1s_None */
 
 (* LATTICE_IP_MODULE=1 *)module gpll_ipgen_lscc_pll_Z1_layer0 (
   resetn_i,
@@ -716,13 +716,13 @@ wire outresetack_testclk_o ;
 	.CLKRES_STEPACK(stepack_testclk_o),
 	.CLKRES_OUTRESETACK(outresetack_testclk_o)
 );
-defparam \gen_ext_outclkdiv.u_pll .CLKFB_DIV="78";
+defparam \gen_ext_outclkdiv.u_pll .CLKFB_DIV="80";
 defparam \gen_ext_outclkdiv.u_pll .CLKFB_PATH="INTERNAL";
 defparam \gen_ext_outclkdiv.u_pll .CLKI_DIV="1";
 defparam \gen_ext_outclkdiv.u_pll .CLKI_SEL="REFMUX0";
 defparam \gen_ext_outclkdiv.u_pll .CLKOPHY_CPHASE="1";
-defparam \gen_ext_outclkdiv.u_pll .CLKOP_CPHASE="13";
-defparam \gen_ext_outclkdiv.u_pll .CLKOP_DIV="13";
+defparam \gen_ext_outclkdiv.u_pll .CLKOP_CPHASE="20";
+defparam \gen_ext_outclkdiv.u_pll .CLKOP_DIV="20";
 defparam \gen_ext_outclkdiv.u_pll .CLKOP_FPHASE="1";
 defparam \gen_ext_outclkdiv.u_pll .CLKOP_OUT_SEL="DIVA";
 defparam \gen_ext_outclkdiv.u_pll .CLKOS2_CPHASE="1";
@@ -776,8 +776,8 @@ defparam \gen_ext_outclkdiv.u_pll .EXT_FB_DELAY="0b11";
 defparam \gen_ext_outclkdiv.u_pll .FAST_LOCK="DISABLED";
 defparam \gen_ext_outclkdiv.u_pll .FCLKI="50";
 defparam \gen_ext_outclkdiv.u_pll .FRACTIONAL_FBK="0b00000000000000";
-defparam \gen_ext_outclkdiv.u_pll .FVCO="3900";
-defparam \gen_ext_outclkdiv.u_pll .LOOP_BW="0b000001001101";
+defparam \gen_ext_outclkdiv.u_pll .FVCO="4000";
+defparam \gen_ext_outclkdiv.u_pll .LOOP_BW="0b000001001111";
 defparam \gen_ext_outclkdiv.u_pll .LOSS_LOCK_DETECTION="DISABLED";
 defparam \gen_ext_outclkdiv.u_pll .PHASE_SOURCE="STATIC";
 defparam \gen_ext_outclkdiv.u_pll .SATURATION="ENABLED";
@@ -789,7 +789,7 @@ defparam \gen_ext_outclkdiv.u_pll .STATIC_VCO_PHASE_DIR="DELAYED";
 defparam \gen_ext_outclkdiv.u_pll .STATIC_VCO_PHASE_STEP="NO";
 defparam \gen_ext_outclkdiv.u_pll .SYNC_CLKOP="DISABLED";
 // @54:1010
-  gpll_ipgen_pll_init_bw_0s_1s_1277952_0_19_1s_None u_pll_init_bw (
+  gpll_ipgen_pll_init_bw_0s_1s_1310720_0_19_1s_None u_pll_init_bw (
 	.lmmi_wdata_w(lmmi_wdata_w[15:0]),
 	.lmmi_offset_w(lmmi_offset_w[4:0]),
 	.lmmi_rdata_o(lmmi_rdata_o[15:0]),

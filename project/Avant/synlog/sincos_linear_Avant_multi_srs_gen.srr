@@ -19,7 +19,6 @@ Implementation : Avant
 Synopsys Synopsys Netlist Linker, Version comp202503synp2, Build 038R, Built Nov 11 2025 07:12:37, @6327464
 
 @N|Running in 64-bit mode
-File /usr/local/lscc/radiant/2025.2/synpbase/linux_a_64/syn_nfilter changed - recompiling
 File /home/kanmei/src/sincos_linear/project/Avant/synwork/sincos_linear_Avant_comp.srs changed - recompiling
 
 At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 248MB peak: 248MB)
@@ -27,6 +26,6 @@ At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Sat Jan  3 17:19:58 2026
+# Sat Jan  3 22:05:33 2026
 
 ###########################################################]

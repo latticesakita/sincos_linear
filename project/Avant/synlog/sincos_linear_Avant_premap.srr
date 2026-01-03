@@ -1,4 +1,4 @@
-# Sat Jan  3 17:19:58 2026
+# Sat Jan  3 22:05:33 2026
 
 
 Copyright (C) 1994-2025 Synopsys, Inc.
@@ -70,7 +70,7 @@ Started DisTri Cleanup (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00
 
 Finished DisTri Cleanup (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 402MB peak: 402MB)
 
-Encoding state machine gen_bw_init\.bw_init_cs[4:0] (in view: work.gpll_ipgen_pll_init_bw_0s_1s_1277952_0_19_1s_None(verilog))
+Encoding state machine gen_bw_init\.bw_init_cs[4:0] (in view: work.gpll_ipgen_pll_init_bw_0s_1s_1310720_0_19_1s_None(verilog))
 original code -> new code
    000 -> 00001
    001 -> 00010
@@ -162,6 +162,6 @@ Pre-mapping successful!
 At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 313MB peak: 402MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
-# Sat Jan  3 17:19:59 2026
+# Sat Jan  3 22:05:34 2026
 
 ###########################################################]

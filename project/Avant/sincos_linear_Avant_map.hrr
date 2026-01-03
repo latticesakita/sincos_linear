@@ -35,9 +35,9 @@ Report for cell gpll_ipgen_lscc_pll_Z1_layer0
                                 PFUREG	         18        21.4
 SUB MODULES
                                   cell	      count    LUT4 Usage(%)
-gpll_ipgen_pll_init_bw_0s_1s_1277952_0_19_1s_None	          1        11.4
+gpll_ipgen_pll_init_bw_0s_1s_1310720_0_19_1s_None	          1        11.4
 ---------------------------------------------------
-Report for cell gpll_ipgen_pll_init_bw_0s_1s_1277952_0_19_1s_None
+Report for cell gpll_ipgen_pll_init_bw_0s_1s_1310720_0_19_1s_None
    Instance path: top_sin_linear/gpll_i/lscc_pll_inst/u_pll_init_bw
                      Cell usage:
                                   cell	      count    Res Usage(%)

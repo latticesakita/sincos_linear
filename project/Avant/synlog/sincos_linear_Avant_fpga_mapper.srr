@@ -1,4 +1,4 @@
-# Sat Jan  3 17:19:59 2026
+# Sat Jan  3 22:05:34 2026
 
 
 Copyright (C) 1994-2025 Synopsys, Inc.
@@ -155,13 +155,13 @@ Starting area decomp  (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s
 @W: BN132 :"/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v":1972:16:1972:21|Removing instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.nf_usr_regval[13] because it is equivalent to instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.nf_usr_regval[12]. To keep the instance, apply constraint syn_preserve=1 on the instance.
 @W: BN132 :"/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v":1972:16:1972:21|Removing instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.nf_usr_regval[12] because it is equivalent to instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.nf_usr_regval[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.
 @W: BN132 :"/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v":1972:16:1972:21|Removing instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.nf_usr_regval[9] because it is equivalent to instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.nf_usr_regval[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v":1972:16:1972:21|Removing instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.nf_usr_regval[8] because it is equivalent to instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.nf_usr_regval[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v":1972:16:1972:21|Removing instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.nf_usr_regval[7] because it is equivalent to instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.nf_usr_regval[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v":1972:16:1972:21|Removing instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.nf_usr_regval[6] because it is equivalent to instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.nf_usr_regval[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v":1972:16:1972:21|Removing instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.nf_usr_regval[5] because it is equivalent to instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.nf_usr_regval[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.
 @W: BN132 :"/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v":1972:16:1972:21|Removing instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.nf_usr_regval[4] because it is equivalent to instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.nf_usr_regval[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.
 @W: BN132 :"/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v":1972:16:1972:21|Removing instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.bw_usr_regval[4] because it is equivalent to instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.bw_usr_regval[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
 @W: BN132 :"/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v":1972:16:1972:21|Removing instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.bw_usr_regval[1] because it is equivalent to instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.bw_usr_regval[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v":1972:16:1972:21|Removing instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.nf_usr_regval[7] because it is equivalent to instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.nf_usr_regval[10]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v":1972:16:1972:21|Removing instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.nf_usr_regval[6] because it is equivalent to instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.nf_usr_regval[10]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v":1972:16:1972:21|Removing instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.nf_usr_regval[5] because it is equivalent to instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.nf_usr_regval[10]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v":1972:16:1972:21|Removing instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.nf_usr_regval[8] because it is equivalent to instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.nf_usr_regval[10]. To keep the instance, apply constraint syn_preserve=1 on the instance.
 @N: FO126 :"/home/kanmei/src/sincos_linear/source/top_sin_linear.v":48:0:48:5|Generating RAM phase_CR31[31:0]
 @N: FO126 :"/home/kanmei/src/sincos_linear/source/top_sin_linear.v":48:0:48:5|Generating RAM result_CR31[31:0]
 @N: BN362 :"/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v":1972:16:1972:21|Removing sequential instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init\.bw_usr_regval[10] (in view: work.top_sin_linear(verilog)) because it does not drive other instances.
@@ -178,71 +178,71 @@ Finished factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; M
 
 NConnInternalConnection caching is on
 
-Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 1588MB peak: 1588MB)
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 1452MB peak: 1452MB)
 
 
-Starting Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 1588MB peak: 1588MB)
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 1452MB peak: 1452MB)
 
 
-Finished Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 1588MB peak: 1588MB)
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 1452MB peak: 1452MB)
 
 
-Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 1588MB peak: 1588MB)
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 1452MB peak: 1452MB)
 
 @W: BN132 :"/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v":2001:16:2001:21|Removing instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.wdata[6] because it is equivalent to instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.wdata[3]. To keep the instance, apply constraint syn_preserve=1 on the instance.
 @W: BN132 :"/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v":2001:16:2001:21|Removing instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.wdata[3] because it is equivalent to instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.wdata[2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v":2001:16:2001:21|Removing instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.wdata_0[2] because it is equivalent to instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.wdata[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v":2001:16:2001:21|Removing instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.wdata[1] because it is equivalent to instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.wdata[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
 @W: BN132 :"/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v":2001:16:2001:21|Removing instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.wdata[7] because it is equivalent to instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.wdata[5]. To keep the instance, apply constraint syn_preserve=1 on the instance.
 @W: BN132 :"/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v":2001:16:2001:21|Removing instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.wdata[8] because it is equivalent to instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.wdata[5]. To keep the instance, apply constraint syn_preserve=1 on the instance.
 @W: BN132 :"/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v":2001:16:2001:21|Removing instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.wdata[9] because it is equivalent to instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.wdata[5]. To keep the instance, apply constraint syn_preserve=1 on the instance.
 @W: BN132 :"/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v":2001:16:2001:21|Removing instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.wdata[11] because it is equivalent to instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.wdata[5]. To keep the instance, apply constraint syn_preserve=1 on the instance.
 @W: BN132 :"/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v":2001:16:2001:21|Removing instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.wdata[10] because it is equivalent to instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.wdata[5]. To keep the instance, apply constraint syn_preserve=1 on the instance.
 
-Finished preparing to map (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 1588MB peak: 1588MB)
+Finished preparing to map (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 1452MB peak: 1452MB)
 
 
-Finished technology mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 1588MB peak: 1588MB)
+Finished technology mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 1452MB peak: 1452MB)
 
 Pass		 CPU time		Worst Slack		Luts / Registers
 ------------------------------------------------------------
    1		0h:00m:00s		     2.91ns		 118 /        87
 
-Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 1588MB peak: 1588MB)
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 1452MB peak: 1452MB)
 
 @N: BN362 :"/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v":1972:16:1972:21|Removing sequential instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init\.nf_usr_regval[10] (in view: work.top_sin_linear(verilog)) because it does not drive other instances.
 @N: BN362 :"/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v":1972:16:1972:21|Removing sequential instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init\.bw_usr_regval[0] (in view: work.top_sin_linear(verilog)) because it does not drive other instances.
 @N: BN362 :"/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v":2001:16:2001:21|Removing sequential instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init\.wdata[5] (in view: work.top_sin_linear(verilog)) because it does not drive other instances.
 @N: FX164 |The option to pack registers in the IOB has not been specified. Please set syn_useioff attribute.  
 
-Finished restoring hierarchy (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 1588MB peak: 1588MB)
+Finished restoring hierarchy (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 1452MB peak: 1452MB)
 
 
-Starting CDBProcessSetClockGroups... (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 1588MB peak: 1588MB)
+Starting CDBProcessSetClockGroups... (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 1452MB peak: 1452MB)
 
 
-Finished with CDBProcessSetClockGroups (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 1588MB peak: 1588MB)
+Finished with CDBProcessSetClockGroups (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 1452MB peak: 1452MB)
 
 
-Start Writing Netlists (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 1588MB peak: 1588MB)
+Start Writing Netlists (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 1452MB peak: 1452MB)
 
 Writing Analyst data base /home/kanmei/src/sincos_linear/project/Avant/synwork/sincos_linear_Avant_m.srm
 
-Finished Writing Netlist Databases (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 1588MB peak: 1588MB)
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:01s; Memory used current: 1452MB peak: 1452MB)
 
 Writing Verilog Simulation files
 
-Writing scf file... (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 1588MB peak: 1588MB)
+Writing scf file... (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 1452MB peak: 1452MB)
 
 @N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.
 @N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
 
-Finished Writing Verilog Simulation files (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 1588MB peak: 1588MB)
+Finished Writing Verilog Simulation files (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 1452MB peak: 1452MB)
 
 
-Finished Writing Netlists (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 1588MB peak: 1588MB)
+Finished Writing Netlists (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 1452MB peak: 1452MB)
 
 
-Start final timing analysis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 1588MB peak: 1588MB)
+Start final timing analysis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 1452MB peak: 1452MB)
 
 @W: MT246 :"/home/kanmei/src/sincos_linear/source/mult18x18p48.v":52:3:52:15|Blackbox MULTADDSUB18X18A is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results)
 @W: MT246 :"/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v":1377:58:1377:62|Blackbox PLLC is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results)
@@ -252,7 +252,7 @@ Start final timing analysis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:0
 
 
 ##### START OF TIMING REPORT #####[
-# Timing report written on Sat Jan  3 17:20:00 2026
+# Timing report written on Sat Jan  3 22:05:35 2026
 #
 
 
@@ -569,10 +569,10 @@ Timing exceptions that could not be applied
 @W: MT447 :"/home/kanmei/src/sincos_linear/project/Avant/sincos_linear_Avant_cpe.ldc":17:0:17:0|Timing constraint (to [get_pins {gpll_i/lscc_pll_inst/gen_ext_outclkdiv\.u_pll/RESET}]) (false path) was not applied to the design because none of the paths specified by the constraint exist in the design 
 None
 
-Finished final timing analysis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 1588MB peak: 1588MB)
+Finished final timing analysis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 1452MB peak: 1452MB)
 
 
-Finished timing report (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 1588MB peak: 1588MB)
+Finished timing report (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 1452MB peak: 1452MB)
 
 ---------------------------------------
 Resource Usage Report
@@ -622,9 +622,9 @@ Total number of Carry Chains: 0 + 0 = 0
 Total number of BlackBoxes: 47 + 0 = 47 
 Mapper successful!
 
-At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 1499MB peak: 1588MB)
+At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 1363MB peak: 1452MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
-# Sat Jan  3 17:20:00 2026
+# Sat Jan  3 22:05:35 2026
 
 ###########################################################]

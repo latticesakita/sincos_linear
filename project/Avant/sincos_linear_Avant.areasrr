@@ -176,7 +176,7 @@ Total BLACK BOX     12                 25.5 %
 Total BLACKBOX in the block gpll_i.lscc_pll_inst:	12 (3.57 % Utilization)
 
 -------------------------------------------------------------------------------------------------------
-########   Utilization report for  cell:   gpll_ipgen_pll_init_bw_0s_1s_1277952_0_19_1s_None   ########
+########   Utilization report for  cell:   gpll_ipgen_pll_init_bw_0s_1s_1310720_0_19_1s_None   ########
 Instance path:   gpll_i.lscc_pll_inst.u_pll_init_bw                                                    
 Parent Instance:   gpll_i.lscc_pll_inst                                                                
 =======================================================================================================

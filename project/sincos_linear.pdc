@@ -1,1 +1,2 @@
 create_clock -name {clk50} -period 20 [get_ports clk50]
+set_false_path -from [get_pins {gpll_i/lscc_pll_inst/u_pll_init_bw/gen_bw_init.bw_init_cs[0]/Q gpll_i/lscc_pll_inst/u_pll_init_bw/gen_bw_init.bw_init_cs[1]/Q gpll_i/lscc_pll_inst/u_pll_init_bw/gen_bw_init.bw_init_cs[2]/Q gpll_i/lscc_pll_inst/u_pll_init_bw/gen_bw_init.bw_init_cs[3]/Q gpll_i/lscc_pll_inst/u_pll_init_bw/gen_bw_init.bw_init_cs[4]/Q}]
