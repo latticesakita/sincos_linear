@@ -1,1 +1,1 @@
-gpll=/home/kanmei/src/sincos_linear/source/gpll/constraints/constraint.sdc
+gpll=/home/kanmei/src/sincos_linear/sim/gpll/constraints/constraint.sdc

@@ -40,52 +40,11 @@ if (a)
 <BODY>
 
 <DIV id="content" onclick="hideTocList()"><PRE>
-<A name="pn260102171207"></A><B><U><big>pn260102171207</big></U></B>
-#Start recording tcl command: 1/2/2026 07:47:05
-#Project Location: /home/kanmei/src/sincos_linear/project; Project name: sincos_linear
-prj_create -name "sincos_linear" -impl "Avant" -dev LAV-AT-E30-1CBG484C -performance "1" -synthesis "synplify"
-prj_add_source "/home/kanmei/src/sincos_linear/source/mult18x18p48.v" "/home/kanmei/src/sincos_linear/source/sincos_linear.v" "/home/kanmei/src/sincos_linear/source/sin_linear.v" "/home/kanmei/src/sincos_linear/source/tb_sin_linear.v" "/home/kanmei/src/sincos_linear/source/top_sin_linear.v" "/home/kanmei/src/sincos_linear/source/rom_y36/rom_y36.ipx" "/home/kanmei/src/sincos_linear/source/rom_dy18/rom_dy18.ipx"
-prj_save 
-prj_syn_sim_source -src "/home/kanmei/src/sincos_linear/source/tb_sin_linear.v" SimulateOnly
-prj_run Synthesis -impl Avant
-prj_run PAR -impl Avant
-prj_set_impl_opt -impl "Avant" {top} {top_sin_linear}
-prj_set_strategy_value -strategy Strategy1 par_core_number=16 par_place_iterator=16
-prj_run PAR -impl Avant
-prj_add_source "/home/kanmei/src/sincos_linear/source/gpll/gpll.ipx"
-prj_run PAR -impl Avant
-prj_add_source "/home/kanmei/src/sincos_linear//tb/tb.spf"
-#Stop recording: 1/2/2026 17:12:07
-
-
-
 <A name="pn260102171909"></A><B><U><big>pn260102171909</big></U></B>
 #Start recording tcl command: 1/2/2026 17:17:42
 #Project Location: /home/kanmei/src/sincos_linear/project; Project name: sincos_linear
 prj_open "/home/kanmei/src/sincos_linear/project/sincos_linear.rdf"
 #Stop recording: 1/2/2026 17:19:09
-
-
-
-<A name="pn260102202141"></A><B><U><big>pn260102202141</big></U></B>
-#Start recording tcl command: 1/2/2026 17:56:14
-#Project Location: /home/kanmei/src/sincos_linear/project; Project name: sincos_linear
-prj_open "/home/kanmei/src/sincos_linear/project/sincos_linear.rdf"
-prj_run PAR -impl Avant
-prj_run PAR -impl Avant
-prj_run PAR -impl Avant
-prj_run PAR -impl Avant
-#Stop recording: 1/2/2026 20:21:41
-
-
-
-<A name="pn260103094448"></A><B><U><big>pn260103094448</big></U></B>
-#Start recording tcl command: 1/3/2026 08:40:27
-#Project Location: /home/kanmei/src/sincos_linear/project; Project name: sincos_linear
-prj_open "/home/kanmei/src/sincos_linear/project/sincos_linear.rdf"
-prj_save 
-prj_close
-#Stop recording: 1/3/2026 09:44:48
 
 
 
@@ -159,20 +118,52 @@ prj_run PAR -impl Avant
 
 
 
+<A name="pn260103200010"></A><B><U><big>pn260103200010</big></U></B>
+#Start recording tcl command: 1/3/2026 19:57:08
+#Project Location: /home/kanmei/src/sincos_linear/project; Project name: sincos_linear
+prj_open "/home/kanmei/src/sincos_linear/project/sincos_linear.rdf"
+prj_run PAR -impl Avant
+#Stop recording: 1/3/2026 20:00:10
+
+
+
+<A name="pn260103220815"></A><B><U><big>pn260103220815</big></U></B>
+#Start recording tcl command: 1/3/2026 20:05:24
+#Project Location: /home/kanmei/src/sincos_linear/project; Project name: sincos_linear
+prj_open "/home/kanmei/src/sincos_linear/project/sincos_linear.rdf"
+prj_run Synthesis -impl Avant
+prj_run PAR -impl Avant
+prj_run PAR -impl Avant
+prj_run PAR -impl Avant
+prj_run PAR -impl Avant
+prj_run PAR -impl Avant
+#Stop recording: 1/3/2026 22:08:15
+
+
+
+<A name="pn260105180636"></A><B><U><big>pn260105180636</big></U></B>
+#Start recording tcl command: 1/5/2026 18:02:31
+#Project Location: /home/kanmei/src/sincos_linear/project; Project name: sincos_linear
+prj_open "/home/kanmei/src/sincos_linear/project/sincos_linear.rdf"
+prj_run PAR -impl Avant -forceAll
+#Stop recording: 1/5/2026 18:06:36
+
+
+
 </PRE></DIV>
 
 <DIV id="toc" class="radiant"><span onmousemove="showTocList()">Contents</span>
 <UL id="toc_list">
-<LI><A href=#pn260102171207>pn260102171207</A></LI>
 <LI><A href=#pn260102171909>pn260102171909</A></LI>
-<LI><A href=#pn260102202141>pn260102202141</A></LI>
-<LI><A href=#pn260103094448>pn260103094448</A></LI>
 <LI><A href=#pn260103171614>pn260103171614</A></LI>
 <LI><A href=#pn260103171722>pn260103171722</A></LI>
 <LI><A href=#pn260103171908>pn260103171908</A></LI>
 <LI><A href=#pn260103172623>pn260103172623</A></LI>
 <LI><A href=#pn260103173232>pn260103173232</A></LI>
 <LI><A href=#pn260103195503>pn260103195503</A></LI>
+<LI><A href=#pn260103200010>pn260103200010</A></LI>
+<LI><A href=#pn260103220815>pn260103220815</A></LI>
+<LI><A href=#pn260105180636>pn260105180636</A></LI>
 </UL>
 </DIV>
 

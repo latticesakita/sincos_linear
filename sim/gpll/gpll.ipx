@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<RadiantModule architecture="ap6a00b" date="2026 01 03 22:05:14" device="LAV-AT-E30" device_int="ap6a160ce" display_module="PLL" display_vendor="latticesemi.com" family="LAV-AT" gen_platform="Radiant" gen_platform_version="2025.2.0.48.0" generator="ipgen" library="module" module="pll" name="gpll" operation="Commercial" package="CBG484" package_int="CBG484" partnumber="LAV-AT-E30-1CBG484C" source_format="Verilog" speed="1" speed_int="1" vendor="latticesemi.com" version="2.6.1">
+ <Package>
+  <File modified="2026 01 03 22:05:14" name="rtl/gpll_bb.v" type="black_box_verilog"/>
+  <File modified="2026 01 03 22:05:14" name="gpll.cfg" type="cfg"/>
+  <File modified="2026 01 03 22:05:14" name="misc/gpll_tmpl.v" type="template_verilog"/>
+  <File modified="2026 01 03 22:05:14" name="misc/gpll_tmpl.vhd" type="template_vhdl"/>
+  <File modified="2026 01 03 22:05:14" name="rtl/gpll.v" type="top_level_verilog"/>
+  <File modified="2026 01 03 22:05:14" name="constraints/constraint.sdc" stage="lse:all,synplify:all" type="tcl_constraints"/>
+  <File modified="2026 01 03 22:05:14" name="constraints/gpll.ldc" type="timing_constraints"/>
+  <File modified="2026 01 03 22:05:14" name="testbench/dut_params.v" type="dependency_file"/>
+  <File modified="2026 01 03 22:05:14" name="testbench/dut_inst.v" type="dependency_file"/>
+  <File modified="2026 01 03 22:05:14" name="component.xml" type="IP-XACT_component"/>
+  <File modified="2026 01 03 22:05:14" name="design.xml" type="IP-XACT_design"/>
+  <File modified="2025 10 17 20:21:42" name="testbench/tb_top.v" type="testbench_verilog"/>
+ </Package>
+</RadiantModule>
