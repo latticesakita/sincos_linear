@@ -1,6 +1,6 @@
 
 PAR: Place And Route Radiant Software (64-bit) 2025.2.0.48.0.
-PARed on: Sat Jan  3 22:06:00 2026
+PARed on: Mon Jan  5 18:03:37 2026
 
 Command Line: par -w -t 3 -hsp m sincos_linear_Avant_map.udb \
 	sincos_linear_Avant_par.dir/5_3.udb 
@@ -34,18 +34,18 @@ Pin Constraint Summary:
 INFO: STA multithread mode is on
 
 
-Starting Placer Phase 0. CPU time: 11 secs , REAL time: 11 secs 
+Starting Placer Phase 0. CPU time: 12 secs , REAL time: 12 secs 
 
-Finished Placer Phase 0. CPU time: 11 secs , REAL time: 11 secs 
+Finished Placer Phase 0. CPU time: 12 secs , REAL time: 12 secs 
 
-Starting Placer Phase 1. CPU time: 11 secs , REAL time: 11 secs 
+Starting Placer Phase 1. CPU time: 12 secs , REAL time: 12 secs 
 
-Finished Placer Phase 1. CPU time: 11 secs , REAL time: 11 secs 
+Finished Placer Phase 1. CPU time: 13 secs , REAL time: 13 secs 
 
 Placer score = 369118.
-Starting Placer Phase 2. CPU time: 11 secs , REAL time: 11 secs 
+Starting Placer Phase 2. CPU time: 13 secs , REAL time: 13 secs 
 
-Finished Placer Phase 2. CPU time: 12 secs , REAL time: 12 secs 
+Finished Placer Phase 2. CPU time: 14 secs , REAL time: 14 secs 
 
 Placer score =  289360
 
@@ -111,14 +111,14 @@ I/O Bank Usage Summary:
 | 14       | 0 / 20 (  0%)  | -          | -          |
 +----------+----------------+------------+------------+
 
-Total Placer CPU time: 12 secs , REAL time: 12 secs 
+Total Placer CPU time: 14 secs , REAL time: 14 secs 
 
 
-Checksum -- place: 907940982e616a3d5babf8435898f368b500dc
+Checksum -- place: 8f2e46c1909a03a61700543c722de7a36ee50218
 Writing design to file sincos_linear_Avant_par.dir/5_3.udb ...
 
 
-Start NBR router at Sat Jan 03 22:06:13 JST 2026
+Start NBR router at Mon Jan 05 18:03:51 JST 2026
 
 *****************************************************************
 Info: NBR allows conflicts(one node used by more than one signal)
@@ -162,21 +162,21 @@ Number of threads = 4
 Routing in Serial Mode ......
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-Start NBR section for initial routing at Sat Jan 03 22:06:29 JST 2026
+Start NBR section for initial routing at Mon Jan 05 18:04:07 JST 2026
 Level 4, iteration 1
 37(0.00%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: 0.035ns/0.000ns; real time: 16 secs 
+Estimated worst slack/total negative slack<setup>: 0.035ns/0.000ns; real time: 17 secs 
 
 Info: Initial congestion level at 75.00% usage is 0
 Info: Initial congestion area  at 75.00% usage is 0 (0.00%)
 
-Start NBR section for normal routing at Sat Jan 03 22:06:30 JST 2026
+Start NBR section for normal routing at Mon Jan 05 18:04:08 JST 2026
 Level 4, iteration 1
 18(0.00%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: 0.050ns/0.000ns; real time: 17 secs 
+Estimated worst slack/total negative slack<setup>: 0.050ns/0.000ns; real time: 18 secs 
 Level 4, iteration 2
 11(0.00%) conflicts; 0(0.00%) untouched conn; 1522 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: -0.141ns/-1.523ns; real time: 17 secs 
+Estimated worst slack/total negative slack<setup>: -0.141ns/-1.523ns; real time: 18 secs 
 Level 4, iteration 3
 6(0.00%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
 Estimated worst slack/total negative slack<setup>: 0.018ns/0.000ns; real time: 18 secs 
@@ -196,13 +196,13 @@ Level 4, iteration 8
 0(0.00%) conflict; 0(0.00%) untouched conn; 0 (nbr) score; 
 Estimated worst slack/total negative slack<setup>: 0.015ns/0.000ns; real time: 18 secs 
 
-Start NBR section for setup/hold timing optimization with effort level 3 at Sat Jan 03 22:06:31 JST 2026
+Start NBR section for setup/hold timing optimization with effort level 3 at Mon Jan 05 18:04:09 JST 2026
 
-Start NBR section for post-routing at Sat Jan 03 22:06:38 JST 2026
+Start NBR section for post-routing at Mon Jan 05 18:04:16 JST 2026
 
 End NBR router with 0 unrouted connection(s)
 
-Checksum -- route: fbf9f001bc952dc69151e9ecf4c1185046e397cb
+Checksum -- route: 3ef7cad44e5854f74611e75aace45038cdcc366a
 
 Total Router CPU time 25 secs , REAL time: 26 secs 
 Completely routed.
@@ -224,8 +224,8 @@ PAR_SUMMARY::Number of errors = 0
 
 Note: user must run 'timing' for timing closure signoff.
 
-Total CPU  Time: 43 secs 
-Total REAL Time: 43 secs 
+Total CPU  Time: 45 secs 
+Total REAL Time: 45 secs 
 Peak Memory Usage: 4225.15 MB
 
 

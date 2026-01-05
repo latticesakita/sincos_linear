@@ -1,7 +1,7 @@
 <RadiantSimulationProject language="1" name="tb" path=".." simType="QuestaSim" stage="0" version="2.0">
     <Source include="none" langstandard="Verilog 2001" path="../source/mult18x18p48.v" type="VERILOG" worklib="work"/>
     <Source include="none" langstandard="Verilog 2001" path="../source/sin_linear.v" type="VERILOG" worklib="work"/>
-    <Source include="none" langstandard="Verilog 2001" path="../source/tb_sin_linear.v" type="VERILOG" worklib="work"/>
+    <Source include="none" langstandard="Verilog 2001" path="../sim/tb_sin_linear.v" type="VERILOG" worklib="work"/>
     <Source include="none" langstandard="Verilog 2001" path="../source/rom_y36/rtl/rom_y36.v" type="VERILOG" worklib="work"/>
     <Source include="none" langstandard="Verilog 2001" path="../source/rom_dy18/rtl/rom_dy18.v" type="VERILOG" worklib="work"/>
     <SimLib value="pmi_work lav_ate_es"/>

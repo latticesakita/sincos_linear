@@ -1,18 +1,18 @@
 ###File created by Lattice CPE. Do not modify.###
 set_hierarchy_separator /
 # This should be in top level constraint
-##Original File: /home/kanmei/src/sincos_linear/source/gpll/constraints/gpll.ldc
+##Original File: /home/kanmei/src/sincos_linear/sim/gpll/constraints/gpll.ldc
 #set CLK_PERIOD [expr {double(round(1000000/$REFCLK_FREQ))/1000}]
-##Original File: /home/kanmei/src/sincos_linear/source/gpll/constraints/constraint.sdc
+##Original File: /home/kanmei/src/sincos_linear/sim/gpll/constraints/constraint.sdc
 #create_clock -name {clki_i} -period $CLK_PERIOD [get_ports clki_i]
-##Original File: /home/kanmei/src/sincos_linear/source/gpll/constraints/constraint.sdc
+##Original File: /home/kanmei/src/sincos_linear/sim/gpll/constraints/constraint.sdc
 # IO_TYPE constraint - Refclk
-##Original File: /home/kanmei/src/sincos_linear/source/gpll/constraints/gpll.ldc
+##Original File: /home/kanmei/src/sincos_linear/sim/gpll/constraints/gpll.ldc
 # if {$PLL_REFCLK_FROM_PIN} {
-##Original File: /home/kanmei/src/sincos_linear/source/gpll/constraints/gpll.ldc
+##Original File: /home/kanmei/src/sincos_linear/sim/gpll/constraints/gpll.ldc
 #   ldc_set_port -iobuf IO_TYPE=$IO_TYPE [get_ports clki_i]
-##Original File: /home/kanmei/src/sincos_linear/source/gpll/constraints/gpll.ldc
+##Original File: /home/kanmei/src/sincos_linear/sim/gpll/constraints/gpll.ldc
 # }
-##Original File: /home/kanmei/src/sincos_linear/source/gpll/constraints/gpll.ldc
+##Original File: /home/kanmei/src/sincos_linear/sim/gpll/constraints/gpll.ldc
 set_false_path -to [get_pins {gpll_i/lscc_pll_inst/gen_ext_outclkdiv.u_pll/RESET }]
-##Original File: /home/kanmei/src/sincos_linear/source/gpll/constraints/constraint.sdc
+##Original File: /home/kanmei/src/sincos_linear/sim/gpll/constraints/constraint.sdc

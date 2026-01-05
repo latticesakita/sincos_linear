@@ -42,7 +42,7 @@ if (a)
 <DIV id="content" onclick="hideTocList()"><PRE>
 <A name="Par"></A>                         Lattice PAR Report File
 Radiant Software (64-bit) 2025.2.0.48.0
-Sat Jan  3 22:05:58 2026
+Mon Jan  5 18:03:34 2026
 
 Command Line: par -w -n 16 -t 1 -s 1 -cores 16 -hsp m \
 	sincos_linear_Avant_map.udb sincos_linear_Avant.udb 
@@ -52,32 +52,32 @@ Command Line: par -w -n 16 -t 1 -s 1 -cores 16 -hsp m \
 Level/       Number       Estimated       Timing       Estimated Worst    Timing          Run      Run
 Cost [udb]   Unrouted     Worst Slack     Score        Slack(hold)        Score(hold)     Time     Status
 ----------   --------     -----------     ------       ---------------    -----------     ----     ------
-5_12  *      0            0.152           0            0.105              0               50       Completed
-5_9          0            0.127           0            0.104              0               53       Completed
-5_16         0            0.089           0            0.112              0               49       Completed
-5_5          0            0.066           0            0.097              0               48       Completed
-5_13         0            0.050           0            0.075              0               58       Completed
-5_7          0            0.023           0            0.104              0               52       Completed
-5_3          0            0.015           0            0.073              0               44       Completed
-5_4          0            -0.004          4            -                  -               01:07    Completed
-5_8          0            -0.010          10           -                  -               39       Completed
+5_12  *      0            0.152           0            0.105              0               57       Completed
+5_9          0            0.127           0            0.104              0               50       Completed
+5_16         0            0.089           0            0.112              0               50       Completed
+5_5          0            0.066           0            0.097              0               45       Completed
+5_13         0            0.050           0            0.075              0               53       Completed
+5_7          0            0.023           0            0.104              0               59       Completed
+5_3          0            0.015           0            0.073              0               47       Completed
+5_4          0            -0.004          4            -                  -               01:11    Completed
+5_8          0            -0.010          10           -                  -               42       Completed
 5_6          0            -0.033          35           -                  -               41       Completed
-5_1          0            -0.063          67           -                  -               37       Completed
-5_11         0            -0.050          77           -                  -               42       Completed
-5_2          0            -0.046          104          -                  -               45       Completed
-5_15         0            -0.040          152          -                  -               53       Completed
-5_10         0            -0.200          1220         -                  -               01:07    Completed
-5_14         0            -0.257          2796         -                  -               01:06    Completed
+5_1          0            -0.063          67           -                  -               43       Completed
+5_11         0            -0.050          77           -                  -               52       Completed
+5_2          0            -0.046          104          -                  -               36       Completed
+5_15         0            -0.040          152          -                  -               48       Completed
+5_10         0            -0.200          1220         -                  -               01:11    Completed
+5_14         0            -0.257          2796         -                  -               01:07    Completed
 * : Design saved.
 
-Total (real) run time for 16-seed: 1 mins 19 secs 
+Total (real) run time for 16-seed: 1 mins 20 secs 
 
 par done!
 
 
 <A name="par_best"></A><B><U><big>Best Par Run</big></U></B>
 PAR: Place And Route Radiant Software (64-bit) 2025.2.0.48.0.
-PARed on: Sat Jan  3 22:06:09 2026
+PARed on: Mon Jan  5 18:03:46 2026
 
 Command Line: par -w -t 12 -hsp m sincos_linear_Avant_map.udb \
 	sincos_linear_Avant_par.dir/5_12.udb 
@@ -112,18 +112,18 @@ Pin Constraint Summary:
 INFO: STA multithread mode is on
 
 
-Starting Placer Phase 0. CPU time: 12 secs , REAL time: 12 secs 
+Starting Placer Phase 0. CPU time: 18 secs , REAL time: 18 secs 
 
-Finished Placer Phase 0. CPU time: 12 secs , REAL time: 12 secs 
+Finished Placer Phase 0. CPU time: 18 secs , REAL time: 18 secs 
 
-Starting Placer Phase 1. CPU time: 12 secs , REAL time: 12 secs 
+Starting Placer Phase 1. CPU time: 18 secs , REAL time: 18 secs 
 
-Finished Placer Phase 1. CPU time: 12 secs , REAL time: 13 secs 
+Finished Placer Phase 1. CPU time: 18 secs , REAL time: 18 secs 
 
 Placer score = 372655.
-Starting Placer Phase 2. CPU time: 12 secs , REAL time: 13 secs 
+Starting Placer Phase 2. CPU time: 18 secs , REAL time: 18 secs 
 
-Finished Placer Phase 2. CPU time: 13 secs , REAL time: 13 secs 
+Finished Placer Phase 2. CPU time: 19 secs , REAL time: 19 secs 
 
 Placer score =  307589
 
@@ -191,14 +191,14 @@ I/O Bank Usage Summary:
 | 14       | 0 / 20 (  0%)  | -          | -          |
 +----------+----------------+------------+------------+
 
-Total Placer CPU time: 13 secs , REAL time: 14 secs 
+Total Placer CPU time: 20 secs , REAL time: 20 secs 
 
 
-Checksum -- place: 80b2a551bfa124a372a1f117726ebb952414311
+Checksum -- place: 7aa55ca0f56977d768018a36c9899045d7c11d6
 Writing design to file sincos_linear_Avant_par.dir/5_12.udb ...
 
 
-Start NBR router at Sat Jan 03 22:06:24 JST 2026
+Start NBR router at Mon Jan 05 18:04:06 JST 2026
 
 *****************************************************************
 Info: NBR allows conflicts(one node used by more than one signal)
@@ -242,7 +242,7 @@ Number of threads = 4
 Routing in Serial Mode ......
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-Start NBR section for initial routing at Sat Jan 03 22:06:44 JST 2026
+Start NBR section for initial routing at Mon Jan 05 18:04:27 JST 2026
 Level 4, iteration 1
 37(0.00%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
 Estimated worst slack/total negative slack&lt;setup&gt;: 0.151ns/0.000ns; real time: 22 secs 
@@ -250,7 +250,7 @@ Estimated worst slack/total negative slack&lt;setup&gt;: 0.151ns/0.000ns; real t
 Info: Initial congestion level at 75.00% usage is 0
 Info: Initial congestion area  at 75.00% usage is 0 (0.00%)
 
-Start NBR section for normal routing at Sat Jan 03 22:06:45 JST 2026
+Start NBR section for normal routing at Mon Jan 05 18:04:28 JST 2026
 Level 4, iteration 1
 40(0.00%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
 Estimated worst slack/total negative slack&lt;setup&gt;: 0.134ns/0.000ns; real time: 23 secs 
@@ -262,7 +262,7 @@ Level 4, iteration 3
 Estimated worst slack/total negative slack&lt;setup&gt;: 0.152ns/0.000ns; real time: 23 secs 
 Level 4, iteration 4
 10(0.00%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
-Estimated worst slack/total negative slack&lt;setup&gt;: 0.152ns/0.000ns; real time: 23 secs 
+Estimated worst slack/total negative slack&lt;setup&gt;: 0.152ns/0.000ns; real time: 24 secs 
 Level 4, iteration 5
 7(0.00%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
 Estimated worst slack/total negative slack&lt;setup&gt;: 0.152ns/0.000ns; real time: 24 secs 
@@ -274,17 +274,17 @@ Level 4, iteration 7
 Estimated worst slack/total negative slack&lt;setup&gt;: 0.128ns/0.000ns; real time: 24 secs 
 Level 4, iteration 8
 0(0.00%) conflict; 0(0.00%) untouched conn; 0 (nbr) score; 
-Estimated worst slack/total negative slack&lt;setup&gt;: 0.152ns/0.000ns; real time: 24 secs 
+Estimated worst slack/total negative slack&lt;setup&gt;: 0.152ns/0.000ns; real time: 25 secs 
 
-Start NBR section for setup/hold timing optimization with effort level 3 at Sat Jan 03 22:06:47 JST 2026
+Start NBR section for setup/hold timing optimization with effort level 3 at Mon Jan 05 18:04:31 JST 2026
 
-Start NBR section for post-routing at Sat Jan 03 22:06:53 JST 2026
+Start NBR section for post-routing at Mon Jan 05 18:04:36 JST 2026
 
 End NBR router with 0 unrouted connection(s)
 
-Checksum -- route: 4abfc66dc60cc76739eeac135c7fc0f6a2bb94a1
+Checksum -- route: 347e5e253a592bfad548c54b8f55f28ad18dd9bb
 
-Total Router CPU time 29 secs , REAL time: 30 secs 
+Total Router CPU time 30 secs , REAL time: 31 secs 
 Completely routed.
 End of route.  925 routed (100.00%); 0 unrouted.
 
@@ -304,8 +304,8 @@ PAR_SUMMARY::Number of errors = 0
 
 Note: user must run &apos;timing&apos; for timing closure signoff.
 
-Total CPU  Time: 48 secs 
-Total REAL Time: 48 secs 
+Total CPU  Time: 54 secs 
+Total REAL Time: 54 secs 
 Peak Memory Usage: 4225.02 MB
 
 

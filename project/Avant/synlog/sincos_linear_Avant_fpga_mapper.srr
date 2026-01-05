@@ -1,4 +1,4 @@
-# Sat Jan  3 22:05:34 2026
+# Mon Jan  5 18:03:11 2026
 
 
 Copyright (C) 1994-2025 Synopsys, Inc.
@@ -130,42 +130,42 @@ Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapse
 Available hyper_sources - for debug and ip models
 	None Found
 
-@W: BN132 :"/home/kanmei/src/sincos_linear/source/top_sin_linear.v":48:0:48:5|Removing sequential instance phase_CF1[1:0] because it is equivalent to instance result_CF1[1:0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/kanmei/src/sincos_linear/source/top_sin_linear.v":48:0:48:5|Removing user instance result_C10frac[1:0] because it is equivalent to instance phase_C1[1:0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/kanmei/src/sincos_linear/sim/top_sin_linear.v":48:0:48:5|Removing sequential instance phase_CF1[1:0] because it is equivalent to instance result_CF1[1:0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/kanmei/src/sincos_linear/sim/top_sin_linear.v":48:0:48:5|Removing user instance result_C10frac[1:0] because it is equivalent to instance phase_C1[1:0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
 
 Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 400MB peak: 400MB)
 
 
 Starting area decomp  (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 400MB peak: 400MB)
 
-@W: BN132 :"/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v":1972:16:1972:21|Removing instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.bw_usr_regval[15] because it is equivalent to instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.bw_usr_regval[14]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v":1972:16:1972:21|Removing instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.bw_usr_regval[14] because it is equivalent to instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.bw_usr_regval[13]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v":1972:16:1972:21|Removing instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.bw_usr_regval[13] because it is equivalent to instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.bw_usr_regval[12]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v":1972:16:1972:21|Removing instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.bw_usr_regval[12] because it is equivalent to instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.bw_usr_regval[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v":1972:16:1972:21|Removing instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.bw_usr_regval[11] because it is equivalent to instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.bw_usr_regval[10]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v":1972:16:1972:21|Removing instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.bw_usr_regval[9] because it is equivalent to instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.bw_usr_regval[10]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v":1972:16:1972:21|Removing instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.bw_usr_regval[8] because it is equivalent to instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.bw_usr_regval[10]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v":1972:16:1972:21|Removing instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.bw_usr_regval[7] because it is equivalent to instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.bw_usr_regval[10]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v":1972:16:1972:21|Removing instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.bw_usr_regval[6] because it is equivalent to instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.bw_usr_regval[10]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v":1972:16:1972:21|Removing instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.bw_usr_regval[5] because it is equivalent to instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.bw_usr_regval[10]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v":1972:16:1972:21|Removing instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.bw_usr_regval[3] because it is equivalent to instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.bw_usr_regval[10]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v":1972:16:1972:21|Removing instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.bw_usr_regval[2] because it is equivalent to instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.bw_usr_regval[10]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v":1972:16:1972:21|Removing instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.nf_usr_regval[15] because it is equivalent to instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.nf_usr_regval[14]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v":1972:16:1972:21|Removing instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.nf_usr_regval[14] because it is equivalent to instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.nf_usr_regval[13]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v":1972:16:1972:21|Removing instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.nf_usr_regval[13] because it is equivalent to instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.nf_usr_regval[12]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v":1972:16:1972:21|Removing instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.nf_usr_regval[12] because it is equivalent to instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.nf_usr_regval[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v":1972:16:1972:21|Removing instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.nf_usr_regval[9] because it is equivalent to instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.nf_usr_regval[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v":1972:16:1972:21|Removing instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.nf_usr_regval[7] because it is equivalent to instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.nf_usr_regval[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v":1972:16:1972:21|Removing instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.nf_usr_regval[6] because it is equivalent to instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.nf_usr_regval[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v":1972:16:1972:21|Removing instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.nf_usr_regval[5] because it is equivalent to instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.nf_usr_regval[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v":1972:16:1972:21|Removing instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.nf_usr_regval[4] because it is equivalent to instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.nf_usr_regval[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v":1972:16:1972:21|Removing instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.bw_usr_regval[4] because it is equivalent to instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.bw_usr_regval[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v":1972:16:1972:21|Removing instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.bw_usr_regval[1] because it is equivalent to instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.bw_usr_regval[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v":1972:16:1972:21|Removing instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.nf_usr_regval[8] because it is equivalent to instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.nf_usr_regval[10]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@N: FO126 :"/home/kanmei/src/sincos_linear/source/top_sin_linear.v":48:0:48:5|Generating RAM phase_CR31[31:0]
-@N: FO126 :"/home/kanmei/src/sincos_linear/source/top_sin_linear.v":48:0:48:5|Generating RAM result_CR31[31:0]
-@N: BN362 :"/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v":1972:16:1972:21|Removing sequential instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init\.bw_usr_regval[10] (in view: work.top_sin_linear(verilog)) because it does not drive other instances.
-@N: BN362 :"/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v":1972:16:1972:21|Removing sequential instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init\.nf_usr_regval[11] (in view: work.top_sin_linear(verilog)) because it does not drive other instances.
+@W: BN132 :"/home/kanmei/src/sincos_linear/sim/gpll/rtl/gpll.v":1972:16:1972:21|Removing instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.bw_usr_regval[15] because it is equivalent to instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.bw_usr_regval[14]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/kanmei/src/sincos_linear/sim/gpll/rtl/gpll.v":1972:16:1972:21|Removing instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.bw_usr_regval[14] because it is equivalent to instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.bw_usr_regval[13]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/kanmei/src/sincos_linear/sim/gpll/rtl/gpll.v":1972:16:1972:21|Removing instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.bw_usr_regval[13] because it is equivalent to instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.bw_usr_regval[12]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/kanmei/src/sincos_linear/sim/gpll/rtl/gpll.v":1972:16:1972:21|Removing instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.bw_usr_regval[12] because it is equivalent to instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.bw_usr_regval[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/kanmei/src/sincos_linear/sim/gpll/rtl/gpll.v":1972:16:1972:21|Removing instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.bw_usr_regval[11] because it is equivalent to instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.bw_usr_regval[10]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/kanmei/src/sincos_linear/sim/gpll/rtl/gpll.v":1972:16:1972:21|Removing instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.bw_usr_regval[9] because it is equivalent to instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.bw_usr_regval[10]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/kanmei/src/sincos_linear/sim/gpll/rtl/gpll.v":1972:16:1972:21|Removing instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.bw_usr_regval[8] because it is equivalent to instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.bw_usr_regval[10]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/kanmei/src/sincos_linear/sim/gpll/rtl/gpll.v":1972:16:1972:21|Removing instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.bw_usr_regval[7] because it is equivalent to instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.bw_usr_regval[10]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/kanmei/src/sincos_linear/sim/gpll/rtl/gpll.v":1972:16:1972:21|Removing instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.bw_usr_regval[6] because it is equivalent to instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.bw_usr_regval[10]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/kanmei/src/sincos_linear/sim/gpll/rtl/gpll.v":1972:16:1972:21|Removing instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.bw_usr_regval[5] because it is equivalent to instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.bw_usr_regval[10]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/kanmei/src/sincos_linear/sim/gpll/rtl/gpll.v":1972:16:1972:21|Removing instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.bw_usr_regval[3] because it is equivalent to instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.bw_usr_regval[10]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/kanmei/src/sincos_linear/sim/gpll/rtl/gpll.v":1972:16:1972:21|Removing instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.bw_usr_regval[2] because it is equivalent to instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.bw_usr_regval[10]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/kanmei/src/sincos_linear/sim/gpll/rtl/gpll.v":1972:16:1972:21|Removing instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.nf_usr_regval[15] because it is equivalent to instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.nf_usr_regval[14]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/kanmei/src/sincos_linear/sim/gpll/rtl/gpll.v":1972:16:1972:21|Removing instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.nf_usr_regval[14] because it is equivalent to instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.nf_usr_regval[13]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/kanmei/src/sincos_linear/sim/gpll/rtl/gpll.v":1972:16:1972:21|Removing instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.nf_usr_regval[13] because it is equivalent to instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.nf_usr_regval[12]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/kanmei/src/sincos_linear/sim/gpll/rtl/gpll.v":1972:16:1972:21|Removing instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.nf_usr_regval[12] because it is equivalent to instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.nf_usr_regval[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/kanmei/src/sincos_linear/sim/gpll/rtl/gpll.v":1972:16:1972:21|Removing instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.nf_usr_regval[9] because it is equivalent to instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.nf_usr_regval[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/kanmei/src/sincos_linear/sim/gpll/rtl/gpll.v":1972:16:1972:21|Removing instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.nf_usr_regval[7] because it is equivalent to instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.nf_usr_regval[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/kanmei/src/sincos_linear/sim/gpll/rtl/gpll.v":1972:16:1972:21|Removing instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.nf_usr_regval[6] because it is equivalent to instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.nf_usr_regval[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/kanmei/src/sincos_linear/sim/gpll/rtl/gpll.v":1972:16:1972:21|Removing instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.nf_usr_regval[5] because it is equivalent to instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.nf_usr_regval[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/kanmei/src/sincos_linear/sim/gpll/rtl/gpll.v":1972:16:1972:21|Removing instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.nf_usr_regval[4] because it is equivalent to instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.nf_usr_regval[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/kanmei/src/sincos_linear/sim/gpll/rtl/gpll.v":1972:16:1972:21|Removing instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.bw_usr_regval[4] because it is equivalent to instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.bw_usr_regval[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/kanmei/src/sincos_linear/sim/gpll/rtl/gpll.v":1972:16:1972:21|Removing instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.bw_usr_regval[1] because it is equivalent to instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.bw_usr_regval[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/kanmei/src/sincos_linear/sim/gpll/rtl/gpll.v":1972:16:1972:21|Removing instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.nf_usr_regval[8] because it is equivalent to instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.nf_usr_regval[10]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@N: FO126 :"/home/kanmei/src/sincos_linear/sim/top_sin_linear.v":48:0:48:5|Generating RAM phase_CR31[31:0]
+@N: FO126 :"/home/kanmei/src/sincos_linear/sim/top_sin_linear.v":48:0:48:5|Generating RAM result_CR31[31:0]
+@N: BN362 :"/home/kanmei/src/sincos_linear/sim/gpll/rtl/gpll.v":1972:16:1972:21|Removing sequential instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init\.bw_usr_regval[10] (in view: work.top_sin_linear(verilog)) because it does not drive other instances.
+@N: BN362 :"/home/kanmei/src/sincos_linear/sim/gpll/rtl/gpll.v":1972:16:1972:21|Removing sequential instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init\.nf_usr_regval[11] (in view: work.top_sin_linear(verilog)) because it does not drive other instances.
 
 Finished area decomp  (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 400MB peak: 400MB)
 
@@ -189,14 +189,14 @@ Finished Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elaps
 
 Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 1452MB peak: 1452MB)
 
-@W: BN132 :"/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v":2001:16:2001:21|Removing instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.wdata[6] because it is equivalent to instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.wdata[3]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v":2001:16:2001:21|Removing instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.wdata[3] because it is equivalent to instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.wdata[2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v":2001:16:2001:21|Removing instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.wdata[1] because it is equivalent to instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.wdata[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v":2001:16:2001:21|Removing instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.wdata[7] because it is equivalent to instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.wdata[5]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v":2001:16:2001:21|Removing instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.wdata[8] because it is equivalent to instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.wdata[5]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v":2001:16:2001:21|Removing instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.wdata[9] because it is equivalent to instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.wdata[5]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v":2001:16:2001:21|Removing instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.wdata[11] because it is equivalent to instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.wdata[5]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v":2001:16:2001:21|Removing instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.wdata[10] because it is equivalent to instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.wdata[5]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/kanmei/src/sincos_linear/sim/gpll/rtl/gpll.v":2001:16:2001:21|Removing instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.wdata[6] because it is equivalent to instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.wdata[3]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/kanmei/src/sincos_linear/sim/gpll/rtl/gpll.v":2001:16:2001:21|Removing instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.wdata[3] because it is equivalent to instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.wdata[2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/kanmei/src/sincos_linear/sim/gpll/rtl/gpll.v":2001:16:2001:21|Removing instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.wdata[1] because it is equivalent to instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.wdata[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/kanmei/src/sincos_linear/sim/gpll/rtl/gpll.v":2001:16:2001:21|Removing instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.wdata[7] because it is equivalent to instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.wdata[5]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/kanmei/src/sincos_linear/sim/gpll/rtl/gpll.v":2001:16:2001:21|Removing instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.wdata[8] because it is equivalent to instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.wdata[5]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/kanmei/src/sincos_linear/sim/gpll/rtl/gpll.v":2001:16:2001:21|Removing instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.wdata[9] because it is equivalent to instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.wdata[5]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/kanmei/src/sincos_linear/sim/gpll/rtl/gpll.v":2001:16:2001:21|Removing instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.wdata[11] because it is equivalent to instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.wdata[5]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/kanmei/src/sincos_linear/sim/gpll/rtl/gpll.v":2001:16:2001:21|Removing instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.wdata[10] because it is equivalent to instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.wdata[5]. To keep the instance, apply constraint syn_preserve=1 on the instance.
 
 Finished preparing to map (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 1452MB peak: 1452MB)
 
@@ -209,9 +209,9 @@ Pass		 CPU time		Worst Slack		Luts / Registers
 
 Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 1452MB peak: 1452MB)
 
-@N: BN362 :"/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v":1972:16:1972:21|Removing sequential instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init\.nf_usr_regval[10] (in view: work.top_sin_linear(verilog)) because it does not drive other instances.
-@N: BN362 :"/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v":1972:16:1972:21|Removing sequential instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init\.bw_usr_regval[0] (in view: work.top_sin_linear(verilog)) because it does not drive other instances.
-@N: BN362 :"/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v":2001:16:2001:21|Removing sequential instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init\.wdata[5] (in view: work.top_sin_linear(verilog)) because it does not drive other instances.
+@N: BN362 :"/home/kanmei/src/sincos_linear/sim/gpll/rtl/gpll.v":1972:16:1972:21|Removing sequential instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init\.nf_usr_regval[10] (in view: work.top_sin_linear(verilog)) because it does not drive other instances.
+@N: BN362 :"/home/kanmei/src/sincos_linear/sim/gpll/rtl/gpll.v":1972:16:1972:21|Removing sequential instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init\.bw_usr_regval[0] (in view: work.top_sin_linear(verilog)) because it does not drive other instances.
+@N: BN362 :"/home/kanmei/src/sincos_linear/sim/gpll/rtl/gpll.v":2001:16:2001:21|Removing sequential instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init\.wdata[5] (in view: work.top_sin_linear(verilog)) because it does not drive other instances.
 @N: FX164 |The option to pack registers in the IOB has not been specified. Please set syn_useioff attribute.  
 
 Finished restoring hierarchy (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 1452MB peak: 1452MB)
@@ -227,7 +227,7 @@ Start Writing Netlists (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00
 
 Writing Analyst data base /home/kanmei/src/sincos_linear/project/Avant/synwork/sincos_linear_Avant_m.srm
 
-Finished Writing Netlist Databases (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:01s; Memory used current: 1452MB peak: 1452MB)
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 1452MB peak: 1452MB)
 
 Writing Verilog Simulation files
 
@@ -245,14 +245,14 @@ Finished Writing Netlists (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m
 Start final timing analysis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 1452MB peak: 1452MB)
 
 @W: MT246 :"/home/kanmei/src/sincos_linear/source/mult18x18p48.v":52:3:52:15|Blackbox MULTADDSUB18X18A is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results)
-@W: MT246 :"/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v":1377:58:1377:62|Blackbox PLLC is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results)
-@W: MT246 :"/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v":2202:17:2202:29|Blackbox PLL_LMMI_MUX is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results)
+@W: MT246 :"/home/kanmei/src/sincos_linear/sim/gpll/rtl/gpll.v":1377:58:1377:62|Blackbox PLLC is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results)
+@W: MT246 :"/home/kanmei/src/sincos_linear/sim/gpll/rtl/gpll.v":2202:17:2202:29|Blackbox PLL_LMMI_MUX is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results)
 @W: MT420 |Found inferred clock gpll_ipgen_lscc_pll_Z1_layer0|clkout_clkop_o_inferred_clock with period 5.00ns. Please declare a user-defined clock on net gpll_i.lscc_pll_inst.clk.
 @W: MT420 |Found inferred clock gpll_ipgen_lscc_pll_Z1_layer0|clkout_testclk_o_inferred_clock with period 5.00ns. Please declare a user-defined clock on net gpll_i.lscc_pll_inst.clkout_testclk_o.
 
 
 ##### START OF TIMING REPORT #####[
-# Timing report written on Sat Jan  3 22:05:35 2026
+# Timing report written on Mon Jan  5 18:03:12 2026
 #
 
 
@@ -625,6 +625,6 @@ Mapper successful!
 At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 1363MB peak: 1452MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
-# Sat Jan  3 22:05:35 2026
+# Mon Jan  5 18:03:12 2026
 
 ###########################################################]

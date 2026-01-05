@@ -1,4 +1,4 @@
-#OPTIONS:"|-mixedhdl|-modhint|/home/kanmei/src/sincos_linear/project/Avant/synwork/_verilog_hintfile|-top|top_sin_linear|-layerid|0|-orig_srs|/home/kanmei/src/sincos_linear/project/Avant/synwork/sincos_linear_Avant_comp.srs|-prodtype|synplify_pro|-dspmac|-fixsmult|-infer_seqShift|-nram|-sdff_counter|-divnmod|-nostructver|-lattice|-I|/home/kanmei/src/sincos_linear/project|-I|/home/kanmei/src/sincos_linear/source/gpll|-I|/home/kanmei/src/sincos_linear/source/rom_dy18|-I|/home/kanmei/src/sincos_linear/source/rom_y36|-I|/home/kanmei/src/sincos_linear/project/Avant/|-I|/usr/local/lscc/radiant/2025.2/synpbase/lib|-v2001|-devicelib|/usr/local/lscc/radiant/2025.2/synpbase/lib/generic/lav-ate.v|-encrypt|-pro|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-D_MULTIPLE_FILE_COMPILATION_UNIT_|-lib|work|-lib|work|-fv2001|-lib|work|-fv2001|-lib|work|-fv2001|-lib|work|-fv2001|-lib|work|-fv2001|-lib|work|-fv2001|-lib|work|-fv2001"
+#OPTIONS:"|-mixedhdl|-modhint|/home/kanmei/src/sincos_linear/project/Avant/synwork/_verilog_hintfile|-top|top_sin_linear|-layerid|0|-orig_srs|/home/kanmei/src/sincos_linear/project/Avant/synwork/sincos_linear_Avant_comp.srs|-prodtype|synplify_pro|-dspmac|-fixsmult|-infer_seqShift|-nram|-sdff_counter|-divnmod|-nostructver|-lattice|-I|/home/kanmei/src/sincos_linear/project|-I|/home/kanmei/src/sincos_linear/sim/gpll|-I|/home/kanmei/src/sincos_linear/source/rom_dy18|-I|/home/kanmei/src/sincos_linear/source/rom_y36|-I|/home/kanmei/src/sincos_linear/project/Avant/|-I|/usr/local/lscc/radiant/2025.2/synpbase/lib|-v2001|-devicelib|/usr/local/lscc/radiant/2025.2/synpbase/lib/generic/lav-ate.v|-encrypt|-pro|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-D_MULTIPLE_FILE_COMPILATION_UNIT_|-lib|work|-lib|work|-fv2001|-lib|work|-fv2001|-lib|work|-fv2001|-lib|work|-fv2001|-lib|work|-fv2001|-lib|work|-fv2001|-lib|work|-fv2001"
 #CUR:"/usr/local/lscc/radiant/2025.2/synpbase/linux_a_64/c_ver":1762852028
 #CUR:"/home/kanmei/src/sincos_linear/project/Avant/synwork/_verilog_hintfile":1767429214
 #CUR:"/usr/local/lscc/radiant/2025.2/synpbase/lib/generic/lav-ate.v":1764800192
@@ -56,10 +56,10 @@
 #CUR:"/home/kanmei/src/sincos_linear/source/mult18x18p48.v":1767307313
 #CUR:"/home/kanmei/src/sincos_linear/source/sincos_linear.v":1767307917
 #CUR:"/home/kanmei/src/sincos_linear/source/sin_linear.v":1767445405
-#CUR:"/home/kanmei/src/sincos_linear/source/top_sin_linear.v":1767437795
+#CUR:"/home/kanmei/src/sincos_linear/sim/top_sin_linear.v":1767437795
 #CUR:"/home/kanmei/src/sincos_linear/source/rom_y36/rtl/rom_y36.v":1767438284
 #CUR:"/home/kanmei/src/sincos_linear/source/rom_dy18/rtl/rom_dy18.v":1767438284
-#CUR:"/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v":1767445514
+#CUR:"/home/kanmei/src/sincos_linear/sim/gpll/rtl/gpll.v":1767445514
 0			"/usr/local/lscc/radiant/2025.2/ip/pmi/pmi_lav-at.v" verilog
 1		*	"/usr/local/lscc/radiant/2025.2/ip/pmi/pmi_addsub.v" verilog
 2		*	"/usr/local/lscc/radiant/2025.2/ip/pmi/../common/adder_subtractor/rtl/lscc_add_sub.v" verilog
@@ -107,10 +107,10 @@
 44			"/home/kanmei/src/sincos_linear/source/mult18x18p48.v" verilog
 45			"/home/kanmei/src/sincos_linear/source/sincos_linear.v" verilog
 46			"/home/kanmei/src/sincos_linear/source/sin_linear.v" verilog
-47			"/home/kanmei/src/sincos_linear/source/top_sin_linear.v" verilog
+47			"/home/kanmei/src/sincos_linear/sim/top_sin_linear.v" verilog
 48			"/home/kanmei/src/sincos_linear/source/rom_y36/rtl/rom_y36.v" verilog
 49			"/home/kanmei/src/sincos_linear/source/rom_dy18/rtl/rom_dy18.v" verilog
-50			"/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v" verilog
+50			"/home/kanmei/src/sincos_linear/sim/gpll/rtl/gpll.v" verilog
 #Dependency Lists(Uses List)
 0 43 42 41 40 39 38 37 36 35 34 33 32 31 30 29 28 27 26 25 24 23 22 21 20 19 18 17 16 15 14 13 12 11 10 9 8 7 6 5 4 3 2 1
 1 43 42 41 40 39 38 37 36 35 34 33 32 31 30 29 28 27 26 25 24 23 22 21 20 19 18 17 16 15 14 13 12 11 10 9 8 7 6 5 4 3 2 0

@@ -174,13 +174,13 @@
 @N: CG334 :"/usr/local/lscc/radiant/2025.2/ip/pmi/../common/rom/rtl/lscc_rom.v":970:25:970:37|Read directive translate_off.
 @N: CG333 :"/usr/local/lscc/radiant/2025.2/ip/pmi/../common/rom/rtl/lscc_rom.v":976:25:976:36|Read directive translate_on.
 @N|stack limit increased to max
-@N: CG364 :"/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v":1849:33:1849:54|Synthesizing module gpll_ipgen_pll_init_bw in library work.
-@N: CG364 :"/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v":2240:31:2240:52|Synthesizing module gpll_ipgen_pll_syncreg in library work.
+@N: CG364 :"/home/kanmei/src/sincos_linear/sim/gpll/rtl/gpll.v":1849:33:1849:54|Synthesizing module gpll_ipgen_pll_init_bw in library work.
+@N: CG364 :"/home/kanmei/src/sincos_linear/sim/gpll/rtl/gpll.v":2240:31:2240:52|Synthesizing module gpll_ipgen_pll_syncreg in library work.
 @N: CG364 :"/usr/local/lscc/radiant/2025.2/synpbase/lib/generic/lav-ate.v":4220:7:4220:18|Synthesizing module PLL_LMMI_MUX in library work.
-@N: CG364 :"/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v":2175:33:2175:59|Synthesizing module gpll_ipgen_pll_sip_lmmi_mux in library work.
-@N: CG364 :"/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v":199:33:199:51|Synthesizing module gpll_ipgen_lscc_pll in library work.
+@N: CG364 :"/home/kanmei/src/sincos_linear/sim/gpll/rtl/gpll.v":2175:33:2175:59|Synthesizing module gpll_ipgen_pll_sip_lmmi_mux in library work.
+@N: CG364 :"/home/kanmei/src/sincos_linear/sim/gpll/rtl/gpll.v":199:33:199:51|Synthesizing module gpll_ipgen_lscc_pll in library work.
 @N: CG364 :"/usr/local/lscc/radiant/2025.2/synpbase/lib/generic/lav-ate.v":3566:7:3566:10|Synthesizing module PLLC in library work.
-@N: CG364 :"/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v":11:63:11:66|Synthesizing module gpll in library work.
+@N: CG364 :"/home/kanmei/src/sincos_linear/sim/gpll/rtl/gpll.v":11:63:11:66|Synthesizing module gpll in library work.
 @N: CG364 :"/home/kanmei/src/sincos_linear/source/rom_y36/rtl/rom_y36.v":624:7:624:33|Synthesizing module rom_y36_ipgen_lscc_rom_inst in library work.
 @N: CG364 :"/home/kanmei/src/sincos_linear/source/rom_y36/rtl/rom_y36.v":1794:7:1794:38|Synthesizing module rom_y36_ipgen_lscc_rom_inst_core in library work.
 @N: CG364 :"/usr/local/lscc/radiant/2025.2/synpbase/lib/generic/lav-ate.v":3812:7:3812:11|Synthesizing module SP32K in library work.
@@ -198,11 +198,11 @@
 @N: CG364 :"/home/kanmei/src/sincos_linear/source/mult18x18p48.v":2:7:2:18|Synthesizing module mult18x18p48 in library work.
 @N: CG364 :"/home/kanmei/src/sincos_linear/source/sin_linear.v":12:7:12:16|Synthesizing module sin_linear in library work.
 @N: CG364 :"/home/kanmei/src/sincos_linear/source/sincos_linear.v":3:7:3:19|Synthesizing module sincos_linear in library work.
-@N: CG364 :"/home/kanmei/src/sincos_linear/source/top_sin_linear.v":3:7:3:20|Synthesizing module top_sin_linear in library work.
-@N: CL135 :"/home/kanmei/src/sincos_linear/source/top_sin_linear.v":48:0:48:5|Found sequential shift phase with address depth of 4 words and data bit width of 32.
-@N: CL135 :"/home/kanmei/src/sincos_linear/source/top_sin_linear.v":48:0:48:5|Found sequential shift valid_i with address depth of 4 words and data bit width of 1.
-@N: CL135 :"/home/kanmei/src/sincos_linear/source/top_sin_linear.v":48:0:48:5|Found sequential shift valid_o with address depth of 3 words and data bit width of 1.
-@N: CL135 :"/home/kanmei/src/sincos_linear/source/top_sin_linear.v":48:0:48:5|Found sequential shift result with address depth of 3 words and data bit width of 32.
+@N: CG364 :"/home/kanmei/src/sincos_linear/sim/top_sin_linear.v":3:7:3:20|Synthesizing module top_sin_linear in library work.
+@N: CL135 :"/home/kanmei/src/sincos_linear/sim/top_sin_linear.v":48:0:48:5|Found sequential shift phase with address depth of 4 words and data bit width of 32.
+@N: CL135 :"/home/kanmei/src/sincos_linear/sim/top_sin_linear.v":48:0:48:5|Found sequential shift valid_i with address depth of 4 words and data bit width of 1.
+@N: CL135 :"/home/kanmei/src/sincos_linear/sim/top_sin_linear.v":48:0:48:5|Found sequential shift valid_o with address depth of 3 words and data bit width of 1.
+@N: CL135 :"/home/kanmei/src/sincos_linear/sim/top_sin_linear.v":48:0:48:5|Found sequential shift result with address depth of 3 words and data bit width of 32.
 @N: CL159 :"/home/kanmei/src/sincos_linear/source/rom_dy18/rtl/rom_dy18.v":1952:10:1952:16|Input rd_en_i is unused.
 @N: CL159 :"/home/kanmei/src/sincos_linear/source/rom_dy18/rtl/rom_dy18.v":1957:31:1957:35|Input ben_i is unused.
 @N: CL159 :"/home/kanmei/src/sincos_linear/source/rom_dy18/rtl/rom_dy18.v":1952:10:1952:16|Input rd_en_i is unused.
@@ -217,14 +217,14 @@
 @N: CL159 :"/home/kanmei/src/sincos_linear/source/rom_y36/rtl/rom_y36.v":1952:10:1952:16|Input rd_en_i is unused.
 @N: CL159 :"/home/kanmei/src/sincos_linear/source/rom_y36/rtl/rom_y36.v":1957:31:1957:35|Input ben_i is unused.
 @N: CL159 :"/home/kanmei/src/sincos_linear/source/rom_y36/rtl/rom_y36.v":794:31:794:35|Input ben_i is unused.
-@N: CL159 :"/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v":302:10:302:21|Input usr_fbkclk_i is unused.
-@N: CL159 :"/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v":354:10:354:19|Input apb_pclk_i is unused.
-@N: CL159 :"/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v":355:10:355:23|Input apb_preset_n_i is unused.
-@N: CL159 :"/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v":356:10:356:19|Input apb_psel_i is unused.
-@N: CL159 :"/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v":357:10:357:22|Input apb_penable_i is unused.
-@N: CL159 :"/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v":358:10:358:21|Input apb_pwrite_i is unused.
-@N: CL159 :"/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v":359:16:359:26|Input apb_paddr_i is unused.
-@N: CL159 :"/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v":360:17:360:28|Input apb_pwdata_i is unused.
-@N: CL201 :"/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v":2001:16:2001:21|Trying to extract state machine for register gen_bw_init.bw_init_cs.
+@N: CL159 :"/home/kanmei/src/sincos_linear/sim/gpll/rtl/gpll.v":302:10:302:21|Input usr_fbkclk_i is unused.
+@N: CL159 :"/home/kanmei/src/sincos_linear/sim/gpll/rtl/gpll.v":354:10:354:19|Input apb_pclk_i is unused.
+@N: CL159 :"/home/kanmei/src/sincos_linear/sim/gpll/rtl/gpll.v":355:10:355:23|Input apb_preset_n_i is unused.
+@N: CL159 :"/home/kanmei/src/sincos_linear/sim/gpll/rtl/gpll.v":356:10:356:19|Input apb_psel_i is unused.
+@N: CL159 :"/home/kanmei/src/sincos_linear/sim/gpll/rtl/gpll.v":357:10:357:22|Input apb_penable_i is unused.
+@N: CL159 :"/home/kanmei/src/sincos_linear/sim/gpll/rtl/gpll.v":358:10:358:21|Input apb_pwrite_i is unused.
+@N: CL159 :"/home/kanmei/src/sincos_linear/sim/gpll/rtl/gpll.v":359:16:359:26|Input apb_paddr_i is unused.
+@N: CL159 :"/home/kanmei/src/sincos_linear/sim/gpll/rtl/gpll.v":360:17:360:28|Input apb_pwdata_i is unused.
+@N: CL201 :"/home/kanmei/src/sincos_linear/sim/gpll/rtl/gpll.v":2001:16:2001:21|Trying to extract state machine for register gen_bw_init.bw_init_cs.
 @N|Running in 64-bit mode
 

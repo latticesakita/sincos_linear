@@ -1,4 +1,4 @@
-# Sat Jan  3 22:05:33 2026
+# Mon Jan  5 18:03:10 2026
 
 
 Copyright (C) 1994-2025 Synopsys, Inc.
@@ -118,7 +118,7 @@ gpll_ipgen_lscc_pll_Z1_layer0|clkout_testclk_o_inferred_clock     27        gpll
 =============================================================================================================================================================================================================================================
 
 @W: MT530 :"/home/kanmei/src/sincos_linear/source/rom_y36/rtl/rom_y36.v":2974:174:2974:178|Found inferred clock gpll_ipgen_lscc_pll_Z1_layer0|clkout_clkop_o_inferred_clock which controls 212 sequential elements including dut.sin_linear_i.rom_y0_i.lscc_rom_inst.u_rom.PRIM_MODE\.xADDR\[0\]\.xDATA\[2\]\.mem_file\.mem0.AP6\.SP32K\.sp32k. This clock has no specified timing constraint which may adversely impact design performance. 
-@W: MT530 :"/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v":2285:4:2285:9|Found inferred clock gpll_ipgen_lscc_pll_Z1_layer0|clkout_testclk_o_inferred_clock which controls 27 sequential elements including gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init\.u_rst_n_sync.sync_reg[1:0]. This clock has no specified timing constraint which may adversely impact design performance. 
+@W: MT530 :"/home/kanmei/src/sincos_linear/sim/gpll/rtl/gpll.v":2285:4:2285:9|Found inferred clock gpll_ipgen_lscc_pll_Z1_layer0|clkout_testclk_o_inferred_clock which controls 27 sequential elements including gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init\.u_rst_n_sync.sync_reg[1:0]. This clock has no specified timing constraint which may adversely impact design performance. 
 
 ICG Latch Removal Summary:
 Number of ICG latches removed: 0
@@ -162,6 +162,6 @@ Pre-mapping successful!
 At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 313MB peak: 402MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
-# Sat Jan  3 22:05:34 2026
+# Mon Jan  5 18:03:10 2026
 
 ###########################################################]

@@ -75,14 +75,14 @@
 @N: BN362 :|Removing sequential instance G_139 (in view: work.top_sin_linear(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
 @N: BN362 :|Removing sequential instance G_141 (in view: work.top_sin_linear(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
 @N: BN362 :|Removing sequential instance G_143 (in view: work.top_sin_linear(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
-@N: FO126 :"/home/kanmei/src/sincos_linear/source/top_sin_linear.v":48:0:48:5|Generating RAM phase_CR31[31:0]
-@N: FO126 :"/home/kanmei/src/sincos_linear/source/top_sin_linear.v":48:0:48:5|Generating RAM result_CR31[31:0]
-@N: BN362 :"/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v":1972:16:1972:21|Removing sequential instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init\.bw_usr_regval[10] (in view: work.top_sin_linear(verilog)) because it does not drive other instances.
-@N: BN362 :"/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v":1972:16:1972:21|Removing sequential instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init\.nf_usr_regval[11] (in view: work.top_sin_linear(verilog)) because it does not drive other instances.
+@N: FO126 :"/home/kanmei/src/sincos_linear/sim/top_sin_linear.v":48:0:48:5|Generating RAM phase_CR31[31:0]
+@N: FO126 :"/home/kanmei/src/sincos_linear/sim/top_sin_linear.v":48:0:48:5|Generating RAM result_CR31[31:0]
+@N: BN362 :"/home/kanmei/src/sincos_linear/sim/gpll/rtl/gpll.v":1972:16:1972:21|Removing sequential instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init\.bw_usr_regval[10] (in view: work.top_sin_linear(verilog)) because it does not drive other instances.
+@N: BN362 :"/home/kanmei/src/sincos_linear/sim/gpll/rtl/gpll.v":1972:16:1972:21|Removing sequential instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init\.nf_usr_regval[11] (in view: work.top_sin_linear(verilog)) because it does not drive other instances.
 @N: MF794 |RAM result_CR31[31:0] required 2 registers during mapping 
-@N: BN362 :"/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v":1972:16:1972:21|Removing sequential instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init\.nf_usr_regval[10] (in view: work.top_sin_linear(verilog)) because it does not drive other instances.
-@N: BN362 :"/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v":1972:16:1972:21|Removing sequential instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init\.bw_usr_regval[0] (in view: work.top_sin_linear(verilog)) because it does not drive other instances.
-@N: BN362 :"/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v":2001:16:2001:21|Removing sequential instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init\.wdata[5] (in view: work.top_sin_linear(verilog)) because it does not drive other instances.
+@N: BN362 :"/home/kanmei/src/sincos_linear/sim/gpll/rtl/gpll.v":1972:16:1972:21|Removing sequential instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init\.nf_usr_regval[10] (in view: work.top_sin_linear(verilog)) because it does not drive other instances.
+@N: BN362 :"/home/kanmei/src/sincos_linear/sim/gpll/rtl/gpll.v":1972:16:1972:21|Removing sequential instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init\.bw_usr_regval[0] (in view: work.top_sin_linear(verilog)) because it does not drive other instances.
+@N: BN362 :"/home/kanmei/src/sincos_linear/sim/gpll/rtl/gpll.v":2001:16:2001:21|Removing sequential instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init\.wdata[5] (in view: work.top_sin_linear(verilog)) because it does not drive other instances.
 @N: FX164 |The option to pack registers in the IOB has not been specified. Please set syn_useioff attribute.  
 @N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.
 @N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 

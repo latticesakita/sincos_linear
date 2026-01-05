@@ -2036,19 +2036,19 @@
         <Message>
             <ID>35901209</ID>
             <Severity>16</Severity>
-            <Dynamic>/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v(1939): </Dynamic>
+            <Dynamic>/home/kanmei/src/sincos_linear/sim/gpll/rtl/gpll.v(1939): </Dynamic>
             <Dynamic>20</Dynamic>
             <Dynamic>16</Dynamic>
-            <Navigation>/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v</Navigation>
+            <Navigation>/home/kanmei/src/sincos_linear/sim/gpll/rtl/gpll.v</Navigation>
             <Navigation>1939</Navigation>
         </Message>
         <Message>
             <ID>35901209</ID>
             <Severity>16</Severity>
-            <Dynamic>/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v(1943): </Dynamic>
+            <Dynamic>/home/kanmei/src/sincos_linear/sim/gpll/rtl/gpll.v(1943): </Dynamic>
             <Dynamic>16</Dynamic>
             <Dynamic>12</Dynamic>
-            <Navigation>/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v</Navigation>
+            <Navigation>/home/kanmei/src/sincos_linear/sim/gpll/rtl/gpll.v</Navigation>
             <Navigation>1943</Navigation>
         </Message>
         <Message>
@@ -2435,9 +2435,9 @@
         <Message>
             <ID>2012917</ID>
             <Severity>16</Severity>
-            <Dynamic>CL271 :&quot;/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v&quot;:1972:16:1972:21|Pruning unused bits 3 to 0 of gen_bw_init.nf_usr_regval[15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Dynamic>
+            <Dynamic>CL271 :&quot;/home/kanmei/src/sincos_linear/sim/gpll/rtl/gpll.v&quot;:1972:16:1972:21|Pruning unused bits 3 to 0 of gen_bw_init.nf_usr_regval[15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Dynamic>
             <Navigation>CL271</Navigation>
-            <Navigation>/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v</Navigation>
+            <Navigation>/home/kanmei/src/sincos_linear/sim/gpll/rtl/gpll.v</Navigation>
             <Navigation>1972</Navigation>
             <Navigation>16</Navigation>
             <Navigation>1972</Navigation>
@@ -2699,9 +2699,9 @@
         <Message>
             <ID>2013202</ID>
             <Severity>16</Severity>
-            <Dynamic>MT530 :&quot;/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v&quot;:2285:4:2285:9|Found inferred clock gpll_ipgen_lscc_pll_Z1_layer0|clkout_testclk_o_inferred_clock which controls 27 sequential elements including gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init\.u_rst_n_sync.sync_reg[1:0]. This clock has no specified timing constraint which may adversely impact design performance.</Dynamic>
+            <Dynamic>MT530 :&quot;/home/kanmei/src/sincos_linear/sim/gpll/rtl/gpll.v&quot;:2285:4:2285:9|Found inferred clock gpll_ipgen_lscc_pll_Z1_layer0|clkout_testclk_o_inferred_clock which controls 27 sequential elements including gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init\.u_rst_n_sync.sync_reg[1:0]. This clock has no specified timing constraint which may adversely impact design performance.</Dynamic>
             <Navigation>MT530</Navigation>
-            <Navigation>/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v</Navigation>
+            <Navigation>/home/kanmei/src/sincos_linear/sim/gpll/rtl/gpll.v</Navigation>
             <Navigation>2285</Navigation>
             <Navigation>4</Navigation>
             <Navigation>2285</Navigation>
@@ -2718,9 +2718,9 @@
         <Message>
             <ID>2012025</ID>
             <Severity>16</Severity>
-            <Dynamic>BN132 :&quot;/home/kanmei/src/sincos_linear/source/top_sin_linear.v&quot;:48:0:48:5|Removing sequential instance phase_CF1[1:0] because it is equivalent to instance result_CF1[1:0]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Dynamic>BN132 :&quot;/home/kanmei/src/sincos_linear/sim/top_sin_linear.v&quot;:48:0:48:5|Removing sequential instance phase_CF1[1:0] because it is equivalent to instance result_CF1[1:0]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
             <Navigation>BN132</Navigation>
-            <Navigation>/home/kanmei/src/sincos_linear/source/top_sin_linear.v</Navigation>
+            <Navigation>/home/kanmei/src/sincos_linear/sim/top_sin_linear.v</Navigation>
             <Navigation>48</Navigation>
             <Navigation>0</Navigation>
             <Navigation>48</Navigation>
@@ -2730,9 +2730,9 @@
         <Message>
             <ID>2012025</ID>
             <Severity>16</Severity>
-            <Dynamic>BN132 :&quot;/home/kanmei/src/sincos_linear/source/top_sin_linear.v&quot;:48:0:48:5|Removing user instance result_C10frac[1:0] because it is equivalent to instance phase_C1[1:0]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Dynamic>BN132 :&quot;/home/kanmei/src/sincos_linear/sim/top_sin_linear.v&quot;:48:0:48:5|Removing user instance result_C10frac[1:0] because it is equivalent to instance phase_C1[1:0]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
             <Navigation>BN132</Navigation>
-            <Navigation>/home/kanmei/src/sincos_linear/source/top_sin_linear.v</Navigation>
+            <Navigation>/home/kanmei/src/sincos_linear/sim/top_sin_linear.v</Navigation>
             <Navigation>48</Navigation>
             <Navigation>0</Navigation>
             <Navigation>48</Navigation>
@@ -2742,9 +2742,9 @@
         <Message>
             <ID>2012025</ID>
             <Severity>16</Severity>
-            <Dynamic>BN132 :&quot;/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v&quot;:1972:16:1972:21|Removing instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.bw_usr_regval[15] because it is equivalent to instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.bw_usr_regval[14]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Dynamic>BN132 :&quot;/home/kanmei/src/sincos_linear/sim/gpll/rtl/gpll.v&quot;:1972:16:1972:21|Removing instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.bw_usr_regval[15] because it is equivalent to instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.bw_usr_regval[14]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
             <Navigation>BN132</Navigation>
-            <Navigation>/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v</Navigation>
+            <Navigation>/home/kanmei/src/sincos_linear/sim/gpll/rtl/gpll.v</Navigation>
             <Navigation>1972</Navigation>
             <Navigation>16</Navigation>
             <Navigation>1972</Navigation>
@@ -2754,9 +2754,9 @@
         <Message>
             <ID>2012025</ID>
             <Severity>16</Severity>
-            <Dynamic>BN132 :&quot;/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v&quot;:1972:16:1972:21|Removing instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.bw_usr_regval[14] because it is equivalent to instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.bw_usr_regval[13]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Dynamic>BN132 :&quot;/home/kanmei/src/sincos_linear/sim/gpll/rtl/gpll.v&quot;:1972:16:1972:21|Removing instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.bw_usr_regval[14] because it is equivalent to instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.bw_usr_regval[13]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
             <Navigation>BN132</Navigation>
-            <Navigation>/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v</Navigation>
+            <Navigation>/home/kanmei/src/sincos_linear/sim/gpll/rtl/gpll.v</Navigation>
             <Navigation>1972</Navigation>
             <Navigation>16</Navigation>
             <Navigation>1972</Navigation>
@@ -2766,9 +2766,9 @@
         <Message>
             <ID>2012025</ID>
             <Severity>16</Severity>
-            <Dynamic>BN132 :&quot;/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v&quot;:1972:16:1972:21|Removing instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.bw_usr_regval[13] because it is equivalent to instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.bw_usr_regval[12]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Dynamic>BN132 :&quot;/home/kanmei/src/sincos_linear/sim/gpll/rtl/gpll.v&quot;:1972:16:1972:21|Removing instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.bw_usr_regval[13] because it is equivalent to instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.bw_usr_regval[12]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
             <Navigation>BN132</Navigation>
-            <Navigation>/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v</Navigation>
+            <Navigation>/home/kanmei/src/sincos_linear/sim/gpll/rtl/gpll.v</Navigation>
             <Navigation>1972</Navigation>
             <Navigation>16</Navigation>
             <Navigation>1972</Navigation>
@@ -2778,9 +2778,9 @@
         <Message>
             <ID>2012025</ID>
             <Severity>16</Severity>
-            <Dynamic>BN132 :&quot;/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v&quot;:1972:16:1972:21|Removing instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.bw_usr_regval[12] because it is equivalent to instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.bw_usr_regval[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Dynamic>BN132 :&quot;/home/kanmei/src/sincos_linear/sim/gpll/rtl/gpll.v&quot;:1972:16:1972:21|Removing instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.bw_usr_regval[12] because it is equivalent to instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.bw_usr_regval[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
             <Navigation>BN132</Navigation>
-            <Navigation>/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v</Navigation>
+            <Navigation>/home/kanmei/src/sincos_linear/sim/gpll/rtl/gpll.v</Navigation>
             <Navigation>1972</Navigation>
             <Navigation>16</Navigation>
             <Navigation>1972</Navigation>
@@ -2790,9 +2790,9 @@
         <Message>
             <ID>2012025</ID>
             <Severity>16</Severity>
-            <Dynamic>BN132 :&quot;/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v&quot;:1972:16:1972:21|Removing instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.bw_usr_regval[11] because it is equivalent to instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.bw_usr_regval[10]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Dynamic>BN132 :&quot;/home/kanmei/src/sincos_linear/sim/gpll/rtl/gpll.v&quot;:1972:16:1972:21|Removing instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.bw_usr_regval[11] because it is equivalent to instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.bw_usr_regval[10]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
             <Navigation>BN132</Navigation>
-            <Navigation>/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v</Navigation>
+            <Navigation>/home/kanmei/src/sincos_linear/sim/gpll/rtl/gpll.v</Navigation>
             <Navigation>1972</Navigation>
             <Navigation>16</Navigation>
             <Navigation>1972</Navigation>
@@ -2802,9 +2802,9 @@
         <Message>
             <ID>2012025</ID>
             <Severity>16</Severity>
-            <Dynamic>BN132 :&quot;/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v&quot;:1972:16:1972:21|Removing instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.bw_usr_regval[9] because it is equivalent to instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.bw_usr_regval[10]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Dynamic>BN132 :&quot;/home/kanmei/src/sincos_linear/sim/gpll/rtl/gpll.v&quot;:1972:16:1972:21|Removing instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.bw_usr_regval[9] because it is equivalent to instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.bw_usr_regval[10]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
             <Navigation>BN132</Navigation>
-            <Navigation>/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v</Navigation>
+            <Navigation>/home/kanmei/src/sincos_linear/sim/gpll/rtl/gpll.v</Navigation>
             <Navigation>1972</Navigation>
             <Navigation>16</Navigation>
             <Navigation>1972</Navigation>
@@ -2814,9 +2814,9 @@
         <Message>
             <ID>2012025</ID>
             <Severity>16</Severity>
-            <Dynamic>BN132 :&quot;/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v&quot;:1972:16:1972:21|Removing instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.bw_usr_regval[8] because it is equivalent to instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.bw_usr_regval[10]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Dynamic>BN132 :&quot;/home/kanmei/src/sincos_linear/sim/gpll/rtl/gpll.v&quot;:1972:16:1972:21|Removing instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.bw_usr_regval[8] because it is equivalent to instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.bw_usr_regval[10]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
             <Navigation>BN132</Navigation>
-            <Navigation>/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v</Navigation>
+            <Navigation>/home/kanmei/src/sincos_linear/sim/gpll/rtl/gpll.v</Navigation>
             <Navigation>1972</Navigation>
             <Navigation>16</Navigation>
             <Navigation>1972</Navigation>
@@ -2826,9 +2826,9 @@
         <Message>
             <ID>2012025</ID>
             <Severity>16</Severity>
-            <Dynamic>BN132 :&quot;/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v&quot;:1972:16:1972:21|Removing instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.bw_usr_regval[7] because it is equivalent to instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.bw_usr_regval[10]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Dynamic>BN132 :&quot;/home/kanmei/src/sincos_linear/sim/gpll/rtl/gpll.v&quot;:1972:16:1972:21|Removing instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.bw_usr_regval[7] because it is equivalent to instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.bw_usr_regval[10]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
             <Navigation>BN132</Navigation>
-            <Navigation>/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v</Navigation>
+            <Navigation>/home/kanmei/src/sincos_linear/sim/gpll/rtl/gpll.v</Navigation>
             <Navigation>1972</Navigation>
             <Navigation>16</Navigation>
             <Navigation>1972</Navigation>
@@ -2838,9 +2838,9 @@
         <Message>
             <ID>2012025</ID>
             <Severity>16</Severity>
-            <Dynamic>BN132 :&quot;/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v&quot;:1972:16:1972:21|Removing instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.bw_usr_regval[6] because it is equivalent to instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.bw_usr_regval[10]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Dynamic>BN132 :&quot;/home/kanmei/src/sincos_linear/sim/gpll/rtl/gpll.v&quot;:1972:16:1972:21|Removing instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.bw_usr_regval[6] because it is equivalent to instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.bw_usr_regval[10]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
             <Navigation>BN132</Navigation>
-            <Navigation>/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v</Navigation>
+            <Navigation>/home/kanmei/src/sincos_linear/sim/gpll/rtl/gpll.v</Navigation>
             <Navigation>1972</Navigation>
             <Navigation>16</Navigation>
             <Navigation>1972</Navigation>
@@ -2850,9 +2850,9 @@
         <Message>
             <ID>2012025</ID>
             <Severity>16</Severity>
-            <Dynamic>BN132 :&quot;/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v&quot;:1972:16:1972:21|Removing instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.bw_usr_regval[5] because it is equivalent to instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.bw_usr_regval[10]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Dynamic>BN132 :&quot;/home/kanmei/src/sincos_linear/sim/gpll/rtl/gpll.v&quot;:1972:16:1972:21|Removing instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.bw_usr_regval[5] because it is equivalent to instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.bw_usr_regval[10]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
             <Navigation>BN132</Navigation>
-            <Navigation>/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v</Navigation>
+            <Navigation>/home/kanmei/src/sincos_linear/sim/gpll/rtl/gpll.v</Navigation>
             <Navigation>1972</Navigation>
             <Navigation>16</Navigation>
             <Navigation>1972</Navigation>
@@ -2862,9 +2862,9 @@
         <Message>
             <ID>2012025</ID>
             <Severity>16</Severity>
-            <Dynamic>BN132 :&quot;/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v&quot;:1972:16:1972:21|Removing instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.bw_usr_regval[3] because it is equivalent to instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.bw_usr_regval[10]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Dynamic>BN132 :&quot;/home/kanmei/src/sincos_linear/sim/gpll/rtl/gpll.v&quot;:1972:16:1972:21|Removing instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.bw_usr_regval[3] because it is equivalent to instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.bw_usr_regval[10]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
             <Navigation>BN132</Navigation>
-            <Navigation>/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v</Navigation>
+            <Navigation>/home/kanmei/src/sincos_linear/sim/gpll/rtl/gpll.v</Navigation>
             <Navigation>1972</Navigation>
             <Navigation>16</Navigation>
             <Navigation>1972</Navigation>
@@ -2874,9 +2874,9 @@
         <Message>
             <ID>2012025</ID>
             <Severity>16</Severity>
-            <Dynamic>BN132 :&quot;/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v&quot;:1972:16:1972:21|Removing instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.bw_usr_regval[2] because it is equivalent to instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.bw_usr_regval[10]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Dynamic>BN132 :&quot;/home/kanmei/src/sincos_linear/sim/gpll/rtl/gpll.v&quot;:1972:16:1972:21|Removing instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.bw_usr_regval[2] because it is equivalent to instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.bw_usr_regval[10]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
             <Navigation>BN132</Navigation>
-            <Navigation>/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v</Navigation>
+            <Navigation>/home/kanmei/src/sincos_linear/sim/gpll/rtl/gpll.v</Navigation>
             <Navigation>1972</Navigation>
             <Navigation>16</Navigation>
             <Navigation>1972</Navigation>
@@ -2886,9 +2886,9 @@
         <Message>
             <ID>2012025</ID>
             <Severity>16</Severity>
-            <Dynamic>BN132 :&quot;/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v&quot;:1972:16:1972:21|Removing instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.nf_usr_regval[15] because it is equivalent to instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.nf_usr_regval[14]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Dynamic>BN132 :&quot;/home/kanmei/src/sincos_linear/sim/gpll/rtl/gpll.v&quot;:1972:16:1972:21|Removing instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.nf_usr_regval[15] because it is equivalent to instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.nf_usr_regval[14]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
             <Navigation>BN132</Navigation>
-            <Navigation>/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v</Navigation>
+            <Navigation>/home/kanmei/src/sincos_linear/sim/gpll/rtl/gpll.v</Navigation>
             <Navigation>1972</Navigation>
             <Navigation>16</Navigation>
             <Navigation>1972</Navigation>
@@ -2898,9 +2898,9 @@
         <Message>
             <ID>2012025</ID>
             <Severity>16</Severity>
-            <Dynamic>BN132 :&quot;/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v&quot;:1972:16:1972:21|Removing instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.nf_usr_regval[14] because it is equivalent to instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.nf_usr_regval[13]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Dynamic>BN132 :&quot;/home/kanmei/src/sincos_linear/sim/gpll/rtl/gpll.v&quot;:1972:16:1972:21|Removing instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.nf_usr_regval[14] because it is equivalent to instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.nf_usr_regval[13]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
             <Navigation>BN132</Navigation>
-            <Navigation>/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v</Navigation>
+            <Navigation>/home/kanmei/src/sincos_linear/sim/gpll/rtl/gpll.v</Navigation>
             <Navigation>1972</Navigation>
             <Navigation>16</Navigation>
             <Navigation>1972</Navigation>
@@ -2910,9 +2910,9 @@
         <Message>
             <ID>2012025</ID>
             <Severity>16</Severity>
-            <Dynamic>BN132 :&quot;/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v&quot;:1972:16:1972:21|Removing instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.nf_usr_regval[13] because it is equivalent to instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.nf_usr_regval[12]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Dynamic>BN132 :&quot;/home/kanmei/src/sincos_linear/sim/gpll/rtl/gpll.v&quot;:1972:16:1972:21|Removing instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.nf_usr_regval[13] because it is equivalent to instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.nf_usr_regval[12]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
             <Navigation>BN132</Navigation>
-            <Navigation>/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v</Navigation>
+            <Navigation>/home/kanmei/src/sincos_linear/sim/gpll/rtl/gpll.v</Navigation>
             <Navigation>1972</Navigation>
             <Navigation>16</Navigation>
             <Navigation>1972</Navigation>
@@ -2922,9 +2922,9 @@
         <Message>
             <ID>2012025</ID>
             <Severity>16</Severity>
-            <Dynamic>BN132 :&quot;/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v&quot;:1972:16:1972:21|Removing instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.nf_usr_regval[12] because it is equivalent to instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.nf_usr_regval[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Dynamic>BN132 :&quot;/home/kanmei/src/sincos_linear/sim/gpll/rtl/gpll.v&quot;:1972:16:1972:21|Removing instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.nf_usr_regval[12] because it is equivalent to instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.nf_usr_regval[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
             <Navigation>BN132</Navigation>
-            <Navigation>/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v</Navigation>
+            <Navigation>/home/kanmei/src/sincos_linear/sim/gpll/rtl/gpll.v</Navigation>
             <Navigation>1972</Navigation>
             <Navigation>16</Navigation>
             <Navigation>1972</Navigation>
@@ -2934,9 +2934,9 @@
         <Message>
             <ID>2012025</ID>
             <Severity>16</Severity>
-            <Dynamic>BN132 :&quot;/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v&quot;:1972:16:1972:21|Removing instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.nf_usr_regval[9] because it is equivalent to instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.nf_usr_regval[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Dynamic>BN132 :&quot;/home/kanmei/src/sincos_linear/sim/gpll/rtl/gpll.v&quot;:1972:16:1972:21|Removing instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.nf_usr_regval[9] because it is equivalent to instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.nf_usr_regval[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
             <Navigation>BN132</Navigation>
-            <Navigation>/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v</Navigation>
+            <Navigation>/home/kanmei/src/sincos_linear/sim/gpll/rtl/gpll.v</Navigation>
             <Navigation>1972</Navigation>
             <Navigation>16</Navigation>
             <Navigation>1972</Navigation>
@@ -2946,9 +2946,9 @@
         <Message>
             <ID>2012025</ID>
             <Severity>16</Severity>
-            <Dynamic>BN132 :&quot;/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v&quot;:1972:16:1972:21|Removing instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.nf_usr_regval[7] because it is equivalent to instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.nf_usr_regval[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Dynamic>BN132 :&quot;/home/kanmei/src/sincos_linear/sim/gpll/rtl/gpll.v&quot;:1972:16:1972:21|Removing instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.nf_usr_regval[7] because it is equivalent to instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.nf_usr_regval[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
             <Navigation>BN132</Navigation>
-            <Navigation>/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v</Navigation>
+            <Navigation>/home/kanmei/src/sincos_linear/sim/gpll/rtl/gpll.v</Navigation>
             <Navigation>1972</Navigation>
             <Navigation>16</Navigation>
             <Navigation>1972</Navigation>
@@ -2958,9 +2958,9 @@
         <Message>
             <ID>2012025</ID>
             <Severity>16</Severity>
-            <Dynamic>BN132 :&quot;/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v&quot;:1972:16:1972:21|Removing instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.nf_usr_regval[6] because it is equivalent to instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.nf_usr_regval[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Dynamic>BN132 :&quot;/home/kanmei/src/sincos_linear/sim/gpll/rtl/gpll.v&quot;:1972:16:1972:21|Removing instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.nf_usr_regval[6] because it is equivalent to instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.nf_usr_regval[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
             <Navigation>BN132</Navigation>
-            <Navigation>/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v</Navigation>
+            <Navigation>/home/kanmei/src/sincos_linear/sim/gpll/rtl/gpll.v</Navigation>
             <Navigation>1972</Navigation>
             <Navigation>16</Navigation>
             <Navigation>1972</Navigation>
@@ -2970,9 +2970,9 @@
         <Message>
             <ID>2012025</ID>
             <Severity>16</Severity>
-            <Dynamic>BN132 :&quot;/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v&quot;:1972:16:1972:21|Removing instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.nf_usr_regval[5] because it is equivalent to instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.nf_usr_regval[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Dynamic>BN132 :&quot;/home/kanmei/src/sincos_linear/sim/gpll/rtl/gpll.v&quot;:1972:16:1972:21|Removing instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.nf_usr_regval[5] because it is equivalent to instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.nf_usr_regval[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
             <Navigation>BN132</Navigation>
-            <Navigation>/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v</Navigation>
+            <Navigation>/home/kanmei/src/sincos_linear/sim/gpll/rtl/gpll.v</Navigation>
             <Navigation>1972</Navigation>
             <Navigation>16</Navigation>
             <Navigation>1972</Navigation>
@@ -2982,9 +2982,9 @@
         <Message>
             <ID>2012025</ID>
             <Severity>16</Severity>
-            <Dynamic>BN132 :&quot;/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v&quot;:1972:16:1972:21|Removing instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.nf_usr_regval[4] because it is equivalent to instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.nf_usr_regval[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Dynamic>BN132 :&quot;/home/kanmei/src/sincos_linear/sim/gpll/rtl/gpll.v&quot;:1972:16:1972:21|Removing instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.nf_usr_regval[4] because it is equivalent to instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.nf_usr_regval[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
             <Navigation>BN132</Navigation>
-            <Navigation>/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v</Navigation>
+            <Navigation>/home/kanmei/src/sincos_linear/sim/gpll/rtl/gpll.v</Navigation>
             <Navigation>1972</Navigation>
             <Navigation>16</Navigation>
             <Navigation>1972</Navigation>
@@ -2994,9 +2994,9 @@
         <Message>
             <ID>2012025</ID>
             <Severity>16</Severity>
-            <Dynamic>BN132 :&quot;/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v&quot;:1972:16:1972:21|Removing instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.bw_usr_regval[4] because it is equivalent to instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.bw_usr_regval[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Dynamic>BN132 :&quot;/home/kanmei/src/sincos_linear/sim/gpll/rtl/gpll.v&quot;:1972:16:1972:21|Removing instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.bw_usr_regval[4] because it is equivalent to instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.bw_usr_regval[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
             <Navigation>BN132</Navigation>
-            <Navigation>/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v</Navigation>
+            <Navigation>/home/kanmei/src/sincos_linear/sim/gpll/rtl/gpll.v</Navigation>
             <Navigation>1972</Navigation>
             <Navigation>16</Navigation>
             <Navigation>1972</Navigation>
@@ -3006,9 +3006,9 @@
         <Message>
             <ID>2012025</ID>
             <Severity>16</Severity>
-            <Dynamic>BN132 :&quot;/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v&quot;:1972:16:1972:21|Removing instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.bw_usr_regval[1] because it is equivalent to instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.bw_usr_regval[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Dynamic>BN132 :&quot;/home/kanmei/src/sincos_linear/sim/gpll/rtl/gpll.v&quot;:1972:16:1972:21|Removing instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.bw_usr_regval[1] because it is equivalent to instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.bw_usr_regval[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
             <Navigation>BN132</Navigation>
-            <Navigation>/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v</Navigation>
+            <Navigation>/home/kanmei/src/sincos_linear/sim/gpll/rtl/gpll.v</Navigation>
             <Navigation>1972</Navigation>
             <Navigation>16</Navigation>
             <Navigation>1972</Navigation>
@@ -3018,9 +3018,9 @@
         <Message>
             <ID>2012025</ID>
             <Severity>16</Severity>
-            <Dynamic>BN132 :&quot;/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v&quot;:1972:16:1972:21|Removing instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.nf_usr_regval[8] because it is equivalent to instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.nf_usr_regval[10]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Dynamic>BN132 :&quot;/home/kanmei/src/sincos_linear/sim/gpll/rtl/gpll.v&quot;:1972:16:1972:21|Removing instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.nf_usr_regval[8] because it is equivalent to instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.nf_usr_regval[10]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
             <Navigation>BN132</Navigation>
-            <Navigation>/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v</Navigation>
+            <Navigation>/home/kanmei/src/sincos_linear/sim/gpll/rtl/gpll.v</Navigation>
             <Navigation>1972</Navigation>
             <Navigation>16</Navigation>
             <Navigation>1972</Navigation>
@@ -3030,9 +3030,9 @@
         <Message>
             <ID>2012025</ID>
             <Severity>16</Severity>
-            <Dynamic>BN132 :&quot;/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v&quot;:2001:16:2001:21|Removing instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.wdata[6] because it is equivalent to instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.wdata[3]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Dynamic>BN132 :&quot;/home/kanmei/src/sincos_linear/sim/gpll/rtl/gpll.v&quot;:2001:16:2001:21|Removing instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.wdata[6] because it is equivalent to instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.wdata[3]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
             <Navigation>BN132</Navigation>
-            <Navigation>/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v</Navigation>
+            <Navigation>/home/kanmei/src/sincos_linear/sim/gpll/rtl/gpll.v</Navigation>
             <Navigation>2001</Navigation>
             <Navigation>16</Navigation>
             <Navigation>2001</Navigation>
@@ -3042,9 +3042,9 @@
         <Message>
             <ID>2012025</ID>
             <Severity>16</Severity>
-            <Dynamic>BN132 :&quot;/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v&quot;:2001:16:2001:21|Removing instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.wdata[3] because it is equivalent to instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.wdata[2]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Dynamic>BN132 :&quot;/home/kanmei/src/sincos_linear/sim/gpll/rtl/gpll.v&quot;:2001:16:2001:21|Removing instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.wdata[3] because it is equivalent to instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.wdata[2]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
             <Navigation>BN132</Navigation>
-            <Navigation>/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v</Navigation>
+            <Navigation>/home/kanmei/src/sincos_linear/sim/gpll/rtl/gpll.v</Navigation>
             <Navigation>2001</Navigation>
             <Navigation>16</Navigation>
             <Navigation>2001</Navigation>
@@ -3054,9 +3054,9 @@
         <Message>
             <ID>2012025</ID>
             <Severity>16</Severity>
-            <Dynamic>BN132 :&quot;/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v&quot;:2001:16:2001:21|Removing instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.wdata[1] because it is equivalent to instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.wdata[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Dynamic>BN132 :&quot;/home/kanmei/src/sincos_linear/sim/gpll/rtl/gpll.v&quot;:2001:16:2001:21|Removing instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.wdata[1] because it is equivalent to instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.wdata[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
             <Navigation>BN132</Navigation>
-            <Navigation>/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v</Navigation>
+            <Navigation>/home/kanmei/src/sincos_linear/sim/gpll/rtl/gpll.v</Navigation>
             <Navigation>2001</Navigation>
             <Navigation>16</Navigation>
             <Navigation>2001</Navigation>
@@ -3066,9 +3066,9 @@
         <Message>
             <ID>2012025</ID>
             <Severity>16</Severity>
-            <Dynamic>BN132 :&quot;/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v&quot;:2001:16:2001:21|Removing instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.wdata[7] because it is equivalent to instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.wdata[5]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Dynamic>BN132 :&quot;/home/kanmei/src/sincos_linear/sim/gpll/rtl/gpll.v&quot;:2001:16:2001:21|Removing instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.wdata[7] because it is equivalent to instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.wdata[5]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
             <Navigation>BN132</Navigation>
-            <Navigation>/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v</Navigation>
+            <Navigation>/home/kanmei/src/sincos_linear/sim/gpll/rtl/gpll.v</Navigation>
             <Navigation>2001</Navigation>
             <Navigation>16</Navigation>
             <Navigation>2001</Navigation>
@@ -3078,9 +3078,9 @@
         <Message>
             <ID>2012025</ID>
             <Severity>16</Severity>
-            <Dynamic>BN132 :&quot;/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v&quot;:2001:16:2001:21|Removing instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.wdata[8] because it is equivalent to instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.wdata[5]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Dynamic>BN132 :&quot;/home/kanmei/src/sincos_linear/sim/gpll/rtl/gpll.v&quot;:2001:16:2001:21|Removing instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.wdata[8] because it is equivalent to instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.wdata[5]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
             <Navigation>BN132</Navigation>
-            <Navigation>/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v</Navigation>
+            <Navigation>/home/kanmei/src/sincos_linear/sim/gpll/rtl/gpll.v</Navigation>
             <Navigation>2001</Navigation>
             <Navigation>16</Navigation>
             <Navigation>2001</Navigation>
@@ -3090,9 +3090,9 @@
         <Message>
             <ID>2012025</ID>
             <Severity>16</Severity>
-            <Dynamic>BN132 :&quot;/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v&quot;:2001:16:2001:21|Removing instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.wdata[9] because it is equivalent to instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.wdata[5]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Dynamic>BN132 :&quot;/home/kanmei/src/sincos_linear/sim/gpll/rtl/gpll.v&quot;:2001:16:2001:21|Removing instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.wdata[9] because it is equivalent to instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.wdata[5]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
             <Navigation>BN132</Navigation>
-            <Navigation>/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v</Navigation>
+            <Navigation>/home/kanmei/src/sincos_linear/sim/gpll/rtl/gpll.v</Navigation>
             <Navigation>2001</Navigation>
             <Navigation>16</Navigation>
             <Navigation>2001</Navigation>
@@ -3102,9 +3102,9 @@
         <Message>
             <ID>2012025</ID>
             <Severity>16</Severity>
-            <Dynamic>BN132 :&quot;/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v&quot;:2001:16:2001:21|Removing instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.wdata[11] because it is equivalent to instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.wdata[5]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Dynamic>BN132 :&quot;/home/kanmei/src/sincos_linear/sim/gpll/rtl/gpll.v&quot;:2001:16:2001:21|Removing instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.wdata[11] because it is equivalent to instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.wdata[5]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
             <Navigation>BN132</Navigation>
-            <Navigation>/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v</Navigation>
+            <Navigation>/home/kanmei/src/sincos_linear/sim/gpll/rtl/gpll.v</Navigation>
             <Navigation>2001</Navigation>
             <Navigation>16</Navigation>
             <Navigation>2001</Navigation>
@@ -3114,9 +3114,9 @@
         <Message>
             <ID>2012025</ID>
             <Severity>16</Severity>
-            <Dynamic>BN132 :&quot;/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v&quot;:2001:16:2001:21|Removing instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.wdata[10] because it is equivalent to instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.wdata[5]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Dynamic>BN132 :&quot;/home/kanmei/src/sincos_linear/sim/gpll/rtl/gpll.v&quot;:2001:16:2001:21|Removing instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.wdata[10] because it is equivalent to instance gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init.wdata[5]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
             <Navigation>BN132</Navigation>
-            <Navigation>/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v</Navigation>
+            <Navigation>/home/kanmei/src/sincos_linear/sim/gpll/rtl/gpll.v</Navigation>
             <Navigation>2001</Navigation>
             <Navigation>16</Navigation>
             <Navigation>2001</Navigation>
@@ -3138,9 +3138,9 @@
         <Message>
             <ID>2013182</ID>
             <Severity>16</Severity>
-            <Dynamic>MT246 :&quot;/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v&quot;:1377:58:1377:62|Blackbox PLLC is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results)</Dynamic>
+            <Dynamic>MT246 :&quot;/home/kanmei/src/sincos_linear/sim/gpll/rtl/gpll.v&quot;:1377:58:1377:62|Blackbox PLLC is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results)</Dynamic>
             <Navigation>MT246</Navigation>
-            <Navigation>/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v</Navigation>
+            <Navigation>/home/kanmei/src/sincos_linear/sim/gpll/rtl/gpll.v</Navigation>
             <Navigation>1377</Navigation>
             <Navigation>58</Navigation>
             <Navigation>1377</Navigation>
@@ -3150,9 +3150,9 @@
         <Message>
             <ID>2013182</ID>
             <Severity>16</Severity>
-            <Dynamic>MT246 :&quot;/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v&quot;:2202:17:2202:29|Blackbox PLL_LMMI_MUX is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results)</Dynamic>
+            <Dynamic>MT246 :&quot;/home/kanmei/src/sincos_linear/sim/gpll/rtl/gpll.v&quot;:2202:17:2202:29|Blackbox PLL_LMMI_MUX is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results)</Dynamic>
             <Navigation>MT246</Navigation>
-            <Navigation>/home/kanmei/src/sincos_linear/source/gpll/rtl/gpll.v</Navigation>
+            <Navigation>/home/kanmei/src/sincos_linear/sim/gpll/rtl/gpll.v</Navigation>
             <Navigation>2202</Navigation>
             <Navigation>17</Navigation>
             <Navigation>2202</Navigation>
