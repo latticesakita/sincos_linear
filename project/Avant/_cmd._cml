@@ -1,1 +1,0 @@
--link -encrypt -top top_sin_linear -osyn /home/kanmei/src/sincos_linear/project/Avant/synwork/sincos_linear_Avant_comp.srs /home/kanmei/src/sincos_linear/project/Avant/synwork/layer0.srs  -jobname linker  

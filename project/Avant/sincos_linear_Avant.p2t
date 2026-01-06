@@ -1,8 +1,8 @@
 -w
 -gui
--msgset "/home/kanmei/src/sincos_linear/project/promote.xml"
--n 16
+-msgset "O:/src/Avant_lib/sincos_linear/project/promote.xml"
+-n 1
 -t 1
 -s 1
--cores 16
+-cores 1
 -hsp m

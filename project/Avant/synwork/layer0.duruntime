@@ -1,6 +1,9 @@
 Runtime Summary:
 ================
 
+	* Library: work, DesignUnit: gpll_ipgen_pll_init_bw_0s_1s_1310720_0_19_1s_None
+		Hardware Generation Phase   : 0h:00m:03s
+
 	The following design units have negligible CPU times:
 	=====================================================
 		* Library: work, DesignUnit: top_sin_linear
@@ -43,8 +46,6 @@ Runtime Summary:
 			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
 		* Library: work, DesignUnit: gpll_ipgen_pll_syncreg
 			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
-		* Library: work, DesignUnit: gpll_ipgen_pll_init_bw_0s_1s_1310720_0_19_1s_None
-			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
 		* Library: work, DesignUnit: MULTADDSUB18X18A
 			Initial Cleanup Phase, Optimization Phase: Negligible CPU time
 		* Library: work, DesignUnit: SP32K
@@ -52,4 +53,6 @@ Runtime Summary:
 		* Library: work, DesignUnit: PLLC
 			Initial Cleanup Phase, Optimization Phase: Negligible CPU time
 		* Library: work, DesignUnit: PLL_LMMI_MUX
+			Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		* Library: work, DesignUnit: gpll_ipgen_pll_init_bw_0s_1s_1310720_0_19_1s_None
 			Initial Cleanup Phase, Optimization Phase: Negligible CPU time

@@ -1,5 +1,5 @@
 <html><body><samp><pre>
-<!@TC:1767603788>
+<!@TC:1767659770>
 
 Copyright (C) 1994-2025 Synopsys, Inc.
 This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
@@ -8,23 +8,19 @@ with Synopsys, Inc. All other use, reproduction, modification, or distribution o
 Synopsys software or the associated documentation is strictly prohibited.
 Tool: Synplify Pro (R)
 Build: W-2025.03LR-SP1
-Install: /usr/local/lscc/radiant/2025.2/synpbase
-OS: Ubuntu 22.04.5 LTS
-Hostname: P360
-max virtual memory: unlimited (bytes)
-max user processes: 513751
-max stack size: 8388608 (bytes)
-
+Install: C:\lscc\radiant\2025.2\synpbase
+OS: Windows 10 or later
+Hostname: L-PF4L4NVG
 
 Implementation : Avant
 
-# Written on Mon Jan  5 18:03:10 2026
+# Written on Tue Jan  6 09:37:06 2026
 
 ##### DESIGN INFO #######################################################
 
 Top View:                "top_sin_linear"
-Constraint File(s):      "/usr/local/lscc/radiant/2025.2/scripts/tcl/flow/radiant_synplify_vars.tcl"
-                         "/home/kanmei/src/sincos_linear/project/Avant/sincos_linear_Avant_cpe.ldc"
+Constraint File(s):      "C:\lscc\radiant\2025.2\scripts\tcl\flow\radiant_synplify_vars.tcl"
+                         "O:\src\Avant_lib\sincos_linear\project\Avant\sincos_linear_Avant_cpe.ldc"
 
 
 
@@ -43,7 +39,7 @@ Clock Summary
           Start                                                             Requested     Requested     Clock        Clock                     Clock
 Level     Clock                                                             Frequency     Period        Type         Group                     Load 
 ----------------------------------------------------------------------------------------------------------------------------------------------------
-0 -       gpll_ipgen_lscc_pll_Z1_layer0|clkout_clkop_o_inferred_clock       200.0 MHz     5.000         inferred     Inferred_clkgroup_0_1     212  
+0 -       gpll_ipgen_lscc_pll_Z1_layer0|clkout_clkop_o_inferred_clock       200.0 MHz     5.000         inferred     Inferred_clkgroup_0_1     211  
                                                                                                                                                     
 0 -       gpll_ipgen_lscc_pll_Z1_layer0|clkout_testclk_o_inferred_clock     200.0 MHz     5.000         inferred     Inferred_clkgroup_0_2     27   
 ====================================================================================================================================================
@@ -55,7 +51,7 @@ Clock Load Summary
                                                                   Clock     Source                                                         Clock Pin                                                          Non-clock Pin     Non-clock Pin
 Clock                                                             Load      Pin                                                            Seq Example                                                        Seq Example       Comb Example 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-gpll_ipgen_lscc_pll_Z1_layer0|clkout_clkop_o_inferred_clock       212       gpll_i.lscc_pll_inst.gen_ext_outclkdiv\.u_pll.CLKOP(PLLC)      G_1.C                                                              -                 -            
+gpll_ipgen_lscc_pll_Z1_layer0|clkout_clkop_o_inferred_clock       211       gpll_i.lscc_pll_inst.gen_ext_outclkdiv\.u_pll.CLKOP(PLLC)      G_1.C                                                              -                 -            
                                                                                                                                                                                                                                              
 gpll_ipgen_lscc_pll_Z1_layer0|clkout_testclk_o_inferred_clock     27        gpll_i.lscc_pll_inst.gen_ext_outclkdiv\.u_pll.CLKRES(PLLC)     gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init\.pll_lock_reg.C     -                 -            
 =============================================================================================================================================================================================================================================
@@ -162,7 +158,7 @@ p:valid_o
 **********************************
 
 set_false_path -to [get_pins {gpll_i/lscc_pll_inst/gen_ext_outclkdiv\.u_pll/RESET}]
-	@W::"/home/kanmei/src/sincos_linear/project/Avant/sincos_linear_Avant_cpe.ldc":17:0:17:0|Timing constraint (to [get_pins {gpll_i/lscc_pll_inst/gen_ext_outclkdiv\.u_pll/RESET}]) (false path) was not applied to the design because none of the paths specified by the constraint exist in the design
+	@W::"o:/src/avant_lib/sincos_linear/project/avant/sincos_linear_avant_cpe.ldc":17:0:17:0|Timing constraint (to [get_pins {gpll_i/lscc_pll_inst/gen_ext_outclkdiv\.u_pll/RESET}]) (false path) was not applied to the design because none of the paths specified by the constraint exist in the design
 
 <a name=ConstraintsWithMatchingWildcardExpressionsCCK56></a>Constraints with matching wildcard expressions</a>
 **********************************************

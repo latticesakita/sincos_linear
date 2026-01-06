@@ -4,7 +4,7 @@
     <Source include="none" langstandard="Verilog 2001" path="../sim/tb_sin_linear.v" type="VERILOG" worklib="work"/>
     <Source include="none" langstandard="Verilog 2001" path="../source/rom_y36/rtl/rom_y36.v" type="VERILOG" worklib="work"/>
     <Source include="none" langstandard="Verilog 2001" path="../source/rom_dy18/rtl/rom_dy18.v" type="VERILOG" worklib="work"/>
-    <SimLib value="pmi_work lav_ate_es"/>
+    <SimLib value="pmi_work lav_ate"/>
     <GlbInc value=""/>
     <Macro value=""/>
     <Udo value=""/>

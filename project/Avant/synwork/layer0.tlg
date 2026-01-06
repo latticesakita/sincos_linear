@@ -1,4 +1,4 @@
-@N: CG364 :"/home/kanmei/src/sincos_linear/sim/gpll/rtl/gpll.v":1849:33:1849:54|Synthesizing module gpll_ipgen_pll_init_bw in library work.
+@N: CG364 :"O:\src\Avant_lib\sincos_linear\sim\gpll\rtl\gpll.v":1849:33:1849:54|Synthesizing module gpll_ipgen_pll_init_bw in library work.
 
 	SIMULATION=32'b00000000000000000000000000000000
 	EN_STARTUP_BW=32'b00000000000000000000000000000001
@@ -8,19 +8,19 @@
 	PLL_INTFBK=32'b00000000000000000000000000000001
 	REG_INTERFACE=32'b01001110011011110110111001100101
    Generated name = gpll_ipgen_pll_init_bw_0s_1s_1310720_0_19_1s_None
-@N: CG364 :"/home/kanmei/src/sincos_linear/sim/gpll/rtl/gpll.v":2240:31:2240:52|Synthesizing module gpll_ipgen_pll_syncreg in library work.
+@N: CG364 :"O:\src\Avant_lib\sincos_linear\sim\gpll\rtl\gpll.v":2240:31:2240:52|Synthesizing module gpll_ipgen_pll_syncreg in library work.
 Running optimization stage 1 on gpll_ipgen_pll_syncreg .......
-Finished optimization stage 1 on gpll_ipgen_pll_syncreg (CPU Time 0h:00m:00s, Memory Used current: 289MB peak: 289MB)
-@N: CG364 :"/usr/local/lscc/radiant/2025.2/synpbase/lib/generic/lav-ate.v":4220:7:4220:18|Synthesizing module PLL_LMMI_MUX in library work.
+Finished optimization stage 1 on gpll_ipgen_pll_syncreg (CPU Time 0h:00m:00s, Memory Used current: 199MB peak: 200MB)
+@N: CG364 :"C:\lscc\radiant\2025.2\synpbase\lib\generic\lav-ate.v":4220:7:4220:18|Synthesizing module PLL_LMMI_MUX in library work.
 Running optimization stage 1 on PLL_LMMI_MUX .......
-Finished optimization stage 1 on PLL_LMMI_MUX (CPU Time 0h:00m:00s, Memory Used current: 289MB peak: 289MB)
-@N: CG364 :"/home/kanmei/src/sincos_linear/sim/gpll/rtl/gpll.v":2175:33:2175:59|Synthesizing module gpll_ipgen_pll_sip_lmmi_mux in library work.
+Finished optimization stage 1 on PLL_LMMI_MUX (CPU Time 0h:00m:00s, Memory Used current: 199MB peak: 200MB)
+@N: CG364 :"O:\src\Avant_lib\sincos_linear\sim\gpll\rtl\gpll.v":2175:33:2175:59|Synthesizing module gpll_ipgen_pll_sip_lmmi_mux in library work.
 Running optimization stage 1 on gpll_ipgen_pll_sip_lmmi_mux .......
-Finished optimization stage 1 on gpll_ipgen_pll_sip_lmmi_mux (CPU Time 0h:00m:00s, Memory Used current: 289MB peak: 289MB)
+Finished optimization stage 1 on gpll_ipgen_pll_sip_lmmi_mux (CPU Time 0h:00m:00s, Memory Used current: 199MB peak: 200MB)
 Running optimization stage 1 on gpll_ipgen_pll_init_bw_0s_1s_1310720_0_19_1s_None .......
-@W: CL271 :"/home/kanmei/src/sincos_linear/sim/gpll/rtl/gpll.v":1972:16:1972:21|Pruning unused bits 3 to 0 of gen_bw_init.nf_usr_regval[15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
-Finished optimization stage 1 on gpll_ipgen_pll_init_bw_0s_1s_1310720_0_19_1s_None (CPU Time 0h:00m:00s, Memory Used current: 290MB peak: 290MB)
-@N: CG364 :"/home/kanmei/src/sincos_linear/sim/gpll/rtl/gpll.v":199:33:199:51|Synthesizing module gpll_ipgen_lscc_pll in library work.
+@W: CL271 :"O:\src\Avant_lib\sincos_linear\sim\gpll\rtl\gpll.v":1972:16:1972:21|Pruning unused bits 3 to 0 of gen_bw_init.nf_usr_regval[15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+Finished optimization stage 1 on gpll_ipgen_pll_init_bw_0s_1s_1310720_0_19_1s_None (CPU Time 0h:00m:00s, Memory Used current: 204MB peak: 205MB)
+@N: CG364 :"O:\src\Avant_lib\sincos_linear\sim\gpll\rtl\gpll.v":199:33:199:51|Synthesizing module gpll_ipgen_lscc_pll in library work.
 
 	VCO_FREQ=88'b0011010000110000001100000011000000101110001100000011000000110000001100000011000000110000
 	REFCLK_FREQ=72'b001101010011000000101110001100000011000000110000001100000011000000110000
@@ -195,15 +195,15 @@ Finished optimization stage 1 on gpll_ipgen_pll_init_bw_0s_1s_1310720_0_19_1s_No
 	STATIC_VCO_PHASE_STEP=16'b0100111001001111
 	STATIC_VCO_PHASE_DIR=56'b01000100010001010100110001000001010110010100010101000100
    Generated name = gpll_ipgen_lscc_pll_Z1_layer0
-@N: CG364 :"/usr/local/lscc/radiant/2025.2/synpbase/lib/generic/lav-ate.v":3566:7:3566:10|Synthesizing module PLLC in library work.
+@N: CG364 :"C:\lscc\radiant\2025.2\synpbase\lib\generic\lav-ate.v":3566:7:3566:10|Synthesizing module PLLC in library work.
 Running optimization stage 1 on PLLC .......
-Finished optimization stage 1 on PLLC (CPU Time 0h:00m:00s, Memory Used current: 290MB peak: 290MB)
+Finished optimization stage 1 on PLLC (CPU Time 0h:00m:00s, Memory Used current: 204MB peak: 205MB)
 Running optimization stage 1 on gpll_ipgen_lscc_pll_Z1_layer0 .......
-Finished optimization stage 1 on gpll_ipgen_lscc_pll_Z1_layer0 (CPU Time 0h:00m:00s, Memory Used current: 290MB peak: 290MB)
-@N: CG364 :"/home/kanmei/src/sincos_linear/sim/gpll/rtl/gpll.v":11:63:11:66|Synthesizing module gpll in library work.
+Finished optimization stage 1 on gpll_ipgen_lscc_pll_Z1_layer0 (CPU Time 0h:00m:00s, Memory Used current: 204MB peak: 205MB)
+@N: CG364 :"O:\src\Avant_lib\sincos_linear\sim\gpll\rtl\gpll.v":11:63:11:66|Synthesizing module gpll in library work.
 Running optimization stage 1 on gpll .......
-Finished optimization stage 1 on gpll (CPU Time 0h:00m:00s, Memory Used current: 290MB peak: 290MB)
-@N: CG364 :"/home/kanmei/src/sincos_linear/source/rom_y36/rtl/rom_y36.v":624:7:624:33|Synthesizing module rom_y36_ipgen_lscc_rom_inst in library work.
+Finished optimization stage 1 on gpll (CPU Time 0h:00m:00s, Memory Used current: 204MB peak: 205MB)
+@N: CG364 :"O:\src\Avant_lib\sincos_linear\source\rom_y36\rtl\rom_y36.v":624:7:624:33|Synthesizing module rom_y36_ipgen_lscc_rom_inst in library work.
 
 	_FCODE_LIFCL_=32'b00000000000000000000000000000001
 	_FCODE_ICE_=32'b00000000000000000000000000000010
@@ -365,7 +365,7 @@ Finished optimization stage 1 on gpll (CPU Time 0h:00m:00s, Memory Used current:
 	IS_BYTE_ENABLE=1'b0
 	STRING_LENGTH=32'b00000000000000000000000001010010
    Generated name = rom_y36_ipgen_lscc_rom_inst_Z2_layer0
-@N: CG364 :"/home/kanmei/src/sincos_linear/source/rom_y36/rtl/rom_y36.v":1794:7:1794:38|Synthesizing module rom_y36_ipgen_lscc_rom_inst_core in library work.
+@N: CG364 :"O:\src\Avant_lib\sincos_linear\source\rom_y36\rtl\rom_y36.v":1794:7:1794:38|Synthesizing module rom_y36_ipgen_lscc_rom_inst_core in library work.
 
 	_FCODE_LIFCL_=32'b00000000000000000000000000000001
 	_FCODE_ICE_=32'b00000000000000000000000000000010
@@ -542,16 +542,16 @@ Finished optimization stage 1 on gpll (CPU Time 0h:00m:00s, Memory Used current:
 	MEM_TYPE=24'b010001010100001001010010
 	T_MEM_SIZE=72'b010110110011001100110110001011000011010000110000001110010011011001011101
    Generated name = rom_y36_ipgen_lscc_rom_inst_core_Z3_layer0
-@N: CG364 :"/usr/local/lscc/radiant/2025.2/synpbase/lib/generic/lav-ate.v":3812:7:3812:11|Synthesizing module SP32K in library work.
+@N: CG364 :"C:\lscc\radiant\2025.2\synpbase\lib\generic\lav-ate.v":3812:7:3812:11|Synthesizing module SP32K in library work.
 Running optimization stage 1 on SP32K .......
-Finished optimization stage 1 on SP32K (CPU Time 0h:00m:00s, Memory Used current: 293MB peak: 293MB)
-@W: CG360 :"/home/kanmei/src/sincos_linear/source/rom_y36/rtl/rom_y36.v":1959:11:1959:23|Removing wire one_err_det_o, as there is no assignment to it.
-@W: CG360 :"/home/kanmei/src/sincos_linear/source/rom_y36/rtl/rom_y36.v":1960:11:1960:23|Removing wire two_err_det_o, as there is no assignment to it.
+Finished optimization stage 1 on SP32K (CPU Time 0h:00m:00s, Memory Used current: 207MB peak: 208MB)
+@W: CG360 :"O:\src\Avant_lib\sincos_linear\source\rom_y36\rtl\rom_y36.v":1959:11:1959:23|Removing wire one_err_det_o, as there is no assignment to it.
+@W: CG360 :"O:\src\Avant_lib\sincos_linear\source\rom_y36\rtl\rom_y36.v":1960:11:1960:23|Removing wire two_err_det_o, as there is no assignment to it.
 Running optimization stage 1 on rom_y36_ipgen_lscc_rom_inst_core_Z3_layer0 .......
-@W: CL318 :"/home/kanmei/src/sincos_linear/source/rom_y36/rtl/rom_y36.v":1959:11:1959:23|*Output one_err_det_o has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
-@W: CL318 :"/home/kanmei/src/sincos_linear/source/rom_y36/rtl/rom_y36.v":1960:11:1960:23|*Output two_err_det_o has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
-Finished optimization stage 1 on rom_y36_ipgen_lscc_rom_inst_core_Z3_layer0 (CPU Time 0h:00m:00s, Memory Used current: 293MB peak: 293MB)
-@N: CG364 :"/home/kanmei/src/sincos_linear/source/rom_y36/rtl/rom_y36.v":1794:7:1794:38|Synthesizing module rom_y36_ipgen_lscc_rom_inst_core in library work.
+@W: CL318 :"O:\src\Avant_lib\sincos_linear\source\rom_y36\rtl\rom_y36.v":1959:11:1959:23|*Output one_err_det_o has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"O:\src\Avant_lib\sincos_linear\source\rom_y36\rtl\rom_y36.v":1960:11:1960:23|*Output two_err_det_o has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+Finished optimization stage 1 on rom_y36_ipgen_lscc_rom_inst_core_Z3_layer0 (CPU Time 0h:00m:00s, Memory Used current: 207MB peak: 208MB)
+@N: CG364 :"O:\src\Avant_lib\sincos_linear\source\rom_y36\rtl\rom_y36.v":1794:7:1794:38|Synthesizing module rom_y36_ipgen_lscc_rom_inst_core in library work.
 
 	_FCODE_LIFCL_=32'b00000000000000000000000000000001
 	_FCODE_ICE_=32'b00000000000000000000000000000010
@@ -729,10 +729,10 @@ Finished optimization stage 1 on rom_y36_ipgen_lscc_rom_inst_core_Z3_layer0 (CPU
 	T_MEM_SIZE=72'b010110110011001100110110001011000011010000110000001110010011011001011101
    Generated name = rom_y36_ipgen_lscc_rom_inst_core_Z4_layer0
 Running optimization stage 1 on rom_y36_ipgen_lscc_rom_inst_core_Z4_layer0 .......
-@W: CL318 :"/home/kanmei/src/sincos_linear/source/rom_y36/rtl/rom_y36.v":1959:11:1959:23|*Output one_err_det_o has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
-@W: CL318 :"/home/kanmei/src/sincos_linear/source/rom_y36/rtl/rom_y36.v":1960:11:1960:23|*Output two_err_det_o has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
-Finished optimization stage 1 on rom_y36_ipgen_lscc_rom_inst_core_Z4_layer0 (CPU Time 0h:00m:00s, Memory Used current: 296MB peak: 296MB)
-@N: CG364 :"/home/kanmei/src/sincos_linear/source/rom_y36/rtl/rom_y36.v":1794:7:1794:38|Synthesizing module rom_y36_ipgen_lscc_rom_inst_core in library work.
+@W: CL318 :"O:\src\Avant_lib\sincos_linear\source\rom_y36\rtl\rom_y36.v":1959:11:1959:23|*Output one_err_det_o has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"O:\src\Avant_lib\sincos_linear\source\rom_y36\rtl\rom_y36.v":1960:11:1960:23|*Output two_err_det_o has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+Finished optimization stage 1 on rom_y36_ipgen_lscc_rom_inst_core_Z4_layer0 (CPU Time 0h:00m:00s, Memory Used current: 210MB peak: 211MB)
+@N: CG364 :"O:\src\Avant_lib\sincos_linear\source\rom_y36\rtl\rom_y36.v":1794:7:1794:38|Synthesizing module rom_y36_ipgen_lscc_rom_inst_core in library work.
 
 	_FCODE_LIFCL_=32'b00000000000000000000000000000001
 	_FCODE_ICE_=32'b00000000000000000000000000000010
@@ -910,10 +910,10 @@ Finished optimization stage 1 on rom_y36_ipgen_lscc_rom_inst_core_Z4_layer0 (CPU
 	T_MEM_SIZE=72'b010110110011001100110110001011000011010000110000001110010011011001011101
    Generated name = rom_y36_ipgen_lscc_rom_inst_core_Z5_layer0
 Running optimization stage 1 on rom_y36_ipgen_lscc_rom_inst_core_Z5_layer0 .......
-@W: CL318 :"/home/kanmei/src/sincos_linear/source/rom_y36/rtl/rom_y36.v":1959:11:1959:23|*Output one_err_det_o has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
-@W: CL318 :"/home/kanmei/src/sincos_linear/source/rom_y36/rtl/rom_y36.v":1960:11:1960:23|*Output two_err_det_o has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
-Finished optimization stage 1 on rom_y36_ipgen_lscc_rom_inst_core_Z5_layer0 (CPU Time 0h:00m:00s, Memory Used current: 299MB peak: 299MB)
-@N: CG364 :"/home/kanmei/src/sincos_linear/source/rom_y36/rtl/rom_y36.v":1794:7:1794:38|Synthesizing module rom_y36_ipgen_lscc_rom_inst_core in library work.
+@W: CL318 :"O:\src\Avant_lib\sincos_linear\source\rom_y36\rtl\rom_y36.v":1959:11:1959:23|*Output one_err_det_o has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"O:\src\Avant_lib\sincos_linear\source\rom_y36\rtl\rom_y36.v":1960:11:1960:23|*Output two_err_det_o has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+Finished optimization stage 1 on rom_y36_ipgen_lscc_rom_inst_core_Z5_layer0 (CPU Time 0h:00m:00s, Memory Used current: 213MB peak: 214MB)
+@N: CG364 :"O:\src\Avant_lib\sincos_linear\source\rom_y36\rtl\rom_y36.v":1794:7:1794:38|Synthesizing module rom_y36_ipgen_lscc_rom_inst_core in library work.
 
 	_FCODE_LIFCL_=32'b00000000000000000000000000000001
 	_FCODE_ICE_=32'b00000000000000000000000000000010
@@ -1091,12 +1091,12 @@ Finished optimization stage 1 on rom_y36_ipgen_lscc_rom_inst_core_Z5_layer0 (CPU
 	T_MEM_SIZE=72'b010110110011001100110110001011000011010000110000001110010011011001011101
    Generated name = rom_y36_ipgen_lscc_rom_inst_core_Z6_layer0
 Running optimization stage 1 on rom_y36_ipgen_lscc_rom_inst_core_Z6_layer0 .......
-@W: CL318 :"/home/kanmei/src/sincos_linear/source/rom_y36/rtl/rom_y36.v":1959:11:1959:23|*Output one_err_det_o has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
-@W: CL318 :"/home/kanmei/src/sincos_linear/source/rom_y36/rtl/rom_y36.v":1960:11:1960:23|*Output two_err_det_o has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
-Finished optimization stage 1 on rom_y36_ipgen_lscc_rom_inst_core_Z6_layer0 (CPU Time 0h:00m:00s, Memory Used current: 301MB peak: 301MB)
+@W: CL318 :"O:\src\Avant_lib\sincos_linear\source\rom_y36\rtl\rom_y36.v":1959:11:1959:23|*Output one_err_det_o has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"O:\src\Avant_lib\sincos_linear\source\rom_y36\rtl\rom_y36.v":1960:11:1960:23|*Output two_err_det_o has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+Finished optimization stage 1 on rom_y36_ipgen_lscc_rom_inst_core_Z6_layer0 (CPU Time 0h:00m:00s, Memory Used current: 216MB peak: 217MB)
 Running optimization stage 1 on rom_y36_ipgen_lscc_rom_inst_Z2_layer0 .......
-Finished optimization stage 1 on rom_y36_ipgen_lscc_rom_inst_Z2_layer0 (CPU Time 0h:00m:00s, Memory Used current: 302MB peak: 302MB)
-@N: CG364 :"/home/kanmei/src/sincos_linear/source/rom_y36/rtl/rom_y36.v":230:7:230:28|Synthesizing module rom_y36_ipgen_lscc_rom in library work.
+Finished optimization stage 1 on rom_y36_ipgen_lscc_rom_inst_Z2_layer0 (CPU Time 0h:00m:00s, Memory Used current: 217MB peak: 217MB)
+@N: CG364 :"O:\src\Avant_lib\sincos_linear\source\rom_y36\rtl\rom_y36.v":230:7:230:28|Synthesizing module rom_y36_ipgen_lscc_rom in library work.
 
 	FAMILY=48'b010011000100000101010110001011010100000101010100
 	RADDR_DEPTH=32'b00000000000000000001000000000000
@@ -1248,11 +1248,11 @@ Finished optimization stage 1 on rom_y36_ipgen_lscc_rom_inst_Z2_layer0 (CPU Time
 	INIT_DATA=56'b01000100010110010100111001000001010011010100100101000011
    Generated name = rom_y36_ipgen_lscc_rom_Z7_layer0
 Running optimization stage 1 on rom_y36_ipgen_lscc_rom_Z7_layer0 .......
-Finished optimization stage 1 on rom_y36_ipgen_lscc_rom_Z7_layer0 (CPU Time 0h:00m:00s, Memory Used current: 302MB peak: 302MB)
-@N: CG364 :"/home/kanmei/src/sincos_linear/source/rom_y36/rtl/rom_y36.v":11:66:11:72|Synthesizing module rom_y36 in library work.
+Finished optimization stage 1 on rom_y36_ipgen_lscc_rom_Z7_layer0 (CPU Time 0h:00m:00s, Memory Used current: 217MB peak: 218MB)
+@N: CG364 :"O:\src\Avant_lib\sincos_linear\source\rom_y36\rtl\rom_y36.v":11:66:11:72|Synthesizing module rom_y36 in library work.
 Running optimization stage 1 on rom_y36 .......
-Finished optimization stage 1 on rom_y36 (CPU Time 0h:00m:00s, Memory Used current: 302MB peak: 302MB)
-@N: CG364 :"/home/kanmei/src/sincos_linear/source/rom_dy18/rtl/rom_dy18.v":624:7:624:34|Synthesizing module rom_dy18_ipgen_lscc_rom_inst in library work.
+Finished optimization stage 1 on rom_y36 (CPU Time 0h:00m:00s, Memory Used current: 217MB peak: 218MB)
+@N: CG364 :"O:\src\Avant_lib\sincos_linear\source\rom_dy18\rtl\rom_dy18.v":624:7:624:34|Synthesizing module rom_dy18_ipgen_lscc_rom_inst in library work.
 
 	_FCODE_LIFCL_=32'b00000000000000000000000000000001
 	_FCODE_ICE_=32'b00000000000000000000000000000010
@@ -1414,7 +1414,7 @@ Finished optimization stage 1 on rom_y36 (CPU Time 0h:00m:00s, Memory Used curre
 	IS_BYTE_ENABLE=1'b0
 	STRING_LENGTH=32'b00000000000000000000000001010010
    Generated name = rom_dy18_ipgen_lscc_rom_inst_Z8_layer0
-@N: CG364 :"/home/kanmei/src/sincos_linear/source/rom_dy18/rtl/rom_dy18.v":1794:7:1794:39|Synthesizing module rom_dy18_ipgen_lscc_rom_inst_core in library work.
+@N: CG364 :"O:\src\Avant_lib\sincos_linear\source\rom_dy18\rtl\rom_dy18.v":1794:7:1794:39|Synthesizing module rom_dy18_ipgen_lscc_rom_inst_core in library work.
 
 	_FCODE_LIFCL_=32'b00000000000000000000000000000001
 	_FCODE_ICE_=32'b00000000000000000000000000000010
@@ -1591,13 +1591,13 @@ Finished optimization stage 1 on rom_y36 (CPU Time 0h:00m:00s, Memory Used curre
 	MEM_TYPE=24'b010001010100001001010010
 	T_MEM_SIZE=72'b010110110011000100111000001011000011010000110000001110010011011001011101
    Generated name = rom_dy18_ipgen_lscc_rom_inst_core_Z9_layer0
-@W: CG360 :"/home/kanmei/src/sincos_linear/source/rom_dy18/rtl/rom_dy18.v":1959:11:1959:23|Removing wire one_err_det_o, as there is no assignment to it.
-@W: CG360 :"/home/kanmei/src/sincos_linear/source/rom_dy18/rtl/rom_dy18.v":1960:11:1960:23|Removing wire two_err_det_o, as there is no assignment to it.
+@W: CG360 :"O:\src\Avant_lib\sincos_linear\source\rom_dy18\rtl\rom_dy18.v":1959:11:1959:23|Removing wire one_err_det_o, as there is no assignment to it.
+@W: CG360 :"O:\src\Avant_lib\sincos_linear\source\rom_dy18\rtl\rom_dy18.v":1960:11:1960:23|Removing wire two_err_det_o, as there is no assignment to it.
 Running optimization stage 1 on rom_dy18_ipgen_lscc_rom_inst_core_Z9_layer0 .......
-@W: CL318 :"/home/kanmei/src/sincos_linear/source/rom_dy18/rtl/rom_dy18.v":1959:11:1959:23|*Output one_err_det_o has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
-@W: CL318 :"/home/kanmei/src/sincos_linear/source/rom_dy18/rtl/rom_dy18.v":1960:11:1960:23|*Output two_err_det_o has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
-Finished optimization stage 1 on rom_dy18_ipgen_lscc_rom_inst_core_Z9_layer0 (CPU Time 0h:00m:00s, Memory Used current: 304MB peak: 304MB)
-@N: CG364 :"/home/kanmei/src/sincos_linear/source/rom_dy18/rtl/rom_dy18.v":1794:7:1794:39|Synthesizing module rom_dy18_ipgen_lscc_rom_inst_core in library work.
+@W: CL318 :"O:\src\Avant_lib\sincos_linear\source\rom_dy18\rtl\rom_dy18.v":1959:11:1959:23|*Output one_err_det_o has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"O:\src\Avant_lib\sincos_linear\source\rom_dy18\rtl\rom_dy18.v":1960:11:1960:23|*Output two_err_det_o has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+Finished optimization stage 1 on rom_dy18_ipgen_lscc_rom_inst_core_Z9_layer0 (CPU Time 0h:00m:00s, Memory Used current: 219MB peak: 220MB)
+@N: CG364 :"O:\src\Avant_lib\sincos_linear\source\rom_dy18\rtl\rom_dy18.v":1794:7:1794:39|Synthesizing module rom_dy18_ipgen_lscc_rom_inst_core in library work.
 
 	_FCODE_LIFCL_=32'b00000000000000000000000000000001
 	_FCODE_ICE_=32'b00000000000000000000000000000010
@@ -1775,12 +1775,12 @@ Finished optimization stage 1 on rom_dy18_ipgen_lscc_rom_inst_core_Z9_layer0 (CP
 	T_MEM_SIZE=72'b010110110011000100111000001011000011010000110000001110010011011001011101
    Generated name = rom_dy18_ipgen_lscc_rom_inst_core_Z10_layer0
 Running optimization stage 1 on rom_dy18_ipgen_lscc_rom_inst_core_Z10_layer0 .......
-@W: CL318 :"/home/kanmei/src/sincos_linear/source/rom_dy18/rtl/rom_dy18.v":1959:11:1959:23|*Output one_err_det_o has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
-@W: CL318 :"/home/kanmei/src/sincos_linear/source/rom_dy18/rtl/rom_dy18.v":1960:11:1960:23|*Output two_err_det_o has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
-Finished optimization stage 1 on rom_dy18_ipgen_lscc_rom_inst_core_Z10_layer0 (CPU Time 0h:00m:00s, Memory Used current: 306MB peak: 306MB)
+@W: CL318 :"O:\src\Avant_lib\sincos_linear\source\rom_dy18\rtl\rom_dy18.v":1959:11:1959:23|*Output one_err_det_o has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"O:\src\Avant_lib\sincos_linear\source\rom_dy18\rtl\rom_dy18.v":1960:11:1960:23|*Output two_err_det_o has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+Finished optimization stage 1 on rom_dy18_ipgen_lscc_rom_inst_core_Z10_layer0 (CPU Time 0h:00m:00s, Memory Used current: 221MB peak: 221MB)
 Running optimization stage 1 on rom_dy18_ipgen_lscc_rom_inst_Z8_layer0 .......
-Finished optimization stage 1 on rom_dy18_ipgen_lscc_rom_inst_Z8_layer0 (CPU Time 0h:00m:00s, Memory Used current: 306MB peak: 306MB)
-@N: CG364 :"/home/kanmei/src/sincos_linear/source/rom_dy18/rtl/rom_dy18.v":230:7:230:29|Synthesizing module rom_dy18_ipgen_lscc_rom in library work.
+Finished optimization stage 1 on rom_dy18_ipgen_lscc_rom_inst_Z8_layer0 (CPU Time 0h:00m:00s, Memory Used current: 221MB peak: 222MB)
+@N: CG364 :"O:\src\Avant_lib\sincos_linear\source\rom_dy18\rtl\rom_dy18.v":230:7:230:29|Synthesizing module rom_dy18_ipgen_lscc_rom in library work.
 
 	FAMILY=48'b010011000100000101010110001011010100000101010100
 	RADDR_DEPTH=32'b00000000000000000001000000000000
@@ -1932,14 +1932,14 @@ Finished optimization stage 1 on rom_dy18_ipgen_lscc_rom_inst_Z8_layer0 (CPU Tim
 	INIT_DATA=56'b01000100010110010100111001000001010011010100100101000011
    Generated name = rom_dy18_ipgen_lscc_rom_Z11_layer0
 Running optimization stage 1 on rom_dy18_ipgen_lscc_rom_Z11_layer0 .......
-Finished optimization stage 1 on rom_dy18_ipgen_lscc_rom_Z11_layer0 (CPU Time 0h:00m:00s, Memory Used current: 306MB peak: 306MB)
-@N: CG364 :"/home/kanmei/src/sincos_linear/source/rom_dy18/rtl/rom_dy18.v":11:67:11:74|Synthesizing module rom_dy18 in library work.
+Finished optimization stage 1 on rom_dy18_ipgen_lscc_rom_Z11_layer0 (CPU Time 0h:00m:00s, Memory Used current: 221MB peak: 222MB)
+@N: CG364 :"O:\src\Avant_lib\sincos_linear\source\rom_dy18\rtl\rom_dy18.v":11:67:11:74|Synthesizing module rom_dy18 in library work.
 Running optimization stage 1 on rom_dy18 .......
-Finished optimization stage 1 on rom_dy18 (CPU Time 0h:00m:00s, Memory Used current: 306MB peak: 306MB)
-@N: CG364 :"/usr/local/lscc/radiant/2025.2/synpbase/lib/generic/lav-ate.v":3191:7:3191:22|Synthesizing module MULTADDSUB18X18A in library work.
+Finished optimization stage 1 on rom_dy18 (CPU Time 0h:00m:00s, Memory Used current: 221MB peak: 222MB)
+@N: CG364 :"C:\lscc\radiant\2025.2\synpbase\lib\generic\lav-ate.v":3191:7:3191:22|Synthesizing module MULTADDSUB18X18A in library work.
 Running optimization stage 1 on MULTADDSUB18X18A .......
-Finished optimization stage 1 on MULTADDSUB18X18A (CPU Time 0h:00m:00s, Memory Used current: 306MB peak: 306MB)
-@N: CG364 :"/home/kanmei/src/sincos_linear/source/mult18x18p48.v":2:7:2:18|Synthesizing module mult18x18p48 in library work.
+Finished optimization stage 1 on MULTADDSUB18X18A (CPU Time 0h:00m:00s, Memory Used current: 221MB peak: 222MB)
+@N: CG364 :"O:\src\Avant_lib\sincos_linear\source\mult18x18p48.v":39:7:39:18|Synthesizing module mult18x18p48 in library work.
 
 	ASIGNED=64'b0101010101001110010100110100100101000111010011100100010101000100
 	BSIGNED=64'b0101010101001110010100110100100101000111010011100100010101000100
@@ -1950,99 +1950,100 @@ Finished optimization stage 1 on MULTADDSUB18X18A (CPU Time 0h:00m:00s, Memory U
 	REGOUTPUT=64'b0100001001011001010100000100000101010011010100110100010101000100
    Generated name = mult18x18p48_UNSIGNED_UNSIGNED_BYPASSED_BYPASSED_BYPASSED_BYPASSED_BYPASSED_12_layer0
 Running optimization stage 1 on mult18x18p48_UNSIGNED_UNSIGNED_BYPASSED_BYPASSED_BYPASSED_BYPASSED_BYPASSED_12_layer0 .......
-Finished optimization stage 1 on mult18x18p48_UNSIGNED_UNSIGNED_BYPASSED_BYPASSED_BYPASSED_BYPASSED_BYPASSED_12_layer0 (CPU Time 0h:00m:00s, Memory Used current: 306MB peak: 306MB)
-@N: CG364 :"/home/kanmei/src/sincos_linear/source/sin_linear.v":12:7:12:16|Synthesizing module sin_linear in library work.
-@W: CG390 :"/home/kanmei/src/sincos_linear/source/sin_linear.v":65:50:65:64|Repeat multiplier in concatenation evaluates to 0
-@W: CG781 :"/home/kanmei/src/sincos_linear/source/sin_linear.v":65:4:65:17|Input clk on instance mult18x18p48_i is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
-@W: CG781 :"/home/kanmei/src/sincos_linear/source/sin_linear.v":65:4:65:17|Input resetn on instance mult18x18p48_i is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+Finished optimization stage 1 on mult18x18p48_UNSIGNED_UNSIGNED_BYPASSED_BYPASSED_BYPASSED_BYPASSED_BYPASSED_12_layer0 (CPU Time 0h:00m:00s, Memory Used current: 221MB peak: 222MB)
+@N: CG364 :"O:\src\Avant_lib\sincos_linear\source\sin_linear.v":50:7:50:16|Synthesizing module sin_linear in library work.
+@W: CG390 :"O:\src\Avant_lib\sincos_linear\source\sin_linear.v":103:50:103:64|Repeat multiplier in concatenation evaluates to 0
+@W: CG781 :"O:\src\Avant_lib\sincos_linear\source\sin_linear.v":103:4:103:17|Input clk on instance mult18x18p48_i is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG781 :"O:\src\Avant_lib\sincos_linear\source\sin_linear.v":103:4:103:17|Input resetn on instance mult18x18p48_i is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
 Running optimization stage 1 on sin_linear .......
-@W: CL265 :"/home/kanmei/src/sincos_linear/source/sin_linear.v":42:0:42:5|Removing unused bit 0 of s1_quadrant[1:0]. Either assign all bits or reduce the width of the signal.
-Finished optimization stage 1 on sin_linear (CPU Time 0h:00m:00s, Memory Used current: 307MB peak: 307MB)
-@N: CG364 :"/home/kanmei/src/sincos_linear/source/sincos_linear.v":3:7:3:19|Synthesizing module sincos_linear in library work.
+@W: CL265 :"O:\src\Avant_lib\sincos_linear\source\sin_linear.v":80:0:80:5|Removing unused bit 0 of s1_quadrant[1:0]. Either assign all bits or reduce the width of the signal.
+Finished optimization stage 1 on sin_linear (CPU Time 0h:00m:00s, Memory Used current: 221MB peak: 222MB)
+@N: CG364 :"O:\src\Avant_lib\sincos_linear\source\sincos_linear.v":41:7:41:19|Synthesizing module sincos_linear in library work.
 
 	OUTPUT_WIDTH=32'b00000000000000000000000000100000
    Generated name = sincos_linear_32s
 Running optimization stage 1 on sincos_linear_32s .......
-Finished optimization stage 1 on sincos_linear_32s (CPU Time 0h:00m:00s, Memory Used current: 307MB peak: 307MB)
-@N: CG364 :"/home/kanmei/src/sincos_linear/sim/top_sin_linear.v":3:7:3:20|Synthesizing module top_sin_linear in library work.
+Finished optimization stage 1 on sincos_linear_32s (CPU Time 0h:00m:00s, Memory Used current: 221MB peak: 222MB)
+@N: CG364 :"O:\src\Avant_lib\sincos_linear\sim\top_sin_linear.v":41:7:41:20|Synthesizing module top_sin_linear in library work.
 Running optimization stage 1 on top_sin_linear .......
-Finished optimization stage 1 on top_sin_linear (CPU Time 0h:00m:00s, Memory Used current: 307MB peak: 307MB)
+Finished optimization stage 1 on top_sin_linear (CPU Time 0h:00m:00s, Memory Used current: 221MB peak: 222MB)
 Running optimization stage 2 on top_sin_linear .......
-@N: CL135 :"/home/kanmei/src/sincos_linear/sim/top_sin_linear.v":48:0:48:5|Found sequential shift phase with address depth of 4 words and data bit width of 32.
-@N: CL135 :"/home/kanmei/src/sincos_linear/sim/top_sin_linear.v":48:0:48:5|Found sequential shift valid_i with address depth of 4 words and data bit width of 1.
-@N: CL135 :"/home/kanmei/src/sincos_linear/sim/top_sin_linear.v":48:0:48:5|Found sequential shift valid_o with address depth of 3 words and data bit width of 1.
-@N: CL135 :"/home/kanmei/src/sincos_linear/sim/top_sin_linear.v":48:0:48:5|Found sequential shift result with address depth of 3 words and data bit width of 32.
-Finished optimization stage 2 on top_sin_linear (CPU Time 0h:00m:00s, Memory Used current: 307MB peak: 307MB)
+@N: CL135 :"O:\src\Avant_lib\sincos_linear\sim\top_sin_linear.v":86:0:86:5|Found sequential shift phase with address depth of 4 words and data bit width of 32.
+@N: CL135 :"O:\src\Avant_lib\sincos_linear\sim\top_sin_linear.v":86:0:86:5|Found sequential shift valid_i with address depth of 4 words and data bit width of 1.
+@N: CL135 :"O:\src\Avant_lib\sincos_linear\sim\top_sin_linear.v":86:0:86:5|Found sequential shift valid_o with address depth of 3 words and data bit width of 1.
+@N: CL135 :"O:\src\Avant_lib\sincos_linear\sim\top_sin_linear.v":86:0:86:5|Found sequential shift result with address depth of 3 words and data bit width of 32.
+Finished optimization stage 2 on top_sin_linear (CPU Time 0h:00m:00s, Memory Used current: 222MB peak: 222MB)
 Running optimization stage 2 on sincos_linear_32s .......
-Finished optimization stage 2 on sincos_linear_32s (CPU Time 0h:00m:00s, Memory Used current: 307MB peak: 307MB)
+Finished optimization stage 2 on sincos_linear_32s (CPU Time 0h:00m:00s, Memory Used current: 222MB peak: 222MB)
 Running optimization stage 2 on sin_linear .......
-Finished optimization stage 2 on sin_linear (CPU Time 0h:00m:00s, Memory Used current: 307MB peak: 307MB)
+@W: CL260 :"O:\src\Avant_lib\sincos_linear\source\sin_linear.v":109:0:109:5|Pruning register bit 31 of result_o[31:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+Finished optimization stage 2 on sin_linear (CPU Time 0h:00m:00s, Memory Used current: 222MB peak: 222MB)
 Running optimization stage 2 on mult18x18p48_UNSIGNED_UNSIGNED_BYPASSED_BYPASSED_BYPASSED_BYPASSED_BYPASSED_12_layer0 .......
-Finished optimization stage 2 on mult18x18p48_UNSIGNED_UNSIGNED_BYPASSED_BYPASSED_BYPASSED_BYPASSED_BYPASSED_12_layer0 (CPU Time 0h:00m:00s, Memory Used current: 307MB peak: 307MB)
+Finished optimization stage 2 on mult18x18p48_UNSIGNED_UNSIGNED_BYPASSED_BYPASSED_BYPASSED_BYPASSED_BYPASSED_12_layer0 (CPU Time 0h:00m:00s, Memory Used current: 222MB peak: 222MB)
 Running optimization stage 2 on MULTADDSUB18X18A .......
-Finished optimization stage 2 on MULTADDSUB18X18A (CPU Time 0h:00m:00s, Memory Used current: 307MB peak: 307MB)
+Finished optimization stage 2 on MULTADDSUB18X18A (CPU Time 0h:00m:00s, Memory Used current: 222MB peak: 222MB)
 Running optimization stage 2 on rom_dy18 .......
-Finished optimization stage 2 on rom_dy18 (CPU Time 0h:00m:00s, Memory Used current: 307MB peak: 307MB)
+Finished optimization stage 2 on rom_dy18 (CPU Time 0h:00m:00s, Memory Used current: 222MB peak: 222MB)
 Running optimization stage 2 on rom_dy18_ipgen_lscc_rom_Z11_layer0 .......
-Finished optimization stage 2 on rom_dy18_ipgen_lscc_rom_Z11_layer0 (CPU Time 0h:00m:00s, Memory Used current: 307MB peak: 307MB)
+Finished optimization stage 2 on rom_dy18_ipgen_lscc_rom_Z11_layer0 (CPU Time 0h:00m:00s, Memory Used current: 222MB peak: 222MB)
 Running optimization stage 2 on rom_dy18_ipgen_lscc_rom_inst_core_Z10_layer0 .......
-@N: CL159 :"/home/kanmei/src/sincos_linear/source/rom_dy18/rtl/rom_dy18.v":1952:10:1952:16|Input rd_en_i is unused.
-@N: CL159 :"/home/kanmei/src/sincos_linear/source/rom_dy18/rtl/rom_dy18.v":1957:31:1957:35|Input ben_i is unused.
-Finished optimization stage 2 on rom_dy18_ipgen_lscc_rom_inst_core_Z10_layer0 (CPU Time 0h:00m:00s, Memory Used current: 307MB peak: 307MB)
+@N: CL159 :"O:\src\Avant_lib\sincos_linear\source\rom_dy18\rtl\rom_dy18.v":1952:10:1952:16|Input rd_en_i is unused.
+@N: CL159 :"O:\src\Avant_lib\sincos_linear\source\rom_dy18\rtl\rom_dy18.v":1957:31:1957:35|Input ben_i is unused.
+Finished optimization stage 2 on rom_dy18_ipgen_lscc_rom_inst_core_Z10_layer0 (CPU Time 0h:00m:00s, Memory Used current: 222MB peak: 222MB)
 Running optimization stage 2 on rom_dy18_ipgen_lscc_rom_inst_core_Z9_layer0 .......
-@N: CL159 :"/home/kanmei/src/sincos_linear/source/rom_dy18/rtl/rom_dy18.v":1952:10:1952:16|Input rd_en_i is unused.
-@N: CL159 :"/home/kanmei/src/sincos_linear/source/rom_dy18/rtl/rom_dy18.v":1957:31:1957:35|Input ben_i is unused.
-Finished optimization stage 2 on rom_dy18_ipgen_lscc_rom_inst_core_Z9_layer0 (CPU Time 0h:00m:00s, Memory Used current: 307MB peak: 307MB)
+@N: CL159 :"O:\src\Avant_lib\sincos_linear\source\rom_dy18\rtl\rom_dy18.v":1952:10:1952:16|Input rd_en_i is unused.
+@N: CL159 :"O:\src\Avant_lib\sincos_linear\source\rom_dy18\rtl\rom_dy18.v":1957:31:1957:35|Input ben_i is unused.
+Finished optimization stage 2 on rom_dy18_ipgen_lscc_rom_inst_core_Z9_layer0 (CPU Time 0h:00m:00s, Memory Used current: 222MB peak: 222MB)
 Running optimization stage 2 on rom_dy18_ipgen_lscc_rom_inst_Z8_layer0 .......
-@N: CL159 :"/home/kanmei/src/sincos_linear/source/rom_dy18/rtl/rom_dy18.v":794:31:794:35|Input ben_i is unused.
-Finished optimization stage 2 on rom_dy18_ipgen_lscc_rom_inst_Z8_layer0 (CPU Time 0h:00m:00s, Memory Used current: 307MB peak: 307MB)
+@N: CL159 :"O:\src\Avant_lib\sincos_linear\source\rom_dy18\rtl\rom_dy18.v":794:31:794:35|Input ben_i is unused.
+Finished optimization stage 2 on rom_dy18_ipgen_lscc_rom_inst_Z8_layer0 (CPU Time 0h:00m:00s, Memory Used current: 222MB peak: 222MB)
 Running optimization stage 2 on rom_y36 .......
-Finished optimization stage 2 on rom_y36 (CPU Time 0h:00m:00s, Memory Used current: 307MB peak: 307MB)
+Finished optimization stage 2 on rom_y36 (CPU Time 0h:00m:00s, Memory Used current: 222MB peak: 222MB)
 Running optimization stage 2 on rom_y36_ipgen_lscc_rom_Z7_layer0 .......
-Finished optimization stage 2 on rom_y36_ipgen_lscc_rom_Z7_layer0 (CPU Time 0h:00m:00s, Memory Used current: 307MB peak: 307MB)
+Finished optimization stage 2 on rom_y36_ipgen_lscc_rom_Z7_layer0 (CPU Time 0h:00m:00s, Memory Used current: 222MB peak: 222MB)
 Running optimization stage 2 on rom_y36_ipgen_lscc_rom_inst_core_Z6_layer0 .......
-@N: CL159 :"/home/kanmei/src/sincos_linear/source/rom_y36/rtl/rom_y36.v":1952:10:1952:16|Input rd_en_i is unused.
-@N: CL159 :"/home/kanmei/src/sincos_linear/source/rom_y36/rtl/rom_y36.v":1957:31:1957:35|Input ben_i is unused.
-Finished optimization stage 2 on rom_y36_ipgen_lscc_rom_inst_core_Z6_layer0 (CPU Time 0h:00m:00s, Memory Used current: 307MB peak: 307MB)
+@N: CL159 :"O:\src\Avant_lib\sincos_linear\source\rom_y36\rtl\rom_y36.v":1952:10:1952:16|Input rd_en_i is unused.
+@N: CL159 :"O:\src\Avant_lib\sincos_linear\source\rom_y36\rtl\rom_y36.v":1957:31:1957:35|Input ben_i is unused.
+Finished optimization stage 2 on rom_y36_ipgen_lscc_rom_inst_core_Z6_layer0 (CPU Time 0h:00m:00s, Memory Used current: 222MB peak: 222MB)
 Running optimization stage 2 on rom_y36_ipgen_lscc_rom_inst_core_Z5_layer0 .......
-@N: CL159 :"/home/kanmei/src/sincos_linear/source/rom_y36/rtl/rom_y36.v":1952:10:1952:16|Input rd_en_i is unused.
-@N: CL159 :"/home/kanmei/src/sincos_linear/source/rom_y36/rtl/rom_y36.v":1957:31:1957:35|Input ben_i is unused.
-Finished optimization stage 2 on rom_y36_ipgen_lscc_rom_inst_core_Z5_layer0 (CPU Time 0h:00m:00s, Memory Used current: 307MB peak: 307MB)
+@N: CL159 :"O:\src\Avant_lib\sincos_linear\source\rom_y36\rtl\rom_y36.v":1952:10:1952:16|Input rd_en_i is unused.
+@N: CL159 :"O:\src\Avant_lib\sincos_linear\source\rom_y36\rtl\rom_y36.v":1957:31:1957:35|Input ben_i is unused.
+Finished optimization stage 2 on rom_y36_ipgen_lscc_rom_inst_core_Z5_layer0 (CPU Time 0h:00m:00s, Memory Used current: 222MB peak: 222MB)
 Running optimization stage 2 on rom_y36_ipgen_lscc_rom_inst_core_Z4_layer0 .......
-@N: CL159 :"/home/kanmei/src/sincos_linear/source/rom_y36/rtl/rom_y36.v":1952:10:1952:16|Input rd_en_i is unused.
-@N: CL159 :"/home/kanmei/src/sincos_linear/source/rom_y36/rtl/rom_y36.v":1957:31:1957:35|Input ben_i is unused.
-Finished optimization stage 2 on rom_y36_ipgen_lscc_rom_inst_core_Z4_layer0 (CPU Time 0h:00m:00s, Memory Used current: 307MB peak: 307MB)
+@N: CL159 :"O:\src\Avant_lib\sincos_linear\source\rom_y36\rtl\rom_y36.v":1952:10:1952:16|Input rd_en_i is unused.
+@N: CL159 :"O:\src\Avant_lib\sincos_linear\source\rom_y36\rtl\rom_y36.v":1957:31:1957:35|Input ben_i is unused.
+Finished optimization stage 2 on rom_y36_ipgen_lscc_rom_inst_core_Z4_layer0 (CPU Time 0h:00m:00s, Memory Used current: 222MB peak: 222MB)
 Running optimization stage 2 on SP32K .......
-Finished optimization stage 2 on SP32K (CPU Time 0h:00m:00s, Memory Used current: 307MB peak: 307MB)
+Finished optimization stage 2 on SP32K (CPU Time 0h:00m:00s, Memory Used current: 222MB peak: 222MB)
 Running optimization stage 2 on rom_y36_ipgen_lscc_rom_inst_core_Z3_layer0 .......
-@N: CL159 :"/home/kanmei/src/sincos_linear/source/rom_y36/rtl/rom_y36.v":1952:10:1952:16|Input rd_en_i is unused.
-@N: CL159 :"/home/kanmei/src/sincos_linear/source/rom_y36/rtl/rom_y36.v":1957:31:1957:35|Input ben_i is unused.
-Finished optimization stage 2 on rom_y36_ipgen_lscc_rom_inst_core_Z3_layer0 (CPU Time 0h:00m:00s, Memory Used current: 307MB peak: 307MB)
+@N: CL159 :"O:\src\Avant_lib\sincos_linear\source\rom_y36\rtl\rom_y36.v":1952:10:1952:16|Input rd_en_i is unused.
+@N: CL159 :"O:\src\Avant_lib\sincos_linear\source\rom_y36\rtl\rom_y36.v":1957:31:1957:35|Input ben_i is unused.
+Finished optimization stage 2 on rom_y36_ipgen_lscc_rom_inst_core_Z3_layer0 (CPU Time 0h:00m:00s, Memory Used current: 222MB peak: 222MB)
 Running optimization stage 2 on rom_y36_ipgen_lscc_rom_inst_Z2_layer0 .......
-@N: CL159 :"/home/kanmei/src/sincos_linear/source/rom_y36/rtl/rom_y36.v":794:31:794:35|Input ben_i is unused.
-Finished optimization stage 2 on rom_y36_ipgen_lscc_rom_inst_Z2_layer0 (CPU Time 0h:00m:00s, Memory Used current: 307MB peak: 307MB)
+@N: CL159 :"O:\src\Avant_lib\sincos_linear\source\rom_y36\rtl\rom_y36.v":794:31:794:35|Input ben_i is unused.
+Finished optimization stage 2 on rom_y36_ipgen_lscc_rom_inst_Z2_layer0 (CPU Time 0h:00m:00s, Memory Used current: 222MB peak: 222MB)
 Running optimization stage 2 on gpll .......
-Finished optimization stage 2 on gpll (CPU Time 0h:00m:00s, Memory Used current: 307MB peak: 307MB)
+Finished optimization stage 2 on gpll (CPU Time 0h:00m:00s, Memory Used current: 222MB peak: 222MB)
 Running optimization stage 2 on PLLC .......
-Finished optimization stage 2 on PLLC (CPU Time 0h:00m:00s, Memory Used current: 307MB peak: 307MB)
+Finished optimization stage 2 on PLLC (CPU Time 0h:00m:00s, Memory Used current: 222MB peak: 222MB)
 Running optimization stage 2 on gpll_ipgen_lscc_pll_Z1_layer0 .......
-@N: CL159 :"/home/kanmei/src/sincos_linear/sim/gpll/rtl/gpll.v":302:10:302:21|Input usr_fbkclk_i is unused.
-@N: CL159 :"/home/kanmei/src/sincos_linear/sim/gpll/rtl/gpll.v":354:10:354:19|Input apb_pclk_i is unused.
-@N: CL159 :"/home/kanmei/src/sincos_linear/sim/gpll/rtl/gpll.v":355:10:355:23|Input apb_preset_n_i is unused.
-@N: CL159 :"/home/kanmei/src/sincos_linear/sim/gpll/rtl/gpll.v":356:10:356:19|Input apb_psel_i is unused.
-@N: CL159 :"/home/kanmei/src/sincos_linear/sim/gpll/rtl/gpll.v":357:10:357:22|Input apb_penable_i is unused.
-@N: CL159 :"/home/kanmei/src/sincos_linear/sim/gpll/rtl/gpll.v":358:10:358:21|Input apb_pwrite_i is unused.
-@N: CL159 :"/home/kanmei/src/sincos_linear/sim/gpll/rtl/gpll.v":359:16:359:26|Input apb_paddr_i is unused.
-@N: CL159 :"/home/kanmei/src/sincos_linear/sim/gpll/rtl/gpll.v":360:17:360:28|Input apb_pwdata_i is unused.
-Finished optimization stage 2 on gpll_ipgen_lscc_pll_Z1_layer0 (CPU Time 0h:00m:00s, Memory Used current: 307MB peak: 307MB)
+@N: CL159 :"O:\src\Avant_lib\sincos_linear\sim\gpll\rtl\gpll.v":302:10:302:21|Input usr_fbkclk_i is unused.
+@N: CL159 :"O:\src\Avant_lib\sincos_linear\sim\gpll\rtl\gpll.v":354:10:354:19|Input apb_pclk_i is unused.
+@N: CL159 :"O:\src\Avant_lib\sincos_linear\sim\gpll\rtl\gpll.v":355:10:355:23|Input apb_preset_n_i is unused.
+@N: CL159 :"O:\src\Avant_lib\sincos_linear\sim\gpll\rtl\gpll.v":356:10:356:19|Input apb_psel_i is unused.
+@N: CL159 :"O:\src\Avant_lib\sincos_linear\sim\gpll\rtl\gpll.v":357:10:357:22|Input apb_penable_i is unused.
+@N: CL159 :"O:\src\Avant_lib\sincos_linear\sim\gpll\rtl\gpll.v":358:10:358:21|Input apb_pwrite_i is unused.
+@N: CL159 :"O:\src\Avant_lib\sincos_linear\sim\gpll\rtl\gpll.v":359:16:359:26|Input apb_paddr_i is unused.
+@N: CL159 :"O:\src\Avant_lib\sincos_linear\sim\gpll\rtl\gpll.v":360:17:360:28|Input apb_pwdata_i is unused.
+Finished optimization stage 2 on gpll_ipgen_lscc_pll_Z1_layer0 (CPU Time 0h:00m:00s, Memory Used current: 222MB peak: 222MB)
 Running optimization stage 2 on gpll_ipgen_pll_sip_lmmi_mux .......
-Finished optimization stage 2 on gpll_ipgen_pll_sip_lmmi_mux (CPU Time 0h:00m:00s, Memory Used current: 307MB peak: 307MB)
+Finished optimization stage 2 on gpll_ipgen_pll_sip_lmmi_mux (CPU Time 0h:00m:00s, Memory Used current: 222MB peak: 222MB)
 Running optimization stage 2 on PLL_LMMI_MUX .......
-Finished optimization stage 2 on PLL_LMMI_MUX (CPU Time 0h:00m:00s, Memory Used current: 307MB peak: 307MB)
+Finished optimization stage 2 on PLL_LMMI_MUX (CPU Time 0h:00m:00s, Memory Used current: 222MB peak: 222MB)
 Running optimization stage 2 on gpll_ipgen_pll_syncreg .......
-Finished optimization stage 2 on gpll_ipgen_pll_syncreg (CPU Time 0h:00m:00s, Memory Used current: 307MB peak: 307MB)
+Finished optimization stage 2 on gpll_ipgen_pll_syncreg (CPU Time 0h:00m:00s, Memory Used current: 222MB peak: 222MB)
 Running optimization stage 2 on gpll_ipgen_pll_init_bw_0s_1s_1310720_0_19_1s_None .......
-@N: CL201 :"/home/kanmei/src/sincos_linear/sim/gpll/rtl/gpll.v":2001:16:2001:21|Trying to extract state machine for register gen_bw_init.bw_init_cs.
+@N: CL201 :"O:\src\Avant_lib\sincos_linear\sim\gpll\rtl\gpll.v":2001:16:2001:21|Trying to extract state machine for register gen_bw_init.bw_init_cs.
 Extracted state machine for register gen_bw_init.bw_init_cs
 State machine has 5 reachable states with original encodings of:
    000
@@ -2050,10 +2051,10 @@ State machine has 5 reachable states with original encodings of:
    010
    011
    100
-Finished optimization stage 2 on gpll_ipgen_pll_init_bw_0s_1s_1310720_0_19_1s_None (CPU Time 0h:00m:00s, Memory Used current: 308MB peak: 308MB)
+Finished optimization stage 2 on gpll_ipgen_pll_init_bw_0s_1s_1310720_0_19_1s_None (CPU Time 0h:00m:00s, Memory Used current: 222MB peak: 223MB)
 
 For a summary of runtime per design unit, please see file:
 ==========================================================
-@L: /home/kanmei/src/sincos_linear/project/Avant/synwork/layer0.duruntime
+@L: O:\src\Avant_lib\sincos_linear\project\Avant\synwork\layer0.duruntime
 
 

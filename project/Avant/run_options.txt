@@ -1,21 +1,21 @@
 #--  Synopsys, Inc.
 #--  Version W-2025.03LR-SP1
-#--  Project file /home/kanmei/src/sincos_linear/project/Avant/run_options.txt
-#--  Written on Mon Jan  5 18:03:08 2026
+#--  Project file O:\src\Avant_lib\sincos_linear\project\Avant\run_options.txt
+#--  Written on Tue Jan  6 09:36:10 2026
 
 
 #project files
-add_file -constraint "/usr/local/lscc/radiant/2025.2/scripts/tcl/flow/radiant_synplify_vars.tcl"
+add_file -constraint "C:/lscc/radiant/2025.2/scripts/tcl/flow/radiant_synplify_vars.tcl"
 add_file -constraint "sincos_linear_Avant_cpe.ldc"
-add_file -verilog "/usr/local/lscc/radiant/2025.2/ip/pmi/pmi_lav-at.v"
-add_file -vhdl -lib pmi "/usr/local/lscc/radiant/2025.2/ip/pmi/pmi_lav-at.vhd"
-add_file -verilog -vlog_std v2001 "/home/kanmei/src/sincos_linear/source/mult18x18p48.v"
-add_file -verilog -vlog_std v2001 "/home/kanmei/src/sincos_linear/source/sincos_linear.v"
-add_file -verilog -vlog_std v2001 "/home/kanmei/src/sincos_linear/source/sin_linear.v"
-add_file -verilog -vlog_std v2001 "/home/kanmei/src/sincos_linear/sim/top_sin_linear.v"
-add_file -verilog -vlog_std v2001 "/home/kanmei/src/sincos_linear/source/rom_y36/rtl/rom_y36.v"
-add_file -verilog -vlog_std v2001 "/home/kanmei/src/sincos_linear/source/rom_dy18/rtl/rom_dy18.v"
-add_file -verilog -vlog_std v2001 "/home/kanmei/src/sincos_linear/sim/gpll/rtl/gpll.v"
+add_file -verilog "C:/lscc/radiant/2025.2/ip/pmi/pmi_lav-at.v"
+add_file -vhdl -lib pmi "C:/lscc/radiant/2025.2/ip/pmi/pmi_lav-at.vhd"
+add_file -verilog -vlog_std v2001 "O:/src/Avant_lib/sincos_linear/source/mult18x18p48.v"
+add_file -verilog -vlog_std v2001 "O:/src/Avant_lib/sincos_linear/source/sincos_linear.v"
+add_file -verilog -vlog_std v2001 "O:/src/Avant_lib/sincos_linear/source/sin_linear.v"
+add_file -verilog -vlog_std v2001 "O:/src/Avant_lib/sincos_linear/sim/top_sin_linear.v"
+add_file -verilog -vlog_std v2001 "O:/src/Avant_lib/sincos_linear/source/rom_y36/rtl/rom_y36.v"
+add_file -verilog -vlog_std v2001 "O:/src/Avant_lib/sincos_linear/source/rom_dy18/rtl/rom_dy18.v"
+add_file -verilog -vlog_std v2001 "O:/src/Avant_lib/sincos_linear/sim/gpll/rtl/gpll.v"
 
 
 #implementation: "Avant"
@@ -26,7 +26,7 @@ impl -add Avant -type fpga
 
 set_option -vlog_std v2001
 set_option -project_relative_includes 1
-set_option -include_path {/home/kanmei/src/sincos_linear/project;/home/kanmei/src/sincos_linear/sim/gpll;/home/kanmei/src/sincos_linear/source/rom_dy18;/home/kanmei/src/sincos_linear/source/rom_y36}
+set_option -include_path {O:/src/Avant_lib/sincos_linear/project;O:/src/Avant_lib/sincos_linear/sim/gpll;O:/src/Avant_lib/sincos_linear/source/rom_dy18;O:/src/Avant_lib/sincos_linear/source/rom_y36}
 
 #device options
 set_option -technology LAV-AT
@@ -96,5 +96,5 @@ set_option -write_apr_constraint 1
 project -result_file "./sincos_linear_Avant.vm"
 
 #set log file 
-set_option log_file "/home/kanmei/src/sincos_linear/project/Avant/sincos_linear_Avant.srf" 
+set_option log_file "O:/src/Avant_lib/sincos_linear/project/Avant/sincos_linear_Avant.srf" 
 impl -active "Avant"

@@ -1,4 +1,4 @@
-# Mon Jan  5 18:03:10 2026
+# Tue Jan  6 09:37:01 2026
 
 
 Copyright (C) 1994-2025 Synopsys, Inc.
@@ -8,67 +8,63 @@ with Synopsys, Inc. All other use, reproduction, modification, or distribution o
 Synopsys software or the associated documentation is strictly prohibited.
 Tool: Synplify Pro (R)
 Build: W-2025.03LR-SP1
-Install: /usr/local/lscc/radiant/2025.2/synpbase
-OS: Ubuntu 22.04.5 LTS
-Hostname: P360
-max virtual memory: unlimited (bytes)
-max user processes: 513751
-max stack size: 8388608 (bytes)
-
+Install: C:\lscc\radiant\2025.2\synpbase
+OS: Windows 10 or later
+Hostname: L-PF4L4NVG
 
 Implementation : Avant
-Synopsys Lattice Technology Pre-mapping, Version map202503latsp1, Build 038R, Built Dec  2 2025 06:50:44, @6366936
+Synopsys Lattice Technology Pre-mapping, Version map202503latsp1, Build 093R, Built Dec  2 2025 10:00:10, @
 
 
-Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 341MB peak: 341MB)
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 186MB peak: 186MB)
 
 
-Done reading skeleton netlist (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 357MB peak: 358MB)
+Done reading skeleton netlist (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 191MB peak: 203MB)
 
-Reading constraint file: /usr/local/lscc/radiant/2025.2/scripts/tcl/flow/radiant_synplify_vars.tcl
-Reading constraint file: /home/kanmei/src/sincos_linear/project/Avant/sincos_linear_Avant_cpe.ldc
-@L: /home/kanmei/src/sincos_linear/project/Avant/sincos_linear_Avant_scck.rpt 
-See clock summary report "/home/kanmei/src/sincos_linear/project/Avant/sincos_linear_Avant_scck.rpt"
+Reading constraint file: C:\lscc\radiant\2025.2\scripts\tcl\flow\radiant_synplify_vars.tcl
+Reading constraint file: O:\src\Avant_lib\sincos_linear\project\Avant\sincos_linear_Avant_cpe.ldc
+@L: O:\src\Avant_lib\sincos_linear\project\Avant\sincos_linear_Avant_scck.rpt 
+See clock summary report "O:\src\Avant_lib\sincos_linear\project\Avant\sincos_linear_Avant_scck.rpt"
 @N: MF472 |Synthesis running in Automatic Compile Point mode
 @N: MF474 |No compile point is identified in Automatic Compile Point mode
 @N: MF916 |Option synthesis_strategy=base is enabled. 
 @N: MF248 |Running in 64-bit mode.
 @N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
 
-Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 356MB peak: 358MB)
+Design Input Complete (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 199MB peak: 203MB)
 
 
-Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 356MB peak: 358MB)
+Mapper Initialization Complete (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 199MB peak: 203MB)
 
-Reading custom part data from path: /usr/local/lscc/radiant/2025.2/synpbase/lib/lattice_custom/radiant_custom_partdata.txt
+Reading custom part data from path: C:\lscc\radiant\2025.2\synpbase\lib\lattice_custom\radiant_custom_partdata.txt
 
-Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 356MB peak: 358MB)
+Start loading timing files (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 200MB peak: 203MB)
 
 
-Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 356MB peak: 358MB)
+Finished loading timing files (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 200MB peak: 203MB)
 
 NConnInternalConnection caching is on
 
-Starting HSTDM IP insertion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 402MB peak: 402MB)
+Starting HSTDM IP insertion (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 251MB peak: 252MB)
 
 
-Finished HSTDM IP insertion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 402MB peak: 402MB)
+Finished HSTDM IP insertion (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:04s; Memory used current: 251MB peak: 252MB)
 
-@N: MO111 :"/home/kanmei/src/sincos_linear/source/rom_y36/rtl/rom_y36.v":1959:11:1959:23|Tristate driver one_err_det_o (in view: work.rom_y36_ipgen_lscc_rom_inst_core_Z5_layer0(verilog)) on net one_err_det_o (in view: work.rom_y36_ipgen_lscc_rom_inst_core_Z5_layer0(verilog)) has its enable tied to GND.
-@N: MO111 :"/home/kanmei/src/sincos_linear/source/rom_y36/rtl/rom_y36.v":1960:11:1960:23|Tristate driver two_err_det_o (in view: work.rom_y36_ipgen_lscc_rom_inst_core_Z5_layer0(verilog)) on net two_err_det_o (in view: work.rom_y36_ipgen_lscc_rom_inst_core_Z5_layer0(verilog)) has its enable tied to GND.
-@N: MO111 :"/home/kanmei/src/sincos_linear/source/rom_y36/rtl/rom_y36.v":1959:11:1959:23|Tristate driver one_err_det_o (in view: work.rom_y36_ipgen_lscc_rom_inst_core_Z4_layer0(verilog)) on net one_err_det_o (in view: work.rom_y36_ipgen_lscc_rom_inst_core_Z4_layer0(verilog)) has its enable tied to GND.
-@N: MO111 :"/home/kanmei/src/sincos_linear/source/rom_y36/rtl/rom_y36.v":1960:11:1960:23|Tristate driver two_err_det_o (in view: work.rom_y36_ipgen_lscc_rom_inst_core_Z4_layer0(verilog)) on net two_err_det_o (in view: work.rom_y36_ipgen_lscc_rom_inst_core_Z4_layer0(verilog)) has its enable tied to GND.
-@N: MO111 :"/home/kanmei/src/sincos_linear/source/rom_y36/rtl/rom_y36.v":1959:11:1959:23|Tristate driver one_err_det_o (in view: work.rom_y36_ipgen_lscc_rom_inst_core_Z3_layer0(verilog)) on net one_err_det_o (in view: work.rom_y36_ipgen_lscc_rom_inst_core_Z3_layer0(verilog)) has its enable tied to GND.
-@N: MO111 :"/home/kanmei/src/sincos_linear/source/rom_y36/rtl/rom_y36.v":1960:11:1960:23|Tristate driver two_err_det_o (in view: work.rom_y36_ipgen_lscc_rom_inst_core_Z3_layer0(verilog)) on net two_err_det_o (in view: work.rom_y36_ipgen_lscc_rom_inst_core_Z3_layer0(verilog)) has its enable tied to GND.
-@N: MO111 :"/home/kanmei/src/sincos_linear/source/rom_y36/rtl/rom_y36.v":1959:11:1959:23|Tristate driver one_err_det_o (in view: work.rom_y36_ipgen_lscc_rom_inst_core_Z6_layer0(verilog)) on net one_err_det_o (in view: work.rom_y36_ipgen_lscc_rom_inst_core_Z6_layer0(verilog)) has its enable tied to GND.
-@N: MO111 :"/home/kanmei/src/sincos_linear/source/rom_y36/rtl/rom_y36.v":1960:11:1960:23|Tristate driver two_err_det_o (in view: work.rom_y36_ipgen_lscc_rom_inst_core_Z6_layer0(verilog)) on net two_err_det_o (in view: work.rom_y36_ipgen_lscc_rom_inst_core_Z6_layer0(verilog)) has its enable tied to GND.
-@N: MO111 :"/home/kanmei/src/sincos_linear/source/rom_dy18/rtl/rom_dy18.v":1959:11:1959:23|Tristate driver one_err_det_o (in view: work.rom_dy18_ipgen_lscc_rom_inst_core_Z10_layer0(verilog)) on net one_err_det_o (in view: work.rom_dy18_ipgen_lscc_rom_inst_core_Z10_layer0(verilog)) has its enable tied to GND.
-@N: MO111 :"/home/kanmei/src/sincos_linear/source/rom_dy18/rtl/rom_dy18.v":1960:11:1960:23|Tristate driver two_err_det_o (in view: work.rom_dy18_ipgen_lscc_rom_inst_core_Z10_layer0(verilog)) on net two_err_det_o (in view: work.rom_dy18_ipgen_lscc_rom_inst_core_Z10_layer0(verilog)) has its enable tied to GND.
+@N: MO111 :"o:\src\avant_lib\sincos_linear\source\rom_y36\rtl\rom_y36.v":1959:11:1959:23|Tristate driver one_err_det_o (in view: work.rom_y36_ipgen_lscc_rom_inst_core_Z5_layer0(verilog)) on net one_err_det_o (in view: work.rom_y36_ipgen_lscc_rom_inst_core_Z5_layer0(verilog)) has its enable tied to GND.
+@N: MO111 :"o:\src\avant_lib\sincos_linear\source\rom_y36\rtl\rom_y36.v":1960:11:1960:23|Tristate driver two_err_det_o (in view: work.rom_y36_ipgen_lscc_rom_inst_core_Z5_layer0(verilog)) on net two_err_det_o (in view: work.rom_y36_ipgen_lscc_rom_inst_core_Z5_layer0(verilog)) has its enable tied to GND.
+@N: MO111 :"o:\src\avant_lib\sincos_linear\source\rom_y36\rtl\rom_y36.v":1959:11:1959:23|Tristate driver one_err_det_o (in view: work.rom_y36_ipgen_lscc_rom_inst_core_Z4_layer0(verilog)) on net one_err_det_o (in view: work.rom_y36_ipgen_lscc_rom_inst_core_Z4_layer0(verilog)) has its enable tied to GND.
+@N: MO111 :"o:\src\avant_lib\sincos_linear\source\rom_y36\rtl\rom_y36.v":1960:11:1960:23|Tristate driver two_err_det_o (in view: work.rom_y36_ipgen_lscc_rom_inst_core_Z4_layer0(verilog)) on net two_err_det_o (in view: work.rom_y36_ipgen_lscc_rom_inst_core_Z4_layer0(verilog)) has its enable tied to GND.
+@N: MO111 :"o:\src\avant_lib\sincos_linear\source\rom_y36\rtl\rom_y36.v":1959:11:1959:23|Tristate driver one_err_det_o (in view: work.rom_y36_ipgen_lscc_rom_inst_core_Z3_layer0(verilog)) on net one_err_det_o (in view: work.rom_y36_ipgen_lscc_rom_inst_core_Z3_layer0(verilog)) has its enable tied to GND.
+@N: MO111 :"o:\src\avant_lib\sincos_linear\source\rom_y36\rtl\rom_y36.v":1960:11:1960:23|Tristate driver two_err_det_o (in view: work.rom_y36_ipgen_lscc_rom_inst_core_Z3_layer0(verilog)) on net two_err_det_o (in view: work.rom_y36_ipgen_lscc_rom_inst_core_Z3_layer0(verilog)) has its enable tied to GND.
+@N: MO111 :"o:\src\avant_lib\sincos_linear\source\rom_y36\rtl\rom_y36.v":1959:11:1959:23|Tristate driver one_err_det_o (in view: work.rom_y36_ipgen_lscc_rom_inst_core_Z6_layer0(verilog)) on net one_err_det_o (in view: work.rom_y36_ipgen_lscc_rom_inst_core_Z6_layer0(verilog)) has its enable tied to GND.
+@N: MO111 :"o:\src\avant_lib\sincos_linear\source\rom_y36\rtl\rom_y36.v":1960:11:1960:23|Tristate driver two_err_det_o (in view: work.rom_y36_ipgen_lscc_rom_inst_core_Z6_layer0(verilog)) on net two_err_det_o (in view: work.rom_y36_ipgen_lscc_rom_inst_core_Z6_layer0(verilog)) has its enable tied to GND.
+@N: MO111 :"o:\src\avant_lib\sincos_linear\source\rom_dy18\rtl\rom_dy18.v":1959:11:1959:23|Tristate driver one_err_det_o (in view: work.rom_dy18_ipgen_lscc_rom_inst_core_Z10_layer0(verilog)) on net one_err_det_o (in view: work.rom_dy18_ipgen_lscc_rom_inst_core_Z10_layer0(verilog)) has its enable tied to GND.
+@N: MO111 :"o:\src\avant_lib\sincos_linear\source\rom_dy18\rtl\rom_dy18.v":1960:11:1960:23|Tristate driver two_err_det_o (in view: work.rom_dy18_ipgen_lscc_rom_inst_core_Z10_layer0(verilog)) on net two_err_det_o (in view: work.rom_dy18_ipgen_lscc_rom_inst_core_Z10_layer0(verilog)) has its enable tied to GND.
 
-Started DisTri Cleanup (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 402MB peak: 402MB)
+Started DisTri Cleanup (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 252MB peak: 252MB)
 
 
-Finished DisTri Cleanup (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 402MB peak: 402MB)
+Finished DisTri Cleanup (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 252MB peak: 252MB)
 
 Encoding state machine gen_bw_init\.bw_init_cs[4:0] (in view: work.gpll_ipgen_pll_init_bw_0s_1s_1310720_0_19_1s_None(verilog))
 original code -> new code
@@ -78,14 +74,14 @@ original code -> new code
    011 -> 01000
    100 -> 10000
 
-Starting clock optimization report phase (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 402MB peak: 402MB)
+Starting clock optimization report phase (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 255MB peak: 255MB)
 
 
-Finished clock optimization report phase (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 402MB peak: 402MB)
+Finished clock optimization report phase (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 255MB peak: 256MB)
 
 @N: FX1184 |Applying syn_allowed_resources blockrams=400 on top level netlist top_sin_linear 
 
-Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 402MB peak: 402MB)
+Finished netlist restructuring (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 256MB peak: 256MB)
 
 
 
@@ -97,7 +93,7 @@ Level     Clock                                                             Freq
 ----------------------------------------------------------------------------------------------------------------------------------------------------
 0 -       System                                                            200.0 MHz     5.000         system       system_clkgroup           0    
                                                                                                                                                     
-0 -       gpll_ipgen_lscc_pll_Z1_layer0|clkout_clkop_o_inferred_clock       200.0 MHz     5.000         inferred     Inferred_clkgroup_0_1     212  
+0 -       gpll_ipgen_lscc_pll_Z1_layer0|clkout_clkop_o_inferred_clock       200.0 MHz     5.000         inferred     Inferred_clkgroup_0_1     211  
                                                                                                                                                     
 0 -       gpll_ipgen_lscc_pll_Z1_layer0|clkout_testclk_o_inferred_clock     200.0 MHz     5.000         inferred     Inferred_clkgroup_0_2     27   
 ====================================================================================================================================================
@@ -112,13 +108,13 @@ Clock                                                             Load      Pin 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 System                                                            0         -                                                              -                                                                  -                 -            
                                                                                                                                                                                                                                              
-gpll_ipgen_lscc_pll_Z1_layer0|clkout_clkop_o_inferred_clock       212       gpll_i.lscc_pll_inst.gen_ext_outclkdiv\.u_pll.CLKOP(PLLC)      G_1.C                                                              -                 -            
+gpll_ipgen_lscc_pll_Z1_layer0|clkout_clkop_o_inferred_clock       211       gpll_i.lscc_pll_inst.gen_ext_outclkdiv\.u_pll.CLKOP(PLLC)      G_1.C                                                              -                 -            
                                                                                                                                                                                                                                              
 gpll_ipgen_lscc_pll_Z1_layer0|clkout_testclk_o_inferred_clock     27        gpll_i.lscc_pll_inst.gen_ext_outclkdiv\.u_pll.CLKRES(PLLC)     gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init\.pll_lock_reg.C     -                 -            
 =============================================================================================================================================================================================================================================
 
-@W: MT530 :"/home/kanmei/src/sincos_linear/source/rom_y36/rtl/rom_y36.v":2974:174:2974:178|Found inferred clock gpll_ipgen_lscc_pll_Z1_layer0|clkout_clkop_o_inferred_clock which controls 212 sequential elements including dut.sin_linear_i.rom_y0_i.lscc_rom_inst.u_rom.PRIM_MODE\.xADDR\[0\]\.xDATA\[2\]\.mem_file\.mem0.AP6\.SP32K\.sp32k. This clock has no specified timing constraint which may adversely impact design performance. 
-@W: MT530 :"/home/kanmei/src/sincos_linear/sim/gpll/rtl/gpll.v":2285:4:2285:9|Found inferred clock gpll_ipgen_lscc_pll_Z1_layer0|clkout_testclk_o_inferred_clock which controls 27 sequential elements including gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init\.u_rst_n_sync.sync_reg[1:0]. This clock has no specified timing constraint which may adversely impact design performance. 
+@W: MT530 :"o:\src\avant_lib\sincos_linear\source\rom_y36\rtl\rom_y36.v":2974:174:2974:178|Found inferred clock gpll_ipgen_lscc_pll_Z1_layer0|clkout_clkop_o_inferred_clock which controls 211 sequential elements including dut.sin_linear_i.rom_y0_i.lscc_rom_inst.u_rom.PRIM_MODE\.xADDR\[0\]\.xDATA\[2\]\.mem_file\.mem0.AP6\.SP32K\.sp32k. This clock has no specified timing constraint which may adversely impact design performance. 
+@W: MT530 :"o:\src\avant_lib\sincos_linear\sim\gpll\rtl\gpll.v":2285:4:2285:9|Found inferred clock gpll_ipgen_lscc_pll_Z1_layer0|clkout_testclk_o_inferred_clock which controls 27 sequential elements including gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init\.u_rst_n_sync.sync_reg[1:0]. This clock has no specified timing constraint which may adversely impact design performance. 
 
 ICG Latch Removal Summary:
 Number of ICG latches removed: 0
@@ -131,14 +127,14 @@ Number of ICG latches not removed:	0
 
 #### START OF PREMAP CLOCK OPTIMIZATION REPORT #####[
 
-2 non-gated/non-generated clock tree(s) driving 179 clock pin(s) of sequential element(s)
+2 non-gated/non-generated clock tree(s) driving 178 clock pin(s) of sequential element(s)
 0 gated/generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
 0 instances converted, 0 sequential instances remain driven by gated/generated clocks
 
 ===================================================================== Non-Gated/Non-Generated Clocks =====================================================================
 Clock Tree ID     Driving Element                                          Drive Element Type     Fanout     Sample Instance                                              
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-@KP:ckid0_0       gpll_i.lscc_pll_inst.gen_ext_outclkdiv\.u_pll.CLKOP      PLLC                   152        valid_i_3[0]                                                 
+@KP:ckid0_0       gpll_i.lscc_pll_inst.gen_ext_outclkdiv\.u_pll.CLKOP      PLLC                   151        valid_i_3[0]                                                 
 @KP:ckid0_1       gpll_i.lscc_pll_inst.gen_ext_outclkdiv\.u_pll.CLKRES     PLLC                   27         gpll_i.lscc_pll_inst.u_pll_init_bw.gen_bw_init\.bw_init_cs[4]
 ==========================================================================================================================================================================
 
@@ -148,20 +144,20 @@ Clock Tree ID     Driving Element                                          Drive
 @N: FX1143 |Skipping assigning INTERNAL_VREF to iobanks, because the table of mapping from pin to iobank is not initialized.
 Finished Pre Mapping Phase.
 
-Starting constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 402MB peak: 402MB)
+Starting constraint checker (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 256MB peak: 257MB)
 
 
-Finished constraint checker preprocessing (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 402MB peak: 402MB)
+Finished constraint checker preprocessing (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 256MB peak: 257MB)
 
-@W: MF511 |Found issues with constraints. Please check constraint checker report "/home/kanmei/src/sincos_linear/project/Avant/sincos_linear_Avant_cck.rpt" .
+@W: MF511 |Found issues with constraints. Please check constraint checker report "O:\src\Avant_lib\sincos_linear\project\Avant\sincos_linear_Avant_cck.rpt" .
 
-Finished constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 402MB peak: 402MB)
+Finished constraint checker (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 257MB peak: 257MB)
 
 Pre-mapping successful!
 
-At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 313MB peak: 402MB)
+At Mapper Exit (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 167MB peak: 258MB)
 
-Process took 0h:00m:01s realtime, 0h:00m:01s cputime
-# Mon Jan  5 18:03:10 2026
+Process took 0h:00m:05s realtime, 0h:00m:06s cputime
+# Tue Jan  6 09:37:07 2026
 
 ###########################################################]

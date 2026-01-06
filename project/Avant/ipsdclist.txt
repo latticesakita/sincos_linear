@@ -1,1 +1,1 @@
-gpll=/home/kanmei/src/sincos_linear/sim/gpll/constraints/constraint.sdc
+gpll=O:/src/Avant_lib/sincos_linear/sim/gpll/constraints/constraint.sdc

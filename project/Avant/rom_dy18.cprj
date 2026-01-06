@@ -1,8 +1,8 @@
--ver "/usr/local/lscc/radiant/2025.2/ip/pmi/pmi_lav-at.v"
--lib pmi -vhd "/usr/local/lscc/radiant/2025.2/ip/pmi/pmi_lav-at.vhd"
--ver "/home/kanmei/src/sincos_linear/source/rom_dy18/rtl/rom_dy18.v"
--sdc "/home/kanmei/src/sincos_linear/source/rom_dy18/constraints/rom_dy18.ldc"
--path "/home/kanmei/src/sincos_linear/source/rom_dy18" "/home/kanmei/src/sincos_linear/project"
+-ver "C:/lscc/radiant/2025.2/ip/pmi/pmi_lav-at.v"
+-lib pmi -vhd "C:/lscc/radiant/2025.2/ip/pmi/pmi_lav-at.vhd"
+-ver "O:/src/Avant_lib/sincos_linear/source/rom_dy18/rtl/rom_dy18.v"
+-sdc "O:/src/Avant_lib/sincos_linear/source/rom_dy18/constraints/rom_dy18.ldc"
+-path "O:/src/Avant_lib/sincos_linear/source/rom_dy18" "O:/src/Avant_lib/sincos_linear/project"
 -top rom_dy18
 -a "LAV-AT"
 -t "LAV-AT-E30"

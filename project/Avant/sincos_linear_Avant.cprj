@@ -1,7 +1,7 @@
--ver "/usr/local/lscc/radiant/2025.2/ip/pmi/pmi_lav-at.v"
--lib pmi -vhd "/usr/local/lscc/radiant/2025.2/ip/pmi/pmi_lav-at.vhd"
--ver "/home/kanmei/src/sincos_linear/source/mult18x18p48.v" "/home/kanmei/src/sincos_linear/source/sincos_linear.v" "/home/kanmei/src/sincos_linear/source/sin_linear.v" "/home/kanmei/src/sincos_linear/sim/top_sin_linear.v"
--path "/home/kanmei/src/sincos_linear/project"
+-ver "C:/lscc/radiant/2025.2/ip/pmi/pmi_lav-at.v"
+-lib pmi -vhd "C:/lscc/radiant/2025.2/ip/pmi/pmi_lav-at.vhd"
+-ver "O:/src/Avant_lib/sincos_linear/source/mult18x18p48.v" "O:/src/Avant_lib/sincos_linear/source/sincos_linear.v" "O:/src/Avant_lib/sincos_linear/source/sin_linear.v" "O:/src/Avant_lib/sincos_linear/sim/top_sin_linear.v"
+-path "O:/src/Avant_lib/sincos_linear/project"
 -top top_sin_linear
 -isTop
 -a "LAV-AT"

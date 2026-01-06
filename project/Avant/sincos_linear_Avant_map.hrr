@@ -4,46 +4,46 @@ Report for cell top_sin_linear
                      Cell usage:
                                   cell	      count    Res Usage(%)
                                    EBR	       6.00        100.0
-                                  LUT4	        219        100.0
-                               LUTGATE	        123        100.0
+                                  LUT4	        218        100.0
+                               LUTGATE	        122        100.0
                                 LUTRAM	         96        100.0
                                  IOBUF	         67        100.0
-                                PFUREG	         84        100.0
+                                PFUREG	         83        100.0
                                 MULT18	          1        100.0
 SUB MODULES
                                   cell	      count    LUT4 Usage(%)
-                                  gpll	          1        11.4
-                     sincos_linear_32s	          1        28.8
+                                  gpll	          1        11.5
+                     sincos_linear_32s	          1        28.4
 ---------------------------------------------------
 Report for cell gpll
    Instance path: top_sin_linear/gpll_i
                      Cell usage:
                                   cell	      count    Res Usage(%)
-                                  LUT4	         25        11.4
-                               LUTGATE	         25        20.3
-                                PFUREG	         18        21.4
+                                  LUT4	         25        11.5
+                               LUTGATE	         25        20.5
+                                PFUREG	         18        21.7
 SUB MODULES
                                   cell	      count    LUT4 Usage(%)
-         gpll_ipgen_lscc_pll_Z1_layer0	          1        11.4
+         gpll_ipgen_lscc_pll_Z1_layer0	          1        11.5
 ---------------------------------------------------
 Report for cell gpll_ipgen_lscc_pll_Z1_layer0
    Instance path: top_sin_linear/gpll_i/lscc_pll_inst
                      Cell usage:
                                   cell	      count    Res Usage(%)
-                                  LUT4	         25        11.4
-                               LUTGATE	         25        20.3
-                                PFUREG	         18        21.4
+                                  LUT4	         25        11.5
+                               LUTGATE	         25        20.5
+                                PFUREG	         18        21.7
 SUB MODULES
                                   cell	      count    LUT4 Usage(%)
-gpll_ipgen_pll_init_bw_0s_1s_1310720_0_19_1s_None	          1        11.4
+gpll_ipgen_pll_init_bw_0s_1s_1310720_0_19_1s_None	          1        11.5
 ---------------------------------------------------
 Report for cell gpll_ipgen_pll_init_bw_0s_1s_1310720_0_19_1s_None
    Instance path: top_sin_linear/gpll_i/lscc_pll_inst/u_pll_init_bw
                      Cell usage:
                                   cell	      count    Res Usage(%)
-                                  LUT4	         25        11.4
-                               LUTGATE	         25        20.3
-                                PFUREG	         18        21.4
+                                  LUT4	         25        11.5
+                               LUTGATE	         25        20.5
+                                PFUREG	         18        21.7
 SUB MODULES
                                   cell	      count    LUT4 Usage(%)
            gpll_ipgen_pll_sip_lmmi_mux	          1         4.6
@@ -71,29 +71,29 @@ Report for cell gpll_ipgen_pll_sip_lmmi_mux
                      Cell usage:
                                   cell	      count    Res Usage(%)
                                   LUT4	         10         4.6
-                               LUTGATE	         10         8.1
+                               LUTGATE	         10         8.2
 ---------------------------------------------------
 Report for cell sincos_linear_32s
    Instance path: top_sin_linear/dut
                      Cell usage:
                                   cell	      count    Res Usage(%)
                                    EBR	       6.00        100.0
-                                  LUT4	         63        28.8
-                               LUTGATE	         63        51.2
-                                PFUREG	         53        63.1
+                                  LUT4	         62        28.4
+                               LUTGATE	         62        50.8
+                                PFUREG	         52        62.7
                                 MULT18	          1        100.0
 SUB MODULES
                                   cell	      count    LUT4 Usage(%)
-                            sin_linear	          1        28.8
+                            sin_linear	          1        28.4
 ---------------------------------------------------
 Report for cell sin_linear
    Instance path: top_sin_linear/dut/sin_linear_i
                      Cell usage:
                                   cell	      count    Res Usage(%)
                                    EBR	       6.00        100.0
-                                  LUT4	         63        28.8
-                               LUTGATE	         63        51.2
-                                PFUREG	         53        63.1
+                                  LUT4	         62        28.4
+                               LUTGATE	         62        50.8
+                                PFUREG	         52        62.7
                                 MULT18	          1        100.0
 SUB MODULES
                                   cell	      count    LUT4 Usage(%)

@@ -45,23 +45,23 @@ set_option -automatic_compile_point 1
 
 set_option -dup false
 set_option -disable_io_insertion false
-add_file -constraint {/usr/local/lscc/radiant/2025.2/scripts/tcl/flow/radiant_synplify_vars.tcl}
+add_file -constraint {C:/lscc/radiant/2025.2/scripts/tcl/flow/radiant_synplify_vars.tcl}
 add_file -constraint {sincos_linear_Avant_cpe.ldc}
-add_file -verilog {/usr/local/lscc/radiant/2025.2/ip/pmi/pmi_lav-at.v}
-add_file -vhdl -lib pmi {/usr/local/lscc/radiant/2025.2/ip/pmi/pmi_lav-at.vhd}
-add_file -verilog -vlog_std v2001 {/home/kanmei/src/sincos_linear/source/mult18x18p48.v}
-add_file -verilog -vlog_std v2001 {/home/kanmei/src/sincos_linear/source/sincos_linear.v}
-add_file -verilog -vlog_std v2001 {/home/kanmei/src/sincos_linear/source/sin_linear.v}
-add_file -verilog -vlog_std v2001 {/home/kanmei/src/sincos_linear/sim/top_sin_linear.v}
-add_file -verilog -vlog_std v2001 {/home/kanmei/src/sincos_linear/source/rom_y36/rtl/rom_y36.v}
-add_file -verilog -vlog_std v2001 {/home/kanmei/src/sincos_linear/source/rom_dy18/rtl/rom_dy18.v}
-add_file -verilog -vlog_std v2001 {/home/kanmei/src/sincos_linear/sim/gpll/rtl/gpll.v}
+add_file -verilog {C:/lscc/radiant/2025.2/ip/pmi/pmi_lav-at.v}
+add_file -vhdl -lib pmi {C:/lscc/radiant/2025.2/ip/pmi/pmi_lav-at.vhd}
+add_file -verilog -vlog_std v2001 {O:/src/Avant_lib/sincos_linear/source/mult18x18p48.v}
+add_file -verilog -vlog_std v2001 {O:/src/Avant_lib/sincos_linear/source/sincos_linear.v}
+add_file -verilog -vlog_std v2001 {O:/src/Avant_lib/sincos_linear/source/sin_linear.v}
+add_file -verilog -vlog_std v2001 {O:/src/Avant_lib/sincos_linear/sim/top_sin_linear.v}
+add_file -verilog -vlog_std v2001 {O:/src/Avant_lib/sincos_linear/source/rom_y36/rtl/rom_y36.v}
+add_file -verilog -vlog_std v2001 {O:/src/Avant_lib/sincos_linear/source/rom_dy18/rtl/rom_dy18.v}
+add_file -verilog -vlog_std v2001 {O:/src/Avant_lib/sincos_linear/sim/gpll/rtl/gpll.v}
 #-- top module name
 set_option -top_module top_sin_linear
-set_option -include_path {/home/kanmei/src/sincos_linear/project}
-set_option -include_path {/home/kanmei/src/sincos_linear/sim/gpll}
-set_option -include_path {/home/kanmei/src/sincos_linear/source/rom_dy18}
-set_option -include_path {/home/kanmei/src/sincos_linear/source/rom_y36}
+set_option -include_path {O:/src/Avant_lib/sincos_linear/project}
+set_option -include_path {O:/src/Avant_lib/sincos_linear/sim/gpll}
+set_option -include_path {O:/src/Avant_lib/sincos_linear/source/rom_dy18}
+set_option -include_path {O:/src/Avant_lib/sincos_linear/source/rom_y36}
 
 #-- set result format/file last
 project -result_format "vm"

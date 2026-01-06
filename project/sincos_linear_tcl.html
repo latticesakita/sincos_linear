@@ -1,8 +1,8 @@
 <HTML>
 <HEAD>
 <TITLE>Lattice TCL Log</TITLE>
-<link href="file:////usr/local/lscc/radiant/2025.2/data/theme/css/light/report.css" rel="stylesheet" type="text/css" media="screen"/>
-<link href="file:////usr/local/lscc/radiant/2025.2/data/theme/css/print/report.css" rel="stylesheet" type="text/css" media="print"/>
+<link href="file:///C:/lscc/radiant/2025.2/data/theme/css/light/report.css" rel="stylesheet" type="text/css" media="screen"/>
+<link href="file:///C:/lscc/radiant/2025.2/data/theme/css/print/report.css" rel="stylesheet" type="text/css" media="print"/>
 <style type="text/css">
 #toc {
   position: fixed;
@@ -40,125 +40,25 @@ if (a)
 <BODY>
 
 <DIV id="content" onclick="hideTocList()"><PRE>
-<A name="pn260102171207"></A><B><U><big>pn260102171207</big></U></B>
-#Start recording tcl command: 1/2/2026 07:47:05
-#Project Location: /home/kanmei/src/sincos_linear/project; Project name: sincos_linear
-prj_create -name "sincos_linear" -impl "Avant" -dev LAV-AT-E30-1CBG484C -performance "1" -synthesis "synplify"
-prj_add_source "/home/kanmei/src/sincos_linear/source/mult18x18p48.v" "/home/kanmei/src/sincos_linear/source/sincos_linear.v" "/home/kanmei/src/sincos_linear/source/sin_linear.v" "/home/kanmei/src/sincos_linear/source/tb_sin_linear.v" "/home/kanmei/src/sincos_linear/source/top_sin_linear.v" "/home/kanmei/src/sincos_linear/source/rom_y36/rom_y36.ipx" "/home/kanmei/src/sincos_linear/source/rom_dy18/rom_dy18.ipx"
-prj_save 
-prj_syn_sim_source -src "/home/kanmei/src/sincos_linear/source/tb_sin_linear.v" SimulateOnly
+<A name="pn260106094455"></A><B><U><big>pn260106094455</big></U></B>
+#Start recording tcl command: 1/6/2026 08:11:39
+#Project Location: O:/src/Avant_lib/sincos_linear/project; Project name: sincos_linear
+prj_open "O:/src/Avant_lib/sincos_linear/project/sincos_linear.rdf"
+prj_add_source "O:/src/Avant_lib/sincos_linear//tb/tb.spf"
+prj_remove_source "O:/src/Avant_lib/sincos_linear/project/sincos_linear.pdc"
+prj_add_source -exclude "O:/src/Avant_lib/sincos_linear/sim/sin_linear.pdc"
+prj_enable_source "O:/src/Avant_lib/sincos_linear/sim/sin_linear.pdc"
 prj_run Synthesis -impl Avant
 prj_run PAR -impl Avant
-prj_set_impl_opt -impl "Avant" {top} {top_sin_linear}
-prj_set_strategy_value -strategy Strategy1 par_core_number=16 par_place_iterator=16
-prj_run PAR -impl Avant
-prj_add_source "/home/kanmei/src/sincos_linear/source/gpll/gpll.ipx"
-prj_run PAR -impl Avant
-prj_add_source "/home/kanmei/src/sincos_linear//tb/tb.spf"
-#Stop recording: 1/2/2026 17:12:07
+#Stop recording: 1/6/2026 09:44:55
 
 
 
-<A name="pn260103094448"></A><B><U><big>pn260103094448</big></U></B>
-#Start recording tcl command: 1/3/2026 08:40:27
-#Project Location: /home/kanmei/src/sincos_linear/project; Project name: sincos_linear
-prj_open "/home/kanmei/src/sincos_linear/project/sincos_linear.rdf"
-prj_save 
-prj_close
-#Stop recording: 1/3/2026 09:44:48
-
-
-
-<A name="pn260103171614"></A><B><U><big>pn260103171614</big></U></B>
-#Start recording tcl command: 1/3/2026 17:14:57
-#Project Location: /home/kanmei/src/sincos_linear/project; Project name: sincos_linear
-prj_open "/home/kanmei/src/sincos_linear/project/sincos_linear.rdf"
-prj_set_device -part LAV-AT-E30-1CBG484C -performance "1"
-prj_remove_source "/home/kanmei/src/sincos_linear/source/gpll/gpll.ipx"
-#Stop recording: 1/3/2026 17:16:14
-
-
-
-<A name="pn260103171722"></A><B><U><big>pn260103171722</big></U></B>
-#Start recording tcl command: 1/3/2026 17:17:10
-#Project Location: /home/kanmei/src/sincos_linear/project; Project name: sincos_linear
-prj_open "/home/kanmei/src/sincos_linear/project/sincos_linear.rdf"
-#Stop recording: 1/3/2026 17:17:22
-
-
-
-<A name="pn260103171908"></A><B><U><big>pn260103171908</big></U></B>
-#Start recording tcl command: 1/3/2026 17:18:37
-#Project Location: /home/kanmei/src/sincos_linear/project; Project name: sincos_linear
-prj_open "/home/kanmei/src/sincos_linear/project/sincos_linear.rdf"
-#Stop recording: 1/3/2026 17:19:08
-
-
-
-<A name="pn260103172623"></A><B><U><big>pn260103172623</big></U></B>
-#Start recording tcl command: 1/3/2026 17:19:28
-#Project Location: /home/kanmei/src/sincos_linear/project; Project name: sincos_linear
-prj_open "/home/kanmei/src/sincos_linear/project/sincos_linear.rdf"
-prj_run Synthesis -impl Avant
-prj_add_source "/home/kanmei/src/sincos_linear/project/sincos_linear.pdc"
-prj_enable_source "/home/kanmei/src/sincos_linear/project/sincos_linear.pdc"
-prj_run PAR -impl Avant
-#Stop recording: 1/3/2026 17:26:23
-
-
-
-<A name="pn260103173232"></A><B><U><big>pn260103173232</big></U></B>
-#Start recording tcl command: 1/3/2026 17:32:23
-#Project Location: /home/kanmei/src/sincos_linear/project; Project name: sincos_linear
-prj_open "/home/kanmei/src/sincos_linear/project/sincos_linear.rdf"
-#Stop recording: 1/3/2026 17:32:32
-
-
-
-<A name="pn260103195503"></A><B><U><big>pn260103195503</big></U></B>
-#Start recording tcl command: 1/3/2026 17:33:06
-#Project Location: /home/kanmei/src/sincos_linear/project; Project name: sincos_linear
-prj_open "/home/kanmei/src/sincos_linear/project/sincos_linear.rdf"
-prj_run Synthesis -impl Avant
-prj_add_source "/home/kanmei/src/sincos_linear/project/sincos_linear.pdc"
-prj_enable_source "/home/kanmei/src/sincos_linear/project/sincos_linear.pdc"
-prj_run PAR -impl Avant
-prj_set_device -part LAV-AT-E30-2CBG484C -performance "2"
-prj_run PAR -impl Avant
-prj_set_device -part LAV-AT-E30-3CBG484C -performance "3"
-prj_run PAR -impl Avant
-prj_run PAR -impl Avant
-prj_run PAR -impl Avant
-prj_run PAR -impl Avant
-prj_run PAR -impl Avant
-prj_run PAR -impl Avant
-prj_run Synthesis -impl Avant
-prj_run PAR -impl Avant
-prj_run PAR -impl Avant
-#Stop recording: 1/3/2026 19:55:03
-
-
-
-<A name="pn260103200010"></A><B><U><big>pn260103200010</big></U></B>
-#Start recording tcl command: 1/3/2026 19:57:08
-#Project Location: /home/kanmei/src/sincos_linear/project; Project name: sincos_linear
-prj_open "/home/kanmei/src/sincos_linear/project/sincos_linear.rdf"
-prj_run PAR -impl Avant
-#Stop recording: 1/3/2026 20:00:10
-
-
-
-<A name="pn260103220815"></A><B><U><big>pn260103220815</big></U></B>
-#Start recording tcl command: 1/3/2026 20:05:24
-#Project Location: /home/kanmei/src/sincos_linear/project; Project name: sincos_linear
-prj_open "/home/kanmei/src/sincos_linear/project/sincos_linear.rdf"
-prj_run Synthesis -impl Avant
-prj_run PAR -impl Avant
-prj_run PAR -impl Avant
-prj_run PAR -impl Avant
-prj_run PAR -impl Avant
-prj_run PAR -impl Avant
-#Stop recording: 1/3/2026 22:08:15
+<A name="pn260106094832"></A><B><U><big>pn260106094832</big></U></B>
+#Start recording tcl command: 1/6/2026 09:48:07
+#Project Location: O:/src/Avant_lib/sincos_linear/project; Project name: sincos_linear
+prj_open "O:/src/Avant_lib/sincos_linear/project/sincos_linear.rdf"
+#Stop recording: 1/6/2026 09:48:32
 
 
 
@@ -166,16 +66,8 @@ prj_run PAR -impl Avant
 
 <DIV id="toc" class="radiant"><span onmousemove="showTocList()">Contents</span>
 <UL id="toc_list">
-<LI><A href=#pn260102171207>pn260102171207</A></LI>
-<LI><A href=#pn260103094448>pn260103094448</A></LI>
-<LI><A href=#pn260103171614>pn260103171614</A></LI>
-<LI><A href=#pn260103171722>pn260103171722</A></LI>
-<LI><A href=#pn260103171908>pn260103171908</A></LI>
-<LI><A href=#pn260103172623>pn260103172623</A></LI>
-<LI><A href=#pn260103173232>pn260103173232</A></LI>
-<LI><A href=#pn260103195503>pn260103195503</A></LI>
-<LI><A href=#pn260103200010>pn260103200010</A></LI>
-<LI><A href=#pn260103220815>pn260103220815</A></LI>
+<LI><A href=#pn260106094455>pn260106094455</A></LI>
+<LI><A href=#pn260106094832>pn260106094832</A></LI>
 </UL>
 </DIV>
 

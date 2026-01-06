@@ -1,3 +1,0 @@
-@E: CG906 :"/home/kanmei/src/sincos_linear/source/sin_linear.v":78:11:78:18|Reference to unknown variable si_valid.
-@E::Errors while synthesizing top module top_sin_linear.
-

@@ -2,18 +2,18 @@ Resource Usage Report
 Part: lav_at_e30cbg484c-1
 
 
-Register bits: 84 of 163200 (0%)
+Register bits: 83 of 163200 (0%)
 I/O cells:       67
 
 Details:
 DPR16X4A:       8
 FD1P3BX:        2
-FD1P3DX:        78
+FD1P3DX:        77
 FD1P3IX:        4
 GSRA:           1
 IB:             34
 INV:            6
-LUT4:           109
+LUT4:           108
 MULTADDSUB18X18A: 1
 OB:             33
 PLLC:           1
@@ -33,8 +33,8 @@ Carry Chains: 0
 Blackboxes: 0
 
 Mapping Summary:
-Total number of registers: 84 + 0 = 84 of 163200 (0.05%)
-Total number of LUTs: 109 + 0 = 109 
+Total number of registers: 83 + 0 = 83 of 163200 (0.05%)
+Total number of LUTs: 108 + 0 = 108 
 Total number of EBRs: 6 + 0 = 6 of 400 (1.50%)
 Total number of DSPs: 1 + 0 = 1 of 700 (0.14%)
 Total number of Distributed RAMs: 16 + 0 = 16 

@@ -1,8 +1,8 @@
 <HTML>
 <HEAD>
 <TITLE></TITLE>
-<link href="file:////usr/local/lscc/radiant/2025.2/data/theme/css/light/report.css" rel="stylesheet" type="text/css" media="screen"/>
-<link href="file:////usr/local/lscc/radiant/2025.2/data/theme/css/print/report.css" rel="stylesheet" type="text/css" media="print"/>
+<link href="file:///C:/lscc/radiant/2025.2/data/theme/css/light/report.css" rel="stylesheet" type="text/css" media="screen"/>
+<link href="file:///C:/lscc/radiant/2025.2/data/theme/css/print/report.css" rel="stylesheet" type="text/css" media="print"/>
 <style type="text/css">
 #toc {
   position: fixed;
@@ -41,43 +41,43 @@ if (a)
 
 <DIV id="content" onclick="hideTocList()"><PRE>
 POSTSYN: Post Synthesis Process Radiant Software (64-bit) 2025.2.0.48.0
-Command Line: postsyn -a LAV-AT -p LAV-AT-E30 -t CBG484 -sp 1 -oc Commercial -top -ipsdc ipsdclist.txt -w -o sincos_linear_Avant_syn.udb -ldc sincos_linear_Avant.ldc -gui -msgset /home/kanmei/src/sincos_linear/project/promote.xml sincos_linear_Avant.vm 
+Command Line: postsyn -a LAV-AT -p LAV-AT-E30 -t CBG484 -sp 1 -oc Commercial -top -ipsdc ipsdclist.txt -w -o sincos_linear_Avant_syn.udb -ldc sincos_linear_Avant.ldc -gui -msgset O:/src/Avant_lib/sincos_linear/project/promote.xml sincos_linear_Avant.vm 
    Architecture:     LAV-AT
    Device:           LAV-AT-E30
    Package:          CBG484
    Performance:      1
 Reading input file 'sincos_linear_Avant.vm' ...
 Reading constraint file 'sincos_linear_Avant.ldc' ...
-Reading constraint file '/home/kanmei/src/sincos_linear/sim/gpll/constraints/constraint.sdc' ...
+Reading constraint file 'O:/src/Avant_lib/sincos_linear/sim/gpll/constraints/constraint.sdc' ...
  
 IP Constraint Propagation
 -------------------------
 ldc_set_attribute {USE_PRIMARY=FALSE} [get_nets lscc_pll_inst/lmmi_clk_w] originating in instance gpll_i was updated to ldc_set_attribute {USE_PRIMARY=FALSE} [get_nets {gpll_i/lscc_pll_inst/lmmi_clk_w }] and kept.
-##Original File: /home/kanmei/src/sincos_linear/sim/gpll/constraints/constraint.sdc
+##Original File: O:/src/Avant_lib/sincos_linear/sim/gpll/constraints/constraint.sdc
 set_false_path -to [get_pins -hierarchical lscc_pll_inst/u_pll_init_bw/gen_bw_init.u_rst_n_sync/sync_reg*/CD] originating in instance gpll_i was updated to set_false_path -to [get_pins {gpll_i/lscc_pll_inst/u_pll_init_bw/gen_bw_init.u_rst_n_sync/sync_reg[1]/CD gpll_i/lscc_pll_inst/u_pll_init_bw/gen_bw_init.u_rst_n_sync/sync_reg_Z[0]/CD }] and kept.
-##Original File: /home/kanmei/src/sincos_linear/sim/gpll/constraints/constraint.sdc
+##Original File: O:/src/Avant_lib/sincos_linear/sim/gpll/constraints/constraint.sdc
 set_false_path -to [get_pins -hierarchical lscc_pll_inst/u_pll_init_bw/gen_bw_init.u_lock_sync/sync_reg*/D] originating in instance gpll_i was updated to set_false_path -to [get_pins {gpll_i/lscc_pll_inst/u_pll_init_bw/gen_bw_init.u_lock_sync/sync_reg[1]/D gpll_i/lscc_pll_inst/u_pll_init_bw/gen_bw_init.u_lock_sync/sync_reg_Z[0]/D }] and kept.
-##Original File: /home/kanmei/src/sincos_linear/sim/gpll/constraints/constraint.sdc
+##Original File: O:/src/Avant_lib/sincos_linear/sim/gpll/constraints/constraint.sdc
 set_false_path -from [get_pins lscc_pll_inst/u_pll_init_bw/gen_bw_init.en_usr_lmmi*/Q] originating in instance gpll_i was updated to set_false_path -from [get_pins {gpll_i/lscc_pll_inst/u_pll_init_bw/gen_bw_init.en_usr_lmmi/Q }] and kept.
-##Original File: /home/kanmei/src/sincos_linear/sim/gpll/constraints/constraint.sdc
+##Original File: O:/src/Avant_lib/sincos_linear/sim/gpll/constraints/constraint.sdc
 set_max_delay -from [get_pins lscc_pll_inst/gen_ext_outclkdiv.u_pll.PLLC_MODE_inst/LMMIREADY] -to [get_pins lscc_pll_inst/u_pll_init_bw/gen_bw_init.dly_wait_cntr*/D] -datapath_only 6 originating in instance gpll_i was updated to set_max_delay -from [get_pins {gpll_i/lscc_pll_inst/gen_ext_outclkdiv.u_pll.PLLC_MODE_inst/LMMIR   ....   l_inst/u_pll_init_bw/gen_bw_init.dly_wait_cntr[0]/D }] -datapath_only 6 and kept.
-##Original File: /home/kanmei/src/sincos_linear/sim/gpll/constraints/constraint.sdc
+##Original File: O:/src/Avant_lib/sincos_linear/sim/gpll/constraints/constraint.sdc
 set_max_delay -from [get_pins lscc_pll_inst/u_pll_init_bw/gen_bw_init.init_request*/Q] -to [get_pins lscc_pll_inst/gen_ext_outclkdiv.u_pll.PLLC_MODE_inst/LMMIREQUEST] -datapath_only 6 originating in instance gpll_i was updated to set_max_delay -from [get_pins {gpll_i/lscc_pll_inst/u_pll_init_bw/gen_bw_init.init_request/Q }]   ....   /gen_ext_outclkdiv.u_pll.PLLC_MODE_inst/LMMIREQUEST }] -datapath_only 6 and kept.
-##Original File: /home/kanmei/src/sincos_linear/sim/gpll/constraints/constraint.sdc
+##Original File: O:/src/Avant_lib/sincos_linear/sim/gpll/constraints/constraint.sdc
 set_max_delay -from [get_pins lscc_pll_inst/u_pll_init_bw/gen_bw_init.init_request*/Q] -to [get_pins lscc_pll_inst/gen_ext_outclkdiv.u_pll.PLLC_MODE_inst/LMMIWRRDN] -datapath_only 6 originating in instance gpll_i was updated to set_max_delay -from [get_pins {gpll_i/lscc_pll_inst/u_pll_init_bw/gen_bw_init.init_request/Q }] -   ....   st/gen_ext_outclkdiv.u_pll.PLLC_MODE_inst/LMMIWRRDN }] -datapath_only 6 and kept.
-##Original File: /home/kanmei/src/sincos_linear/sim/gpll/constraints/constraint.sdc
+##Original File: O:/src/Avant_lib/sincos_linear/sim/gpll/constraints/constraint.sdc
 set_max_delay -from [get_pins lscc_pll_inst/u_pll_init_bw/gen_bw_init.wdata*/Q] -to [get_pins lscc_pll_inst/gen_ext_outclkdiv.u_pll.PLLC_MODE_inst/LMMIWDATA*] -datapath_only 6 originating in instance gpll_i was updated to set_max_delay -from [get_pins {gpll_i/lscc_pll_inst/u_pll_init_bw/gen_bw_init.wdata_0[2]/Q gpll_i/lscc_   ....   t/gen_ext_outclkdiv.u_pll.PLLC_MODE_inst/LMMIWDATA0 }] -datapath_only 6 and kept.
-##Original File: /home/kanmei/src/sincos_linear/sim/gpll/constraints/constraint.sdc
+##Original File: O:/src/Avant_lib/sincos_linear/sim/gpll/constraints/constraint.sdc
 set_max_delay -from [get_pins lscc_pll_inst/u_pll_init_bw/gen_bw_init.en_usr_lmmi*/Q] -to [get_pins lscc_pll_inst/gen_ext_outclkdiv.u_pll.PLLC_MODE_inst/LMMIWDATA*] -datapath_only 6 originating in instance gpll_i was updated to set_max_delay -from [get_pins {gpll_i/lscc_pll_inst/u_pll_init_bw/gen_bw_init.en_usr_lmmi/Q }] -t   ....   t/gen_ext_outclkdiv.u_pll.PLLC_MODE_inst/LMMIWDATA0 }] -datapath_only 6 and kept.
-##Original File: /home/kanmei/src/sincos_linear/sim/gpll/constraints/constraint.sdc
+##Original File: O:/src/Avant_lib/sincos_linear/sim/gpll/constraints/constraint.sdc
 set_max_delay -from [get_pins lscc_pll_inst/u_pll_init_bw/gen_bw_init.en_usr_lmmi*/Q] -to [get_pins lscc_pll_inst/gen_ext_outclkdiv.u_pll.PLLC_MODE_inst/LMMIOFFSET*] -datapath_only 6 originating in instance gpll_i was updated to set_max_delay -from [get_pins {gpll_i/lscc_pll_inst/u_pll_init_bw/gen_bw_init.en_usr_lmmi/Q }] -   ....   /gen_ext_outclkdiv.u_pll.PLLC_MODE_inst/LMMIOFFSET0 }] -datapath_only 6 and kept.
-##Original File: /home/kanmei/src/sincos_linear/sim/gpll/constraints/constraint.sdc
+##Original File: O:/src/Avant_lib/sincos_linear/sim/gpll/constraints/constraint.sdc
 set_max_delay -from [get_pins lscc_pll_inst/u_pll_init_bw/gen_bw_init.en_usr_lmmi*/Q] -to [get_pins lscc_pll_inst/gen_ext_outclkdiv.u_pll.PLLC_MODE_inst/LMMIWRRDN] -datapath_only 6 originating in instance gpll_i was updated to set_max_delay -from [get_pins {gpll_i/lscc_pll_inst/u_pll_init_bw/gen_bw_init.en_usr_lmmi/Q }] -to   ....   st/gen_ext_outclkdiv.u_pll.PLLC_MODE_inst/LMMIWRRDN }] -datapath_only 6 and kept.
-##Original File: /home/kanmei/src/sincos_linear/sim/gpll/constraints/constraint.sdc
+##Original File: O:/src/Avant_lib/sincos_linear/sim/gpll/constraints/constraint.sdc
 set_max_delay -from [get_pins lscc_pll_inst/u_pll_init_bw/gen_bw_init.en_usr_lmmi*/Q] -to [get_pins lscc_pll_inst/gen_ext_outclkdiv.u_pll.PLLC_MODE_inst/LMMIREQUEST] -datapath_only 6 originating in instance gpll_i was updated to set_max_delay -from [get_pins {gpll_i/lscc_pll_inst/u_pll_init_bw/gen_bw_init.en_usr_lmmi/Q }] -   ....   /gen_ext_outclkdiv.u_pll.PLLC_MODE_inst/LMMIREQUEST }] -datapath_only 6 and kept.
-##Original File: /home/kanmei/src/sincos_linear/sim/gpll/constraints/constraint.sdc
+##Original File: O:/src/Avant_lib/sincos_linear/sim/gpll/constraints/constraint.sdc
 ldc_set_attribute {USE_PRIMARY=FALSE} [get_nets lscc_pll_inst/clkout_testclk_o] originating in instance gpll_i was updated to ldc_set_attribute {USE_PRIMARY=FALSE} [get_nets {gpll_i/lscc_pll_inst/clkout_testclk_o }] and kept.
-##Original File: /home/kanmei/src/sincos_linear/sim/gpll/constraints/constraint.sdc
+##Original File: O:/src/Avant_lib/sincos_linear/sim/gpll/constraints/constraint.sdc
 
 
 Removing unused logic ...
@@ -117,10 +117,10 @@ Constraint Summary:
  
 Writing output file 'sincos_linear_Avant_syn.udb'.
 POSTSYN finished successfully.
-Total CPU Time: 4 secs 
-Total REAL Time: 5 secs 
-Peak Memory Usage: 1006 MB
-Checksum -- postsyn: 99260668efc6c03f3fefac34a1c281ad297dee07
+Total CPU Time: 5 secs 
+Total REAL Time: 6 secs 
+Peak Memory Usage: 894 MB
+Checksum -- postsyn: 8c83b51df30504666d39c5f8ac60c06183d572d0
 
 
 </PRE></DIV>

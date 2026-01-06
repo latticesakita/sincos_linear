@@ -6,7 +6,7 @@ The file contains the job information from compiler to be displayed as part of t
 
 <job_run_status name="compiler"> 
   <report_link name="Detailed report">
-    <data>/home/kanmei/src/sincos_linear/project/Avant/synlog/sincos_linear_Avant_compiler.srr</data>
+    <data>O:\src\Avant_lib\sincos_linear\project\Avant\synlog\sincos_linear_Avant_compiler.srr</data>
     <title>Synopsys HDL Compiler</title>
   </report_link> 
   <job_status>
@@ -14,28 +14,28 @@ The file contains the job information from compiler to be displayed as part of t
   </job_status>
 <job_info> 
 			<info name="Notes">
-  <data>229</data>
-  <report_link name="more"><data>/home/kanmei/src/sincos_linear/project/Avant/synlog/report/sincos_linear_Avant_compiler_notes.txt</data></report_link>
+  <data>226</data>
+  <report_link name="more"><data>O:\src\Avant_lib\sincos_linear\project\Avant\synlog\report\sincos_linear_Avant_compiler_notes.txt</data></report_link>
   </info>
 			<info name="Warnings">
-  <data>21</data>
-  <report_link name="more"><data>/home/kanmei/src/sincos_linear/project/Avant/synlog/report/sincos_linear_Avant_compiler_warnings.txt</data></report_link>
+  <data>22</data>
+  <report_link name="more"><data>O:\src\Avant_lib\sincos_linear\project\Avant\synlog\report\sincos_linear_Avant_compiler_warnings.txt</data></report_link>
   </info>
 			<info name="Errors">
   <data>0</data>
-  <report_link name="more"><data>/home/kanmei/src/sincos_linear/project/Avant/synlog/report/sincos_linear_Avant_compiler_errors.txt</data></report_link>
+  <report_link name="more"><data>O:\src\Avant_lib\sincos_linear\project\Avant\synlog\report\sincos_linear_Avant_compiler_errors.txt</data></report_link>
   </info>
 			<info name="CPU Time">
   <data>-</data>
   </info>
 			<info name="Real Time">
-  <data>00h:00m:01s</data>
+  <data>00h:00m:26s</data>
   </info>
 			<info name="Peak Memory">
   <data>-</data>
   </info>
 			<info name="Date &amp;Time">
-  <data type="timestamp">1767603789</data>
+  <data type="timestamp">1767659796</data>
   </info>
 			</job_info>
 </job_run_status>

@@ -8,27 +8,27 @@ Package: CBG484
 Performance Grade:  1
 
 Mapper:    version Radiant Software (64-bit) 2025.2.0.48.0
-Mapped on: Mon Jan  5 18:03:29 2026
+Mapped on: Tue Jan  6 09:50:50 2026
 
 Design Information
 ------------------
 
 Command line:   map -pdc
-     /home/kanmei/src/sincos_linear/project/sincos_linear.pdc -i
+     O:/src/Avant_lib/sincos_linear/project/sincos_linear.pdc -i
      sincos_linear_Avant_syn.udb -o sincos_linear_Avant_map.udb -mp
      sincos_linear_Avant.mrp -hierrpt -gui -msgset
-     /home/kanmei/src/sincos_linear/project/promote.xml
+     O:/src/Avant_lib/sincos_linear/project/promote.xml
 
 Design Summary
 --------------
 
-   Number of registers:          84 out of 164262 (<1%)
-      Number of SLICE         registers:   84 out of 163200 (<1%)
+   Number of registers:          83 out of 164262 (<1%)
+      Number of SLICE         registers:   83 out of 163200 (<1%)
       Number of PIO Input     registers:    0 out of   354 (0%)
       Number of PIO Output    registers:    0 out of   354 (0%)
       Number of PIO Tri-State registers:    0 out of   354 (0%)
-   Number of LUT4s:              219 out of 163200 (<1%)
-      Number used as logic LUT4s:              123
+   Number of LUT4s:              218 out of 163200 (<1%)
+      Number used as logic LUT4s:              122
       Number used as distributed RAM:           96 (6 per 16X4 or 32X2 RAM)
       Number used as ripple logic:               0 (2 per CCU2)
    Number of PIOs used/reserved:   71 out of   354 (20%)
@@ -81,7 +81,7 @@ Design Summary (cont)
    Number of SED:                 0 out of 1 (0%)
    Number of Config WDT:          0 out of 1 (0%)
    Number of Clocks:  4
-      Net clk: 88 loads, 88 rising, 0 falling (Driver: Pin
+      Net clk: 87 loads, 87 rising, 0 falling (Driver: Pin
      gpll_i.lscc_pll_inst.gen_ext_outclkdiv.u_pll.PLLC_MODE_inst/CLKOP)
       Net gpll_i.lscc_pll_inst.clkout_testclk_o: 18 loads, 18 rising, 0 falling
      (Driver: Pin
@@ -98,16 +98,16 @@ Design Summary (cont)
    Number of LSRs:  4
       Net VCC: 16 loads, 16 SLICEs
       Net gpll_i.lscc_pll_inst.u_pll_init_bw.rst_n_reg: 15 loads, 15 SLICEs
-      Net gpll_i.lscc_pll_inst.u_pll_init_bw.resetn: 70 loads, 64 SLICEs
+      Net gpll_i.lscc_pll_inst.u_pll_init_bw.resetn: 69 loads, 63 SLICEs
       Net gpll_i.lscc_pll_inst.u_pll_init_bw.rst_n_sync_i: 1 loads, 1 SLICEs
    Top 10 highest fanout non-clock nets:
-      Net gpll_i.lscc_pll_inst.u_pll_init_bw.resetn: 70 loads
+      Net gpll_i.lscc_pll_inst.u_pll_init_bw.resetn: 69 loads
       Net CO0: 50 loads
       Net tmp1[1]: 49 loads
       Net CO0_i: 33 loads
       Net G_3: 33 loads
       Net tmp2[1]: 33 loads
-      Net dut.sin_linear_i.s1_quadrant[1]: 32 loads
+      Net dut.sin_linear_i.s1_quadrant[1]: 31 loads
       Net G_75: 31 loads
       Net phase_CR31_ram_29: 31 loads
       Net VCC: 21 loads
@@ -446,10 +446,10 @@ Constraint Summary
 Run Time and Memory Usage
 -------------------------
 
-   Total CPU Time: 8 secs
-   Total REAL Time: 9 secs
-   Peak Memory Usage: 2562 MB
-Checksum -- map: 628b8137dc9d9c56506ec6be9e7ab27764c019dc
+   Total CPU Time: 15 secs
+   Total REAL Time: 16 secs
+   Peak Memory Usage: 2385 MB
+Checksum -- map: 73e78ab48aa8fd565c2cf9f9dda6fc10f259e32e
 
 
 

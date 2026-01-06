@@ -1,1 +1,0 @@
- -link  -top  top_sin_linear  -multisrs  /home/kanmei/src/sincos_linear/project/Avant/synwork/sincos_linear_Avant_comp.srs  -osyn  /home/kanmei/src/sincos_linear/project/Avant/synwork/sincos_linear_Avant_mult.srs  -log  /home/kanmei/src/sincos_linear/project/Avant/synlog/sincos_linear_Avant_multi_srs_gen.srr 

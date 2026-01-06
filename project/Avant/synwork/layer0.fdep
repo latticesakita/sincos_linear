@@ -1,118 +1,118 @@
-#OPTIONS:"|-mixedhdl|-modhint|/home/kanmei/src/sincos_linear/project/Avant/synwork/_verilog_hintfile|-top|top_sin_linear|-layerid|0|-orig_srs|/home/kanmei/src/sincos_linear/project/Avant/synwork/sincos_linear_Avant_comp.srs|-prodtype|synplify_pro|-dspmac|-fixsmult|-infer_seqShift|-nram|-sdff_counter|-divnmod|-nostructver|-lattice|-I|/home/kanmei/src/sincos_linear/project|-I|/home/kanmei/src/sincos_linear/sim/gpll|-I|/home/kanmei/src/sincos_linear/source/rom_dy18|-I|/home/kanmei/src/sincos_linear/source/rom_y36|-I|/home/kanmei/src/sincos_linear/project/Avant/|-I|/usr/local/lscc/radiant/2025.2/synpbase/lib|-v2001|-devicelib|/usr/local/lscc/radiant/2025.2/synpbase/lib/generic/lav-ate.v|-encrypt|-pro|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-D_MULTIPLE_FILE_COMPILATION_UNIT_|-lib|work|-lib|work|-fv2001|-lib|work|-fv2001|-lib|work|-fv2001|-lib|work|-fv2001|-lib|work|-fv2001|-lib|work|-fv2001|-lib|work|-fv2001"
-#CUR:"/usr/local/lscc/radiant/2025.2/synpbase/linux_a_64/c_ver":1762852028
-#CUR:"/home/kanmei/src/sincos_linear/project/Avant/synwork/_verilog_hintfile":1767429214
-#CUR:"/usr/local/lscc/radiant/2025.2/synpbase/lib/generic/lav-ate.v":1764800192
-#CUR:"/usr/local/lscc/radiant/2025.2/synpbase/lib/vlog/hypermods.v":1762851951
-#CUR:"/usr/local/lscc/radiant/2025.2/synpbase/lib/vlog/scemi_objects.v":1762851951
-#CUR:"/usr/local/lscc/radiant/2025.2/synpbase/lib/vlog/scemi_pipes.svh":1762851951
-#CUR:"/usr/local/lscc/radiant/2025.2/ip/pmi/pmi_lav-at.v":1760732507
-#CUR:"/usr/local/lscc/radiant/2025.2/ip/pmi/pmi_addsub.v":1760732507
-#CUR:"/usr/local/lscc/radiant/2025.2/ip/pmi/../common/adder_subtractor/rtl/lscc_add_sub.v":1760732502
-#CUR:"/usr/local/lscc/radiant/2025.2/ip/pmi/pmi_add.v":1760732507
-#CUR:"/usr/local/lscc/radiant/2025.2/ip/pmi/../common/adder/rtl/lscc_adder.v":1760732502
-#CUR:"/usr/local/lscc/radiant/2025.2/ip/pmi/pmi_complex_mult.v":1760732507
-#CUR:"/usr/local/lscc/radiant/2025.2/ip/pmi/../common/complex_mult/rtl/lscc_complex_mult.v":1760732502
-#CUR:"/usr/local/lscc/radiant/2025.2/ip/pmi/pmi_counter.v":1760732507
-#CUR:"/usr/local/lscc/radiant/2025.2/ip/pmi/../common/counter/rtl/lscc_cntr.v":1760732502
-#CUR:"/usr/local/lscc/radiant/2025.2/ip/pmi/pmi_distributed_dpram.v":1760732507
-#CUR:"/usr/local/lscc/radiant/2025.2/ip/pmi/../common/distributed_dpram/rtl/lscc_distributed_dpram.v":1760732502
-#CUR:"/usr/local/lscc/radiant/2025.2/ip/pmi/pmi_distributed_spram.v":1760732507
-#CUR:"/usr/local/lscc/radiant/2025.2/ip/pmi/../common/distributed_spram/rtl/lscc_distributed_spram.v":1760732502
-#CUR:"/usr/local/lscc/radiant/2025.2/ip/pmi/pmi_distributed_rom.v":1760732507
-#CUR:"/usr/local/lscc/radiant/2025.2/ip/pmi/../common/distributed_rom/rtl/lscc_distributed_rom.v":1760732502
-#CUR:"/usr/local/lscc/radiant/2025.2/ip/pmi/pmi_distributed_shift_reg.v":1760732507
-#CUR:"/usr/local/lscc/radiant/2025.2/ip/pmi/../common/ram_shift_reg/rtl/lscc_shift_register.v":1760732505
-#CUR:"/usr/local/lscc/radiant/2025.2/ip/pmi/pmi_fifo.v":1760732507
-#CUR:"/usr/local/lscc/radiant/2025.2/ip/pmi/../common/fifo/rtl/lscc_fifo.v":1760732502
-#CUR:"/usr/local/lscc/radiant/2025.2/ip/pmi/pmi_fifo_dc.v":1760732507
-#CUR:"/usr/local/lscc/radiant/2025.2/ip/pmi/../common/fifo_dc/rtl/lscc_fifo_dc.v":1760732503
-#CUR:"/usr/local/lscc/radiant/2025.2/ip/pmi/pmi_mac.v":1760732507
-#CUR:"/usr/local/lscc/radiant/2025.2/ip/pmi/../common/mult_accumulate/rtl/lscc_mult_accumulate.v":1760732504
-#CUR:"/usr/local/lscc/radiant/2025.2/ip/pmi/pmi_multaddsubsum.v":1760732507
-#CUR:"/usr/local/lscc/radiant/2025.2/ip/pmi/../common/mult_add_sub_sum/rtl/lscc_mult_add_sub_sum.v":1760732504
-#CUR:"/usr/local/lscc/radiant/2025.2/ip/pmi/pmi_multaddsub.v":1760732507
-#CUR:"/usr/local/lscc/radiant/2025.2/ip/pmi/../common/mult_add_sub/rtl/lscc_mult_add_sub.v":1760732504
-#CUR:"/usr/local/lscc/radiant/2025.2/ip/pmi/pmi_mult.v":1760732507
-#CUR:"/usr/local/lscc/radiant/2025.2/ip/pmi/../common/multiplier/rtl/lscc_multiplier.v":1760732504
-#CUR:"/usr/local/lscc/radiant/2025.2/ip/pmi/pmi_ram_dp.v":1760732507
-#CUR:"/usr/local/lscc/radiant/2025.2/ip/pmi/../common/ram_dp/rtl/lscc_ram_dp.v":1760732504
-#CUR:"/usr/local/lscc/radiant/2025.2/ip/pmi/../LFMXO4/ram_dp/rtl/lscc_lfmxo4_ram_dp.v":1762932048
-#CUR:"/usr/local/lscc/radiant/2025.2/ip/pmi/pmi_ram_dp_be.v":1760732507
-#CUR:"/usr/local/lscc/radiant/2025.2/ip/pmi/../common/ram_dp/rtl/lscc_ram_dp.v":1760732504
-#CUR:"/usr/local/lscc/radiant/2025.2/ip/pmi/../LFMXO4/ram_dp/rtl/lscc_lfmxo4_ram_dp.v":1762932048
-#CUR:"/usr/local/lscc/radiant/2025.2/ip/pmi/pmi_ram_dp_true.v":1760732507
-#CUR:"/usr/local/lscc/radiant/2025.2/ip/pmi/../common/ram_dp_true/rtl/lscc_ram_dp_true.v":1760732505
-#CUR:"/usr/local/lscc/radiant/2025.2/ip/pmi/../LFMXO4/ram_dp_true/rtl/lscc_lfmxo4_ram_dp_true.v":1760732500
-#CUR:"/usr/local/lscc/radiant/2025.2/ip/pmi/pmi_ram_dq.v":1760732507
-#CUR:"/usr/local/lscc/radiant/2025.2/ip/pmi/../common/ram_dq/rtl/lscc_ram_dq.v":1760732505
-#CUR:"/usr/local/lscc/radiant/2025.2/ip/pmi/../LFMXO4/ram_dq/rtl/lscc_lfmxo4_ram_dq.v":1763061642
-#CUR:"/usr/local/lscc/radiant/2025.2/ip/pmi/pmi_ram_dq_be.v":1760732507
-#CUR:"/usr/local/lscc/radiant/2025.2/ip/pmi/../common/ram_dq/rtl/lscc_ram_dq.v":1760732505
-#CUR:"/usr/local/lscc/radiant/2025.2/ip/pmi/../LFMXO4/ram_dq/rtl/lscc_lfmxo4_ram_dq.v":1763061642
-#CUR:"/usr/local/lscc/radiant/2025.2/ip/pmi/pmi_rom.v":1760732507
-#CUR:"/usr/local/lscc/radiant/2025.2/ip/pmi/../common/rom/rtl/lscc_rom.v":1760732505
-#CUR:"/usr/local/lscc/radiant/2025.2/ip/pmi/pmi_sub.v":1760732507
-#CUR:"/usr/local/lscc/radiant/2025.2/ip/pmi/../common/subtractor/rtl/lscc_subtractor.v":1760732505
-#CUR:"/home/kanmei/src/sincos_linear/source/mult18x18p48.v":1767307313
-#CUR:"/home/kanmei/src/sincos_linear/source/sincos_linear.v":1767307917
-#CUR:"/home/kanmei/src/sincos_linear/source/sin_linear.v":1767445405
-#CUR:"/home/kanmei/src/sincos_linear/sim/top_sin_linear.v":1767437795
-#CUR:"/home/kanmei/src/sincos_linear/source/rom_y36/rtl/rom_y36.v":1767438284
-#CUR:"/home/kanmei/src/sincos_linear/source/rom_dy18/rtl/rom_dy18.v":1767438284
-#CUR:"/home/kanmei/src/sincos_linear/sim/gpll/rtl/gpll.v":1767445514
+#OPTIONS:"|-mixedhdl|-modhint|O:\\src\\Avant_lib\\sincos_linear\\project\\Avant\\synwork\\_verilog_hintfile|-top|top_sin_linear|-layerid|0|-orig_srs|O:\\src\\Avant_lib\\sincos_linear\\project\\Avant\\synwork\\sincos_linear_Avant_comp.srs|-prodtype|synplify_pro|-dspmac|-fixsmult|-infer_seqShift|-nram|-sdff_counter|-divnmod|-nostructver|-lattice|-I|O:\\src\\Avant_lib\\sincos_linear\\project|-I|O:\\src\\Avant_lib\\sincos_linear\\sim\\gpll|-I|O:\\src\\Avant_lib\\sincos_linear\\source\\rom_dy18|-I|O:\\src\\Avant_lib\\sincos_linear\\source\\rom_y36|-I|O:\\src\\Avant_lib\\sincos_linear\\project\\Avant\\|-I|C:\\lscc\\radiant\\2025.2\\synpbase\\lib|-v2001|-devicelib|C:\\lscc\\radiant\\2025.2\\synpbase\\lib\\generic\\lav-ate.v|-encrypt|-pro|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-D_MULTIPLE_FILE_COMPILATION_UNIT_|-lib|work|-lib|work|-fv2001|-lib|work|-fv2001|-lib|work|-fv2001|-lib|work|-fv2001|-lib|work|-fv2001|-lib|work|-fv2001|-lib|work|-fv2001"
+#CUR:"C:\\lscc\\radiant\\2025.2\\synpbase\\bin64\\c_ver.exe":1762882888
+#CUR:"O:\\src\\Avant_lib\\sincos_linear\\project\\Avant\\synwork\\_verilog_hintfile":1767659776
+#CUR:"C:\\lscc\\radiant\\2025.2\\synpbase\\lib\\generic\\lav-ate.v":1764828992
+#CUR:"C:\\lscc\\radiant\\2025.2\\synpbase\\lib\\vlog\\hypermods.v":1762882133
+#CUR:"C:\\lscc\\radiant\\2025.2\\synpbase\\lib\\vlog\\scemi_objects.v":1762882133
+#CUR:"C:\\lscc\\radiant\\2025.2\\synpbase\\lib\\vlog\\scemi_pipes.svh":1762882133
+#CUR:"C:\\lscc\\radiant\\2025.2\\ip\\pmi\\pmi_lav-at.v":1760761307
+#CUR:"C:\\lscc\\radiant\\2025.2\\ip\\pmi\\pmi_addsub.v":1760761307
+#CUR:"C:\\lscc\\radiant\\2025.2\\ip\\pmi\\../common/adder_subtractor/rtl/lscc_add_sub.v":1760761302
+#CUR:"C:\\lscc\\radiant\\2025.2\\ip\\pmi\\pmi_add.v":1760761307
+#CUR:"C:\\lscc\\radiant\\2025.2\\ip\\pmi\\../common/adder/rtl/lscc_adder.v":1760761302
+#CUR:"C:\\lscc\\radiant\\2025.2\\ip\\pmi\\pmi_complex_mult.v":1760761307
+#CUR:"C:\\lscc\\radiant\\2025.2\\ip\\pmi\\../common/complex_mult/rtl/lscc_complex_mult.v":1760761302
+#CUR:"C:\\lscc\\radiant\\2025.2\\ip\\pmi\\pmi_counter.v":1760761307
+#CUR:"C:\\lscc\\radiant\\2025.2\\ip\\pmi\\../common/counter/rtl/lscc_cntr.v":1760761302
+#CUR:"C:\\lscc\\radiant\\2025.2\\ip\\pmi\\pmi_distributed_dpram.v":1760761307
+#CUR:"C:\\lscc\\radiant\\2025.2\\ip\\pmi\\../common/distributed_dpram/rtl/lscc_distributed_dpram.v":1760761302
+#CUR:"C:\\lscc\\radiant\\2025.2\\ip\\pmi\\pmi_distributed_spram.v":1760761307
+#CUR:"C:\\lscc\\radiant\\2025.2\\ip\\pmi\\../common/distributed_spram/rtl/lscc_distributed_spram.v":1760761302
+#CUR:"C:\\lscc\\radiant\\2025.2\\ip\\pmi\\pmi_distributed_rom.v":1760761307
+#CUR:"C:\\lscc\\radiant\\2025.2\\ip\\pmi\\../common/distributed_rom/rtl/lscc_distributed_rom.v":1760761302
+#CUR:"C:\\lscc\\radiant\\2025.2\\ip\\pmi\\pmi_distributed_shift_reg.v":1760761307
+#CUR:"C:\\lscc\\radiant\\2025.2\\ip\\pmi\\../common/ram_shift_reg/rtl/lscc_shift_register.v":1760761305
+#CUR:"C:\\lscc\\radiant\\2025.2\\ip\\pmi\\pmi_fifo.v":1760761307
+#CUR:"C:\\lscc\\radiant\\2025.2\\ip\\pmi\\../common/fifo/rtl/lscc_fifo.v":1760761302
+#CUR:"C:\\lscc\\radiant\\2025.2\\ip\\pmi\\pmi_fifo_dc.v":1760761307
+#CUR:"C:\\lscc\\radiant\\2025.2\\ip\\pmi\\../common/fifo_dc/rtl/lscc_fifo_dc.v":1760761303
+#CUR:"C:\\lscc\\radiant\\2025.2\\ip\\pmi\\pmi_mac.v":1760761307
+#CUR:"C:\\lscc\\radiant\\2025.2\\ip\\pmi\\../common/mult_accumulate/rtl/lscc_mult_accumulate.v":1760761304
+#CUR:"C:\\lscc\\radiant\\2025.2\\ip\\pmi\\pmi_multaddsubsum.v":1760761307
+#CUR:"C:\\lscc\\radiant\\2025.2\\ip\\pmi\\../common/mult_add_sub_sum/rtl/lscc_mult_add_sub_sum.v":1760761304
+#CUR:"C:\\lscc\\radiant\\2025.2\\ip\\pmi\\pmi_multaddsub.v":1760761307
+#CUR:"C:\\lscc\\radiant\\2025.2\\ip\\pmi\\../common/mult_add_sub/rtl/lscc_mult_add_sub.v":1760761304
+#CUR:"C:\\lscc\\radiant\\2025.2\\ip\\pmi\\pmi_mult.v":1760761307
+#CUR:"C:\\lscc\\radiant\\2025.2\\ip\\pmi\\../common/multiplier/rtl/lscc_multiplier.v":1760761304
+#CUR:"C:\\lscc\\radiant\\2025.2\\ip\\pmi\\pmi_ram_dp.v":1760761307
+#CUR:"C:\\lscc\\radiant\\2025.2\\ip\\pmi\\../common/ram_dp/rtl/lscc_ram_dp.v":1760761304
+#CUR:"C:\\lscc\\radiant\\2025.2\\ip\\pmi\\../LFMXO4/ram_dp/rtl/lscc_lfmxo4_ram_dp.v":1762960848
+#CUR:"C:\\lscc\\radiant\\2025.2\\ip\\pmi\\pmi_ram_dp_be.v":1760761307
+#CUR:"C:\\lscc\\radiant\\2025.2\\ip\\pmi\\../common/ram_dp/rtl/lscc_ram_dp.v":1760761304
+#CUR:"C:\\lscc\\radiant\\2025.2\\ip\\pmi\\../LFMXO4/ram_dp/rtl/lscc_lfmxo4_ram_dp.v":1762960848
+#CUR:"C:\\lscc\\radiant\\2025.2\\ip\\pmi\\pmi_ram_dp_true.v":1760761307
+#CUR:"C:\\lscc\\radiant\\2025.2\\ip\\pmi\\../common/ram_dp_true/rtl/lscc_ram_dp_true.v":1760761305
+#CUR:"C:\\lscc\\radiant\\2025.2\\ip\\pmi\\../LFMXO4/ram_dp_true/rtl/lscc_lfmxo4_ram_dp_true.v":1760761300
+#CUR:"C:\\lscc\\radiant\\2025.2\\ip\\pmi\\pmi_ram_dq.v":1760761307
+#CUR:"C:\\lscc\\radiant\\2025.2\\ip\\pmi\\../common/ram_dq/rtl/lscc_ram_dq.v":1760761305
+#CUR:"C:\\lscc\\radiant\\2025.2\\ip\\pmi\\../LFMXO4/ram_dq/rtl/lscc_lfmxo4_ram_dq.v":1763090442
+#CUR:"C:\\lscc\\radiant\\2025.2\\ip\\pmi\\pmi_ram_dq_be.v":1760761307
+#CUR:"C:\\lscc\\radiant\\2025.2\\ip\\pmi\\../common/ram_dq/rtl/lscc_ram_dq.v":1760761305
+#CUR:"C:\\lscc\\radiant\\2025.2\\ip\\pmi\\../LFMXO4/ram_dq/rtl/lscc_lfmxo4_ram_dq.v":1763090442
+#CUR:"C:\\lscc\\radiant\\2025.2\\ip\\pmi\\pmi_rom.v":1760761307
+#CUR:"C:\\lscc\\radiant\\2025.2\\ip\\pmi\\../common/rom/rtl/lscc_rom.v":1760761305
+#CUR:"C:\\lscc\\radiant\\2025.2\\ip\\pmi\\pmi_sub.v":1760761307
+#CUR:"C:\\lscc\\radiant\\2025.2\\ip\\pmi\\../common/subtractor/rtl/lscc_subtractor.v":1760761305
+#CUR:"O:\\src\\Avant_lib\\sincos_linear\\source\\mult18x18p48.v":1767651516
+#CUR:"O:\\src\\Avant_lib\\sincos_linear\\source\\sincos_linear.v":1767651516
+#CUR:"O:\\src\\Avant_lib\\sincos_linear\\source\\sin_linear.v":1767658689
+#CUR:"O:\\src\\Avant_lib\\sincos_linear\\sim\\top_sin_linear.v":1767651516
+#CUR:"O:\\src\\Avant_lib\\sincos_linear\\source\\rom_y36\\rtl\\rom_y36.v":1767447625
+#CUR:"O:\\src\\Avant_lib\\sincos_linear\\source\\rom_dy18\\rtl\\rom_dy18.v":1767447625
+#CUR:"O:\\src\\Avant_lib\\sincos_linear\\sim\\gpll\\rtl\\gpll.v":1767651516
 #numinternalfiles:4
 #defaultlanguage:verilog
-0			"/usr/local/lscc/radiant/2025.2/ip/pmi/pmi_lav-at.v" verilog
-1		*	"/usr/local/lscc/radiant/2025.2/ip/pmi/pmi_addsub.v" verilog
-2		*	"/usr/local/lscc/radiant/2025.2/ip/pmi/../common/adder_subtractor/rtl/lscc_add_sub.v" verilog
-3		*	"/usr/local/lscc/radiant/2025.2/ip/pmi/pmi_add.v" verilog
-4		*	"/usr/local/lscc/radiant/2025.2/ip/pmi/../common/adder/rtl/lscc_adder.v" verilog
-5		*	"/usr/local/lscc/radiant/2025.2/ip/pmi/pmi_complex_mult.v" verilog
-6		*	"/usr/local/lscc/radiant/2025.2/ip/pmi/../common/complex_mult/rtl/lscc_complex_mult.v" verilog
-7		*	"/usr/local/lscc/radiant/2025.2/ip/pmi/pmi_counter.v" verilog
-8		*	"/usr/local/lscc/radiant/2025.2/ip/pmi/../common/counter/rtl/lscc_cntr.v" verilog
-9		*	"/usr/local/lscc/radiant/2025.2/ip/pmi/pmi_distributed_dpram.v" verilog
-10		*	"/usr/local/lscc/radiant/2025.2/ip/pmi/../common/distributed_dpram/rtl/lscc_distributed_dpram.v" verilog
-11		*	"/usr/local/lscc/radiant/2025.2/ip/pmi/pmi_distributed_spram.v" verilog
-12		*	"/usr/local/lscc/radiant/2025.2/ip/pmi/../common/distributed_spram/rtl/lscc_distributed_spram.v" verilog
-13		*	"/usr/local/lscc/radiant/2025.2/ip/pmi/pmi_distributed_rom.v" verilog
-14		*	"/usr/local/lscc/radiant/2025.2/ip/pmi/../common/distributed_rom/rtl/lscc_distributed_rom.v" verilog
-15		*	"/usr/local/lscc/radiant/2025.2/ip/pmi/pmi_distributed_shift_reg.v" verilog
-16		*	"/usr/local/lscc/radiant/2025.2/ip/pmi/../common/ram_shift_reg/rtl/lscc_shift_register.v" verilog
-17		*	"/usr/local/lscc/radiant/2025.2/ip/pmi/pmi_fifo.v" verilog
-18		*	"/usr/local/lscc/radiant/2025.2/ip/pmi/../common/fifo/rtl/lscc_fifo.v" verilog
-19		*	"/usr/local/lscc/radiant/2025.2/ip/pmi/pmi_fifo_dc.v" verilog
-20		*	"/usr/local/lscc/radiant/2025.2/ip/pmi/../common/fifo_dc/rtl/lscc_fifo_dc.v" verilog
-21		*	"/usr/local/lscc/radiant/2025.2/ip/pmi/pmi_mac.v" verilog
-22		*	"/usr/local/lscc/radiant/2025.2/ip/pmi/../common/mult_accumulate/rtl/lscc_mult_accumulate.v" verilog
-23		*	"/usr/local/lscc/radiant/2025.2/ip/pmi/pmi_multaddsubsum.v" verilog
-24		*	"/usr/local/lscc/radiant/2025.2/ip/pmi/../common/mult_add_sub_sum/rtl/lscc_mult_add_sub_sum.v" verilog
-25		*	"/usr/local/lscc/radiant/2025.2/ip/pmi/pmi_multaddsub.v" verilog
-26		*	"/usr/local/lscc/radiant/2025.2/ip/pmi/../common/mult_add_sub/rtl/lscc_mult_add_sub.v" verilog
-27		*	"/usr/local/lscc/radiant/2025.2/ip/pmi/pmi_mult.v" verilog
-28		*	"/usr/local/lscc/radiant/2025.2/ip/pmi/../common/multiplier/rtl/lscc_multiplier.v" verilog
-29		*	"/usr/local/lscc/radiant/2025.2/ip/pmi/pmi_ram_dp.v" verilog
-30		*	"/usr/local/lscc/radiant/2025.2/ip/pmi/../common/ram_dp/rtl/lscc_ram_dp.v" verilog
-31		*	"/usr/local/lscc/radiant/2025.2/ip/pmi/../LFMXO4/ram_dp/rtl/lscc_lfmxo4_ram_dp.v" verilog
-32		*	"/usr/local/lscc/radiant/2025.2/ip/pmi/pmi_ram_dp_be.v" verilog
-33		*	"/usr/local/lscc/radiant/2025.2/ip/pmi/pmi_ram_dp_true.v" verilog
-34		*	"/usr/local/lscc/radiant/2025.2/ip/pmi/../common/ram_dp_true/rtl/lscc_ram_dp_true.v" verilog
-35		*	"/usr/local/lscc/radiant/2025.2/ip/pmi/../LFMXO4/ram_dp_true/rtl/lscc_lfmxo4_ram_dp_true.v" verilog
-36		*	"/usr/local/lscc/radiant/2025.2/ip/pmi/pmi_ram_dq.v" verilog
-37		*	"/usr/local/lscc/radiant/2025.2/ip/pmi/../common/ram_dq/rtl/lscc_ram_dq.v" verilog
-38		*	"/usr/local/lscc/radiant/2025.2/ip/pmi/../LFMXO4/ram_dq/rtl/lscc_lfmxo4_ram_dq.v" verilog
-39		*	"/usr/local/lscc/radiant/2025.2/ip/pmi/pmi_ram_dq_be.v" verilog
-40		*	"/usr/local/lscc/radiant/2025.2/ip/pmi/pmi_rom.v" verilog
-41		*	"/usr/local/lscc/radiant/2025.2/ip/pmi/../common/rom/rtl/lscc_rom.v" verilog
-42		*	"/usr/local/lscc/radiant/2025.2/ip/pmi/pmi_sub.v" verilog
-43		*	"/usr/local/lscc/radiant/2025.2/ip/pmi/../common/subtractor/rtl/lscc_subtractor.v" verilog
-44			"/home/kanmei/src/sincos_linear/source/mult18x18p48.v" verilog
-45			"/home/kanmei/src/sincos_linear/source/sincos_linear.v" verilog
-46			"/home/kanmei/src/sincos_linear/source/sin_linear.v" verilog
-47			"/home/kanmei/src/sincos_linear/sim/top_sin_linear.v" verilog
-48			"/home/kanmei/src/sincos_linear/source/rom_y36/rtl/rom_y36.v" verilog
-49			"/home/kanmei/src/sincos_linear/source/rom_dy18/rtl/rom_dy18.v" verilog
-50			"/home/kanmei/src/sincos_linear/sim/gpll/rtl/gpll.v" verilog
+0			"C:\lscc\radiant\2025.2\ip\pmi\pmi_lav-at.v" verilog
+1		*	"C:\lscc\radiant\2025.2\ip\pmi\pmi_addsub.v" verilog
+2		*	"C:\lscc\radiant\2025.2\ip\pmi\../common/adder_subtractor/rtl\lscc_add_sub.v" verilog
+3		*	"C:\lscc\radiant\2025.2\ip\pmi\pmi_add.v" verilog
+4		*	"C:\lscc\radiant\2025.2\ip\pmi\../common/adder/rtl\lscc_adder.v" verilog
+5		*	"C:\lscc\radiant\2025.2\ip\pmi\pmi_complex_mult.v" verilog
+6		*	"C:\lscc\radiant\2025.2\ip\pmi\../common/complex_mult/rtl\lscc_complex_mult.v" verilog
+7		*	"C:\lscc\radiant\2025.2\ip\pmi\pmi_counter.v" verilog
+8		*	"C:\lscc\radiant\2025.2\ip\pmi\../common/counter/rtl\lscc_cntr.v" verilog
+9		*	"C:\lscc\radiant\2025.2\ip\pmi\pmi_distributed_dpram.v" verilog
+10		*	"C:\lscc\radiant\2025.2\ip\pmi\../common/distributed_dpram/rtl\lscc_distributed_dpram.v" verilog
+11		*	"C:\lscc\radiant\2025.2\ip\pmi\pmi_distributed_spram.v" verilog
+12		*	"C:\lscc\radiant\2025.2\ip\pmi\../common/distributed_spram/rtl\lscc_distributed_spram.v" verilog
+13		*	"C:\lscc\radiant\2025.2\ip\pmi\pmi_distributed_rom.v" verilog
+14		*	"C:\lscc\radiant\2025.2\ip\pmi\../common/distributed_rom/rtl\lscc_distributed_rom.v" verilog
+15		*	"C:\lscc\radiant\2025.2\ip\pmi\pmi_distributed_shift_reg.v" verilog
+16		*	"C:\lscc\radiant\2025.2\ip\pmi\../common/ram_shift_reg/rtl\lscc_shift_register.v" verilog
+17		*	"C:\lscc\radiant\2025.2\ip\pmi\pmi_fifo.v" verilog
+18		*	"C:\lscc\radiant\2025.2\ip\pmi\../common/fifo/rtl\lscc_fifo.v" verilog
+19		*	"C:\lscc\radiant\2025.2\ip\pmi\pmi_fifo_dc.v" verilog
+20		*	"C:\lscc\radiant\2025.2\ip\pmi\../common/fifo_dc/rtl\lscc_fifo_dc.v" verilog
+21		*	"C:\lscc\radiant\2025.2\ip\pmi\pmi_mac.v" verilog
+22		*	"C:\lscc\radiant\2025.2\ip\pmi\../common/mult_accumulate/rtl\lscc_mult_accumulate.v" verilog
+23		*	"C:\lscc\radiant\2025.2\ip\pmi\pmi_multaddsubsum.v" verilog
+24		*	"C:\lscc\radiant\2025.2\ip\pmi\../common/mult_add_sub_sum/rtl\lscc_mult_add_sub_sum.v" verilog
+25		*	"C:\lscc\radiant\2025.2\ip\pmi\pmi_multaddsub.v" verilog
+26		*	"C:\lscc\radiant\2025.2\ip\pmi\../common/mult_add_sub/rtl\lscc_mult_add_sub.v" verilog
+27		*	"C:\lscc\radiant\2025.2\ip\pmi\pmi_mult.v" verilog
+28		*	"C:\lscc\radiant\2025.2\ip\pmi\../common/multiplier/rtl\lscc_multiplier.v" verilog
+29		*	"C:\lscc\radiant\2025.2\ip\pmi\pmi_ram_dp.v" verilog
+30		*	"C:\lscc\radiant\2025.2\ip\pmi\../common/ram_dp/rtl\lscc_ram_dp.v" verilog
+31		*	"C:\lscc\radiant\2025.2\ip\pmi\../LFMXO4/ram_dp/rtl\lscc_lfmxo4_ram_dp.v" verilog
+32		*	"C:\lscc\radiant\2025.2\ip\pmi\pmi_ram_dp_be.v" verilog
+33		*	"C:\lscc\radiant\2025.2\ip\pmi\pmi_ram_dp_true.v" verilog
+34		*	"C:\lscc\radiant\2025.2\ip\pmi\../common/ram_dp_true/rtl\lscc_ram_dp_true.v" verilog
+35		*	"C:\lscc\radiant\2025.2\ip\pmi\../LFMXO4/ram_dp_true/rtl\lscc_lfmxo4_ram_dp_true.v" verilog
+36		*	"C:\lscc\radiant\2025.2\ip\pmi\pmi_ram_dq.v" verilog
+37		*	"C:\lscc\radiant\2025.2\ip\pmi\../common/ram_dq/rtl\lscc_ram_dq.v" verilog
+38		*	"C:\lscc\radiant\2025.2\ip\pmi\../LFMXO4/ram_dq/rtl\lscc_lfmxo4_ram_dq.v" verilog
+39		*	"C:\lscc\radiant\2025.2\ip\pmi\pmi_ram_dq_be.v" verilog
+40		*	"C:\lscc\radiant\2025.2\ip\pmi\pmi_rom.v" verilog
+41		*	"C:\lscc\radiant\2025.2\ip\pmi\../common/rom/rtl\lscc_rom.v" verilog
+42		*	"C:\lscc\radiant\2025.2\ip\pmi\pmi_sub.v" verilog
+43		*	"C:\lscc\radiant\2025.2\ip\pmi\../common/subtractor/rtl\lscc_subtractor.v" verilog
+44			"O:\src\Avant_lib\sincos_linear\source\mult18x18p48.v" verilog
+45			"O:\src\Avant_lib\sincos_linear\source\sincos_linear.v" verilog
+46			"O:\src\Avant_lib\sincos_linear\source\sin_linear.v" verilog
+47			"O:\src\Avant_lib\sincos_linear\sim\top_sin_linear.v" verilog
+48			"O:\src\Avant_lib\sincos_linear\source\rom_y36\rtl\rom_y36.v" verilog
+49			"O:\src\Avant_lib\sincos_linear\source\rom_dy18\rtl\rom_dy18.v" verilog
+50			"O:\src\Avant_lib\sincos_linear\sim\gpll\rtl\gpll.v" verilog
 #Dependency Lists(Uses List)
 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43
 1 0 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43

@@ -44,7 +44,7 @@
 //    b30: real
 //    b29-b0: fractional
 // sin() value is calculated from the 4096 table / 36bits entry of pi/2 range
-// expected accuracy: max error: 1.97e-8, ave error: 8.27e-9, sigma error: 5.42e-9 for 32bits input / 32bits output
+// expected accuracy: max error: 1.97e-8, ave error: 8.27e-9, sigma error: 5.42e-9 for 32bits input / 33bits output
 // this is more than single precision of floating point accuracy 1.2e-7.
 
 module sin_linear #(
@@ -102,6 +102,10 @@ wire [47:0] dsp_Z; // = dy * frac + y0
 mult18x18p48 #(.ASIGNED("UNSIGNED"), .BSIGNED("UNSIGNED"))
     mult18x18p48_i (.A(s1_dy), .B(s1_frac), .C({{(48-36-DY_SHIFT){1'b0}},s1_y0, {DY_SHIFT{1'b0}}}), .Z(dsp_Z));
 
+
+//wire [OUTPUT_WIDTH-1: 0] result_int = dsp_Z[36+DY_SHIFT-1 :36+DY_SHIFT-OUTPUT_WIDTH];
+wire [OUTPUT_WIDTH-1: 0] result_int = {dsp_Z[36+DY_SHIFT-1],dsp_Z[36+DY_SHIFT-1 :36+DY_SHIFT-OUTPUT_WIDTH+1]};
+
 always @(posedge clk or negedge resetn) begin
 	if(!resetn) begin
 		valid_o <= 0;
@@ -109,7 +113,7 @@ always @(posedge clk or negedge resetn) begin
 	end
 	else begin
 		valid_o  <= s1_valid;
-		result_o <= s1_quadrant[1] ? ~dsp_Z[36+DY_SHIFT-1 :36+DY_SHIFT-OUTPUT_WIDTH] : dsp_Z[36+DY_SHIFT-1 :36+DY_SHIFT-OUTPUT_WIDTH];
+		result_o <= s1_quadrant[1] ? ~result_int : result_int;
 	end
 end
 
