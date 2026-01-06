@@ -22,6 +22,11 @@ The design uses a **36‑bit EBR-based lookup table** and a **single 18×18 DSP 
 ---
 ## 📁 Repository Structure
 ```
+/project
+  ├─ sincos_linear.rdf     # Radiant project file
+  ├─ sincos_linear.pdc     # constraint fileconstraint file
+
+
 /source
   ├─ sin_linear.v          # supports sin() only
   ├─ sincos_linear.v       # top module for sin()/cos()
@@ -99,7 +104,7 @@ This compares output against golden reference data and report the accuracy.
 - `rom_y36`: 36‑bit entries
 - `rom_dy18`: 18‑bit entries
 - Depth: 4096
-- `.mem` files under `source/rom_out/`
+- `.mem` files under `scripts/rom_out/`
 
 ### 3. DSP Block Mapping
 - Expression: `Z = dy * frac + y0`
