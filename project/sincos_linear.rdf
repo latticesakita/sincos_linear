@@ -2,7 +2,7 @@
 <RadiantProject version="4.2" radiant="2025.2.0.48.0" title="sincos_linear" device="LAV-AT-E30-1CBG484C" performance_grade="1" family_int="ap6a00b" device_int="ap6a160cee" package_int="CBG484" operation_int="COM" speed_int="1" default_implementation="Avant">
     <Options/>
     <Implementation title="Avant" dir="Avant" description="Avant" synthesis="synplify" default_strategy="Strategy1">
-        <Options top="top_sin_linear"/>
+        <Options def_top="top_sin_linear" top="top_sin_linear"/>
         <Source name="../source/mult18x18p48.v" type="Verilog" type_short="Verilog">
             <Options/>
         </Source>
@@ -16,7 +16,7 @@
             <Options/>
         </Source>
         <Source name="../sim/top_sin_linear.v" type="Verilog" type_short="Verilog">
-            <Options/>
+            <Options top_module="top_sin_linear"/>
         </Source>
         <Source name="../source/rom_y36/rom_y36.ipx" type="IPX_Module" type_short="IPX">
             <Options/>
